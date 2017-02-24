@@ -1,0 +1,116 @@
+@0    = ~<CHARNAME>, he oído rumores sobre tus hazañas en la Infraoscuridad. 
+¿Es verdad que mientras me perseguías incansablemente te viste forzado a 
+entrar en Ust Natha disfrazado de drow? En cualquier caso, parece ser que el 
+chiste se repite de nuevo.~ ~<CHARNAME>, he oído rumores sobre tus hazañas 
+en la Infraoscuridad. ¿Es verdad que mientras me perseguías incansablemente 
+te viste forzada a entrar en Ust Natha disfrazada de drow? En cualquier 
+caso, parece ser que el chiste se repite de nuevo.~
+@1    = ~<CHARNAME>, he oído rumores sobre tus hazañas en la Infraoscuridad. 
+¿Es verdad que mientras me perseguías incansablemente te viste forzado a 
+entrar en Ust Natha disfrazado de drow? En cualquier caso, parece ser que el 
+chiste se repite de nuevo.~ ~<CHARNAME>, he oído rumores sobre tus hazañas 
+en la Infraoscuridad. ¿Es verdad que mientras me perseguías incansablemente 
+te viste forzada a entrar en Ust Natha disfrazada de drow? En cualquier 
+caso, parece ser que el chiste se repite de nuevo.~
+@2    = ~¡Olvídalo, monstruo, preferiría morir antes que permitir que *me* 
+impusieras un geas! O, aún mejor, me haré un par de guantes nuevos con tu 
+verrugoso pellejo.~
+@3    = ~Irenicus, no seas bobo y acepta el geas - quiero enfrentarme a ese 
+tío.~
+@4    = ~Ah, ¿entonces imponer un geas a otra persona está bien, pero cuando 
+te toca a ti es un problema? Ya está bien, Irenicus, deberás tragarte tu 
+orgullo y dejar que te lancen el hechizo como un buen niño.~
+@5    = ~Jon, ¿no estás unido a mí aún? ¿Qué problema tienes en aceptar ese 
+estúpido hechizo, cuando aún estás bajo un geas de Rielev?~
+@6    = ~Vaya, vaya, ¿estamos sensibles hoy? Muy bien, Irenicus, si tanta 
+angustia te produce esa idea la descartaré.~
+@7    = ~Ah, para conseguir sus objetivos, el recto abad ha acabado 
+entrometiéndose en el mundo de lo Arcano. Imponer un geas a un dragón no es 
+una tarea fácil... pero quitarlo es incluso más difícil. Siento curiosidad 
+por saber dónde consiguió Balthazar el pergamino, y cuánto pagó por él.~
+@8    = ~Intentando sacarte un dinerillo extra, ¿eh Irenicus? Bueno, bromas 
+aparte, ¿puedes hacer un copia del pergamino de Inversión?~
+@9    = ~Patético loco. El *deber* por el que murió con orgullo no era más 
+que una falsa ilusión. Su odio hacia el engendro dragón era tan artificial 
+como su lealtad hacia el humano, al igual que en la gran escala de cosas el 
+primero no es ni mejor ni peor que el último.~ ~Patética loca. El *deber* 
+por el que murió con orgullo no era más que una falsa ilusión. Su odio hacia 
+el engendro dragón era tan artificial como su lealtad hacia el humano, al 
+igual que en la gran escala de cosas el primero no es ni mejor ni peor que 
+el último.~
+@10   = ~<CHARNAME>, el dragón parece estar bajo un geas. No te recomiendo 
+que ataques a la bestia en su estado actual. Si el portal está sellado 
+mágicamente, eliminarás nuestras posibilidades de entrar en la guarida al 
+matarla.~
+@11   = ~(murmulla hacia sí) De nuevo otra débil e incompetente mente, esta 
+vez oculta tras el todopoderoso cuerpo de un dragón. No debo ningún respeto 
+a un intelecto que ha permitido que le impusieran un geas.~
+@12   = ~Qué típico de ti ser tan persistente. Bien. Hazlo como quieras, 
+engendro de Bhaal, pero luego no busques mi ayuda cuando los drow te 
+sacrifiquen como a una oveja.~
+@13   = ~(se encoge) Una investigación como esa tardaría semanas en ser 
+completada. Y aunque estoy seguro de que finalmente conseguiría el resultado 
+deseado, dudo que puedas permitirte esperar tanto tiempo.~
+@14   = ~Interesante. <CHARNAME>, parece ser que uno de tus secuaces ha 
+podido crear un Engendro por su propia cuenta. Uno sólo puede preguntarse 
+cómo afectará un poco de esencia divina al ciclo de gestación de un huevo de 
+dragón.~
+@15   = ~Me pregunto si podría...~
+@16   = ~¡Irenicus, *yo* sólo me puedo preguntar cómo demonios has podido 
+llegar a la avanzada edad de... de la que sea, sin cesar tus ataques de 
+‘curiosidad científica’! Pero de nuevo, no has... lo cual demuestra mi 
+teoría.~
+@17   = ~¿No te he explicado la historia de mi tío abuelo Huevro Jansen, 
+quien realizó aquel experimento con los huevos de griffin? ¿No?~
+@18   = ~Verás, el tío Huvry era un adicto a las tortillas (un rasgo 
+bastante raro en un gnomo - quiero decir, los nabos son mucho mejores para 
+hacer la digestión) y se le metió en la cabeza que cruzar griffins con aves 
+domésticas podría darle los mejores huevos del mundo para preparar su plato 
+favorito.~
+@19   = ~Lamentablemente, su único griffin disponible se comía las gallinas 
+en vez de... err... enamorarse de ellas. Naturalmente, el tío Huvry se vio 
+forzado a tomar la alternativa de elaborar un ‘elixir del amor’ para el 
+griffin, no sé si me entiendes... Pero desgraciadamente, cuando el elixir 
+estaba casi terminado, tropezó y se le derramó la jarra entera encima. 
+Imagínate el susto que se dio cuando...~
+@20   = ~Gnomo, te voy a conceder una última advertencia - ¡deja de vomitar 
+ese absurdo galimatías o acabarás con tu lengua pegada en la frente, y con 
+tus ojos fuera de sus órbitas!~
+@21   = ~Ah, Beanpole, siempre has tenido la habilidad de fastidiar un buen 
+chiste. Ahora mismo estaba a punto de llegar a la mejor parte...~
+@22   = ~¡Detén tu frívolo parloteo, aberración humanoide! No me distraigas 
+de mi tarea. ¡Mi destino y mi derecho a la vida están en juego!~
+@23   = ~Pero, naturalmente, es más fácil divagar desde lejos, esperando a 
+que el desdichado diosecillo acabe cometiendo un estúpido fallo. Me 
+pregunto, humano, cómo has podido mantenerte al lado de un casi invencible 
+semidiós. ¿ No hay nada mejor que tengas que hacer aparte de ‘interferir’?~ 
+~Pero, naturalmente, es más fácil divagar desde lejos, esperando a que la 
+desdichada diosecilla acabe cometiendo un estúpido fallo. Me pregunto, 
+humano, cómo has podido mantenerte al lado de una casi invencible semidiosa. 
+¿No hay nada mejor que tengas que hacer aparte de ‘interferir’?~
+@24   = ~¿Eh? <CHARNAME>, tus actuales compañeros... ~
+@25   = ~Estaba a punto de decir que no pienso implicarme en tu misión.~
+@26   = ~Ah, entonces ahora Saemon trabaja para los Arpistas. Siempre 
+sospeché que su falta de criterio al buscar compañía le metería en 
+problemas. Por otro lado, ¿por qué no le hacemos una visita cuando volvamos 
+a Amkehtran?~
+@27   = ~Esa... ¿¡esa traicionera rata que se hace llamar pirata!? 
+¡Irenicus, cómo te atreves a insinuar semejante cosa! Los Arpistas nunca...~
+@28   = ~Ehem...~
+@29   = ~(se ruboriza) Y hablando de elegir ‘malas compañías’, Irenicus, 
+¡¿para ti qué sois tú y tu difunta hermana?!~
+@30   = ~Y como iba diciendo señor... er... ¿'Exilio'? Sí, creo recordar 
+algunas partes de tu historia. Lo que le hiciste al Árbol de la Vida fue 
+curioso.~
+@31   = ~¡Al menos, a diferencia de algunos entrometidos locos con sombreros 
+puntiagudos y vestidos de mujer, yo alabo a la gente que no se mete en los 
+asuntos de los demás!~
+@32   = ~No hasta que necesitas algo de ellos - ¡como sus almas inmortales!~
+@33   = ~Sí, una máscara de cuero y una modesta esclavitud combinan 
+perfectamente con un sombrero puntiagudo. Hmm, me pregunto, ¿cómo estaría 
+*yo* con un sombrero puntiagudo... uno con aroma a lavanda? ¿Tú que piensas, 
+<CHARNAME>?~
+@34   = ~Mi querido y viejo compadre, creo que deberías ser un poco más 
+crítico a la hora de elegir tu vestuario. Y hablando del Capitán 
+Havarian...~
+

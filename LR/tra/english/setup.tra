@@ -1,0 +1,319 @@
+@0    = ~Longer Road v 1.5~
+@1    = ~You must uninstall the old Redemption mod before installing the Longer Road!~
+@2    = ~ToB is not installed!~
+@3    = ~Shattered Mask~
+@4    = ~Irenicus's old mask~
+@5    = ~This is the mask that used to cover the face of your old nemesis - the renegade elven mage Jon Irenicus. Queen Ellesime gave it to you as an odd token of remembrance. It does not appear to have any special properties.~
+@6    = ~You hear someone approaching.~
+@7    = ~Her voice sounds oddly familiar. But it is to my advantage to keep this observation to myself.~
+@8    = ~As Irenicus dies, you feel the link between you two break. Alas, some of your life force has been irrevocably lost as well.~
+@9    = ~Father, we have been looking for you all over the village. Are you alright?~
+@10   = ~What the... Dad, what has happened here? Did you... kill them all by yourself?~
+@11   = ~Get out of here this very moment, you two, and don't come back!! Wait... tell your mother... Ah, by The Bitch Queen's shaven armpits - just get out of here quickly!~
+@12   = ~Greetings. I was wondering if you would come.~
+@13   = ~Farewell, my Lord.  Thank you for your help in arranging these matters.~
+@14   = ~Blundering fool! He is obviously still insane if he thinks I that would ever put his interests above my own. It is surprising that he once managed to wrestle the godhood, and the attached portfolio from my 'dear' dead master. When the time comes and I assume my proper place, it will be a pleasure to show him and the rest of the divine simpletons my true stature.~
+@15   = ~Ahh...~
+@16   = ~I shall see you again in a few days, Exile. Perchance the contrast between what you are, and what you may become in my service, will make you more compliant.~
+@17   = ~(casts spell) I am only trying to help... Oh ever impatient one.~
+@18   = ~A pity. Somehow, I nurtured a forlorn hope that I could help Jon... one last time. Far thee well, god-child.~
+@19   = ~The Deva shrieks horribly as he dies... the sound of a world dying is contained within his voice, and you can't help but feel that you've made a terrible mistake.~
+@20   = ~The Deva moans one more time before he dies... the sound of a world dying is contained within his voice, and you can't help but feel that you've made a terrible mistake. Ybdiel's body flashes bright white and disappears after that last burst of radiant energy.~
+@21   = ~These are the souls that try the demon's time.~ [MALE004M]
+@22   = ~You'll see it when you believe in it, or we are all doomed... All doomed!~ [MALE004M]
+@23   = ~Fire so bright, so hot, why is it always burning? Take the children out, take them out! Let them run outside among the fragrant grass...~ [MALE004M]
+@24   = ~Blood, blood, blood and bones, bloody bones everywhere... Take them out I tell you! Set them all free!~ [MALE004M]
+@25   = ~The fire, the souls... why are they all burning? These fires are too bright! Get me out of here – it was not me!~ [MALE004M]
+@26   = ~One should eat to live, not live to eat. Or he will be eaten by something that eats us from inside. They will gorge on your heart and liver, peel your skin and eat you alive – after they sink their claws into you!~ [MALE004M]
+@27   = ~Whoever praises himself will be doomed, and whoever dooms himself will be praised... What if the one is doomed for something that he did not do?~ [MALE004M]
+@28   = ~Whoever sheds the blood of man by man shall his blood be shed... whoever sheds the blood of an angel... will forsake his blood for demons...~ [MALE004M]
+@29   = ~I see fires burning... deep inside my soul... always burning... charred earth and boiling blood!~ [MALE004M]
+@30   = ~Ashes, ashes everywhere... we all fall down...~ [MALE004M]
+@31   = ~Do not call me by that name! I am no longer the one you seek – he is not here, let me out I tell you!~ [MALE004M]
+@32   = ~Woe to those who call evil good and good evil,
+who put darkness for light and light for darkness,
+who put bitter for sweet and sweet for bitter!~ [MALE004M]
+@33   = ~Much to your surprise, you are teleported into a great maze of shrubs and flowering trees. At the very center of this green and growing warren lies a small shrine, covered in vines and flowers. You are in the Heart of the Labyrinth of Accord on the Plane of Elysium. As you watch in awe, color and light cascade through the circular windows in the leaf-covered walls. Here every plant and flower glows with a sparkling radiance of its own, giving the place a magical quality.~
+@34   = ~The spirits of the forest still await your attention.~
+@35   = ~Queen Ellesime left you a book of elven lore. Maybe you can collect more of them in your future travels.~
+@36   = ~Velemir Rielev~
+@37   = ~You cannot leave yet - you have unfinished business in the Pocket Plane.~
+@38   = ~The portal opens and a wave of confused emotions and odd, almost child-like, eagerness washes over you. Something steps through the portal...~
+@39   = ~Hooded Figure~
+@40   = ~This is the mask that used to cover the face of your old nemesis - the renegade elven mage Jon Irenicus, before he was slain by your hand and was thrown into the Abyss. Queen Ellesime gave it to you as an odd token of remembrance. Yet once the mask had been used to restore Irenicus's body and irrevocably bind him to you, it became saturated with magic once again. You suspect it has some strange powers now, but since it looks like it is grafted to Jon's face - there is no way to verify your suspicions.
+      
+Abilities:
+  +4 Bonus Wizard Spells in all levels
+  Haste Effect while wearing
+  +1 to Int
+Armor Class Bonus: None
+Weight: 1
+Not Usable By:
+Anybody but Irenicus himself~
+@41   = ~And there is no way out, of course. There never was.~ [DPJON127]
+@42   = ~Don't worry. It will all be over soon.~ [IRENIC82]
+@43   = ~Pathetic fools, you will not keep me in prison with your simple magics.~ [IRENIC76]
+@44   = ~The trees of home are burning.~ [DPJON128]
+@45   = ~I hope you are awake. It is time for another... test.~ [IRENIC81]
+@46   = ~Soon it won't matter who comes.~ [IRENIC93]
+
+@48   = ~Hmph. The other Shadow Thieves would not go quietly either.~ [IRENIC83]
+@49   = ~After you defeated Irenicus for the last time in the battle that raged in the very heart of Bhaal’s private Hell, you saw him fall through the infernal layers of that ghostly realm into the chasm filled with boiling lava. He was plunged into the deeper recesses of the Abyss to be tormented forever by Tanar’ri – the chaotic evil demons that populate that Plane. Irenicus does not speak with you about his time in that infinite realm of clutching horrors, but from what little he had mentioned when you first spoke with him, you have gathered that he was sentenced to fight forever in the Blood War - an infinite conflict between chaotic evil tanar’ri and lawful evil baatezu, the devils of the Nine Hells.~
+@50   = ~Life Energy Transfer~
+@51   = ~Life Energy Drain~
+@52   = ~Glorious Transformation~
+@53   = ~ah!~
+@54   = ~Abaia~
+@55   = ~The Gem of Harmony~
+@56   = ~The Gem of Harmony is a diamond sphere slightly larger than a man's hand.
+
+Thousands of facets cover its surface, pulling whatever light touches it into its prismatic interior to create a halo of scintillating rainbows. Only a harmonious unified vessel can hold the Deva Spark, and this gem could be such an item, if it were prepared properly.
+
+Abilities:
+The gem can also be used as an ioun stone. If used in this manner, it renders the user impervious to most mental compulsions - charm, dominate, and fear. It also has minor regenerative powers and regenerates 1hp/3 rounds.
+~
+@57   = ~Chalice of Peace~
+@58   = ~The Chalice of Peace.
+At a first glance the item looks plain and unappealing, and you wonder why the Deva Ybdiel mentioned this simple pewter cup with such reverence. 
+
+However, when you look inside this unadorned vessel, you suddenly notice that its bottom gleams with golden light. Verily, this unpretentious goblet is the Chalice of Peace - one of the legendary Items of Accord. The Chalice is one of three items that together can heal both the Deva and the Bebilith.
+
+Abilities:
+On top of its great importance to your quest, it has massive healing powers.  It can cast three Heal spells every day.
+~
+@59   = ~Water of Serenity~
+@60   = ~The Water of Serenity.
+Only through tranquility and peace can a troubled spirit be eased. This water from Lake Serene in the Restful Plane of Elysium glows with soft, warm light.
+
+Abilities:
+The Water of Serenity has great restoration powers and can be used to cure disease and cast restoration.  It also removes blindness and deafness.
+~
+@61   = ~The Deva Spark~
+@62   = ~Once the Gem of Harmony has been embedded with the Deva Spark, it acquires the immense awe-inspiring powers of the planetar's essence. The celestial glow floats and shines inside the gem, igniting the heart of the diamond with bright blue fire.
+
+The  diamond with the Deva Spark trapped inside can act like an ioun stone.
+It is extremely powerful, and generates the following effects:
+
+Abilities:
+It gives +3 to CHA, and +2 to STR and CON
+Immunity to poison.
++2 to all saves, and +10% resistance to magic
+Regeneration 1HP/round.
+~
+@63   = ~Once the Gem of Harmony has been embedded with the Deva Spark, it acquires the immense awe-inspiring powers of the planetar's essence. The celestial glow floats and shines inside the gem, igniting the heart of the diamond with bright blue fire.
+
+The  diamond with the Deva Spark trapped inside can act like an ioun stone.
+It is extremely powerful, and generates the following effects:
+ 
+Abilities:
+It gives +3 to CHA, and +2 to STR and CON
+Immunity to poison.
++2 to all saves, and +10% resistance to magic
+Regeneration 1HP/round.
+~
+@64   = ~Ybdiel~
+
+
+
+@68   = ~Ybdiel's body~
+@69   = ~This is the body of the Deva, Ybdiel, who has asked you to help him locate the Items of Accord before he succumbed to the sickness caused by Bebilith poisoning and lost consciousness. Despite his muscular build, the Deva feels strangely light. He is also burning with high fever; it looks like he might not last long - you had better hurry.  In his fevered state the Deva continually mutters pleas for help, and repeats the name 'Abaia' - that of the demon who has stolen his Spark.~
+@70   = ~Yanieth~
+@71   = ~Elesrym~
+@72   = ~Fresienne ~
+@73   = ~Garrish~
+@74   = ~New Creature~
+@75   = ~Amulet of Nature~
+@76   = ~In the course of your visit to the Plane of Elysium the Amulet of Seldarine, granted to you by Queen Ellesime for saving the Tree of Life, was touched by the Earthmother Chauntea herself. It has acquired even more protective powers and enhancements.
+      
+STATISTICS:
++2 to all saving throws
++10% to magic resistance
+Immunity to silence
+Immunity to poison and disease~
+@77   = ~Bow of the Leaf~
+@78   = ~This graceful bow used to belong to the Deva Ybdiel.  It has been granted to you as your just reward for rescuing the poisoned celestial. The bow has some interesting powers.
+      
+STATISTICS:
+Longbow +4
+Fires unlimited +4 arrows
+Grants +20% resistance to fire, cold and electricity.~
+@79   = ~Hellfire Bow~
+@80   = ~This bow is the reward given to you by the Yugoloth bounty hunter as the reward for betraying the Deva Ybdiel.
+
+STATISTICS:
+Long bow +3
+Fires unlimited +3 arrows
+Confers +5% resistance to fire and acid~
+@81   = ~Mace of Abyssal Hatred~
+@82   = ~This odd artifact once belonged to the Bebilith Abaia and was given to you as a parting gift. The mace is a powerful weapon but, alas, it can be dangerous to the bearer as well.
+
+STATISTICS:
++3 to hit
++3 to strength
+-2 to int
+Immunity to fear~
+@83   = ~Mirriam~
+@84   = ~Kessen~
+@85   = ~Sendai's Soul Stone~
+@86   = ~This purple amethyst gem that holds the soul of the drow Bhaalspawn, Sendai, has considerable magical powers.  It is certain, however, that the stone can only be used by Irenicus himself.
+
+Abilities:
+  +25% Magic Resistance
+  +1 to Spell Casting Speed
+  +1 to Wisdom
+  Weight: 1~
+@87   = ~Abazigal's Soul Stone~
+@88   = ~This tear-shaped blue diamond gem that holds the soul of the dragon Bhaalspawn, Abazigal, has considerable magical powers.  It is certain, however, that the stone can only be used by Irenicus himself.
+
+Abilities:
+  +15% Magic Resistance
+  +50% to Electrical Resistance
+  +10% Resistance to slashing, piercing, and blunt damage
+  +10 to Max Hit Points
+  +1 to Srength
+  Weight: 1~
+@89   = ~Balthazar's Soul Stone~
+@90   = ~This yellow topaz gem that holds the soul of the human Bhaalspawn, Balthazar, has considerable magical powers.  It is certain, however, that the stone can only be used by Irenicus himself.
+
+Abilities:
+  +15% to Magic Resistance
+  Innate Ability: Shadow Stance 1/day
+  Immunity to Poison
+  Immunity to Disease
+  +1 to Dexterity
+  Weight: 1~
+@91   = ~Soul Trap~
+@92   = ~Shadow Stance~
+@93   = ~Soul Restoration~
+@94   = ~Joneleth~
+@95   = ~Corellon Larethian~
+@96   = ~The Creation of Elves Part I~
+@97   = ~The Creation of Elves Part I
+From the primordial turmoil at the center of the universe sprang the gods full-fledged, full - formed. Each claimed jurisdiction over certain effects, all being equally endowed with the power and force of the cosmos. They cooperated for the first (and the last) time to create the worlds. But some gods used their powers more wisely than their brethren.
+An early alliance formed among these wiser gods. They knew how to manipulate their power. This gathering of gods, who called themselves the Seldarine (or the Brothers and Sisters of the Wood), imparted their very essence into creating certain aspects of the worlds. 
+While other gods squabbled over jurisdiction and possession of this virtue and that attribute, the Seldarine modified some of the lands, making their worlds lush and green and beautiful. In addition, they created vessels that would one day hold the spirit of the first sentient life to set foot upon these worlds-the race of beings known as Elves. They crafted these vessels with thought and care, and gave them extraordinary beauty. The other gods grew black with jealousy, and they thirsted to imitate the Seldarine. 
+These gods hastily fashioned their own vessels, vying against those created by the Seldarine. But they would not invest the time vital to creating a race, and so their results were flawed-the gods did not care. Their creations were nothing like those shaped by the Seldarine. Most were Monsters, creatures that would one day haunt the dreams of Elves. Of all the crude creations, only the vessel reserved for Man held a glimmer of potential, for they would one day have the ability to change the land as would the Elves. 
+The gods of the new races tried too hastily to reproduce a feat that had taken the wiser gods eons. But neither group's constructs would not come to life until the historic meeting between Corellon Larethian and Gruumsh, leader of the Anti-Seldarine. 
+-by Larian Songshine, priest of Corellon Larethian
+~
+@98   = ~The Creation of Elves Part II~
+@99   = ~The Creation of Elves Part II
+
+When the Orcish god Gruumsh saw the creation of the Seldarine, the Elves, he regarded it as an abomination-and he became enraged. For the first time, desire for blood pulsed in a god's veins. Gruumsh prepared to crush the Seldarine, and some gods flocked to his standard while others stood aside. 
+
+When the inflamed Gruumsh attacked Corellon Larethian, the leader of the Seldarine, a mighty battle began: the Godswar. How long it raged over the pristine fields of the planets, no one knows. Each combatant drew great wounds from the spirit and the body of his or her foe. While the other contenders fell by the wayside (badly hurt, though not mortally wounded), Gruumsh and Corellon would not break off. Instead, they continued their fierce combat. They traversed the planes, and they splashed the other's blood across the lands. 
+
+As night drew near, the powers of Gruumsh strengthened, while those of Corellon waned. All seemed lost for the Seldarine. Tears from the moon landed on Corellon's upturned, stricken face, and they mingled freely with his blood. Then Corellon looked to his companions-and it was there he found fortitude. He drew back his sword and, with one fearful blow, clove out the orb of Gruumsh (who became known as Gruumsh One-Eye). The god howled in pain, black ichor spewing from the wound. Gruumsh turned and fled to the netherworld. There he nursed his hate, seeking forever after ways to shape the enemies of the Seldarine. And the greatest of his creations, made in the burning heat of rage and the blackness of his blood, was the Orcs. That is why, to this day, the Orcs and the Elves are such bitter enemies. From the beginning, even before their creation, the very essences of their gods strove against one another. 
+
+With Gruumsh's defeat, the Seldarine and their allies continued with their works. The Seldarine gathered the moon's tears and the blood shed by Corellon in that great battle, placed these into the vessels they had created, and infused them with their own spirit. Each god imparted virtue into his or her creation, feeding and nurturing the newly formed race. Thus were the Elves born from the blood of Corellon Larethian, mixed with the soil of the world, blessed with the tears of the moon, and given their nearness to divinity. 
+
+The other gods saw this example and set about infusing life into their own sadly misshapen vessels, with varied results. Alas, all other races were but sad imitations of the Elves. 
+
+The tale of the Godswar explains some of the elven traits, both physical and mental. Being formed of the blood of the god Corellon Larethian accounts for why elves possess such long lifespans. Tears from the moon provide a rationale for the elves' ethereal beauty-a beauty that often led the lesser races to think of elves as gods. The soil of the earth explains the connection all elves feel with the land. 
+~
+@100  = ~Elves and Death Part I~
+@101  = ~Death of Elves Part I
+There are those who consider the elves to be virtually immortal. While they can die through accident or violence, no one has ever seen an elf die of "old age." That is because no truly old elves remain in the world known to humans; "old" elves have left the world and journeyed on to a place called Arvanaith. At about age 550 years old, elves feel an irresistible urge to make one last journey. An elf can defy this urge only marginally more than a man can defy death when it comes. 
+With the spells available for prolonging one's life, elves do have the choice of temporarily forestalling the inevitable. However, because of their attachment to the natural cycles of the world, most elves feel disdain for those who attempt to avoid the unavoidable. Only those elves who feel no respect for the tuggings of the seasons or those who have crucial tasks yet unfinished take this option. Otherwise, old elves travel to Arvanaith, the hidden elven homeland. No elf who has traveled to Arvanaith has ever willingly left that land, nor has any elf regretted such a journey. The sylvan glory awaiting all elves there is beyond any ever experienced by humans-and is barely conceivable by the elves themselves. 
+Arvanaith is a place full of natural beauty, hidden away from all but elves. Some human sages have speculated that this pocket is a piece of Arvandor on the Plane of Olympus, but none have ever been able to reach it-save through death. Those sages who have made such a journey and were able to return to their original plane are unable to speak of Arvanaith. The memory of the beauty is too intense for their human minds to bear. It is truly a realm only for the elf. 
+The only way to return from Arvanaith is through reincarnation, resurrection, or some way of retrieving the spirit from this realm. (The last two methods are always done against the elf's will.) A very few return voluntarily, having spent millenia enjoying the splendor of Arvanaith; they volunteer to be reincarnated, and their souls begin anew. Those who leave seldom regain their original bodies. They find themselves reincarnated in the form of any animal ranging the spectrum of the animal kingdom. Sometimes these elves return as creatures so low on the evolutionary scale that they lose their elven spirit altogether. 
+Only a legendary few have ever returned through time to their original forms. These elves have returned to complete quests of epic valor and salvation. More likely, those truly heroic elves who have requested to be reincarnated are reborn as a new elf. 
+~
+@102  = ~Elves and Death Part II~
+@103  = ~Death of Elves Part II
+In Arvanaith, all things are possible. Anything elves might want, including forgetfulness or even oblivion, is available. The winds of Arvanaith are enough to soothe even the most troubled spirit, causing it to set aside his or her fears and torments. Only those few who refuse to give up their sorrows retain the memory of former troubles. 
+Instead, memories of friends and happy times make up an elf's new life, along with new dreams and challenges. Troubling memories remain largely in the back of an elf's mind, serving only as a reminder and measure for the goodness of existence in Arvanaith. Most elves are happy to relinquish the memories of their suffering, retaining only the knowledge of its passing to more fully appreciate their current happiness. 
+It should be noted that elves don't die the way other mortal races do; in fact, elves only rarely suffer true death. Those that do are mourned for months, for their spirits can never return to nourish the earth once again. Their children are cherished in hopes that they will carry on the works of their parents, provided the parents did not die dishonorably. 
+There are only a few ways that elves can suffer this fate. The attacks of certain undead, suicide, dying in an unnatural place, and other extraordinary circumstances can completely eradicate the existence of an elf. The only way to recover these brave elves is through magicks no less powerful than a wish. 
+The bodies of those who have died the true death are often burned. This prevents the undead life force from occupying the body. Elf villages have learned from experience that an unwhole spirit is worse than an undead one. 
+Elves also fear the violation of their spirits and their free will, for these are essential in entering Arvanaith. Any creature that feeds on the lifeforce of another is zealously avoided (or slain, if the means are available) by elves, for these creatures are among the few who can inflict true oblivion upon an elf. Even those elves who live under the shadow of evil find no kinship in these creatures. 
+~
+@104  = ~The Elven Races of Toril~
+@105  = ~The elves of Toril do not follow the standards of most other worlds. What unites almost all the elves of the Realms is their self-bestowed title: Tel'Quessir. This translates to "The people." All non-elves are known as the "N'Tel'Quess," or "Not-People." 
+While these elves possess the standard elf abilities, their appearance is markedly different. These elves are of human height, though there the resemblance ends. Like their more typical cousins, the elves of the Realms are much more slender and delicate in appearance. Breaking down the elf nation still further, there are five separate, distinct subraces of elves in the Realms, each of which is viewed differently by the other races. 
+The first subrace is that of the gold elves. Some also call them sunrise elves or high elves, although they do not closely resemble the standard high elves and, indeed, seem more like grey elves. Gold elves are generally viewed as the most civilized and, at the same time, the most contemptuous of other races. They are the nobility of elves on Toril, leading the other elves in the elven way. They are the equivalent of the Silvanesti on Krynn. 
+The second subrace is known variously as moon, silver, or grey elves, although again the name is the main similarity to the typical grey elf. They more closely resemble high elves than grey elves, which is not surprising since the nomadic high elves settled Toril. They are the most common of elves on this world, or at least the variety most often seen by non-elves. Because of their higher tolerance for other races, the moon elves are more likely to become adventurers than are the other elves. Likewise, most half-elves in the Realms are descended from moon elves. Although moon elves are considered less noble than gold elves, the Queen of Evermeet is a moon elf. 
+The third subrace is roughly equivalent to sylvan elves. They are called wild, green, or forest elves. They deal almost exclusively with other elves, keeping any contact with other races to a minimum. Since they try to live far from humankind, they are one of the least-seen races of the elves. Although they do not have a kingdom of their own, they permeate every elf nation. 
+The sea elves comprise the fourth subrace. They, too, are fairly uncommon, although they aren't as reclusive as wild elves. They swim in two waters: those of the Great Sea and the Sea of Fallen Stars. There is only a slight difference in appearance between the two. One race breathes salt water and the other fresh, but they can survive in either. Water elves make their homes anywhere but are most common near the island retreat of Evermeet. 
+The final subrace on Toril is that of the dark elves. Like their drow cousins, the dark elves are almost universally shunned for their evil. Cruel creatures living underground, these drow emerge only at night, trying to avenge themselves on their "oppressors," the elves responsible for their underground retreat. 
+~
+@106  = ~Elves and the Elven Spirit~
+@107  = ~Elven Spirit
+
+Elven mythology holds that the Fair Folk were born of the blood that Corellon Larethian shed in his battles with Gruumsh and bathed in the tears of Sehanine (or Angharradh). (Most members of the pantheon have an enmity for or at least a dislike of the goblinkin pantheons: those of the orcs, goblins, hobgoblins, bugbears, kobolds, and urds.) Some legends state that the first elves appeared in the Realms fully formed and shaped in Corellon's image, woven by magic from sunbeams, moonbeams, forests, clouds, seas, and shadows. Other myths claim that at least some of the elven subraces-the gold elves and moon elves, in particular-migrated to Abeir-Toril through magical gates from one or more other worlds, most commonly identified as "Faerie."
+
+One is struck in elven theology by the close relationships between the fair Folk, magic, and the natural world. Most of elven faiths emphasize elven unity with life and nature, and they tend to blend the distinction between elves and their environment, much as the Seldarine are held to be Spirits of Arvandor. For example, the Fair Folk have spirits, not souls, and many elves believe they will be reincarnated as animals, plants, faerie folk, or even elves once again. Similarly, elves are creatures of the Weave, tightly bound to and part of the web of magic that envelops Abeir-Toril. 
+
+The Fair Folk refer to themselves as Tel'Quessir, an elvish term meaning "the people". They refer to all other beings as N'Tel'Quess, a less-than-diplomatic elvish expression meaning "not-people". The Tel'Quessir originally included seven known subraces of elves, each of which is believed to have appeared in the Realms over 25 millennia ago and all of which have interbred with humans to form Na'N'Tel'Quess, almost-not-people (half-elves). 
+~
+@108  = ~Tel'Seldarine~
+@109  = ~Tel'Seldarine
+
+The Fair folk of the Realms worship a pantheon of deities known as the Seldarine, a complex term that can be roughly translated as the fellowship of brothers and sisters of the wood, implying the wide diversity in interests that exists amongst the gods of the elven pantheon and their desire for cooperation. They act independently of one another, but the elven powers are drawn together by love, curiosity, and friendship to combine their strengths, to accomplish a task, or in the face of outside threats. Though many of their spheres of influence overlap, there is no conflict between them. The Seldarine are all, almost without exception, chaotic, neutral, and/or good in temperment. None are evil. 
+
+While the gods of the elven pantheon are actively involved in the collective lives of their worshipers, few intervene directly in events affecting a particular individual or even a small group of elves. Like the Fair Folk, the Seldarine tend to have very long-range perspectives, and they never intervene directly in the unfolding history of the Realms without a great deal of consideration and discussion.
+
+Corellon Larethian:
+
+Corellon is the emodiment of the highest ideals of elvenkind. "He" is the creator of the elven race, and as with all the elven gods, he can assume the form of either sex, but usually appears as a male, and is usually revered in this form. 
+
+Sehanine: "Moonbow" 
+
+She most closely identified with the full moon. As moon goddess, Sehanine is one who governs divinations, omens, and what is often termed "subtle magic"--illusion, elemental (air) magic, alteration, and the like. She is also a protector against madness. 
+
+Hanali Celanil: 
+
+Goddess of Romance, Love, and Beauty. Those wishing for luck in love, or to enhance their own beauty, often look to Hanali for help. She has a crystal fountain of immense size which she shares only with the goddess Aphrodite, and draughts from it are given to her senior priests as philtres of love. Hanali is a being of timeless beauty and benign nature, and forgiving of minor transgressions. She delights in rewarding her followers with the bliss of unexpected love and affection.
+
+Rillifane Rallathil:
+
+God of Forests and the Environment. "The Leaflord". He is worshipped by most Elven Druids and Wood Elves. He is depicted as a giant oak tree whose roots mingle with every other plant in the world. This being is concerned that all creatures have the opportunity to act out their roles in nature without abusing them.
+
+Shevarash, the Black Archer:
+
+Demipower. His portfolio is hatred of the drow, vengeance, military crusades, loss, and revenge.
+~
+@110  = ~After <CHARNAME>’s ill-fated attempt to break <PRO_HISHER> promise and with Ao’s permission, Irenicus was able to seize not only <CHARNAME>’s soul, but <PRO_HISHER> physical body as well. Much to <CHARNAME>’s panic and disgust, the elven renegade simply transferred his mind into <CHARNAME>’s mortal shell, using the mental link between the two of them as an entry point. Following a short struggle, which ended in the suppression the last vestiges of his host’s personality, Irenicus claimed <CHARNAME>’s birthright and heritage, choosing to become a god in <CHARNAME>’s place. Immediately upon Ascension, the new deity used his powers to create an avatar that possessed his old elven face and stature. 
+Once his new body was complete, Irenicus traveled back to the Material Plane and entered Suldanessellar. It was at the gates that Ellesime met him, and one look at his once beloved face, blazing with fury and triumph, was enough to make her knees tremble. This time even the Queen’s hallowed magic, tapped directly from her link with the Tree of Life, was not enough to counter her former lover’s divine wrath... and <CHARNAME> was not around to save the day. Suldanessellar fell, burnt to cinders, and so did her luckless Queen... and the waters of the river Sulduskon carried her ashes down to the Trackless Sea.
+Irenicus then proceeded with his initial plan and re-established his link with the Tree of Life, feeding on its power and draining it of all energy. Because he now possessed all of Bhaal’s essence, this third time he succeeded, where he had twice failed before, and when he had finished his task, the Tree was no more. With his quest for power complete, the Exile was ready to challenge the elven gods themselves.
+The Seldarine had been watching Irenicus’s stubborn climb to power with terrified fascination of birds paralyzed by a snake. But once he entered their Realm – the peaceful and glorious Plane of Arvandor – they closed their ranks against him. Realizing that even his newly acquired divine status was no match for the combined powers of the Seldarine, the Exile played a dangerous game and issued a challenge to Correllon Larethian himself. But the leader of the Seldarine declined the duel on behalf of Rillifane Rallathil, who was seething with anger and sorrow over the demise of his daughter. In a series of magical battles that shook the very base of the Planes, the grieving god of Woodlands defeated Irenicus and his numerous demonic allies, and drove him away from Arvandor.
+Rillifane was, however, unable to strip the Exile of his stolen divinity. In the end, the Seldarine were forced to sign an uneasy truce. Joneleth Irenicus became the first elven god of Vengeance and the Dark Magical Arts. He resides in his own Realm of Enuma Elish, a small sub-plane within the Plane of Grey Waste, and answers the prayers of those destitute elves who, like himself, have fallen sour of the kind and lighthearted ways of the Seldarine.~
+@111  = ~Following the conclusion of his uneasy bargain with <CHARNAME>, Irenicus obtained the soul of one of the godchild’s rival siblings. Having sarcastically congratulated <CHARNAME> on <PRO_HISHER> victory, and with a new divine soul at hand, the Exile restored himself, once again defying the curse of the Seldarine and mocking their justice. He then proceeded to retrace his steps over the land of Faerun, visiting both his old laboratory in Athkatla, and his base in Spellhold and collecting the ruined machinery and other arcane accoutrement. Once he had completed these tasks, Irenicus vanished from the face of Toril and was not seen for several decades.
+But, perhaps predictably, the mage did not disappear for good, and his return swept the peaceful glades of Tethir as a devastating hurricane. Irenicus’s final assault on Suldanessellar was more deadly than his previous one, and this time <CHARNAME>, did not rush to Suldanessellar’s aid, for either the godchild never learned of the attack, or <PRO_SHEHE> simply no longer cared about the city’s plight. One by one, Suldanessellar’s defenses fell, and Irenicus entered the very heart of the city, tracking down Ellesime and disabling her elaborate traps.
+Long had she expected him to come… Indeed, the Queen had spent decades bitterly reproving <CHARNAME>’s treachery and strengthening her protections. But when it came to facing her former lover again, Ellesime was no match for Joneleth’s wrath. Once she realized Irenicus was once again intent on capturing her alive to use her as a link to the Tree, Ellesime committed an act of ultimate sacrifice, ending her physical existence in a burst of magical fire, and departing in soul to the beckoning shores of Arvandor. 
+Ellesime’s brave escape from his ultimate revenge was a terrible blow to Irenicus’s schemes, since even the soul of <CHARNAME>’s sibling was not powerful enough to allow him to sustain the link with the Tree of Life all by himself. Yet Joneleth was too vain to abandon his plan of becoming a god, and the sight of his former lover committing suicide before his very eyes only strengthened his resolve. 
+Once Irenicus had reestablished his link with the Tree of Life, its majestic trunk and crone burst into flames, soon engulfing the defiant mage, and this time there was no one around to quench Joneleth’s blazing flesh. Irenicus was burned to fine ashes, leaving no trace of himself on the tortured earth. His very soul was consumed by the magic fire, and he embraced the true and ultimate death, with no possible return or restoration. His funeral pyre was the grandest in the Realms though, for it annihilated the entire population of Suldanessellar, and the long-suffering symbol of the mage’s obsession – the elven Tree of Life.~
+@112  = ~Following what he saw as <CHARNAME>’s betrayal, Irenicus was thrown back into the Abyssal pits, to be tortured and mocked by the tanar’ri and despised by everyone else. His brief stint in <CHARNAME>’s company, however, left him with something more than a bout of frustration and a severe case of ground teeth. It brought him a reputation. Having fought side by side with the prophesied Heir to Bhaal’s Throne, made him recognizable among the thousands of other tortured souls, and having known Demogorgon himself gained him fame. 
+Eventually, he was able to capitalize on this connection and was allowed a brief interview with Demogorgon’s main rival in the Abyss – Graz’zt the Sixfingered. Nobody knew how that meeting was arranged or how it went, but it resulted in a stunning change in the Exile’s fate, for somehow he managed to earn the interest of the suave and impulsive Demon Prince. 
+Ultimately, the event resulted in Irenicus’s swift extrication from the pit he was burning in and an equally swift, almost unbelievable, promotion to the status of a medium-ranked demon, but with permission to retain his humanoid body and the bulk of his remaining memories. The Exile was granted a medallion with a symbol of a six-fingered ebony-skinned hand, a magical research laboratory in Azzagrat, Grazz’zt’s private layer of the Abyss, and the status of disciple. Furthermore, Irenicus can now often be seen in the Dark Prince’s personal retinue – a fairly unusual favor, granted only to a few Chosen.
+The nature of his relationship with this particular Demon Prince remains unclear, but it is sometimes whispered that the former elven mage has became one of Grazz’zt’s personal favorites after disclosing highly confidential information related to Demogorgon’s imprisonment in the Material Plane. Knowing Graz’zt’s chaotic and treacherous nature this connection is not likely to last; still, with <CHARNAME>’s help Irenicus has gained a foothold in the tanar’ri hierarchy, and with Jon’s stubbornness it is quite possible that in another few centuries Ellesime can expect a visitor from the Lower Planes...~
+@113  = ~Jon Irenicus became Joneleth once again. Even after his reluctant compliance with the Seldarine’s new verdict, he could not get his elven spirit back. The Elven Gods decreed that his crimes were too great to be forgiven outright, and that he could only be welcomed back to Arvandor after a true and sincere repentance. 
+After the Exile felt his new mortal soul merge with the crippled remains of his essence, he collapsed in agony. His restoration was painful, perhaps more so than the tortures he had undergone in the Abyss, for he had to suffer through all the pain, both mental and physical, that he had caused his numerous victims since his first Attack on the Tree of Life. 
+When Joneleth eventually emerged from his stasis, lying on a narrow bed in a peasant hut in a small village of Amkethran, tears of sorrow and deep shame flowed down his face, as he wept for the first time in a century for what was lost to him in his futile quest for godhood. He was alone, a broken shell of a man, prone to fits of nervous anxiety, followed by days of dark melancholy and seething rage. But as had been promised by the gods, his body was restored back to its original state, and the features of his face were once again distinctly elven. Yet, for all his distress, the Exile could not understand his own reaction, as to his utter horror he realized that he could not remember a single fact of his past life, not even his real name. Truly, even his magic was lost to him, and he had to earn it back, as if he was indeed as young as his face suggested. 
+Leaving Amkethran, Joneleth headed north with a vague notion of traveling to Evereska. But that was where his tracks were lost, and what actually became of him there remained a mystery, which even <CHARNAME> was not able to uncover. Once thing was clear nonetheless, and that was that the old Jon Irenicus had died for good. Joneleth, however, remained, and lived through many years of joy and despair. He had many adventures, and crossed paths with many heroes and sages of the Realms. He suffered the pity and contempt of his elven brethren, yet still the pain he had endured and the lessons he had learned were sufficient to keep him on a steep and rigid path to redemption. With time, his true repentance was accepted by the Seldarine, and he was granted what he craved for – a connection to the Elven Spirit and a right of passage to Arvandor.~
+@114  = ~Improved Oasis detected - LR oasis interject will not be installed.~
+@115  = ~Improved Oasis not detected...~
+@116  = ~Asension detected...~
+@117  = ~Zombie Sendai~
+@118  = ~Zombie Abazigal~
+@119  = ~Zombie Balthazar~
+@120  = ~Asension not detected...~
+@121  = ~Tougher Abazigal detected, adding additional material...~
+@122  = ~Tougher Abazigal not detected~
+@123  = ~Installing jcompton's Imoen fix for ToB...~
+@124  = ~Imoen banters fix by jcompton already installed, skipping...~
+@125  = ~SPEED BANTERS~
+@126  = ~Restore Irenicus's original portrait from SoA.~
+@127  = ~You must install Redemption the Longer Road - otherwise this component is pointless.~
+@128  = ~Restoring Jon's original portrait...~
+@129  = ~You notice something laying on the floor and stoop to pick it up. It turns out to be a dirty piece of parchment with some scribbled lines. Now, you are almost certain it was not there a few moments back...~
+@130  = ~Heya berk!
+
+Alookin fer somethin? Hav manney?
+Come t'ze room with ze roze-compas on ze floor and show us ze color of yer jink.
+
+Yer Wellwishaars.
+
+(This note looks kinda funny… Not only it is dirty, has a few scorch marks, and appears to have been chewed on; the handwriting makes you suspect that it was penned by a drunk chicken that had only recently been taught how to write.)~
+@131  = ~LR will be installed without the music files, if you wish to have music please uninstall some of your other mods and re-install LR.~
+

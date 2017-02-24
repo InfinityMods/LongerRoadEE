@@ -1,0 +1,43 @@
+@0    = ~<CHARNAME>, je ne supporterai pas ce silence plus longtemps ! Nous devons parler.~
+
+@1    = ~Qu'est-ce qu'il y a encore, femme ? Tu es très agitée ces derniers temps et je n'aime pas quand tu deviens si dirigiste.~
+
+@2    = ~Jaheira, tu devrais savoir depuis le temps que j'écoute toujours tes conseils.~
+
+@3    = ~Je me fiche que tu sois ouvertement grossier ou trompeusement rassurant ! (Montre Irenicus du doigt) Nous devons parler de *lui* et de ton serment de lui faire accepter sa culpabilité !~
+
+@4    = ~Eh bien quoi ? J'y travaille. Il faut que tu me donnes plus de temps.~
+
+@5    = ~Ne pouvons-nous pas abandonner ce sujet ? Nous en avons discuté de nombreuses fois.~
+
+@6    = ~Ah, donc je ne peux plus te tromper avec mon silence. Oui, je l'admets, j'ai menti. Je n'ai pas la moindre intention de perdre mon temps à le "réformer". Il est bien assez utile comme ça.~
+
+@7    = ~Tu... Tu m'as menti ? Comment as-tu pu ?!~ [JAHEIR70]
+
+@8    = ~Je... J'ai trahi la mémoire de Khalid en venant à ton sac de couchage chaque nuit tandis que tu conspirais avec mon pire ennemi derrière mon dos ! Je te maudis, monstre ! Et je maudis ton nouvel (Crache aux pieds d'Irenicus) AMI ! (Se retourne vers vous et vous regarde avec un dégoût visible) Un jour... Un jour tu *payeras* de ta douleur pour ce que tu m'as pris en me manipulant et en me trahissant.~
+
+@9    = ~Et pourquoi – Pour que je continue à me battre à tes cotés pendant que tu conspirais avec mon pire ennemi derrière mon dos ? Je te maudis, monstre ! Et je maudis ton nouvel (Crache aux pieds d'Irenicus) AMI ! (Se retourne vers vous et vous regarde avec un dégoût visible) Un jour... Un jour tu *payeras* de ta douleur pour ce que tu m'as pris en me manipulant et en me trahissant.~
+
+@10   = ~Adieu, Enfant du Meurtre. Nous ne nous rencontrerons plus, sauf en combat. La prophétie d'Alaundo et le rôle que tu as dans celle-ci te rend trop important pour le futur de tout Féérune, et contrairement à toi, je ne peux pas trahir la confiance de mes supérieurs juste pour me venger ! Sois conscient cependant qu'à partir de ce moment je suis ta pire ennemie sur la surface de Toril.~
+
+@11   = ~Est-ce vrai, <CHARNAME> ? M'aurais-tu menti lorsque tu as dit que tu ferais tout ton possible pour que le démon se rachète, juste pour m'empêcher de piquer une autre "crise" ?~
+
+@12   = ~Oui, je t'ai menti. J'imagine que cela ne sert à rien de le nier plus longtemps.~
+
+@13   = ~Non ! Je n'ai pas menti. J'ai fait de mon mieux, mais je pense que jusqu'ici j'ai échoué à le faire changer d'avis.~
+
+@14   = ~Répugnant démon ! N'essaye même pas de sous-entendre que nous avons des points en commun toi et moi. Et pourtant... Ah, <CHARNAME>, il a raison. J'allais demander son sang mais à présent je demande juste que tu le renvoies à son châtiment éternel dans les Abysses.~
+
+@15   = ~Ainsi soit-il, Jaheira. Mon coeur n'a pas d'hésitation à te choisir plutôt que lui.~
+
+@16   = ~Je suis désolée Jaheira, mais à ce point de ma quête j'ai plus besoin d'Irenicus que de toi.~
+
+@17   = ~Tu ne peux pas me faire changer d'avis en me rassurant ! Pas à ce niveau ! Regarde à cette expression satisfaite dans ses yeux. Même maintenant, Irenicus se moque de moi derrière ton dos !~
+
+@18   = ~Druide, tu imagines des choses. Je ne riais pas, j'étudiais juste le jeu d'ombres et de lumières sur ton visage tandis que tu exprimais ta détresse. Il semble que même dans ton apparence tu sois en effet une créature de la balance ou plutôt de conflit incessant avec tes démons intérieurs. Pourquoi n'arrives-tu pas à accepter le fait qu'un gain personnel puisse-être une motivation aussi puissante que tes "émotions" maladives ?~
+
+@19   = ~Mon contrat avec l'enfant divin, bien sûr, ne te regarde pas bien qu'il soit à notre avantage à tous deux à ce moment de notre association. Et en ce qui concerne ma "rédemption", je pense qu'<PRO_HESHE> a été assez intelligent pour en abandonner l'idée, à notre soulagement mutuel.~
+
+@20   = ~Je suis heureuse que tu sois assez honnête pour reconnaître une erreur quand tu la commets... <CHARNAME>, je ne peux plus te faire entièrement confiance, mais tout n'est pas perdu – Si tu te débarrasses de la présence corruptrice d'Irenicus immédiatement, nous pouvons toujours sauvegarder ce qui reste de notre amitié !~
+
+@21   = ~(Rire) J'aurais dû le savoir lorsque j'ai pour la première fois senti ton sinistre regard sur moi, druide. Et pourtant je sympathise avec ce genre de haine profonde et avec ton besoin compulsif de vengeance. Enfant divin, c'est à présent à toi de faire un choix entre elle et moi.~ [IRENIC92]

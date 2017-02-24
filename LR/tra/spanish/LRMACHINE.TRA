@@ -1,0 +1,108 @@
+@0    = ~Mientras Irenicus se acerca a la Máquina de Lum el Loco, inscribe 
+un pergamino con símbolos arcanos bastante extraños. Murmurándose a sus 
+adentros, empieza a tantear las palancas y los botones del aparato.~
+@1    = ~Al mover palanca tras palanca, a veces revisando sus anotaciones, 
+la Máquina empieza a zumbar y a retumbar bajo sus manos. De repente, sus 
+dedos se mueven a tal velocidad que no puedes recordar las combinaciones 
+realizadas de palancas y botones.~
+@2    = ~¡Lo sabía! Siempre existe la lógica incluso en la más intensa 
+imagen del caos.~ [DPJON157]
+@3    = ~Se pone a su lado e intenta controlarla. La Máquina chasquea y 
+zumba, vibrando con gran poder.~
+@4    = ~De repente ves cómo el mago irradia una gran seguridad... una 
+poderosa presencia y confianza en sí mismo que otros pueden sentir en él. 
+Jon Irenicus ganó 1 punto de CARISMA.~
+@5    = ~(se encoge) ¡¿Es esto un chiste malo?! ¡Ya es suficiente! No le 
+encuentro ninguna utilidad a este artilugio.~
+@6    = ~Hijo de dios, esta ha sido una de las conversaciones más 
+desagradables que he tenido desde que me liberaste del Abismo. En cualquier 
+caso, deberías plantearte encontrar una manera de liberar al brujo de su 
+burbuja.~ [DPJON162] ~Hija de dios, esta ha sido una de las conversaciones 
+más desagradables que he tenido desde que me liberaste del Abismo. En 
+cualquier caso, deberías plantearte encontrar una manera de liberar al brujo 
+de su burbuja.~ [DPJON162]
+@7    = ~¡Maldita sea, Irenicus! ¿Eso es todo lo que puedes hacer para 
+ayudarme? ¿Qué se supone que tengo que hacer ahora?~
+@8    = ~Entretenido, diría yo. Ahora debemos centrarnos en nuestro 
+siguiente paso.~
+@9    = ~Mira a tu alrededor. Pregunta a toda alma viviente que encuentres. 
+Aunque tengo una hipótesis - si la cúpula de cristal es una creación de la 
+Máquina, deberíamos buscar algo de origen similar.~
+@10   = ~Si quieres que te abra el portal al siguiente nivel, sólo tienes 
+que decírmelo. De lo contrario, juega con el maldito aparato por tu cuenta. 
+¡Pero antes encuentra a otro esclavo para que recoja tus cenizas del suelo!~
+@11   = ~Simplemente abre el portal, Irenicus. Estoy harto de este lío.~ 
+~Simplemente abre el portal, Irenicus. Estoy harta de este lío.~
+@12   = ~No, aún no lo abras. Quiero jugar con la Máquina por mi cuenta.~
+@13   = ~¿Entonces he de suponer que no hay manera alguna de que me enseñes 
+a manejar los mandos, eh? Entonces simplemente abre el portal.~
+@14   = ~¡Irenicus, te ordeno que me expliques cómo manejar la Máquina!~
+@15   = ~No. No pienso perder mi tiempo con este chisme. Cualquier 
+investigación seria de este artefacto tardaría años en ser completada. Y no 
+estoy de humor para usar trucos rápidos y sucios.~ [DPJON136]
+@16   = ~Como ordenes, hijo de dios.~ ~Como ordenes, hija de dios.~
+@17   = ~(ríe) <CHARNAME>, pareces atraer a la locura como la fruta podrida 
+atrae a la moscas. Debo asumir que este es otro caso de una débil mente 
+perturbada por haberse entrometido en lo Arcano.~ [IRENIC92]
+@18   = ~¡Heh! Irenicus, estoy segura de que todos nos hemos dado cuenta de 
+que hay una cierta... repetición de la pauta.~ [IMOEN33]
+@19   = ~¿Qué intentas insinuar, pequeña?~ [DPJON150]
+@20   = ~Nada, oh Glorioso Horror Enmascarado, Señor de las Cloacas de 
+Athkatla y de Varias Catacumbas Destacadas.~ [IMOEN15]
+@21   = ~Entonces no me vuelvas a interrumpir cuando me dirija a 
+<CHARNAME>.~ [DPJON153]
+@22   = ~El desgraciado brujo está atrapado en el interior del notable 
+aparato arcano. El aspecto de esta 'Máquina' se ajusta a la del viejo 
+diagrama que una vez descubrí en un manuscrito dedicado a la Magia Planar.~
+@23   = ~¿Por qué habláis entre vosotros cuando estamos teniendo esta 
+conversación de vital importancia?~
+@24   = ~¡Ah! Sabía que el objeto me parecía familiar. <CHARNAME>, creo que 
+el completo idiota ha estado jugando con la Máquina y ahora está atrapado en 
+ella.~
+@25   = ~¡No sabes nada de mí! No sabes nada de lo que debo hacer para... 
+para... Vaya, olvidé la última línea. Y eso que era una buena.~
+@26   = ~Ehem. En cualquier caso, te decía que puedo convocar a criaturas 
+planares para entretenerme en mi soledad.~
+@27   = ~Quedarse encerrado por una trampa es verdaderamente la manera más 
+curiosa de conseguir la inmortalidad.~ [IRENIC92]
+@28   = ~(murmura) Eso le da cien vueltas a robar un alma y acabar el Árbol 
+de la Vida en mis libros.~ [IMOEN35]
+@29   = ~Por cierto, Irenicus, ¿es que acaso están de moda las burbujas de 
+cristal entre los chiflados arcanos de hoy en día? Quiero decir... ¿es 
+*imprescindible* tener una de ellas para poder llegar a ser el Mago Loco del 
+Año?~
+@30   = ~¡Imprudente niña, no me interrumpas con tus molestos comentarios 
+cuando estoy discutiendo asuntos de suma importancia!~
+@31   = ~<CHARNAME>, estoy seguro de que el viejo gusano sería más que feliz 
+si le liberaras de su ‘arrebato’. Creo que necesitaremos examinar la máquina 
+para avanzar al siguiente nivel.~
+@32   = ~¿Por qué seguís hablando entre vosotros? ¡Soy Carston, el Inmortal 
+Señor de la Burbuja de Cristal!~
+@33   = ~Deberías preguntar al viejo loco cómo usar la Máquina antes de 
+matarlo. Pero dudo que nos sea de mucha ayuda.~
+@34   = ~Otro caso de síndrome de megalomanía. Muy común en dragones, estoy 
+convencido. ¿Es este un día para las enfermedades mentales en bloque?~ 
+[IRENIC92]
+@35   = ~(risa burlona) Paciencia, Joneleth. Pronto acabará todo.~ [IMOEN35]
+@36   = ~Hablando de dragones, Irenicus, siempre quise preguntarte algo 
+sobre tu sucia jugada de robar los huevos en la Infraoscuridad. ¿Fue idea de 
+Bodhi o tuya?~
+@37   = ~Por supuesto, fue *mi* idea desde el principio. Pese a su audacia, 
+Bodhi siempre tuvo la capacidad mental de un xvart. Pero me fue de gran 
+ayuda a la hora de ejecutar el plan. ¿Por qué lo preguntas, pequeña?~
+@38   = ~No sé. Quizás sea una entrometida, ¿vale? Acaso una curiosidad 
+profesional... Pese a ello, nunca imaginé que fuera propio de ti robar 
+cosas. Ehm... excepto almas, por supuesto. ¿A qué se debió el robo de los 
+huevos de dragón - a un juego residual de cuando aún eras un elfo?~
+@39   = ~Jamás en mi vida había oído nada tan absurdo como esa hipótesis. Me 
+niego a hacer ningún comentario al respecto.~
+@40   = ~En cualquier caso, <CHARNAME>, si quieres sonsacarle información al 
+vanidoso lagarto habla suavemente y finge ‘respeto’. Curiosamente, a menudo 
+se puede engañar a los dragones con los más burdos halagos.~
+@41   = ~Escuchar el parloteo de criaturas inferiores puede ser algo muy 
+entretenido. Pero uno nunca debe sentirse ofendido por su palabrería.~
+@42   = ~(se encoge) Una muerte espantosa suele ser el destino de los 
+principiantes del Arte. Uno debe comprender los riesgos cuando decide 
+aprender de otro mago. Si fueras tan inconsciente como para confiarle tu 
+vida a un entrometido incompetente como tu antiguo maestro, lo pagarías 
+caro.~

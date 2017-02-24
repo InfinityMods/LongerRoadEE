@@ -1,0 +1,158 @@
+@0    = ~Bien, *hechicero*, ¿qué se siente al ser un esclavo vinculado a  
+<CHARNAME>, a quien una vez tuviste en tu poder? ¿La humillación no te 
+corroe las entrañas, o por ahora estás resignado a ello, al igual que a tu 
+actual forma de vida?~ ~Bien, *hechicero*, ¿qué se siente al ser un esclavo 
+vinculado a  <CHARNAME>, a quien una vez tuviste en tu poder? ¿La 
+humillación no te corroe las entrañas, o por ahora estás resignado a ello, 
+al igual que a tu actual forma de vida?~ [EDWIN45]
+@1    = ~Me complace indicarte, Edwin, que tus insignificantes intentos por 
+enfadarme han fracasado. Quizás te convendría cambiar de táctica.~ 
+[IRENIC85]
+@2    = ~Entonces, joven mago, ¿debemos reanudar nuestra partida de ajedrez? 
+Aunque la diversión es algo que recuerdo vagamente, debo decir que nuestras 
+sesiones intelectuales aportan algo de diversión a la monotonía de este 
+viaje. Francamente, sospecho que la mayoría de los compañeros de <CHARNAME> 
+perderían sus piezas de ajedrez tan pronto empezara a jugar con ellos, y que 
+del resto ninguno sería capaz de jugar al ajedrez sin un tablero y piezas 
+reales.~ [IRENIC77]
+@3    = ~Hmmm... sí, supongo que eso podría resultar como mínimo 
+interesante. Ya ha pasado un cierto tiempo. Intentaré no acabar contigo con 
+demasiada rapidez.~
+@4    = ~Er... chicos... ¿no podéis por favor resolver esto pacíficamente?~
+@5    = ~¡Genial! ¡Una batalla a muerte! Voy a por un tentempié...~
+@6    = ~¡Tranquilizaos los dos! ¡No pienso permitir semejante 
+comportamiento en mi grupo!~
+@7    = ~No interfieras, <CHARNAME>. Estoy vinculado a ti; no desearía 
+dañarte... por error.~
+@8    = ~Para de decir estupideces, mago. Creo que eres consciente de que yo 
+no soy uno de esos patéticos debiluchos, quienes reciben sus poderes como 
+algo sobrenatural, un don innato, pero que no los pueden controlar. Me he 
+ganado todas y cada una de mis habilidades mediante interminables años de 
+estudio.~ [DPJON159]
+@9    = ~Respecto a tus otros insultos, me interesan menos que el balbuceo 
+de un mono loco al que con mucho gusto nos recuerdas en toda ocasión. Pero 
+si persistes en tu desesperante verborrea, te cortaré la lengua para ver si 
+aún se mueve por sí sola. No tengo paciencia para tus ridículas payasadas de 
+humano.~
+@10   = ~¿No tienes paciencia? Qué extraño. Pensaba que los elfos eran 
+supuestamente muy pacientes... ah, pero se me olvidaba. Ya no eres un elfo, 
+¿verdad? Eres una simple cáscara rota, desprovista de toda sensación y 
+emoción; algo medio senil, desdentado y marchito. (Si empieza a parlotear, 
+lo mataré personalmente. Seguramente se disolvería simplemente con darle un 
+baño.)~
+@11   = ~Me *estás* provocando deliberadamente, humano. Claramente, o eres 
+un demente o eres el mayor loco en toda la faz de Toril. No sólo soy lo 
+suficientemente poderoso como para acabar con tu débil cuerpo e inútil alma, 
+sino que además por mi condición me es casi imposible perder los nervios. 
+Desperdicias tu tiempo, demostrando una vez más que las efímeras sabandijas 
+como tú no saben apreciar su propia vida.~
+@12   = ~¡Nada es imposible para el impecable Edwin Odesseiron! Aún no ha 
+*nacido* la criatura a la que no pueda hacer perder los nervios. Muy pronto, 
+mago, verás por ti mismo que digo la verdad. De hecho, te derrotaré con tu 
+propia arma - realizaré un 'enfoque científico', probando una teoría tras 
+otra hasta que, casualmente, consiga el efecto deseado. (Sí... es hora de 
+realizar algunos... ¡¡experimentos!!)~
+@13   = ~El Abismo parece más apetecible por segundos.~
+@14   = ~¿Me hablas a mí, cara de cuero? ¿O era el batir de las correas 
+sueltas de las viejas sandalias de <CHARNAME>? Ya sabes, es difícil de saber 
+ya que babeas y te relames cada vez que miras a nuestro ilustre líder. Ese 
+hambre por un alma y el eterno vacío debe de doler bastante, pero deberías 
+controlarte mejor, Vencido.~ [EDWI2509]
+@15   = ~Y hablando de correas, creo que vi un traje como el tuyo una vez, 
+en un club nocturno para hombres en Aguas Profundas, donde los seguidores 
+varones de Loviatar van a ligar y suelen sobarse entre sí. ¿De dónde lo 
+sacaste: de un catálogo 'especial' para hombres, o de la sección 'látigos y 
+cuero' en una de las cadenas de Aurora 'El Calor y El Insomne' de tiendas 
+especializadas?~
+@16   = ~No sé a qué te refieres, ni siquiera me lo puedo imaginar basándome 
+en tu discurso, pero pareces estar muy familiarizado con sus servicios, 
+joven mago. ¿Y qué era lo que hacías exactamente en aquel lugar tan peculiar 
+de Aguas Profundas?~
+@17   = ~Tú... ¡tú creaste un gólem de carne con el atractivo y el carisma 
+de un tentacle horror! Cómo te atreves a sugerir que yo podría... que yo... 
+En cualquier caso, tus suposiciones son completamente erróneas y tu lógica 
+es ridícula. ¡Muchas concubinas han gritado de placer tras mi erótica 
+embestida, y mis gustos sobre el entretenimiento son mucho más refinados que 
+los de cualquier ordinario gibón de Loviatar!~
+@18   = ~No me parece que tu sudoroso juego de contar las piernas y dividir 
+entre dos al que tus congéneres de orejas redondas llaman 'eros' sea 
+merecedor de mi atención, incluso aunque tuviera el más leve interés por ese 
+tipo de cosas. Pero, ¿viste lo sencillo que me fue hacerte enfadar en mi 
+turno?~
+@19   = ~Te sugiero que abandones tu pequeño proyecto, joven Edwin, y que 
+hagas algo menos dañino para tus pulmones, ya que estás en continuo peligro 
+de ahogarte con tu propia saliva mientras mantenemos estas conversaciones. 
+Si tanto deseas vencerme en una batalla de ingenio y lógica, ¿qué te parece 
+jugar una partida de ajedrez?~
+@20   = ~¿Una partida de ajedrez? Debes estar completamente fuera de tus 
+cabales, Irenicus. (Aunque no me sorprende - esta máscara le hace parecer un 
+paciente del Asilo que anda suelto.) ¿Acaso tienes un ajedrez y piezas 
+portátiles escondidas en algún lugar de tu antiestético traje de cuero? Y en 
+cualquier caso, <CHARNAME> no querría esperar mientras nos sentamos 
+alrededor del tablero reflexionando el siguiente movimiento.~
+@21   = ~¿Por qué necesitas piezas de ajedrez y un tablero cuando dispones 
+de memoria e imaginación? ¿Nunca oíste hablar del ajedrez 'mental', mago? Yo 
+te diré mis movimientos y tú me responderás de una manera similar incluso 
+mientras caminemos campo a través siguiendo la estela de <CHARNAME>. 
+Entonces, ¿aceptas el desafío, o tu intelecto no podría realizar semejante 
+ejercicio mental?~
+@22   = ~¿A eso lo llamas desafío, Irenicus? ¡Observa cómo hago temblar a tu 
+cerebro como una gelatina en tres movimientos!~
+@23   = ~Asumiré que eso fue un 'sí'. Muy bien, comencemos nuestra primera 
+partida.~
+@24   = ~Supongo que en cierta manera será más entretenido que conversar con 
+los otros simios con los que <CHARNAME> se empeña en viajar. Por supuesto, 
+es una cuestión de tres movimientos, como mucho, antes de que te tenga en 
+mate. (¡El Asalto de Rillifane servirá! O quizás, algo incluso más astuto y 
+sutil, como el Inútil Sacrificio del Caballo.) ~ [EDWIN35]
+@25   = ~Entonces, muy bien, continuemos desde donde lo dejamos antes de 
+nuestra última batalla. Espero que aún recuerdes las posiciones de las 
+piezas. Reina a C6.~
+@26   = ~¡Tres movimientos te digo! ¡Tres movimientos! Caballo a F7.~
+@27   = ~Reina a B5, y elimino tu torre.~
+@28   = ~Er... ah... ¡te *dejé* hacer eso! Sí, es todo parte de mi astuto 
+plan para... para crearte un falso sentimiento de seguridad, antes de 
+aniquilarte por completo. Peón a C2. ¡Ja! ¡Supera eso!~
+@29   = ~Con mis cientos de años de experiencia, nunca hubiera imaginado 
+poder ganar a alguien con un movimiento tan inocuo. Creo que incluso mi 
+genio esclavizado no hubiera caído en esa trampa. Emociones, emociones. 
+Tienes talento, humano, pero aún no eres un verdadero maestro del ajedrez. 
+Reina a B1... jaque, y mate.~
+@30   = ~Qué... no... ¡NO! Hiciste trampa. ¡Estoy absolutamente seguro de 
+que tenía un peón bloqueando ese jaque!~
+@31   = ~Recuerdas mal. El movimiento fue legal. Harías bien en practicar tu 
+teoría en vez de acusar furiosamente a tus superiores, y entonces quizás 
+finalmente demostrarás ser un desafío.~
+@32   = ~¡Te demostraré que soy un desafío, viejo farsante obsesionado con 
+las correas de cuero y cuya cara se asemeja a las nalgas de un babuino! 
+(Algunos no tienen ni idea sobre la 'verdadera' moda. Sí, eso será 
+suficiente.)~
+@33   = ~¿Y esto lo dice un playboy que se hace la manicura, encaprichado 
+con la seda roja y los galones dorados? Por la manera en la que admiras tus 
+uñas perfectamente perfiladas, Edwin, cuando deberías estar usando tu 
+cerebro, no representarías un desafío ni para un duergar borracho en una 
+partida de póquer.~
+@34   = ~*cara de asco* ¡No me digas que así fue como empleaste tus años de 
+exilio: jugando a cartas con tus esclavos duergar! Me juego mis mejores 
+túnicas contra la vieja camiseta de <CHARNAME> a que no podrías ni 
+imaginarte en qué estaba pensando, Irenicus. (O si puedes, te has debido 
+ensuciar tus calzones de cuero y esos divertidos faldones por la mera 
+posibilidad de enfrentarte a mí - el invulnerable y poderoso Edwin 
+Odesseiron.)~
+@35   = ~¿Un duelo de magos? ¿A muerte?~
+@36   = ~¿Y qué más?~
+@37   = ~Sorprendente. Parece ser que nuestros hechizos han interaccionado 
+entre ellos. Un efecto poco común. Deberíamos asegurarnos de estudiar este 
+fenómeno mientras dure. Estimo que remitirá en un día o más... ya veremos.~
+@38   = ~Estudiar... fenómeno... ¡somos *ardillas*, maniaco descerebrado! 
+¡Ardillas! ¡Ardillas saltadoras de árboles, devoradoras de nueces, de tupida 
+cola y grandes dientes! (Mi cuerpo... mi precioso y perfecto cuerpo... ¡esto 
+no es justo! ¡No *otra vez*!) ¿Es que no te preocupa lo más mínimo?~
+@39   = ~En realidad no. No. Verás, esa es una pequeña ventaja de mi 
+condición. Y ahora voy a revisar nuestras provisiones, creo que <CHARNAME> 
+tiene algunas nueces. ¿Me acompañas?~
+@40   = ~Sí. Y la primera persona que se ría estará condenada a *sufrir*. 
+(Estos dientes son más afilados de lo que parecen.)~
+@41   = ~¿Qué? ¿Qué ha ocurrido? ¿Y por qué siento un repentino antojo de 
+nueces?~
+

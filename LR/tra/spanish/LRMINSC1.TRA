@@ -1,0 +1,72 @@
+@0    = ~Bubú está preocupado, <CHARNAME>. ¿Estás seguro de que podrás 
+evitar que el mago malvado se vuelva contra nosotros de nuevo? Ese Irenicus 
+os hizo daño a ti y a la pequeña Imoen, y mató a mi bella Dynaheir. ¡Su 
+maldad debe ser pisoteada por la radiante bota de la justicia!~ [MINSC26] 
+~Bubú está preocupado, <CHARNAME>. ¿Estás segura de que podrás evitar que el 
+mago malvado se vuelva contra nosotros de nuevo? Ese Irenicus os hizo daño a 
+ti y a la pequeña Imoen, y mató a mi bella Dynaheir. ¡Su maldad debe ser 
+pisoteada por la radiante bota de la justicia!~ [MINSC26]
+@1    = ~¡Aún así, un rashemita no se pone a dar saltos sobre el lomo de un 
+enemigo derrotado ni mira cómo chispea al igual que una crujiente loncha de 
+beicon en la parrilla! Si dices que quieres que se arrepienta de su maldad y 
+que siga el buen camino, Minsc y Bubú te ayudarán.~
+@2    = ~Seguro, Minsc. Tengo un sólido plan para hacer frente a la maldad 
+de Irenicus y redimirlo de sus pecados, trabajaré en ello.~
+@3    = ~Apártate de mi camino, loco demente. Y mete a tu roedor donde no 
+alcance la luz del sol. Ya he sido suficientemente humillado por hoy.~
+@4    = ~¡Ah! ¡Eres inteligente! Minsc sabe que no todo es lo que parece. 
+<CHARNAME> no se debe preocupar. Minsc entiende que has engañado a Irenicus 
+con una estrata... estrate... trampa secreta. Bubú también vigilará al mago 
+malvado, en caso de que a <CHARNAME> le salga el tiro por la culata.~
+@5    = ~¡Minsc es tu desgracia, Malvado! ¡Y seguirá siendo el clavo en tu 
+asiento, la mosca en tu cerveza, y la bota de la justicia en tu trasero 
+mientras sigas actuando con maldad!~
+@6    = ~¡La ira de Minsc está bajo control! ¡Bajo control total! ¡Mantendré 
+a raya mi ira incluso mientras le arranque miembro por miembro, estaré 
+calmado incluso mientras haga de su cabeza una sangrienta papilla... me 
+controlaré!~
+@7    = ~¡NO! ¡No hay control! ¡No hay piedad! ¡Yo vengaré... vengaré... a 
+mi bruja asesinada!~
+@8    = ~¡¡¡NOOOOO!!! ¡El malvado no debe caminar entre nosotros burlándose 
+de la justicia a cada paso que da! ¡Yo vengaré... vengaré... a mi bella 
+Dynaheir!~
+@9    = ~Para ya, imbécil. Le necesito, por ello viaja con nosotros. 
+Contrólate.~
+@10   = ~Minsc, mi plan secreto requiere que Irenicus viaje con nosotros. No 
+todo es lo que parece. Confía en mí, todo se solucionará pronto.~
+@11   = ~¿Control? ¿Qué control? ¿Tú... quieres que mire sin hacer nada cómo 
+unes fuerzas con esta abam... abom... con este hombre malvado, y cómo de 
+buena gana le prometes el alma de tu hermanito o hermanita? Bubú no puede 
+aceptar esto, ¡mira cómo centellean sus diminutos ojos con justa ira!~
+@12   = ~No me importa lo que tu estúpido hámster pueda decir. Cállate ya.~
+@13   = ~Amigo mío, sólo bromeaba. Mírame a los ojos. Notas mucho sueño. 
+Sueño y tranquilidad. No todo es lo que parece. Tengo un plan secreto, y el 
+malvado tendrá lo que se merece. Escúchame. Confía en mí. Soy tu mejor 
+amigo. ¡Buen chico!~ ~Amigo mío, sólo bromeaba. Mírame a los ojos. Notas 
+mucho sueño. Sueño y tranquilidad. No todo es lo que parece. Tengo un plan 
+secreto, y el malvado tendrá lo que se merece. Escúchame. Confía en mí. Soy 
+tu mejor amiga. ¡Buen chico!~
+@14   = ~Entonces, vamos.~
+@15   = ~Entonces, espérate aquí.~
+@16   = ~¡Ah! Minsc sabe que no todo es lo que parece. Irenicus está bajo un 
+hechizo de <CHARNAME>, ¿verdad Bubú?~
+@17   = ~Engendro de Bhaal, tus actuales compañías hacen que me pregunte 
+cómo pudiste vencerme la última vez. Mi suerte verdaderamente se agotó aquel 
+funesto día.~
+@18   = ~Engendro de Bhaal, tus actuales compañías hacen que me pregunte, 
+¿cómo pudiste vencerme la última vez? Mi suerte verdaderamente se agotó 
+aquel funesto día.~
+@19   = ~Pero en fin, si deseas devolver al irritante loco a la vida, hazlo 
+por tu cuenta y riesgo. Me aseguré de que no recordará nada de esta terrible 
+experiencia.~
+@20   = ~Por favor... Minsc, cálmate... Estoy segura de que <CHARNAME> nunca 
+haría nada tan... drástico sin una buena razón... ahora yo soy tu bruja, 
+¿recuerdas? Quiero que te calmes.~
+@21   = ~¡<CHARNAME>! No deberías haberte metido con él, has... has sido 
+cruel. ¿Qué vamos a hacer ahora? Minsc, te ruego que te calmes. Es evidente 
+que <CHARNAME> sólo bromeaba. Él nunca sucumbiría a la mancha de Bhaal, ni 
+dejaría que... que Irenicus robara su alma otra vez.~ ~¡<CHARNAME>! No 
+deberías haberte metido con él, has... has sido cruel. ¿Qué vamos a hacer 
+ahora? Minsc, te ruego que te calmes. Es evidente que <CHARNAME> sólo 
+bromeaba. Ella nunca sucumbiría a la mancha de Bhaal, ni dejaría que... que 
+Irenicus robara su alma otra vez.~

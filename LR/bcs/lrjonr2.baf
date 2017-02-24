@@ -1,0 +1,17 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    Wait(1)
+    ActionOverride("lrirenic",CreateVisualEffectObject("ICRMPARI",Myself))
+    Wait(1)
+    ReallyForceSpell("lrirenic",HOLY_LIGHT_FROM_ABOVE)
+    PlaySound("CHR_BELL")
+    Wait(1)
+    ActionOverride("lrirenic",PlayDeadInterruptable(500000))
+    Wait(5)
+    ActionOverride("finsol01",FaceObject(Player1))
+    PlaySong(999999)
+    ActionOverride(Player1,StartDialog("player1",Player1))
+END

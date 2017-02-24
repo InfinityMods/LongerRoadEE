@@ -1,0 +1,53 @@
+@0    = ~Ça suffit, <CHARNAME>, tu as déjà perdu assez de temps à écouter les bêtises de ce moine fou. A présent ton demi-frère essaye de te convaincre de le joindre dans une glorieuse mort. Il ne réalise pas qu'en faisant cela il ne ferait que libérer l'essence de Bhaal dans le cosmos où elle serait récupérée et utilisée par votre "protectrice", Mélissane.~
+
+@1    = ~Moi, de mon coté, j'ai un bien meilleur usage à faire de l'esprit de ton demi-frère. Prépare-toi à la bataille, enfant divin. Il est temps que cela cesse.~
+
+@2    = ~<CHARNAME>, est-ce que le sorcier masqué qui t'accompagne a prise sur ton esprit ? Il a l'air d'être un menteur convainquant et je peux sentir un lien entre vous deux. J'ai pitié de toi, <PRO_BROTHERSISTER>. Sa présence ne rend que plus urgent le fait que je doive détruire ta présence maléfique. Oui, j'éliminerai deux maux d'un seul coup.~
+
+@3    = ~Mais je ne suis pas maléfique ! Je suis une force du bien et de la justice !~
+
+@4    = ~Tu m'as tout l'air d'un hypocrite, jugeant ceux que tu n'as pas droit de juger !~
+
+@5    = ~Tu ne seras pas le premier à essayer de me tuer... Et probablement pas le dernier.~
+
+@6    = ~Comme c'est noble. Je prendrai plaisir à répandre des prétentieuses entrailles sur le sol.~
+
+@7    = ~C'était certainement une plaisante bataille de volontés. Oui, <CHARNAME>, le moine "vertueux" a été aussi intelligemment manipulé par Mélissane que toi. Et à présent, tout cette résolution infaillible, tout ce stoïcisme... Sont emprisonnés dans un étincelant morceau de cristal.~
+
+@8    = ~Nnn... Non !! <CHARNAME>, tu ne vas pas le laisser faire devant toi ! Et tes promesses aux elfes ? Et les promesses que tu m'as faites ?!! Par la grande Balance, je ne serais pas plus longtemps trompée par ta noire trahison ! Je dois arrêter Irenicus maintenant, avant qu'il ne soit trop tard !~
+
+@9    = ~Vil <PRO_BOYGIRL>, <CHARNAME> qu'as-tu fait ? Le mage mauvais nous fixe d'un oeil noir ! A présent il sera plus fort que jamais ! Bouh tremble d'une juste furie et il me dit de CHAAAARGEER !~
+
+@10   = ~<CHARNAME>, je suspecte depuis longtemps que tu es une plaie noire lâchée sur Féérune – Cette fourberie le confirme. Mon devoir envers le pays m'oblige à intervenir et à arrêter les maléfices du mage corrompu avant qu'ils ne se répandent encore plus !~
+
+@11   = ~<CHARNAME>, en tant que chevalier d'Arvoreen et que servante du bien, je ne peux pas laisser cette fourberie impunie ! Mon âme et mon corps ont presque été possédés par les ombres et contrairement à toi, je ne resterai pas là sans rien faire en regardant la naissance d'une autre entité ténébreuse !~
+
+@12   = ~<CHARNAME>, j'ai été patient mais ton dernier acte de cruauté calculée me dégoûte trop. Tu as regardé le plus vil acte de nécromancie sans rien faire. Je ne te suivrai pas dans cette affaire.~
+
+@13   = ~<CHARNAME>, tu ne peux sûrement pas tolérer cette horreur !! En tant que membre de l'ordre, je ne peux... Je ne permettrai pas à cette infâmie de continuer. Pas après tout ce que j'ai vécu à tes cotés !~
+
+@14   = ~<CHARNAME>, tu ne peux sûrement pas supporter cette horreur !! Je... Qu'as-tu fait mon amour ? Mon coeur saigne de devoir retourner mon arme contre toi mais je ne peux... Je ne permettrai pas à cette infâmie de continuer. Pas après tout ce que j'ai vécu à tes cotés !~
+
+@15   = ~Non ! <CHARNAME>, c... Comment peux-tu faire ça à ton propre parent ? Je... Je... Pense que tu ne vaux pas mieux que le monstre que nous venons de tuer !~
+
+@16   = ~Qu... Qu'était-ce ? Irenicus, t... Tu t'es emparé de l'âme de l'enfant de Bhaal mort, n'est-ce pas ? C... C'était un acte de pure vilénie et pourtant... Pourtant je n'ai pas pu m'empêcher de regarder tes mains pendant que tu jetais ton sort ! P... Pourrais-tu le faire encore, qu... Que je puisse mieux voir ?~
+
+@17   = ~Ah, c'est toujours un plaisir de découvrir une âme soeur chez un autre mage, Dame D'Arnise. Je serais heureux de partager ma technique avec vous... Quand j'en aurais l'opportunité.~
+
+@18   = ~<CHARNAME>, j'exige que tu respectes les termes de notre marché. Alors je les respecterai à mon tour et je resterai avec toi jusqu'à la fin de ta quête. En attendant, nous devons nous occuper de tes arrogants serviteurs.~
+
+@19   = ~Oh non, je ne vais pas rester dans le coin après ÇA. <CHARNAME>, ensuite Irenicus décidera qu'il veut également une âme pour sa soeur morte et tu le laisseras s'emparer de la mienne !~
+
+@20   = ~Durant toute la conversation avec votre belliqueux demi-frère, vous avez attendu qu'Irenicus réagisse, provoquant le combat. Mais à votre grand soulagement, le renégat elfe laisse partir le dernier puissant Enfant de Bhaal restant sans lever le petit doigt ou ouvrir la bouche pour prononcer un sort. Au lieu de ça, Irenicus reste là, regardant à ses pieds, perdu dans ses pensées.~
+
+@21   = ~Je dois admettre que je suis satisfait... Même si je ne m'y attendais pas du tout.~
+
+@22   = ~Pourquoi l'as-tu laissé partir, Irenicus ? Tu aurais pu me forcer à le combattre... Puis lui voler son âme.~
+
+@23   = ~N'ose pas prononcer un mot de plus, Rejeton de Bhaal. Je ne tolérerai pas la moindre remarque ironique ou le moindre regard victorieux !~
+
+@24   = ~Je n'allais pas me mettre à jubiler. Je me demandais seulement si ta décision de ne pas prendre son âme était réelle ?~
+
+@25   = ~Oui, j'accepterai l'âme de la part du dieu humain des handicapés et des inadaptés... C'est un châtiment convenable pour avoir commis l'erreur fatale de te suivre jusqu'à ce Plan maudit et d'avoir écouté ce qu'elles avaient à dire. Maintenant va t'en ennuyer quelqu'un d'autre !~
+
+@26   = ~A présent je vais enfin prendre possession de ma récompense.~

@@ -1,0 +1,173 @@
+@0    = ~Je... J'ai vu tant... Tant de choses cruelles et je...~ [AERIE28]
+
+@1    = ~Je me demandais si lorsque tu... Tu avais l'âme de <CHARNAME>, tu avais... (S'arrête et rougit)~ [AERIE33]
+
+@2    = ~Tu m'as menti la dernière fois que nous avons parlé, n'est-ce pas ?~ [AERIE10]
+
+@3    = ~J'ai remarqué tes coups d'oeil timides et récurrents dans ma direction, mite sans ailes – ou devrait-je t'appeler "elfe" déplumée, pour éviter une insulte inutile envers ces insectes à antennes ? Tu as la permission de me parler si tu le souhaites. Mais peut-être as-tu besoin d'un sort de "déblocage" pour ouvrir tes lèvres tremblantes et faciliter le passage des mots ?~ [DPJON157]
+
+@4    = ~Je sens une légère curiosité poindre en moi à propos de ta nature, petite mite. Cela m'arrive rarement, et donc je souhaite parler avec toi une nouvelle fois.~ [DPJON159]
+
+@5    = ~Et bien ? As-tu réfléchi à mes précédentes paroles, mite sans ailes ? Ne serait-ce pas satisfaisant de déchaîner ta juste furie contre ceux qui ont osé de garder en cage, qui ont osé te mutiler ?~ [DPJON143]
+
+@6    = ~Nous verrons, mon ancien amour. Nous verrons...~ [IRENIC71]
+
+@7    = ~Quel plaisir cela doit t'apporter de me voir saigner.~ [IRENIC05]
+
+@8    = ~Je me demande comment ceux qui t'ont coupé les ailes ont oublié de te raccourcir la langue, mon cher pigeon larmoyant ? J'imagine que c'est un oubli de leur part. Il est clair que tu as toujours eu de meilleures chances de survivre avec des plaies purulentes sur le dos plutôt qu'avec une capacité d'expression intacte.~ [IRENIC82]
+
+@9    = ~Je suis... J'essaye de comprendre, c'est tout. Je n'arrive pas à imaginer... à imaginer quelque chose de plus précieux que l'amour... Et tu... Tu l'as rejeté.~
+
+@10   = ~Petite femme, crois-tu tout savoir sur l'amour parce que tu as trouvé le chemin du sac de couchage de <CHARNAME> et que tu porte son enfant bâtard ? Une serveuse de taverne peut le faire, et plus gracieusement, si j'ose dire.~
+
+@11   = ~O... Oui. Je... J'aime <CHARNAME> et j'ai reposé à ses cotés, et je porte son enfant. Je vais... Je vais te demander à présent... As-tu su ce que je sais ? As-tu... As-tu donné à une femme un cadeau immortel à porter en son sein ? Ou as-tu oublié ce qu'on peut obtenir par des moyens si simples et beaux dans ta quête de l'arracher violemment de... De ta ville de naissance, de ton propre peuple, de la femme qui t'aimait, de -~
+
+@12   = ~Tu oublies un élément important de l'équation, petite mite. Le consentement de l'autre participant est nécessaire pour que cette méthode marche. Et si l'un des participants possède déjà l'immortalité par un autre moyen... Mais cela suffit. Garde tes leçons de morale pour quelqu'un qu'elles peuvent impressionner.~
+
+@13   = ~Tout de même... Perdre l'amour de ta vie pour une illusion... Un mirage de pouvoir... Un acte imprudent et irréfléchi qui a provoqué la mort et le désespoir de tant d'innocents, et persister dans ta folie même "après" qu'on t'ai donné l'opportunité de tout regagner. Je ne comprends pas.~
+
+@14   = ~Et que sais-*tu* de l'amour, petite mite ? Que vois-tu dans tes rêves les plus fous lorsque allongée la nuit, tu fixes le ciel vide et inaccessible ?~
+
+@15   = ~Je... Je vois de la dévotion... Je vois de la lumière... Je vois un enfant avec les yeux de son père dans mon giron. Les enfants sont... Sont notre immortalité. N'y as-tu jamais réfléchi, ou as-tu oublié ce qu'on peut obtenir par des moyens si simples et beaux dans ta quête de l'arracher violemment de... De ta ville de naissance, de ton propre peuple, de la femme qui t'aimait, de...~
+
+@16   = ~ Tout de même... Perdre l'amour de ta vie pour une illusion... Un mirage de pouvoir... Un acte imprudent et irréfléchi qui a provoqué la mort et le désespoir de tant d'innocents, et persister dans ta folie même "après" qu'on t'ait donné l'opportunité de tout regagner... Je ne comprends pas...~
+
+@17   = ~Et devrais-je croire qu'une femme qui s'est fait dépuceler par un étranger de passage sait "tout" de l'amour ?~
+
+@18   = ~J'ai fait... J'ai fait ce qui était bon et je ne le regrette pas... Et je sais que j'ai ai-aimé, que je n'ai pas trahi mon amant... Je ne l'aurais pas fait... Et c'est ce que je ne comprends pas chez toi. Pourquoi as-tu... Essayé de détruire une personne qui t'apportait du bonheur ?~
+
+@19   = ~Parce que cette personne m'a plus tard arraché mon âme de ma poitrine et ne m'a laissé qu'une coquille vide, dénuée de sentiments et d'émotions, me tournant le dos lorsque j'avais le plus besoin d'elle ? Mais cela suffit... Garde tes leçons de morale pour quelqu'un qu'elles peuvent impressionner.~
+
+@20   = ~Et c'est ce que tu fais le mieux, ma mite sans ailes ! Je t'assure, ton talent dans l'incompréhension est admirable. Pas besoin de l'exercer sur moi. ~
+
+@21   = ~*soupir*~ [AERIE33]
+
+@22   = ~Je...~ [IRENIC66]
+
+@23   = ~Oui. A présent, nous regardons tous deux le ciel et soupirons à l'unisson. Toi, sans ailes et moi, sans âme. Il suffira qu'un homme aveugle se joigne à nous pour compléter l'image de la parfaite absurdité.~
+
+@24   = ~Non... Non... Ce n'est pas absurde. Même un homme aveugle, un homme sans âme et une femme sans ailes peuvent regarder le ciel... Il y a plus de choses à y voir... Que le désir de l'atteindre, de le toucher, de le posséder...~
+
+@25   = ~Peut-être de s'en indigner, de maudire le sort ou d'en rire – enfin, *si* c'est possible. C'est une expérience bien plus satisfaisante que de soupirer avec pour seul témoin la boue sous tes pieds.~
+
+@26   = ~*Soupir* Si tu... Si tu veux. Mais... Mais je pense que... Le ciel... Le ciel est toujours là, toujours – Il est comme l'espoir.~
+
+@27   = ~Ah, tout aussi immatériel, bleu et lointain.~
+
+@28   = ~Quoi qu'il en soit, il est toujours là et c'est déjà quelque chose... Mais dis-moi, prends... Prends-tu plaisir à déformer tous mes propos ?~
+
+@29   = ~Pas vraiment. Tu oublies que je ne peux sentir ni plaisir ni souffrance. Mais je peux soupirer à l'unisson avec toi pour démontrer que j'ai raison.~
+
+@30   = ~Je... Je ne pense pas. Je crois... Je crois que tu es en train d'apprendre que certaines choses... Que certaines choses ne peuvent pas être prises aux gens...~
+
+@31   = ~(Secoue la tête) Serais-tu en train de travailler à *ma* rédemption, par hasard ? Remarquable. Je laisserais cet exercice idiot à <CHARNAME>, si j'étais toi. Mais je peux faire semblant d'aimer *t'apprendre* à cracher vers le ciel, petite mite.~
+
+@32   = ~Je suis juste curieuse... Autrefois tu étais un...~ [AERIE21]
+
+@33   = ~Ce n'est pas dangereux d'utiliser tout ton vocabulaire dans une seule phrase ? Qu'est-ce qu'il y a encore, petite mite, une autre question à propos de ma prétendue "faute" d'avoir trahi mon "amour" ou est-ce encore ton inaltérable curiosité sur le fait de vivre sans âme ?~
+
+@34   = ~Pourquoi... Pourquoi m'appelles-tu "elfe" avec tant... Tant de mépris ? Je connais ton hi-histoire. Tu étais l'un d'entre nous autrefois...~
+
+@35   = ~Tu ignores tout si tu as besoin de me poser une question aussi idiote, petite mite ! Ou pire – Tu sais tout et tu n'as rien compris. Ce que j'étais autrefois, je ne le suis plus et, par jugement divin, je ne le serais jamais plus.~
+
+@36   = ~En tous cas, mes inspirations sont bien plus hautes que de faire partie d'un troupeau d'idiots béats, des jouets adorant la Seldarine.~
+
+@37   = ~M-Mais comment peux-tu dire une chose pareille ? Quand j'ai perdu mes ailes, je voulais mourir parce que j'avais l'impression d'avoir perdu tout ce qui me rattachait au monde de mes parents, de mes frères, de mes amis... De toutes les personnes qui étaient mon petit "univers" dans ma vie auparavant... J'étais devenue mutilée et laide, mais avant tout – j'étais seule... Pourtant, je n'ai au moins jamais perdu ma connection à l'Esprit Elfique. Mais toi... Tu n'est plus un elfe. Comment peux-tu vivre... Ainsi ?~
+
+@38   = ~Logiquement, continuer son existence quelles qu'en soient les conditions reste toujours préférable à l'alternative. Les circonstances peuvent être améliorées, un vide peut être comblé par une greffe à condition de trouver un remplacement adéquat – comme <CHARNAME> le sait bien.~
+
+@39   = ~Peut-être aurais-tu pu trouver un moyen similaire de pallier à ta *propre* affliction si tu y avais réfléchi, petite mite ? Je ne me suis jamais vraiment intéressé aux ailes des Avariels, mais on devrait pouvoir en trouver une paire fraîche si on y met le prix, et un sort de nécromancie de haut niveau pourrait sans doute...~
+
+@40   = ~Je... Je n'écouterais pas cela ! Dé... Dépouiller une malheureuse créature de ce qui lui permet de voler pour en tirer moi-même avantage ?! J'aurais dû savoir que ce serait ta réponse à mon problème. Parfois j'aimerais pouvoir ouvrir ton crâne et contempler avec horreur et fascination l'ensemble de tes pensées qui grouille à l'intérieur comme une grappe de larves pâles... Et parfois, j'ai quand même de la peine pour toi.~
+
+@41   = ~Ou en y réfléchissant, peut-être pas.~
+
+@42   = ~Avec... Avec moi ? Pourquoi ?... Tu as de nouveau besoin d'un sort de soin ? Je pense qu'il m'en reste encore...~ [AERIE22]
+
+@43   = ~En fait, c'est juste que l'un des aspects de ton histoire m'intrigue, petite mite sans ailes. D'après les souvenirs de <CHARNAME>, il m'a semblé que la perte de tes ailes à été un sujet très discuté, et j'ai pensé à quelque chose. Je voulais juste te poser une question, mais si tu ne veux pas en parler, qu'il en soit ainsi.~
+
+@44   = ~Je s-suppose que tu peux la poser. Quelle est-elle ?~
+
+@45   = ~Il est facile de réaliser que ta condition actuelle est due à un "asservissement" quelconque. Tu es maintenant bien plus puissante que tu l'étais lorsque ces esclavagistes t'ont attrapé. En fait, je pense qu'il te serait très facile de tous les retrouver en utilisant la magie profane ou la magie divine dont tu disposes. Si tu es toujours vivante une fois que la quête de <CHARNAME> est finie, tu auras tout le temps qu'il faut pour le faire.~
+
+@46   = ~Oui... Oui... Je pourrais... Je pourrais les retrouver. Je pourrais tous les retrouver.~
+
+@47   = ~Tu y as pensé, n'est ce pas ? Te téléporter magiquement à leur coté et les rendre inoffensifs. Voir leur yeux s'écarquiller de peur lorsqu'ils réalisent *qui* les a en son pouvoir. Certains pourraient même crier. D'autres pourraient te supplier. Certains autre pourraient te maudire en vain, ou même pleurer.~
+
+@48   = ~Je...~
+
+@49   = ~Puis la vengeance... Soigneusement préparée, délibérée et exactement comme tu la souhaites – t'assurant qu'ils ne répèteront jamais leur erreur. Tu retireras une grande satisfaction à les voir regretter qu'ils t'aient laissée en vie pour revenir, n'est-ce pas ?~
+
+@50   = ~Peux-tu honnêtement me dire que tu n'y as jamais pensé, ma chère petite mite, tandis que tu reposes les yeux ouverts la nuit, repensant à ta douleur, ressentant toute l'amertume de ce que tu as perdu ? Cela ne t'apaisera t'il pas ?~
+
+@51   = ~Parfois. Oui... Parfois. Pour faire justice... Oui. Mais comment peux-tu le savoir ? Comment ?~
+
+@52   = ~Peut-être devrais-tu penser à tenir un journal. J'ai trouvé que cela aidait à planifier les détails les plus importants. Tu ferais mieux de ne pas trop attendre, cependant. Ma propre... Cible... Est immortelle, mais les humains ne vivent pas longtemps. Tu ne voudrais pas perdre ta chance parce qu'ils sont paisiblement morts dans leur lit, n'est-ce pas ?~
+
+@53   = ~Oui... Mais je ne dois pas trop faire attention à tes mots, Irenicus ! Il ne faut pas te faire confiance. Je doute que tu te fasses toi-même confiance.~ [AERIE33]
+
+@54   = ~Je ne fais que te renvoyer tes pensées, comme tu le sais. Si tu ne peux pas leur faire confiance, alors cela doit vouloir dire que tu ne te fais pas confiance, petite mite – Très intéressant. Mais pourquoi, je me le demande ? Aurais-tu peur de ce que tu es, de ce que tu pourrais faire ou de ce que tu pourrais devenir si tu accomplissais la vengeance qui t'es due ?~
+
+@55   = ~Je ne suis pas comme toi, Irenicus ! Tu mens, tu te moques et tu... Et tu déformes mes propos pour me troubler, mais je ne suis pas comme toi. Tu as tellement tué de gens... Tant tué qu'en fait tu as perdu le compte... Et tu as causé tellement de douleur et de peur et... Je ne veux pas ça ! Peut-être que je veux faire justice... Mais plus que tout, je veux... La paix.~
+
+@56   = ~La paix ? J'ai bien peur que cela soit l'un des grands mythes de notre temps, petite mite. Mais tu pourrais obtenir la vengeance à la place, si tu la souhaites, et peut-être cela t'apporterai-t'il la paix... Ou peut-être pas.~
+
+@57   = ~Je n'ai peur de rien, Irenicus ! (secoue la tête) Je... Je n'ai plus à avoir peur, pas pour moi. Pas avec <CHARNAME> à mes cotés, m'aimant autant que je l'aime. Il m'a aidé à devenir une vraie femme, pas une simple fille déplumée. Il... Il m'a aidé à voler sans ailes. Mais je ne m'attends pas à ce que tu le comprennes. Si tu as un jour su quelque chose de l'amour, tu l'as oublié il y a longtemps, n'est-ce pas ?~
+
+@58   = ~Remarquable. Ecouter ton écoeurante petite diatribe m'a permis de ressentir une brève bouffée de joie d'avoir oublié et l'émotion en elle-même et le fait de l'exprimer d'une manière aussi pathétique. ~
+
+@59   = ~(Baille) Te voir rougir est à peu près aussi intéressant que de compter les mouches bourdonnant au-dessus du cadavre que nous venons de dépasser, et tout aussi gratifiant intellectuellement parlant. J'ai mieux à faire de mon temps – comme par exemple trouver l'âme divine que <CHARNAME> m'a promise.~ [IRENIC85]
+
+@60   = ~(Baille) Te voir rougir est à peu près aussi intéressant que de compter les mouches bourdonnant au-dessus du cadavre que nous venons de dépasser, et tout aussi gratifiant intellectuellement parlant. J'ai mieux à faire de mon temps – comme par exemple trouver l'âme divine que je recherche.~ [IRENIC85]
+
+@61   = ~Nous essayons d'arrêter la guerre, Irenicus, la guerre ! Pas de te trouver une âme !~
+
+@62   = ~Excuse-moi mais je suis totalement indifférent de l'endroit vers lequel les insignifiantes armées mortelles se dirigent et de la bannière qui flotte dans le vent sur les murs d'une quelconque cité dans ce monde pathétique. Je suis ici pour une âme fraîche de rejeton de Bhaal – lorsque celle que je désire sera disponible. Sinon, c'est retour aux guerres des démons pour moi.~
+
+@63   = ~Excuse-moi mais je suis totalement indifférent de l'endroit vers lequel les insignifiantes armées mortelles se dirigent et de la bannière qui flotte dans le vent sur les murs d'une quelconque cité dans ce monde pathétique. Je suis ici parce que l'alternative est encore moins plaisante que la compagnie insipide de <CHARNAME>.~
+
+@64   = ~Tu recherches une autre révélation étonnante, petite mite ? Si je pouvais, je serais triste pour *toi* - Réfléchir n'est pas ta spécialité.~
+
+@65   = ~Je... je voulais savoir si avant, lorsque... Lorsque tu avais... L'âme de <CHARNAME>, si tu pouvais... Si quand tu avais son âme tu pouvais éprouver, toute l'ampleur des sentiments de <CHARNAME>... Envers moi, je veux dire... Comme tu peux les ressentir à présent ?~
+
+@66   = ~Oh, oui, bien sûr. J'ai partagé l'arrière goût de chaque lambeau d'émotion que <CHARNAME> "éprouvait" lorsqu'il s'imaginait pouvoir encore ressentir des "sentiments". Il était comme une personne ressentant la douleur d'un membre qui a été coupé. C'était extrêmement déplaisant, comme quelqu'un mourrant de soif et rêvant de nager dans de l'eau froide... Pour se réveiller dans la dure réalité d'un désert.~
+
+@67   = ~Q... Quoi ? Oh, non ! Non ! Non !~
+
+@68   = ~Non. Lorsque tu aimais <CHARNAME>, tu m'aimais moi, et lorsque tu lançais tes pathétiques petites pierres vers moi, tu les lançais sur lui.~ [DPJON157]
+
+@69   = ~C'est impossible... Impossible. Je l'aurais su ! J'aurais ressenti... Une sensation détestable... Quelque chose !~
+
+@70   = ~(Presque gentiment) Petite mite, as-tu jamais entendu parler du merveilleux concept appelé logique ? Tu déclares ton amour envers l'abomination de Bhaal. Il est l'Abysse en chair et en os, et tu penses que tu aurais ressenti *ma* présence derrière son visage pendant que tu l'embrassais ? Toutes les mauvaises pensées que j'aurais pu avoir auraient été consumées et absorbées plus vite qu'une étincelle atterrissant au milieu d'un flot de lave. Et aurais-tu aimé que ce soit différent ?~
+
+@71   = ~Tu désires l'interdit, jeune fille, et tu n'es ni la première, ni la dernière. Sa souillure t'attire, t'intrigue et interdit toute ces petites règles de morale commune. ~
+
+@72   = ~Je l'aime malgré cela, pas à cause de cela ! ~
+
+@73   = ~Crie plus fort, femme, glapit, hurle, mais cela n'affaiblira pas la voix de la vérité. Chaque nuit tu enlaces un homme qui a le mal dans le sang et tu aimes ça. Cela te fait te ressentir... Plus parfaite, peut-être ?~
+
+@74   = ~Je ne suis pas parfaite et aimer la perfection, c'est comme aimer une froide et belle statue de marbre. Nous... Nous avons tous des étincelles de méchanceté en nous, mais il nous faut les vaincre, pas être consumés par elles... Tu as laissé complètement faire tes propres démons, Irenicus. <CHARNAME> les combat à chaque moment éveillé et même dans ses... Dans ses rêves. Et Je... Je suis fière de l'aider à les combattre à chaque moment où je suis avec lui.~
+
+@75   = ~Réfléchissais-tu à ces pieuses pensées la nuit dernière, petite mite ? Je n'aurais jamais imaginé qu'il aurait tant de plaisir à "lutter avec son mal intérieur" sous les couvertures.~
+
+@76   = ~Oh... Mais j'oubliais l'absence totale de pensées cohérentes dans ta jolie petite tête. Prends une grande inspiration, mite sans ailes, ou tes yeux vont rester ronds pendant encore une heure. Tu te souviens de ce que j'ai dit à propos de <CHARNAME> partageant ses émotions avec moi ? La seule raison pour laquelle il ne ressent pas les miennes, c'est que je n'en ai pour l'instant aucune.~
+
+@77   = ~Tu mens ! (Fuit)~
+
+@78   = ~(Tressaille) J'aimerais que ce ne soit *que* des mensonges. Les "sentiments" de <CHARNAME> sont trop pénétrants à mon goût.~
+
+@79   = ~Non, ce n'est pas le cas... Je souhaite souvent qu'il y ait un moyen d'arriver à nos fins sans tuer... Tant de gens. Je souhaiterais pouvoir ressusciter et soigner chaque personne que j'ai du blesser pendant les combats et les voir évoluer pour le mieux.~ [AERIE22]
+
+@80   = ~Compassion et besoin de soigner compulsifs, je vois. Logiquement, *j'aurais* dû être ton rêve devenu réalité. Mais comme je l'ai découvert, la logique n'a pas d'effet sur toi. Mais alors, Qu'est-ce qui maintient tes pieds sur terre, petite mite, alors que tu devrais verser les bénédictions de ton dieu sur mon corps meurtri tout en murmurant que cela ne fait pas mal tandis que je suis prêt à crier d'agonie ?~
+
+@81   = ~Je... Je dois juste rassembler mes forces, Irenicus. C'est toujours difficile de te soigner.~
+
+@82   = ~Serais-je soumis à une autre illusion née de ton imagination infantile ? Même si ce corps est de création divine, je suis toujours un homme fait de chair, par un cadavre ambulant (Même s'il se peut que tu penses le contraire) et je ne suis pas plus différent à guérir qu'une autre personne.~
+
+@83   = ~Tu... Tu as appris pendant trop longtemps comment briser un corps et comment préserver sa force vitale... Et comment la voler aux autres. Mais ton... Ta connaissance est mécanique, superficielle. La guérison spirituelle est différente. J'ouvre mon âme à Baervan Ermiterrant, et la béatitude que je ressens est transmise à celui que je guéris à travers une autre connection spirituelle. Je ne suis qu'un conduit... Mais avec toi... Avec toi, je dois m'agripper à ton vide brûlant et m'y tenir, ressentant de la douleur jusqu'à ce que ta souffrance te quitte.~
+
+@84   = ~Cela doit être parce que tu n'as pas... Tu n'as pas d'âme. Mais c'était différent avec <CHARNAME> lorsque... Lorsqu'<PRO_HESHE> était sans âme. Avec <PRO_HIMHER>, c'était comme... Comme s'agripper à une lame sur le point de frapper.~
+
+@85   = ~Contente-toi de me guérir, petite mite, avant que mon état n'empire du fait d'avoir écouté tes fantaisies théologiques.~
+
+@86   = ~Ne bouge pas.~

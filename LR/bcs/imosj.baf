@@ -1,0 +1,27 @@
+IF
+  OR(3)
+    Dead("finiren") // Jon Irenicus
+    InParty("lrirenic")
+    !Global("lrJonToFinal","GLOBAL",0) // Jon Irenicus
+  OR(2)
+    Dead("finbodh") // Bodhi
+    Global("BodhiFights","GLOBAL",1)
+  Dead("finsolar") // Fallen Solar
+  Global("ImoenBackToHuman","GLOBAL",0)
+  GlobalTimerNotExpired("ImoenChangeBack","GLOBAL")
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("ImoenBackToHuman","GLOBAL",1)
+    ClearActions(Myself)
+    ActionOverride("Imoen2",ReallyForceSpellRES("imoslay2",Myself)) // End Slayer Change
+    ActionOverride("Imoen2",ChangeEnemyAlly("Imoen2",NEUTRAL))
+    ActionOverride("Imoen2",DialogInterrupt(TRUE))
+    ActionOverride("Imoen2",ChangeAIScript("imoe25",OVERRIDE))
+    ActionOverride("Imoen2",ChangeAIScript("",SPECIFICS))
+    ActionOverride("Imoen2",ChangeAIScript("",CLASS))
+    ActionOverride("Imoen2",ChangeAIScript("",RACE))
+    ActionOverride("Imoen2",ChangeAIScript("",GENERAL))
+    ActionOverride("Imoen2",ChangeAIScript("",DEFAULT))
+    SetInterrupt(TRUE)
+END

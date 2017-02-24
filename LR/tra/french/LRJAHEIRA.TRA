@@ -1,0 +1,43 @@
+@0    = ~Par les flammes éternelles des Abysses, Druide ! Si tu veux me faire un trou dans le crâne, prends une lance et tente ta chance, mais arrête d'essayer de le creuser avec tes yeux. <CHARNAME> pourrait encore requérir les services et tes regards mauvais sont perturbants.~ [IRENIC74]
+
+@1    = ~Il n'y a aucun doute Irenicus, que si les regards pouvaient tuer, tu serais déjà mort de nombreuses fois. Pourtant, si <CHARNAME> et les Dieux souhaitent bon de tester ma valeur de cette atroce manière – Je l'endurerai, ne serait-ce que pour accélérer l'accomplissement de la prophétie d'Alundo. Deux fois déjà <CHARNAME> t'a envoyé recevoir ta "récompense" durement méritée dans les Abysses : D'abord des racines de l'Arbre de Vie profané, puis une fois encore des boyaux des Enfers. Je ne doute pas que nous soyons capable de te renvoyer à ta place une troisième et dernière fois.~ [JAHEIR11]
+
+@2    = ~Je dois seulement être patiente et attendre que tu te révèles et que tu abandonnes le moindre respect envers nous pour nous montrer ton vrai visage – celui d'un traître, d'un meurtrier et d'un voleur !~
+
+@3    = ~Et pourquoi ferai-je une chose pareille, femme ? Mon serviteur déloyal, qui sert à présent le dieu des estropiés et des ratés comme lui, s'est assuré que dès que <CHARNAME> cesserait de respirer, je serais renvoyé dans les Abysses, même sans ton aide empressée. Il est dans mon intérêt de rester loyal à l'enfant de Bhaal, quelques soient mes sentiments envers <PRO_HIMHER>. Pourquoi suspecter une trahison alors que la perspective de gains mutuels garantit ma loyauté ?~
+
+@4    = ~La perfidie coule dans tes veines, Etre Brisé ! Je suis sûre que tu trahiras <CHARNAME> même si tu n'as aucun avantage à en tirer, ne serait-ce que pour satisfaire ta nature pervertie ! Tu n'es pas seulement une abomination de la nature qui salit le sol qu'elle foule, tu es un monstre n'ayant aucun sens de la loyauté, de l'honneur ou de la moralité !~
+
+@5    = ~Tu peux prétendre que je n'ai aucun honneur, femme, mais nier que je sois logique est absurde. Je comprends que ta haine pour moi est profonde, mais...~
+
+@6    = ~Silence, boucher ! Tais-toi avant que je n'enfonce ma lame à travers ton larynx et que je n'arrache tes poumons pendant que ton coeur envoie toujours ton sang empoisonné dans ton tout ton corps en lambeaux – Juste comme tu l'as fait à... à... Mon mari !~
+
+@7    = ~Je t'assure que ton mari était raide mort avant que je m'intéresse à lui. Un fait que tu aurais remarqué toi-même si tu avais appliqué la connaissance de la nature que tu possèdes sans nul doute. Si tu te souviens de son cadavre, aucune de ses blessures ne saignait.~
+
+@8    = ~Tu... Tu... Tu oses me rappeller cette vision qui m'a fait souhaiter que mon coeur se soit arrêté cinq secondes avant que je n'entre dans *cette* pièce ? Son visage... Le visage de mon Khalid était la seule partie de... De lui qui était toujours intacte ! L'avais-tu fait exprès ? Pour être sûr que ceux qui l'aimaient reconnaissent tout de suite sur qui tu avais travaillé ?~
+
+@9    = ~(Tressaille) Comment étais-je censé savoir que c'était ton compagnon ? Mes serviteurs avaient leur propre logique tordue. Ils savaient que je ne tolérais pas l'incompétence et ils avaient peur d'avoir tué la mauvaise personne en tendant cette embuscade ratée. Vu que deux membres de votre groupe étaient morts, ils m'ont apporté les deux corps en plus des vivants et du rejeton de Bhaal que je voulais. En cela j'ai été chanceux, en effet, car au lieu d'un sujet d'expérience, j'en ai obtenu deux. Imoen était un cadeau inattendu. Mais aurais-tu été plus heureuse si mes serviteurs avaient laissé ton mari pourrir là où il avait été tué ?~
+
+@10   = ~J'aurais été une femme heureuse, pas une veuve endeuillée, si l'homme avec lequel je souhaitais passer toute mon existence était toujours en vie !~
+
+@11   = ~Me blâmeras-tu également pour tous les autres meurtres commis le long de la côte des épées ? Ton homme a été tué par manque de chance, pas par ma main ou ma volonté.~
+
+@12   = ~Vraiment ? Dois-je assumer que les étreintes de notre brave chef en sont venues à te lasser et que tu te languis toujours d'un homme mort ?~
+
+@13   = ~Tu... Tu !~
+
+@14   = ~Je me moque d'avoir une réponse. Mais me blâmeras-tu également pour tous les autres meurtres commis le long de la côte des épées ? Ton homme a été tué par manque de chance, pas par ma main ou ma volonté.~
+
+@15   = ~<CHARNAME>, tes "émotions" me tapent vraiment sur les nerfs ! Je peux les sentir s'agiter à travers le lien. N'y a-t'il aucun moyen de les bloquer ? Non. J'imagine que non. C'est dérangeant, tu sais.~
+
+@16   = ~<CHARNAME>, ta "curiosité" me tape vraiment sur les nerfs ! Je peux la sentir s'agiter à travers le lien. N'y a t'il aucun moyen de la bloquer ? Non. J'imagine que non. C'est dérangeant, tu sais.~
+
+@17   = ~(Se tourne vers Jaheira) Durant les décades sans fin de mon exil, j'ai tué de nombreuses personnes, trop pour prétendre l'innocence, l'ignorance ou les deux. Certaines ont été victimes de ma négligence, et tandis que d'autres ont été tuées en légitime défense, encore plus nombreuses sont celles qui sont mortes en étant les sujets de mes recherches. Je me doute que tu sais quelle aurait été ta fin sans la désastreuse intervention des voleurs de l'ombre. Je n'ai jamais pris plaisir à ces morts, mais ils étaient essentiels à mon succès et je ne gagnerai rien à le nier. Ton époux était simplement l'un d'entre eux.~
+
+@18   = ~J'aimerais pouvoir cesser d'écouter ce que tu dis, mais non – Ces horreurs sont étrangement fascinantes. Comprends-tu au moins que tu parles à la femme de l'homme et à qui tu as arraché le coeur avant de le découper en morceaux ?~
+
+@19   = ~Imoen était convaincue qu'il y avait des substances appelées "amour", "espoir" et "compassion" dans ce pauvre sac de chair morte. Je devais lui prouver le contraire. C'était peut-être une horrible leçon, trop intense... Mais j'avais raison, bien sûr... On ne trouve rien de tout ça chez les morts, qu'ils soient froids et raides ou bougeant encore.~
+
+@20   = ~Je suis certaine que si je t'arrachais ton coeur maintenant je ne trouverai pas la moindre trace d'aucun des trois !~
+
+@21   = ~C'est certain. Mais c'était ce que je cherchais à prouver, n'est-ce pas ?~ [DPJON127]

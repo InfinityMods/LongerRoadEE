@@ -1,0 +1,54 @@
+@0    = ~Hey, cutter! What d'ya think? He says everything changes, while I claim that you can't alter someone's basic nature!~
+@1    = ~What are you rambling about, creature? I cannot see anybody here but your wretched self!~
+@2    = ~Sure thing. Everything can change - even you. Now, calm down and let's talk business. Are you the Bebilith who swallowed the Deva Spark, by any chance?~
+@3    = ~Nuh. I don't think so. A fiend stays a fiend, no matter what. Now, will you hand over the Spark voluntarily, or shall I cut you open and rummage through your innards for it?~
+@4    = ~See, I told you, you don't exist! Now, get outta my head, you whining sissy. Go rattle yer bone-box someplace else!~
+@5    = ~ (sings)
+Mary had a little lamb,
+Little lamb, little lamb,
+Mary had a little lamb,
+Its fleece was white as snow
+~ [MARY]
+@6    = ~And every time she looked away
+Looked away, looked away 
+Every time she looked away
+The lamb was sure to grow
+~ [MARY]
+@7    = ~(sings)
+Why does the lamb love Mary so?
+Love Mary so? Love Mary so?
+Why does the lamb love Mary so?
+The eager children cry.
+~ [MARY]
+@8    = ~Cos Mary gives him kiddies' hearts,
+Pretty lil' eyes and such like snacks.
+Cos Mary waters him with blood,
+The teacher did reply.~ [MARY]
+@9    = ~Mad Bebilith
+I have found the mad Bebilith Abaia, who had accidentally swallowed the Deva Spark. The demon is quite insane and I cannot make any sense of his ramblings.~
+@10   = ~I say it goes against the natural order of things. According to your point, a Balor could decide to shed his evilness and become a proxy on Mount Celestia. Next you will claim *I* can change as well. And I am a Bebilith - see these claws and mandibles? A Bebilith I say!~
+@11   = ~(cries) At least I *was* a Bebilith... Ai, it hurts, it hurts, it hurts... IT HURTS SO MUCH!!! Why does it hurt?~
+@12   = ~Stop your mad ramblings, demon, and answer my questions. Is your name Abaia? Will you cooperate, or shall I force you to give up the Spark?~
+@13   = ~Blast it! The demon is utterly insane. Answer me, creature, or face the wrath of the True Heir of Bhaal! What have you done with the Deva Spark?~
+@14   = ~Hmm, maybe it hurts because now you have conscience? Perhaps I can help you, if you come with me.~
+@15   = ~Drop your silly pretence, demon. Nothing can change the natural order of things. Good always remains good and evil stays evil. Now, I need to know what you have done with the Deva Spark.~
+@16   = ~Why should Abaia come with you, cutter? You are not him, not him, not him! The Deva is dead. I killed him with my cowardice!~
+@17   = ~Are you speaking of Ybdiel, creature? He is with me. Now, stop rambling and help me to help you both.~
+@18   = ~You can stay here for all I care, but don't blame me if it continues to hurt.~
+@19   = ~Enough of this comedy! I think you only understand the tongue of steel.~
+@20   = ~The Deva is with you? Lemme, lemme, lemme see him! Yess, I can smell his blood. He is alive. ~
+@21   = ~Lemme carry him. Abaia will take care of the Deva, Abaia will follow, Abaia will do anything you say, cutter. Just take this thing outta me and make it stop hurting!~
+@22   = ~Strange Ally
+Irenicus prodded me into talking with the demon and now the Bebilith travels with us... helping to care for the Deva no less! With all the insanity that surrounds me every day I have to wonder - just where is this world headed? Bah! I have to stop writing and go back to explaining what is 'goodness' and why does it 'hurt' to the demon, who is wallowing in self-pity and remorse. Why could the Gods not have chosen someone else for this inane task?~
+@23   = ~Punish me for my guilt!~ [CHILM04]
+@24   = ~He's dead, he's dead, he's dead! Cutter, you are too late.  Abaia shall follow now. Abaia shall follow the Deva back to the Planes!~
+@25   = ~I could not locate all the Items of Accord in time to save the Deva Ybdiel. After the Deva died, the Bebilith disappeared as well, and Irenicus accused me of botching the quest. Oh well, you cannot please everybody...~
+@26   = ~This demon speaks like one of the Chaosmen. I am curious as to... no, it cannot be. Still, <CHARNAME>, be careful what you answer him.~
+@27   = ~Stop yer chant, cutter, it hurts!~
+@28   = ~<CHARNAME>, this must be the specimen we are looking for. His very entrails glow with celestial light. No normal demon would look like that... you can trust my expertise on the matter. I advise you to take a gradual approach. Look friendly, and engage the creature in conversation.~
+@29   = ~Now, that was odd. I wonder if I should not... No, no, surely *I* will be able to handle a small matter like this!~
+@30   = ~Ai, it hurts!~
+@31   = ~(cringes) Now, that was odd. I wonder if you should not... No, no, surely a true Bhaalspawn will be able to handle a small matter like this!~
+@32   = ~An amusing spectacle indeed, but that was a pretty poor handling of a delicate situation, godling. What? Don't stare at me like I owe you a soul, give it another try.~
+@33   = ~Excellent. <CHARNAME>, so far you have done very well indeed. Now you need to figure out how to extract the Spark out of the fiend. I can offer a few interesting techniques, once you are ready to proceed.~
+@34   = ~What a clumsy excuse for a 'solution' for this riddle! Now the demon is dead, and the Spark is inaccessible to us. You've botched it, godchild, botched it badly indeed. I sincerely hope that you will not do the same with my bid for a Bhaalspawn soul!~

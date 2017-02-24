@@ -1,0 +1,48 @@
+@0    = ~¡Aún peor, has reclutado a un asesino desalmado, a un bellaco que 
+una vez te arrebató tu alma inmortal! ¿¿Acaso no tienes noción de lo que es
+debido y justo?? ¿En absoluto?~
+@1    = ~¡<CHARNAME>, no te permitiré que alcances tu destino!~
+@2    = ~El inconfundible hedor de la nigromancia y de los no muertos. 
+Muchos han muerto aquí, supongo que por la gloria de tu divino progenitor.~ 
+[DPJON115]
+@3    = ~A diferencia de ti, <CHARNAME> puede reconocer el provecho de tomar 
+las decisiones no ortodoxas que más le benefician. Pero no debería malgastar 
+mi aliento discutiendo con un miasma maloliente procedente de una ciénaga.~
+@4    = ~Hijo de dios, ¿este fantasma se parece a tu padre adoptivo? Hubiera 
+esperado algo más... impresionante por los recuerdos que me has traspasado 
+de él.~ [DPJON142] ~Hija de dios, ¿este fantasma se parece a tu padre 
+adoptivo? Hubiera esperado algo más... impresionante por los recuerdos que 
+me has traspasado de él.~ [DPJON142]
+@5    = ~Te hablaba a ti, mi antiguo pupilo. ¿Qué me dices a ello?~ ~Te 
+hablaba a ti, mi antigua pupila. ¿Qué me dices a ello?~
+@6    = ~(con desprecio) Recuerdos muertos de sentimientos muertos, 
+invocados para castigar a los vivos por el mortal pecado de seguir con vida. 
+De hecho, me suena familiar.~ [DPJON130]
+@7    = ~<CHARNAME>, quizás puedas reducir un poco tu nivel emocional... 
+¿No? Tu conmoción interna es demasiado intensa... y yo no estoy acostumbrado 
+a este tipo de sensiblerías.~
+@8    = ~No me hagas reír, viejo. Sí, todo engendro de Bhaal siembra la 
+muerte a su paso. ¿Acaso no sabías que sería así cuando llevabas a 
+<CHARNAME> en tus brazos cuando aún era un bebé? El Hijo de Bhaal es un 
+peligroso juguete con el que jugar, y cualquier mortal que se le acerque 
+debe ser consciente de ello, antes de jugarse su futuro por sus antojos.~ 
+[IRENIC92] ~No me hagas reír, viejo. Sí, todo engendro de Bhaal siembra la 
+muerte a su paso. ¿Acaso no sabías que sería así cuando llevabas a 
+<CHARNAME> en tus brazos cuando aún era un bebé? La Hija de Bhaal es un 
+peligroso juguete con el que jugar, y cualquier mortal que se le acerque 
+debe ser consciente de ello, antes de jugarse su futuro por sus antojos.~ 
+[IRENIC92]
+@9    = ~Una muestra verdaderamente patética de chantaje emocional... pero 
+funciona, ¿no? <CHARNAME>, contrólate. ¡Me estás hiriendo gravemente con tus 
+miserables sentimientos!~ [DPJON120]
+@10   = ~Hijo de dios, espero que poseas el suficiente sentido común para 
+darte cuenta de lo que intenta hacer. ¡No! ¡No moriré *otra vez* por tus 
+sensiblerías! ¡Céntrate en tu rabia, hijo de dios, no en tus penosos 
+sentimientos!~ ~Hija de dios, espero que poseas el suficiente sentido común 
+para darte cuenta de lo que intenta hacer. ¡No! ¡No moriré *otra vez* por 
+tus sensiblerías! ¡Céntrate en tu rabia, hija de dios, no en tus penosos 
+sentimientos!~
+@11   = ~Esto está llegando demasiado lejos... no pienso seguirte el... 
+¡¡¡<CHARNAME>!!! ¡Para! ¡Ahora mismo estás canalizando tu ira y tu rabia 
+hacia mi cabeza!~ [IRENIC05]
+

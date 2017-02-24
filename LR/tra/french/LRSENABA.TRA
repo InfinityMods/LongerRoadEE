@@ -1,0 +1,153 @@
+@0    = ~<CHARNAME>, l'esprit divin de ta soeur drow conviendrait parfaitement à mes besoins. J'exige que tu honores notre marché et que tu me donnes ce qui est mien de droit.~ [IRENIC85]
+
+@1    = ~Bon sang Irenicus, pourquoi me le rappelles-tu juste au mauvais moment ? Je ne veux pas me soucier de ta requête maintenant. Je suis sûr que tu peux attendre quelques jours de plus, jusqu'à la prochaine occasion.~
+
+@2    = ~Nous n'en avons pas déjà parlé ? Je pensais que je t'avais convaincu d'expier tes pêchés et d'accepter une âme de la part d'Ilmater ? ~
+
+@3    = ~Oui, je crois que tu as assez attendu, Irenicus. Si tu peux le faire, tu as à présent mon consentement pour extraire l'âme que tu veux.~
+
+@4    = ~Je ne peux supporter l'idée de voler une âme mais je pense que tu mérites de prendre toi-même cette décision. Prends-la si tu veux, bien que je te conseille de faire le contraire.~
+
+@5    = ~Irenicus, je n'ai jamais eu l'intention d'honorer la dernière partie de notre marché. Tu peux rester avec moi ou tu peux retourner dans les abysses, pour ce que je m'en soucie. Mais que tu restes ou partes, tu ne recevras pas une âme de ma part !~
+
+@6    = ~N'y a-t-il aucune autre manière de satisfaire tes *besoins* ? Je ne veux pas me disputer avec toi maintenant, mais je ne souhaite pas non plus te donner l'âme de ce rejeton là.~
+
+@7    = ~<CHARNAME>, l'âme divine de ta soeur drow satisferait mes besoins. Je t'implore d'être généreux et de me donner ce que je demande.~ [IRENIC85]
+
+@8    = ~Irenicus, je te l'ai déjà dit de nombreuses fois et je vais à nouveau me répéter – tant que je serais en vie je ne te laisserai pas voler l'âme d'une autre créature douée intelligence !~
+
+@9    = ~<CHARNAME>, une fois encore j'insiste pour que tu honores ta part du marché et que tu me cède l'âme du rejeton drow qui est mienne de droit.~ [IRENIC85]
+
+@10   = ~<CHARNAME>, une fois encore je te demande d'être généreux et de me permettre de prendre l'âme du rejeton drow dont j'ai besoin.~ [IRENIC85]
+
+@11   = ~<CHARNAME>, l'âme divine de ton frère dragon conviendrait tout à fait à mes besoins. J'exige que tu honores notre marché et que tu me donne ce qui est mien de droit.~
+
+@12   = ~<CHARNAME>, l'âme divine de ton frère dragon satisferait mes besoins. Je te demande d'être généreux et que tu m'offres ce que je demande.~
+
+@13   = ~<CHARNAME>, une fois encore j'insiste pour que tu honores notre marché et que tu me cèdes l'âme du rejeton drow qui est mienne de droit.~
+
+@14   = ~<CHARNAME>, une fois encore je te demande d'être généreux et de me permettre de prendre l'âme du rejeton dragon dont j'ai besoin.~
+
+@15   = ~Très bien, <CHARNAME>, j'attendrai une autre opportunité du même genre. J'ai de la patience ; cependant, ne la met pas à l'épreuve trop longtemps. Je ne suis pas sans ressources.~
+
+@16   = ~Bien, si tu le dis ainsi, je peux toujours être persuadé de changer d'avis...~
+
+@17   = ~Tu es d'une admirable patience, donc c'est décidé – Tu attendras une autre occasion.~
+
+@18   = ~Le temps des disputes est passé, <CHARNAME>. Il est temps à présent de récolter ce qui a été patiemment semé.~
+
+@19   = ~Je ne peux pas te donner l'âme que tu demandes.~
+
+@20   = ~J'ai décidé de d'accepter que tu prennes l'âme du rejeton que tu demandes.~
+
+@21   = ~N'y a-t-il aucun autre moyen de régler ça ? ~
+
+@22   = ~Excellent. <CHARNAME>, puisque tu es aussi compréhensif, je vais te donner une dernière chance de faire passer ton message. Que peux-tu m'offrir si je décide de ne pas prendre l'âme de l'enfant de Bhaal comme récompense ?~
+
+@23   = ~Je n'ai pas envie de te prêcher la "bonne parole" juste avant une autre bataille. Ce serait trop hypocrite de ma part. ~
+
+@24   = ~Je n'ai rien à dire pour le moment.~
+
+@25   = ~Jon, je suis sûr que tu seras bien plus heureux avec une âme bien à toi, pas *une autre* âme de remplacement volée. Mais si tes expériences passées ne te l'ont pas appris, alors rien de ce que je pourrai dire ne te feras changer d'avis.~
+
+@26   = ~Très bien, enfant divin, alors pour l'instant je considère le problème comme étant réglé.~
+
+@27   = ~Mais bien sûr, je me réserve le droit de réfléchir à ta décision.~
+
+@28   = ~Juste par curiosité, je me demande si tu peux extraire l'âme d'une créature sur le champ de bataille ? On dirait que tu n'as pas ton machines magiques "habituelles" avec toi.~
+
+@29   = ~Je suis soulagé que nous ayons arrangé cela, Irenicus. Maintenant, retournons à nos moutons.~
+
+@30   = ~Je me moque que tu y "réfléchisses", Irenicus ! La question est close et tu devras vivre avec.~
+
+@31   = ~Il reste un autre puissant rejeton de Bhaal, enfant divin. Tu ressens cette étrange sympathie pour Sendaï et Abazigal, mais peut-être l'arrogant moine qui est responsable du massacre et de l'emprisonnement de centaines de rejetons te causera moins d'hésitation ?~
+
+@32   = ~Promets-moi l'âme de Balthazar maintenant, <CHARNAME>, et je te laisserai tranquille jusqu'à ce que nous retournions à Amkethran.~
+
+@33   = ~Si tu es sûr qu'il est en effet un enfant de Bhaal, tu peux avoir son âme quand tu veux.~
+
+@34   = ~Non, que Balthazar soit un enfant de Bhaal ou pas, je ne lui veux aucun mal. Prends l'âme de la drow maintenant et arrête de m'ennuyer avec tes exigences !~
+
+@35   = ~Tu n'obtiendras aucune âme de ma part, Irenicus, que ce soit celle d'un enfant ou pas. Jamais.~
+
+@36   = ~Non, que Balthazar soit un enfant de Bhaal ou pas, je ne lui veux aucun mal. Prends l'âme du dragon maintenant et arrête de m'ennuyer avec tes exigences !~
+
+@37   = ~Je peux utiliser de nombreux sorts compliqués pour ôter l'âme d'un individu sans son consentement, mais cela prendrait trop de temps. L'emprisonner dans une gemme d'âme est plus logique. C'est encore plus facile à accomplir lorsque l'être en question est affaibli ou est en train de mourir de ses blessures.~
+
+@38   = ~Lorsque je me suis occupé de toi auparavant, <CHARNAME>, ma plus grande préoccupation était de séparer ta divinité de ta souillure. Je n'ai plus de telles aspirations. Une pierre de bonne taille et de bonne qualité serait un parfait réceptacle temporaire pour ma nouvelle âme, et durant nos voyages j'ai trouvé une pierre parfaite pour cela.~
+
+@39   = ~Oui, mais à quoi sert une âme prisonnière d'un joyau ? Ne dois-tu pas l'absorber pour te restaurer ?~
+
+@40   = ~Tu es trop curieux pour ton propre bien, enfant divin. Je pourrai utiliser l'âme prisonnière après que ta quête soit finie. A présent, arrêtons ce bavardage inutile et occupons-nous de la situation dans laquelle nous nous trouvons.~
+
+@41   = ~Non, <CHARNAME>, tu n'auras pas de répit de ma part cette fois-ci. Je veux une âme maintenant et tu vas me répondre sans plus tarder !~
+
+@42   = ~Alors je vais te le demander encore une fois. C'est ton dernier mot ?~
+
+@43   = ~N'ose pas prononcer un mot de plus, Rejeton de Bhaal. Je ne tolérerai pas la moindre remarque ironique ou le moindre regard victorieux !~
+
+@44   = ~Je n'allais pas jubiler. Je me demandais seulement si ta décision de ne pas prendre cette âme était réelle.~
+
+@45   = ~Oui, j'accepterai l'âme de la part du dieu humain des handicapés et des inadaptés... C'est un châtiment convenable pour avoir commis l'erreur fatale de te suivre jusqu'à ce plan maudit et d'avoir écouté ce qu'elles avaient à dire. Maintenant va t'en ennuyer quelqu'un d'autre !~
+
+@46   = ~Etonné et mal à l'aise, vous regardez le trépas de votre parent, dans l'attente qu'Irenicus se mette à l'action. Mais à votre grande surprise, à votre étonnement et à votre soulagement, le renégat elfe laisse le malchanceux rejeton de Bhaal mourir sans lever le petit doigt ou ouvrir la bouche pour prononcer un sort. Au lieu de ça, Irenicus reste là, regardant à ses pieds, perdu dans ses pensées.~
+
+@47   = ~Je dois admettre que je suis satisfait... Même si je ne m'y attendais pas du tout.~
+
+@48   = ~Pourquoi l'as-tu laissé partir, Irenicus ? Je t'avais clairement donné la permission.~
+
+@49   = ~La drow était très éloquente dans son petit discours. Pourtant j'ai peur qu'elle nous ait préparé une autre mauvaise surprise, vu que sa force ne vaut pas la notre. Son âme maudite est adéquate, sans aucun doute... On peut s'étonner des chemins de la destinée.~
+
+@50   = ~Intéressant. Malgré son jeune âge, le rejeton dragon à l'air sur de lui. Son sang divin donne à ton demi-frère encore plus de confiance en lui, peut-être ?  Mais l'arrogance est un trait fréquent chez les reptiles. Et oui, son âme sera parfaite. ~
+
+@51   = ~Quelle insolence de la part d'un misérable ver de terre.~
+
+@52   = ~(Commence à marmonner une incantation) Mon apprentie demi déesse et bras droit de Bhaal, je ne peux pas permettre que cela arrive. J'ai besoin que ton essence de Bhaal reste enfermée dans ton âme.~
+
+@53   = ~C'est une déclaration dont on peut douter, bien sûr. Mais je m'écarte de notre sujet... Mon sort est sur le point d'être terminé.~
+
+@54   = ~Quoi ?! N...Noooon ! Tu ne peux pas !!... Maudit sois-tu, <CHARNAME> ! Maudit sois-tu jusqu'au plus profond des neufs enfers !! Mon âme ! Aaaah !!!~
+
+@55   = ~Pas si vite, imbécile. Je vais m'emparer de ma récompense d'abord.~
+
+@56   = ~(Rire) C'était certainement très instructif. Et pourtant, la drow a été aussi intelligemment manipulée que toi. Et à présent, toute cette brillante intelligence, toute cette fierté... Sont prisonnières d'un petit morceau de crystal étincelant. ~
+
+@57   = ~Nnn... Non !! <CHARNAME>, tu ne pas le laisser faire devant toi ! Et tes promesses aux elfes ? Et les promesses que tu m'as faites ?!! Par la grande Balance, je ne serai pas plus longtemps trompée par ta noire trahison ! Je dois arrêter Irenicus maintenant, avant qu'il ne soit trop tard !~
+
+@58   = ~Vil <PRO_BOYGIRL>, <CHARNAME> qu'as-tu fait ? Le mage mauvais nous fixe d'un oeil noir ! A présent il sera plus fort que jamais ! Bouh tremble d'une juste furie et il me dit de CHAAAARGEER !~
+
+@59   = ~<CHARNAME>, je suspecte depuis longtemps que tu es une peste noire lâchée sur Féérune – Cette vilenie le confirme. Mon devoir envers le pays m'oblige à intervenir et à arrêter les maléfices du mage corrompu avant qu'ils ne se répandent encore plus !~
+
+@60   = ~<CHARNAME>, en tant que chevalier d'Arvoreen et que servante du bien, je ne peux pas laisser cette fourberie impunie ! Mon âme et mon corps ont presque été possédées par les ombres et contrairement à toi, je ne resterai pas là sans rien faire en regardant la naissance d'une autre entité ténébreuse !~
+
+@61   = ~<CHARNAME>, j'ai été patient mais ton dernier acte de cruauté calculée me dégoûte trop. Tu as regardé le plus vil acte de nécromancie sans rien faire. Je ne te suivrai pas dans cette affaire.~
+
+@62   = ~<CHARNAME>, tu ne peux sûrement pas tolérer cette horreur !! En tant que membre de l'ordre, je ne peux... Je ne permettrai pas à cette infamie de continuer. Pas après tout ce que j'ai vécu à tes cotés !~
+
+@63   = ~<CHARNAME>, tu ne peux sûrement pas supporter cette horreur !! Je... Qu'as-tu fait mon amour ? Mon coeur saigne de devoir retourner mon arme contre toi mais je ne peux... Je ne permettrai pas à cette infamie de continuer. Pas après tout ce que j'ai vécu à tes cotés !~
+
+@64   = ~Non ! <CHARNAME>, c... Comment peux-tu faire ça à ton propre parent ? Je... Je... Pense que tu ne vaux pas mieux que le monstre que nous venons de tuer !~
+
+@65   = ~Qu... Qu'était-ce ? Irenicus, t... Tu t'es emparé de l'âme de l'enfant de Bhaal mort, n'est-ce pas ? C... C'était un acte de pure vilenie et pourtant... Pourtant je n'ai pas pu m'empêcher de regarder tes mains pendant que tu jetais ton sort ! P... Pourrais-tu le faire encore, qu... Que je puisse mieux le voir ?~
+
+@66   = ~Ah, c'est toujours un plaisir de découvrir une âme soeur dans un autre mage, Dame De'Arnise. Je serais heureux de partager ma technique avec toi... Quand j'en aurais l'opportunité.~
+
+@67   = ~<CHARNAME>, j'exige que tu respectes les termes de notre marché. Alors je les respecterai à mon tour et je resterai avec toi jusqu'à la fin de ta quête. En attendant, nous devons nous occuper de tes arrogants serviteurs.~
+
+@68   = ~Oh non, je ne vais pas rester dans le coin après ÇA. <CHARNAME>, ensuite Irenicus décidera qu'il veut également une âme pour sa soeur morte et tu le laisseras s'emparer de la mienne !~
+
+@69   = ~(Rire) C'était certainement édifiant. Et pourtant le dragon a été aussi intelligemment manipulé que toi. Et maintenant, toute cette présence incroyable, tout ce panache... Sont prisonniers d'un petit morceau de cristal étincelant.~
+
+@70   = ~<CHARNAME>, qu'est-ce que c'est que ça ? Etait-ce une plaisanterie élaborée ou une tromperie pour me flouer de l'âme que tu m'as promise ? J'était supposé être présent à l'endroit de la mort de ton parent pour prendre possession de ma récompense.~
+
+@71   = ~Il n'est pas important que ce soit une gaffe ou une tromperie délibérée. Ta tricherie viole l'esprit de notre pacte. Je me réserve le droit de te rendre la monnaie de ta pièce. ~
+
+@72   = ~C'est de ma faute, Jon. Y a-t-il un autre moyen de résoudre ce problème ?~
+
+@73   = ~Il reste un autre puissant enfant de Bhaal, enfant divin. Peut-être que le moine arrogant qui est responsable du massacre et de l'emprisonnement de centaines de rejeton te causerait moins d'hésitation ?~
+
+@74   = ~Tu n'obtiendras pas d'âme de ma part, Irenicus, que ce soit celle d'un rejeton de Bhaal ou pas. Jamais !~
+
+@75   = ~Très bien, enfant divin, alors je considère le problème réglé. ~
+
+@76    = ~<CHARNAME>, une fois encore j'insiste pour que tu honores notre marché et que tu me cèdes l'âme du rejeton dragon qui est mienne de droit.~ [IRENIC85]

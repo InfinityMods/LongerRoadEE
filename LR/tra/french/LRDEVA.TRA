@@ -1,0 +1,170 @@
+@0    = ~Mortels, je suis blessé.~ [SOLARF06]
+
+@1    = ~Mon nom est Ybdiel. Je sers l'une des Puissances Supérieurs de l'Elysée. Je suis blessé et empoisonné et j'ai grandement besoin d'aide. Je mourrai dans cet horrible endroit si vous n'intervenez pas, et un message des plus importants ne parviendra jamais à mon dieu.~ [deva3]
+
+@2    = ~Tu es un être céleste. Dis-moi, comment as-tu été empoisonné et comment as-tu fini ici ? ~
+
+@3    = ~Ridicule ! Pourquoi une déva finirait dans cet endroit maudit ?~
+
+@4    = ~Je n'ai pas l'intention de gâcher mon énergie à aider des être planaires quels qu'ils soient. Adieu.~
+
+@5    = ~Donne moi une bonne raison de t'aider à part le fait que tu sois un être du "bien" et peut-être daignerai-je intervenir.~
+
+@6    = ~Qui que tu sois, ne t'avance pas si tu veux vivre. Je n'ai aucune raison de te faire confiance.~
+
+@7    = ~Ecoute-moi s'il te plaît, honorable <PRO_LADYLORD>, ce n'est pas un piège. Je ne demanderais pas de l'aide aussi désespérément si ce n'était pas pour moi une question de vie ou de mort !~
+
+@8    = ~Et bien, qui es-tu exactement et comment as-tu été empoisonné ?~
+
+@9    = ~Tes mensonges ne me feront pas changer d'avis ! Adieu.~
+
+@10   = ~C'est une histoire étrange et déprimante... Hélas, l'Univers est plein d'histoires encore plus incroyables que la mienne. Ecouteras-tu au moins ce que j'ai à dire ?~
+
+@11   = ~Qui es-tu et comment es-tu arrivé ici ?~
+
+@12   = ~Je refuse d'écouter tes mensonges.~
+
+@13   = ~Ah, cela réchauffe le coeur de rencontrer une âme bienveillante dans cette prison des plus aberrantes. Je jure que mon dieu se souviendra de l'aide qu tu m'apportes et que tes nobles actions seront généreusement récompensées. Cela fait un certain temps que je suis ici et je succomberai bientôt au poison qui m'infecte.~ [SOLARF06]
+
+@14   = ~Il est normal que tu veuilles une compensation en échange de ton aide. Je jure que mon dieu se souviendra de l'aide qu tu m'apportes et que tes nobles actions seront généreusement récompensées. Cela fait un certain temps que je suis ici et je succomberai bientôt au poison qui m'infecte.~
+
+@15   = ~Vous risquez de trouver mon histoire étrange, mortels, mais je jure que tout est vrai ! Tout a commencé il y a plusieurs jours. La Puissance que je sers m'a envoyé dans les abysses pour surveiller un perfide plan tanar'ri qui menace tout notre Univers. Pour faire ce que ma divinité m'avait demandé, j'ai dû trouver un moyen de me camoufler – même le plus rusé de mes déguisements n'aurait pas été suffisant pour dissimuler ma nature aux créatures abyssales.~
+
+@16   = ~Ils aurait toujours pu détecter mon aura bienveillante – de la même façon que les requins sont attirés par la plus petite goutte de sang dans un immense océan. Mon seul choix était d'abandonner temporairement l'Etincelle de divinité qui m'a été donnée pour faire de moi un Aasimon – une créature astrale.~
+
+@17   = ~Ybdiel, tu as dû sacrifier ton étincelle divine pour accomplir ta tâche ? Tu dois en effet posséder un grand sens du devoir et de l'honneur ! Je sais à quel point il est difficile de perdre l'essence qui nous est propre.~
+
+@18   = ~Créature, tu avais dû perdre l'esprit ! Qu'est-ce qui a pu te faire abandonner ton essence divine ?~
+
+@19   = ~Me prendrais-tu pour un imbécile ? Personne n'abandonnerait son étincelle immortelle librement. Je vais te laisser à tes pensées, créature, et la prochaine fois, invente un meilleur mensonge.~
+
+@20   = ~C'est une histoire intéressante, bien que je n'en comprenne toujours pas le sens. Continue s'il te plaît.~
+
+@21   = ~Je ne vivrai plus très longtemps car ma force s'affaiblit à chaque moment qui passe...~ [SOLARF06]
+
+@22   = ~En temps voulu, ma tâche sera accomplie. <PRO_LADYLORD>, si après y avoir réfléchi tu décides de m'aider – reviens me voir.~ [deva2]
+
+@23   = ~Mon histoire est assez longue... Es-tu sûr de vouloir l'entendre dans son intégralité ?~ [deva1]
+
+@24   = ~Oui, oui. Vas-y – Je veux connaître tous les détails.~
+
+@25   = ~Peut-être plus tard. Je suis plutôt occupé pour le moment, mais je reviendrais. Au revoir.~
+
+@26   = ~J'ai mieux à faire de mon temps que d'écouter ces bêtises. Trouve-toi d'autres passe-temps.~
+
+@27   = ~Je n'aurais pas la patience d'écouter tes affabulations verbeuses ! Dis-moi ce que je dois faire et qu'on en finisse.~
+
+@28   = ~Mon histoire est assez longue... Es-tu sûr de vouloir l'entendre dans son intégralité ?~ [deva5]
+
+@29   = ~Oui, <CHARNAME>, mon dieu m'a demandé une tâche presque impossible... Mais mon devoir était la seule chose qui m'importait et j'étais prêt à risquer mon essence pour l'accomplir. Donc, j'ai volontairement mis à l'abri mon Etincelle de déva en la donnant à un humain que je pensais être digne d'une telle responsabilité, tout comme mon dieu m'avait estimé capable de remplir ma tâche.~ [deva5]
+
+@30   = ~Pourtant, une fois que j'ai découvert ce que fomentait le seigneur Tanar'ri que je surveillais et que je finissais mon enquête, je vis une horrible bébilith. Cet horrible démon arriva à la salle des fêtes abyssale où je me cachais en suivant l'esprit de l'homme que j'avais auparavant choisi comme réceptacle temporaire pour mon essence.~
+
+@31   = ~Je fus stupéfait, c'est le moins que l'on puisse dire – même si le pauvre mortel avait été tué par le démon, son esprit n'aurait pas dû se rendre dans les abysses à moins que ce soit un mauvais homme et que je me sois trompé en lui donnant mon Etincelle ! Ah, je pensais avoir pensé à tout, mais cette perfide conspiration à fait échouer mes plans.~
+
+@32   = ~J'ignore comment l'esprit est arrivé là, seul et effrayé, et avant que je puisse l'approcher et lui poser la question, il a été tué encore une fois – Et mangé par la bébilith !~
+
+@33   = ~On aurait pu penser que l'Etincelle tuerait la bébilith immédiatement... Mais hélas, le démon a réussi à l'absorber, bien que j'ignore comment. Il m'a tout de suite attaqué et mordu, m'injectant son poison. Etant privé de mon Etincelle, je n'ai pas pu me soigner et je me suis vite affaibli. Noble <PRO_LADYLORD>, trouve s'il te plaît un moyen de m'envoyer sur le Plan du Repos – je t'en serais reconnaissant à jamais.~
+
+@34   = ~C'est en effet une histoire étonnante ! Mais comment es-tu arrivé ici ?~
+
+@35   = ~C'est trop de soucis. Je ne peux pas t'aider.~
+
+@36   = ~J'étais considérablement affaibli et entouré par des ennemis, comme je te l'ai dit...  Je pense que je n'aurais pas tardé à succomber car je ne pouvais pas tenir contre l'assaut des hordes de cet enfer abyssal. A ma grande surprise, le démon qui m'avait attaqué s'est soudain mis à me défendre... Alors qu'à ce moment il aurait facilement pu me tuer... Cela n'a pas duré longtemps cependant, comme mes attaquants se retiraient, la bébilith aussi s'enfuit... En se téléportant au plan de l'Elysée ! Mon Etincelle m'attirait et j'ai pu l'y suivre.~
+
+@37   = ~Etranger, tu me sembles étrangement familier... Comme si toi et moi... Nous étions pareils, quelque part... Ce n'est pas important... J'imagine que je n'ai pas le temps de m'intéresser à ce genre de bizarrerie.~
+
+@38   = ~J'ai pu suivre celui qui m'avait volé mon Etincelle, suivant son sillon de destruction de d'actes anormalement charitables à travers l'Elysée, et j'ai pu le convaincre de me la rendre... Même si cela peut te sembler étrange, le démon a changé après avoir reçu l'essence céleste... Il divaguait et se culpabilisait juste après avoir attaqué un innocent... Et il essayait de guérir les victimes de sa propre rage... Puis il se redevenait fou de colère pour redevenir aussi doux qu'un agneau quelques minutes après...~
+
+@39   = ~Ensemble, nous avons réuni trois artefacts – Les objets nécessaires pour accomplir le Rite du Retour. Pourtant, Abaia – la bébilith – changea encore d'avis... Juste après le transfert final de l'Etincelle. Il a fuit en prenant les objets sacrés avec lui et cette fois, il est retourné vers les abysses...~
+
+@40   = ~Mais dans sa fuite vers les Abysses, Abaia s'est écarté de sa route et est venu ici à la place et je l'ai suivi, irrésistiblement attiré par mon Etincelle... j'ai essayé de le trouver à l'intérieur de ce château... Mais il est plein de démons et de Baatezus encore plus puissant – de diables qui sont les pires rivaux des tanar'ri et qui complotent contre eux même dans ce piège improbable.~
+
+@41   = ~Dans ma recherche sans succès de la bébilith, j'ai repéré l'un des artefacts qu'elle avait pris – les trois Objets de l'Accord, nécessaires pour que je puisse récupérer mon Etincelle – Mais il a été récupéré par des diablotins pilleurs. J'imagine qu'Abaia à perdu son intérêt pour les objets et les a éparpillés dans les environs.~
+
+@42   = ~Afin de récupérer mon Etincelle divine, je dois retrouver les trois Objets de l'Accord et la bébilith nommée Abaia, le démon qui a volé l'Etincelle. Les artefacts sont éparpillés dans le château et je crois que le démon se cache à l'intérieur.~
+
+@43   = ~S'il te plaît, <PRO_LADYLORD> <CHARNAME>, je te supplie de m'aider à trouver les artefacts et la bébilith ! Non seulement je périrai sans mon étincelle – mais tout l'Univers pourrait être en danger si mon dieu n'apprend pas les détails exact du complot tanar'ri.~ [SOLARF06]
+
+@44   = ~Je vais très certainement t'aider, vu que j'ai depuis longtemps l'habitude de corriger les ratés de ce monde malfaisant et frustre !~
+
+@45   = ~Il se peut que je t'aide – si une récompense m'est promise, mais ta "Puissance" a plutôt intérêt à se montrer généreuse !~
+
+@46   = ~Le sort de l'Univers entier mérite définitivement que je m'y intéresse. Je vais faire de mon mieux pour t'aider, bien que cela ne puisse pas suffire. ~
+
+@47   = ~Une belle histoire pour faire peur aux petits enfants les nuits de tempête ! En tous cas, je ferais peut-être quelque chose si je tombe sur ce démon dans ma recherche de la sortie.~
+
+@48   = ~Je ne pense pas que ton sort mérite que je m'en occupe, créature. Mais il est possible que je change d'avis.~
+
+@49   = ~Je t'aiderai... Mais seulement si tu me dis qui est ta Puissance et ce que les tanar'ri complotaient !~
+
+@50   = ~<CHARNAME>, tu peux certainement comprendre qu'il ne m'appartient pas de divulguer ce secret. Je t'assure que je sers l'une des Grandes Puissances d'Eronia et c'est tout ce que je peux te dire pour l'instant.~
+
+@51   = ~Merci de m'avoir écouté, <PRO_LADYLORD>. Tes mots mon rendu espoir. Pourtant j'ai peur de ne pas survivre très longtemps si je dois rester ici tout seul. Si tu veux m'aider, tu vas devoir me prendre avec toi.~
+
+@52   = ~Bien sûr. Je te porterai. Tu n'as pas l'air si lourd que ça.~
+
+@53   = ~Oublie ça. Déva ou pas, je ne vais pas me faire un tour de reins pour porter un futur cadavre !~
+
+@54   = ~Merci de m'avoir écouté, <PRO_LADYLORD>. Tes mots mon rendu espoir. Pourtant j'ai peur de ne pas survivre très longtemps si reste ici tout seul. Si tu veux m'aider, tu vas devoir me prendre avec toi.~ [deva5]
+
+@55   = ~M-Merci, <PRO_LADYLORD> <CHARNAME>. Je n'oublierai jamais ta bonté. Je te suis redevable.~ [deva7]
+
+@56   = ~La quête de la déva
+
+Pendant que je traversais la Tour de Garde, j'ai rencontré une déva blessée nommée Ybdiel qui m'a demandé de l'aider à trouver une bébilith qui lui a volé son Etincelle céleste et de retrouver les trois Objets de l'Accord : la Gemme de l'Harmonie, le Calice de la Paix et une fiole contenant l'Eau de la Serénité provenant du Lac Serein du plan paisible de L'Elysée.
+Ybidiel voyage avec moi et une fois que j'aurais trouvé le démon et les trois artefacts je devrais les montrer à la déva pour l'aider à récupérer son essence et à retourner en Elysée.~
+
+@57   = ~Je n'ose te dire que choisir, mon corbeau. En tous cas, cet être misérable ressemble à une déva monadique, mais on dirait que cet oiseau céleste à perdu plus que quelques plumes pendant son vol.~
+
+@58   = ~Qu'est-ce qu'une déva monadique, Haer'Dalis ?~
+
+@59   = ~Je me moque bien, mais oui, on dirait l'un de ces ploucs célestes.~
+
+@60   = ~C'est de loin les plus stoïques de leur race... *hausse les épaules* Mais je sais peu de chose sur elle à part qu'elle ont une grande considération pour la balance et qu'elles servent de messager pour leurs divins maîtres.~
+
+@61   = ~Aidez-moi !~
+
+@62   = ~<CHARNAME>, je te conseille de prêter attention à sa demande. Cet être à l'air d'être bon.~
+
+@63   = ~On... On peut certainement faire quelque chose. <CHARNAME>, s'il te plaît, écoute cette pauvre créature !~
+
+@64   = ~Cette personne à l'air d'être un noble guerrier. <CHARNAME>, nous pouvons sûrement l'aider !~
+
+@65   = ~<CHARNAME>, devons-nous perdre encore notre précieux temps à nous occuper d'un autre jaluk pourri ? Mais tu feras ce que tu veux, j'imagine.~
+
+@66   = ~<CHARNAME>, nous devrions tout de suite aider cette créature souffrante ! J'ai entendu dire que les déva sont les serviteurs de la grande balance entre autres choses.~
+
+@67   = ~Hmm, rien de moins qu'un céleste – c'est un visiteur inhabituel pour ce plan commun. Ce phénomène devrait être analysé sous toutes les coutures. <CHARNAME>, je t'encourage à questionner plus en avant le sujet.~
+
+@68   = ~Ha ! Ce pigeon déplumé à l'air toujours assez gros pour être mangé, si tu veux mon avis. Ça te dit, un morceau de volaille rôtie, <CHARNAME> ? J'dis qu'on lui donne une bonne leçon et qu'on ramasse le butin.~
+
+@69   = ~<CHARNAME>, c... comment peux-tu être aussi cruel – aussi froid et indifférent envers sa souffrance ? M'abandonnerais-tu aussi si j'étais empoisonnée et mourante ?~
+
+@70   = ~Prendre soin des faibles et des désarmés est un *devoir* de ce qui sont privilégiés, pas un choix ! <CHARNAME>, nous devrions retourner auprès de lui immédiatement.~
+
+@71   = ~Allons, petit <PRO_BROTHERSISTER>, arrête de faire semblant de t'en moquer. Je sais que ce n'est pas le cas. Cette déva... A l'air si mignonne et vulnérable, quelque part... On ne peut pas le laisser mourir ici, n'est-ce pas ?~
+
+@72   = ~<CHARNAME> ! Il est impossible que tu commettes un acte aussi méprisable. Cette déva est un soldat blessé en faisant son devoir. Je ne me le pardonnerais jamais si nous le laissons mourir ici.~
+
+@73   = ~Vraiment, aucun serviteur du Vigilant ne pourrait toléré ce genre d'acte lâche ! <CHARNAME>, je t'enjoins de changer d'avis et d'aider cette créature dans le besoin.~
+
+@74   = ~Un remarquable acte de modération... Et d'idiotie, si j'ose dire. <CHARNAME>, tu me déçois beaucoup. On aurait pu croire que tu avais appris depuis longtemps à voir plus loin que le bout de ton nez.~
+
+@75   = ~(Rit) Alors la puissante déva a été trompée et à donner son Etincelle à un "être maléfique" ? J'aime le style de cet homme ! Mais il fallait être un imbécile pour s'impliquer dans une conspiration avec des démons. Sans aucun doute, les tanar'ri l'ont trahi à la fin.~ [SAREVO33]
+
+@76   = ~Tu as été un idiot de confier à un mortel ton essence même, déva. Il est vrai que nous faisons tous des erreurs dans nos vies, mais vous célestes, vous êtes supposés être infaillibles dans vos jugements moraux. Si même les puissants échouent, que peut-on espérer des mortels ?~ [SAREVO33]
+
+@77   = ~A ma grande consternation, le démon a également consommé mon Etincelle avant que j'aie eu l'occasion de la récupérer.~
+
+@78   = ~Oui, oui, les démons ont l'habitude de se nourrir des "pseudo-corps" des nouveaux arrivants... Bien que cette *mane* - c'est le nom que les tanar'ri donnent à certains esprits condamnés – est probablement réapparu autre part... A moins que la bébilith n'ait souhaité achever son tourment et ne lui ait offert la vraie mort.~ [DPJON158]
+
+@79   = ~Irenicus, on dirait que tu connais tout ça par coeur... Euh, par quoi que ce soit que tu aies à la place.~
+
+@80   = ~(Grimace sans humour) Quelle surprise pour quelqu'un capable de percevoir les harmoniques célestes. Qui aurait cru que le corps veuille toujours suivre l'âme ?!~
+
+@81   = ~<CHARNAME>, tu *dois* trouver un moyen de localiser ce démon en fuite et ses artefacts !~ [DPJON117]
+
+@82   = ~Je préfère toujours une âme de rejeton de Bhaal comme paiement de mes services, mais l'Etincelle de la déva est une essence de puissance pure. Cela nous donnerait l'avantage dans les batailles à venir.~
+
+@83   = ~Ça ne te coûtera rien, mais l'Etincelle de la déva pourrait se révéler être le moyen ultime de me payer pour mon aide sans offenser tes sensibilités concernant les âmes de tes parents.~

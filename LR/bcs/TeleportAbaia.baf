@@ -1,0 +1,22 @@
+IF
+	Global("AbaiaIn","GLOBAL",1)
+	Global("DevaQuestFailed","GLOBAL",0)
+	GlobalTimerExpired("DevaDeath","GLOBAL")
+	Global("AbaiaNotThere","GLOBAL",0)
+	OR(12)
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+	!AreaCheck("")
+THEN
+	RESPONSE #100
+         SetGlobal("AbaiaNotThere","GLOBAL",1)
+END

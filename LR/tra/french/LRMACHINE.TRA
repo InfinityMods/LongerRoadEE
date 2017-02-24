@@ -1,0 +1,85 @@
+@0    = ~Tandis qu'Irenicus s'approche de la machine de Lum le fou, il sort un rouleau de parchemin couvert d'étranges symboles magiques. Marmonnant dans sa barbe, il commence à essayer les leviers et les boutons de la machine.~
+
+@1    = ~Tandis qu'il actionne levier après levier, vérifiant parfois ses notes, la Machine commence à vibrer et à bourdonner sous ses mains. Soudain, ses doigts se mettent à bouger trop vite pour que vous puissiez vous souvenir de la combinaison de leviers et de cadrants qu'il a utilisé.~
+
+@2    = ~Je le savais ! Il y a toujours de la logique même parmi le chaos le plus abondant.~ [DPJON157]
+
+@3    = ~Il tend la main et essaye un bouton. La Machine bruisse, bourdonne et tremble de pouvoir contenu.~
+
+@4    = ~Soudain vous voyez le mage rayonner d'aplomb... Une attirance et une confiance en soi que les autres peuvent sentir chez lui. Jon Irenicus gagne 1 point de CHARISME.~
+
+@5    = ~(Tressaille) C'est une mauvaise plaisanterie ?! Ça suffit ! On ne peut rien faire d'utile avec cette machine.~
+
+@6    = ~Enfant divin, c'était l'une des conversations les plus déplaisantes que j'ai eu depuis que tu m'as invoqué des abysses. En tous cas, il faudrait peut-être penser à trouver un moyen de libérer cet incapable de son bocal.~ [DPJON162]
+
+@7    = ~Bon sang, Irenicus ! C'est tout ce que tu as à dire ? Que dois-je faire maintenant ?~
+
+@8    = ~C'est plutôt amusant, à mon avis. A présent nous devrions penser à la prochaine étape.~
+
+@9    = ~Regarde aux alentours. Pose des questions à toutes les personnes que tu rencontres. Je peux tout de même émettre une supposition – Si le dôme de verre est une création de la machine, nous devrions rechercher quelque chose qui ait de même origine.~
+
+@10   = ~Si tu veux que je t'ouvre la porte vers le prochain niveau, il suffit de le dire. Sinon, amuse-toi tout seul avec cette machine infernale. Mais d'abord, trouve toi un autre larbin qui ramassera tes cendres sur le sol !~
+
+@11   = ~Ouvre cette porte, Irenicus. Toute cette histoire me fatigue.~
+
+@12   = ~Non, ne l'ouvre pas encore. Je veux m'amuser avec la Machine.~
+
+@13   = ~J'imagine que tu ne me montreras pas comment elle marche, hein ? Ouvre la porte alors.~
+
+@14   = ~Irenicus, je t'ordonne de m'expliquer comment marche la Machine !~
+
+@15   = ~Non. Je ne gâcherai pas plus de mon temps sur ces absurdités. Il faudrait des années pour faire des recherches sérieuses sur cet artefact. Et je ne suis pas d'humeur à les faire vite et mal.~ [DPJON136]
+
+@16   = ~A tes ordres, enfant divin.~
+
+@17   = ~(Rire) <CHARNAME>, on dirait que tu attires la folie comme la viande pourrie attire les mouches. J'imagine que c'est encore un esprit faible, qui a été brisé lorsqu'il s'est mêlé de la magie.~ [IRENIC92]
+
+@18   = ~Hé, Irenicus, je suis sûr que nous avons tous remarqué... Une certaine répétitivité.~ [IMOEN33]
+
+@19   = ~Que sous-entends-tu, enfant ?~ [DPJON150]
+
+@20   = ~Rien, Glorieuse Horreur Masquée, Seigneur des Egouts d'Athkatla et d'Autres Catacombes Variées.~ [IMOEN15]
+
+@21   = ~Alors arrête de m'interrompre quand je m'adresse à <CHARNAME>.~ [DPJON153]
+
+@22   = ~Ce mage misérable est coincé à l'intérieur d'une machine magique intéressante. L'apparence de cette "machine " correspond à un vieux diagramme que j'ai vu une fois dans un manuscrit traitant de magie planaire.~
+
+@23   = ~Pourquoi papotez-vous entre vous alors que nous sommes en pleine discussion cruciale ?~
+
+@24   = ~Ah, je savais bien que cet objet m'était familier. <CHARNAME>, je pense que cet imbécile empoté a joué avec la machine et en est à présent prisonnier.~
+
+@25   = ~Tu ne sais rien de moi ! Tu ne sais pas ce que je dois faire pour... Pour... Zut, j'ai oublié ma réplique. Elle était excellente en tous cas.~
+
+@26   = ~Ahum. Quoi qu'il en soit, j'étais en train de te dire que je pouvais invoquer des créatures des plans pour me divertir dans ma solitude.~
+
+@27   = ~Etre coincé dans un piège est certainement la manière la plus singulière d'obtenir l'immortalité.~ [IRENIC92]
+
+@28   = ~(Marmonne) C'est toujours mieux que de voler l'âme de quelqu'un et de brûler l'Arbre de Vie jusqu'à ce qu'il n'en reste rien, selon moi.~ [IMOEN35]
+
+@29   = ~Au fait, Irenicus, est-ce que les bocaux de verres sont la dernière grande mode parmi les cinglés accros à la magie ? Je veux dire... Faut-il *absolument* en avoir un pour être nominé mage fou de l'année ?~
+
+@30   = ~Enfant imprudent, arrête de m'interrompre avec tes commentaires inutiles lorsque je parle de problèmes de la plus haute importance !~
+
+@31   = ~<CHARNAME>, je suis sûr que ce vieux ver serait plus qu'heureux de se débarrasser de son "invulnérabilité". Je pense que nous aurons besoin d'utiliser la machine pour sortir de ce niveau.~
+
+@32   = ~Pourquoi continuez-vous à parler entre vous ? Je suis Carston, le Seigneur Immortel de la Cloche de Verre !~
+
+@33   = ~Tu devrais demander à ce stupide vieillard comment utiliser la machine avant de le tuer, mais je doute qu'il soit d'une grande utilité.~
+
+@34   = ~Encore un autre cas de mégalomanie. C'est très commun chez les dragons, j'en suis sûr. C'est le jour de sortie pour les malades mentaux ?~ [IRENIC92]
+
+@35   = ~(Etouffe un rire) Patience, Joneleth. Ce sera bientôt fini.~ [IMOEN35]
+
+@36   = ~En parlant de dragons, Irenicus, j'ai toujours voulu te poser une question à propos de ces oeufs que tu as volé dans l'Ombre-Terre. C'était ton idée ou celle de Bodhi ?~
+
+@37   = ~Bien sûr, c'était *mon* idée depuis le début. Malgré toute son audace, Bodhi a toujours eu un intellect proche de celui d'un xvart. Mais elle était utile pour l'exécution du plan. Pourquoi poses-tu la question, jeune fille ?~
+
+@38   = ~Sais pas. Je suis peut-être simplement curieuse, d'accord ? On pourrait dire que c'est de la curiosité professionnelle... Pourtant, je n'aurais jamais cru que tu étais du genre à voler des choses. Hum... A part les âmes, bien sûr. Pourquoi voler les oeufs du dragon – un reste d'humour elfique ?~
+
+@39   = ~Je n'ai jamais rien entendu de plus absurde que cette dernière hypothèse. Je refuse de faire le moindre commentaire à ce sujet.~
+
+@40   = ~En tous cas, <CHARNAME>, si tu veux retirer la moindre information de ce lézard vaniteux, parle doucement et feins de le "respecter". C'est amusant, les dragons ne résistent pas la plupart du temps à la flatterie la plus basse.~
+
+@41   = ~Le babillage des créatures inférieures peut être très divertissant à écouter. Mais on ne devrait jamais se laisser offenser par leur charabia.~
+
+@42   = ~(Hausse les épaules) Une mort horrible attend souvent les novices dans l'Art. Ils devraient connaître les risques avant d'accepter un apprentissage avec un autre mage. Si tu as été assez stupide pour confier ta vie à un imbécile incompétent tel que ton ancien maître, il faut en payer le prix.~

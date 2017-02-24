@@ -1,0 +1,26 @@
+//LRCHROD
+
+INTERJECT_COPY_TRANS GORCHR 2 LRJONCHR1
+== JONEL25J IF ~InParty("lrirenic")~ THEN
+@0
+END
+
+INTERJECT_COPY_TRANS GORCHR 2 LRJONCHR2
+== JONEL25J IF ~InParty("lrirenic")~ THEN
+@1
+== GORCHR
+@2
+END
+
+INTERJECT_COPY_TRANS GORIMP01 1 LRJONCHR3
+== JONEL25J IF ~InParty("lrirenic")~ THEN
+@3
+== EDWIN25J IF ~InParty("lrirenic") InParty("Edwin")~ THEN
+@4
+== JONEL25J IF ~InParty("lrirenic")~ THEN
+@5
+== GORIMP01
+@6
+END
+
+

@@ -1,0 +1,319 @@
+@0    = ~Tu n'as pas l'air surpris, <CHARNAME>. Très bien. Je t'épargnerai les ennuyeux détails de mon alliance momentanée avec ton dernier opposant. Je dois bien reconnaître cela à Mélissane : elle est aussi persistante qu'une allergie calimshite.~
+
+@1    = ~Tes vantardises ne te fatiguent-t'elles jamais ? Ne t'ai-je pas suffisamment infligé de corrections ? ~
+
+@2    = ~Tu penses vraiment pouvoir m'arrêter ? Il semble que tu te leurres toujours autant malgré toutes les corrections que je t'ai infligé.~
+
+@3    = ~Si tu penses que cette comédie me fatigue moins que toi, tu te trompes. Tu ne m'as pourtant pas laissé le choix. Finissons-en avec ce combat que je puisse retourner à des choses plus importantes, comme planifier ma fuite des abysses.~
+
+@4    = ~Je suis heureux de voir que tu as finalement appris ta leçon, Irenicus. Tu ne me battras jamais, même si tu t'y appliques !~
+
+@5    = ~Qu'est ce qui ne va pas, Irenicus ? L'idée de te battre encore avec moi n'a pas l'air de te réjouir. As-tu finalement appris ta leçon ?~
+
+@6    = ~(Baille) Mélissane a fait certains... Arrangements avec ses alliés dans les abysses et je suis donc obligé de lui obéir, ne serait-ce que pour cette fois. Je me battrai de mon mieux quoi qu'il en soit, mais ne te fais pas d'illusions, enfant divin – Tu n'as plus d'importance dans mes plans. Pourtant, si je réussis à t'arracher ton âme, cela rendra ma fuite plus facile.~ [IRENIC93]
+
+@7    = ~Ce n'est pas... Non... C'est impossible !~ [IRENIC73]
+
+@8    = ~Tu vas maintenant prendre possession du trône de ton père, j'imagine ? Dépêche-toi, enfant. Contrairement à toi, certains d'entre nous doivent encore se battre avant d'obtenir ce qui leur est dû.~
+
+@9    = ~Alors, <CHARNAME>, tu as finalement accepté ce qui te revenait de droit. J'espère que tu excuseras mon manque d'enthousiasme envers ton triomphe. Mais lorsque les portes paradisiaques de l'Arvandor tomberont sous mes coups, je pourrais bien te rendre visite... Pour discuter notre future coexistence sur les Plans.~
+
+@10   = ~<CHARNAME>, puisque tu as été assez idiot pour refuser d'être un Dieu alors que cela t'a été offert sur un plateau, je n'ai rien de plus à dire. Stupide imbécile, lorsque les portes paradisiaques de l'Arvandor tomberont sous mes coups, je rirai de te voir te traîner comme un ver sur le misérable globe qu'est Toril.~
+
+@11   = ~Tandis que le solaire jette son sort, Irenicus est enveloppé d'une brillante aura. Il crie horriblement et vous le voyez agripper son masque de cuir comme s'il avait du mal à respirer. Les épais gants qui couvrent toujours ses mains se désintègrent et tombent en poussière, son masque s'effrite sous ses doigts sanglants, révélant quelque chose auquel vous ne vous attendiez pas...~
+
+@12   = ~Une masse de cheveux aussi pâles que la lune et un visage jeune et excessivement beau... Et pourtant hautain et arrogant, possédant les hautes pommettes et les longues oreilles délicates d'un elfe. Les traits qui émergent du cuir craquelé ressemblent autant à ceux du masque... Qu'un papillon ressemble au cocon sec et flétri qu'il vient de quitter.~
+
+@13   = ~Vous imaginez qu'Irenicus à conçu ce visage macabre selon ses souvenirs du visage qu'il avait vu dans le miroir tous les jours de son ancienne vie. Tandis que vous regardez sa transformation avec une fascination morbide, le solaire incante un autre sort de sa voix spectrale. Le renégat elfique tressaille comme s'il avait été frappé par la foudre et se convulse violemment. Cris et supplications restent sur ses lèvres ; son visage est tordu dans l'expression torturée de la victime crucifiée sur l'établi d'un inquisiteur.~
+
+@14   = ~Vous avez la désagréable impression de regarder une exécution plutôt qu'une guérison et les cris qui sortent de la bouche de l'elfe torturé ne sont plus intelligibles et ressemblent à ceux d'un animal qu'on écorche vif. Vous détournez les yeux, souhaitant que votre ancien ennemi et tourmenteur perde conscience, mais quelque chose vous dit que le Solaire l'oblige à garder pleine conscience de ce qui lui arrive.~
+
+@15   = ~Vous ignorez combien de temps cela dure, vu que l'écoulement du temps dans la petite antichambre qu'on appelle le trône de Bhaal est étrange... Des jours, peut-être des éons, bien que cela semble pour vous seulement quelques minutes. Vous savez cependant qu'Irenicus, ou plutôt Joneleth, est enfermé dans son propre continuum espace-temps.~
+
+@16   = ~Les yeux de l'elfe restent grand ouverts durant toute son épreuve et ce qui se reflète en eux est plus terrifiant que toutes les horreurs des abysses. Lorsque c'est finalement terminé, celui que vous appeliez Irenicus s'écroule sur le sol, aussi flasque qu'une poupée de chiffons et reste complètement immobile.~
+
+@17   = ~Tu ne crois pas en mon pouvoir, je le vois bien. Tu as combattu de terribles ennemis par le passé et tu es toujours arrivé à vaincre... Tu as même réussi à en mettre un de ton coté par quelque machination.~
+
+@18   = ~Es-tu prêt à faire tes propres choix, enfant divin ? ~ [WIZEYE01]
+
+@19   = ~Oui, mais qu'est-il arrivé à Jon ? Est-il mort ? ~
+
+@20   = ~Il survivra, bien qu'il souhaitera bientôt que ce ne soit pas le cas. Afin "d'attacher" sa nouvelle âme, j'ai dû lui faire subir toute la souffrance qu'il a causé depuis sa première attaque sur l'arbre.~
+
+@21   = ~(Frissonne) Alors tu penses avoir *marqué* la compassion en lui ? Je doute que ce soit possible... Mais quoi qu'il en soit, si Jon a dû endurer toutes les tortures qu'il nous a fait subir à moi, à Imoen... et à d'autres, ce n'est pas surprenant qu'il ait l'air mort.~
+
+@22   = ~Je me demande ce qui va lui arriver maintenant ? Il a l'air... Affaibli, quelque part.~
+
+@23   = ~Il vaut mieux ne pas savoir certaines choses. Je ne te demanderai pas les détails.~
+
+@24   = ~Peu importe. Je me soucie peu de lui.~
+
+@25   = ~Oui, <CHARNAME>, après que j'aie lancé le sort, Joneleth a perdu beaucoup d'énergie vitale. Mais la malédiction est levée et son corps a retrouvé son état d'origine, comme les dieux l'avaient promis. L'horrible création qu'il avait fait de son corps à l'aide de la magie a maintenant disparu. Il a également rajeuni car cela fait partie de son nouveau châtiment.~
+
+@26   = ~Certains appelleraient cela une récompense imméritée. Irenicus a pourtant de la chance que la Seldarine ne l'ait pas transformé en bébé tétant le biberon.~
+
+@27   = ~Je ne suis pas sûr qu'il approuve, mais j'imagine que la Seldarine voulait qu'il apprenne la leçon. Il s'est après tout comporté comme un enfant gâté.~
+
+@28   = ~Très approprié. Mais assez parlé de lui. Je veux que nous parlions de ma propre situation.~
+
+@29   = ~Enfant divin, Joneleth était autrefois l'un des favoris de la Seldarine. Il était le mage le plus talentueux né dans le Tel'Quessir depuis la chute de Myth Drannor. Cela a beaucoup ennuyé les dieux Elfiques de le voir réduit à l'état de simple instrument de douleur se détériorant lentement avant de devenir un démon mineur des abysses.~
+
+@30   = ~Ils ont essayé de corriger cette erreur et ont fait passer leur volonté par toi. L'homme appelé Rielev, bien qu'envoyé par Ilmater, était en fait un émissaire de la Seldarine. Ils avaient besoin du consentement de Joneleth mais sa vanité l'aurait empêché de faire un pacte directement avec eux. Une fois qu'ils eurent sont accord, la Seldarine s'est mise en action.~
+
+@31   = ~Tu es presque prêt à faire ton dernier choix, enfant divin. Il te reste cependant encore une tâche à accomplir. <CHARNAME>, afin de décider le sort de ton essence, tu vas devoir libérer de son lien celui que tu appelles Irenicus.~ [WIZEYE01]
+
+@32   = ~Ta destinée est entre tes mains.~
+
+@33   = ~Dis-moi Exilé, qu'a fait l'enfant pour te recruter à son service ? Tu as refusé mon offre et pourtant tu sembles te prosterner à ses pieds, obéissant comme un chien.~
+
+@34   = ~Tu m'ennuies, prêtresse. Je t'ai détesté depuis le moment où je t'ai vu entrer dans les abysses. Je suis heureux d'avoir une autre opportunité de t'en informer.~ [IRENIC92]
+
+@35   = ~Tes insultes sont à peu près aussi creuses et pathétiques que tes menaces ou tes promesses. Il aurait fallu que tu m'offre plus pour mériter une miette de mon attention.~
+
+@36   = ~Est-ce que je me trompe ou as-tu l'air mécontent de ton présent sort, Exilé ? N'aurais-tu pas encore obtenu ce que tu voulais de la part de l'enfant de Bhaal ? Tu peux encore tenter ta chance avec une autre puissance... Une qui appréciera plus tes talents.~
+
+@37   = ~J'imagine que c'est maintenant que je suis censé changer de camp. Je connais cependant bien le clergé de Bhaal et j'ai vu ce que tu as fait à la Main. Franchement, je préfèrerai faire un marché avec des tanar'ri plutôt qu'avec toi. Tu n'es pas une déesse et tu n'en seras jamais une, et je n'ai aucun désir d'être transformer en marionnette sans volonté entre les mains d'une sorcière délirante.~
+
+@38   = ~Alors tu préfères la tendre attention des démons plutôt que de traiter avec moi ? Ton souhait est sur le point d'être réalisé, Exilé ! Démongorgon t'accueillera avec plaisir dans son royaume. Je suis sûre que le prince démon sera tout particulièrement attentif à la manière de traiter un esprit qui a fui, vu qu'il est toujours furieux de l'humiliation qu'il a subi après avoir passé presque la moitié d'un siècle sur le plan primaire, emprisonné par Helm !~
+
+@39   = ~Ah, donc il a honte et préfère que cela reste un secret ? Comme c'est intéressant. Je suis allé à la tour de garde durant ma vie précédente. Grâce à <CHARNAME> et à mes propres... Enquêtes, j'avais presque tous les faits dont j'avais besoin pour résoudre cet intriguant mystère des plans. Tu viens de gentiment m'offrir le dernier indice.~
+
+@40   = ~Vu que ta proposition n'a aucun intérêt pour moi, je suggère que nous brisions là et que nous retournions à nos occupations.~ [DPJON129]
+
+@41   = ~Tes insultes sont à peu près aussi creuses et pathétiques que tes menaces ou tes promesses. Mon alliance avec l'enfant de Bhaal a accompli son but. Ta misérable personne ne m'est d'aucun intérêt.~ [DPJON129]
+
+@42   = ~Exilé, après que je sois devenue déesse, je t'apprendrai l'obéissance. Une leçon si spectaculaire que même les tanar'ri trembleront d'horreur délectable lorsqu'ils en entendront parler. Prépare-toi à rencontrer ton destin !~
+
+@43   = ~Exilé, tu n'as toujours pas l'esprit divin que tu recherchais. L'enfant divin à t'il réussi à te convaincre d'accepter une âme mortelle qui ne serait qu'à toi ou désires-tu toujours une part de l'héritage de Bhaal ?~ [SOLARG02]
+
+@44   = ~J'avais demandé l'âme d'un enfant de Bhaal en tant que paiement pour mon aide dans la quête de <CHARNAME> pour le pouvoir.~ [DPJON127]
+
+@45   = ~Exilé, je sais que tu portes avec toi l'âme d'un enfant de Bhaal mort, enfermée dans une gemme avec son essence divine.~ [SOLARG02]
+
+@46   = ~C'était un arrangement contre-nature... Quoi qu'il en soit, je dois honorer les obligation de <CHARNAME>. Cette portion de l'essence est conséquente, mais je ne puis cependant te la prendre sans ton consentement.~
+
+@47   = ~Relâcheras-tu l'essence en ta possession ou la garderas-tu pour toi ? ~
+
+@48   = ~Je te défie de me priver de ce que j'ai gagné en risquant une éternité dans les abysses. L'âme emprisonnée et sa part d'essence divine m'appartiennent comme il l'était spécifié dans notre contrat avec l'enfant de Bhaal !~
+
+@49   = ~Tu... Tu as fait cela ?! <CHARNAME>, tu as conspiré avec mon pire ennemi derrière mon dos ?! Je te maudis, monstre ! Un jour... Un jour tu *paieras* de ta souffrance pour ce que tu m'as pris en me manipulant et en me trompant !~
+
+@50   = ~<CHARNAME> ! Comment... Comment as-tu pu faire une chose aussi horrible ? Tu as sacrifié l'âme d'un te tes propre frères à ce monstre... Bien qu'ils aient été maléfiques... Te retourneras-tu contre moi ensuite, si cela convient à tes plans ? ~
+
+@51   = ~Quelle... Mais quelle est cette perfidie ? <CHARNAME>, tu as commis un acte incroyablement vil et tu l'as gardé secret ?! N'as-tu pas appris de ta propre souffrance aux mains de ce mage ce que cela signifie de voler l'âme d'un autre être vivant ?  ~
+
+@52   = ~Que Torm m'emporte ! <CHARNAME>, non seulement tu as accompli un acte des plus maléfiques, mais tu nous as aussi tous laissé croire que tu refusais à Irenicus son horrible récompense. Tu es un monstre plus tordu qu'il ne l'a jamais été.~
+
+@53   = ~Je n'aime pas ça, <CHARNAME>, je n'aime pas ça du tout ! Je continuais à espérer que tu le piégerais... Que tu arriverais à lui refuser sa part du marché d'une manière ou d'une autre... Et au lieu de ça... Mais j'imagine que les gens possédant beaucoup de pouvoir comme nous doivent parfois faire des choses qu'il n'aiment pas... J'aimerais pourtant pouvoir t'arrêter...~
+
+@54   = ~<CHARNAME>, tu as commis un acte des plus maléfiques et tu nous l'as caché à tous ! Je suis horrifiée à l'idée que j'ai pu t'aider à accomplir ta victoire et à te saisir du pouvoir du véritable héritier de Bhaal !~
+
+@55   = ~<CHARNAME>, tu nous as tous trompés. Si j'avais été au courant de la récompense que tu as accordé à ton petit nécromancien, je t'aurais transpercé de mon épée plutôt que combattu à tes cotés.~
+
+@56   = ~Ton souhait contre nature est accompli, espèce de fou, et je doute que tu écouteras mon avertissement maintenant que tu te crois victorieux. Mais pas plus qu'une bête écorchée ne peut emprunter la fourrure de son frère encore en vie, un homme ne peut prendre pour sienne une âme qui n'est pas à lui. Elle te trahira tôt ou tard, Irenicus.~
+
+@57   = ~Alors le mage survit avec une belle récompense à la clé. Ses plans échoueront probablement, mais quoi qu'il en soit, sois méfiant, <PRO_BROTHERSISTER>. Contrairement à moi, il aura peut être une raison et l'opportunité de t'attaquer encore si un jour il réussi à atteindre ses buts.~
+
+@58   = ~<CHARNAME>, c'est... Dérangeant et cela pourrait bien se prouver être désastreux pour nous tous ! J'ai vu mes fautes, mais ce... Ce n'est pas son cas. Si Irenicus n'échoue pas dans ses plans, il sera un grand danger, non seulement pour les Royaumes, mais aussi pour tous les plans.~
+
+@59   = ~Quoi ?! <CHARNAME>, tu as vraiment donné l'âme d'un de tes frères et tu as réussi à me le dissimuler ? Croyais-tu que je ne le découvrirai jamais ? Tu... Tu... Et je *pensais* que j'avais un <PRO_BROTHERSISTER> en qui je pouvais avoir confiance !~
+
+@60   = ~Très bien, Exilé, tu peux garder ta récompense. Je ne peux pas prévoir le futur... Mais je peux sentir que ce "trésor" ne t'apportera rien d'autre que plus de souffrance, pour toi et pour ceux sur qui tu te vengeras. Et pourtant, ce sera un comme... Un point final.~
+
+@61   = ~Epargne-moi ta sagesse, mite céleste. J'ai payé cette âme divine d'une souffrance telle que tu ne pourras jamais l'imaginer et encore moins endurer. Le pouvoir de l'Arbre sera mien et JE L'AURAIS !~
+
+@62   = ~Mais je ne désire plus cette récompense.~ [WIZEYE02]
+
+@63   = ~<CHARNAME>, tu n'es même pas encore un vrai dieu... Et pourtant tu as accompli ton premier vrai miracle, peut-être l'acte le plus difficile et le plus étonnant dans la longue liste de tes victoires. Je suis fier d'avoir guidé un esprit aussi brillant et compatissant que le tien.~
+
+@64   = ~Exilé, ton marché avec <CHARNAME> arrive à sa fin. En retour, tu vas te voir offrir un âme mortelle qui t'appartiendra et ta malédiction sera levée. J'informerai les dieux elfiques qu'une part de ta dette envers l'enfant divin auquel tu as autrefois volé l'âme à été payée.~
+
+@65   = ~Quoi ?! Es-tu en train de me dire que le dieu mutilé de Rielev a joué le médiateur entre moi et la Seldarine ?! Je refuse de ! Je... Je suppose que j'aurais dû m'en douter...~
+
+@66   = ~La Seldarine... Ils ne m'accepteront jamais. Je n'espère pas la moindre clémence venant d'eux et mon humiliation ne sera qu'une farce inutile de plus.~
+
+@67   = ~La Seldarine a entendu tes supplications, Exilé. Tu vas maintenant entendre leur réponse.~
+
+@68   = ~Exile, toi qui a autrefois été de notre sang, tu as été séparé de l'esprit elfique suite à ton crime atroce contre l'Arbre de vie et les coutumes elfiques. Pourtant cela ne t'a pas empêché de continuer tes crimes et de causer douleur et souffrance à nos Enfants et à tout Toril. Veux-tu obtenir la rédemption de tes crimes ?~ [WIZEYE02]
+
+@69   = ~Non !... Oui... Je ne peux... Vous ne pouvez pas me faire cela ! Je... je refuse...~
+
+@70   = ~Sois courageux, Exilé. La rédemption ne peut pas être faite à moitié. ~
+
+@71   = ~Tu t'es perverti tout seul, trahissant notre confiance et blessant ceux qui avaient remis leur sort entre tes mains. Nous souhaitons que tu connaisses l'agonie de ceux que tu as blessé.~
+
+@72   = ~Et pourtant nous souhaitons également que tu comprennes tes crimes. Une punition bête et méchante est inutile et afin de percevoir et de comprendre la souffrance, il faut en avoir les moyens.~
+
+@73   = ~On ne peut s'attendre à ce qu'un sourd s'y connaisse en musique... Pas plus qu'un elfe sans âme ne peut ressentir du remords. Je reconnais donc que la Seldarine à fait une erreur en te coupant de l'esprit collectif.~
+
+@74   = ~Tu es sincère ? ~
+
+@75   = ~Oui, même les dieux ne sont pas immunisés à la vengeance et Rillifane avait pris parti. Il a faussé notre jugement et a insisté sur ce verdict qui n'a satisfait ni raison ni justice. Par tout ce qui est juste, tu aurais dû être exécuté pour ton crime.~
+
+@76   = ~Ah, et vous allez à présent corriger cette "erreur" ? ~
+
+@77   = ~Exilé, tu sautes encore aux conclusions, comme à ton habitude. Après que tu aies été séparé de l'esprit, ton âme à saigné à mort tandis que tu ne faisais rien pour la soigner et qu'au contraire, tu te complaisais dans ta chute.~
+
+@78   = ~Il se peut que le choc ait été trop dur, personne n'aurait pu survivre aussi longtemps que tu l'as fait. Ton âme est à présent morte... desséchée... Tu ne pourras jamais la récupérer. Ce que je t'offre à la place est une âme mortelle qui te sera octroyée sur notre demande par notre allié humain – Le dieu en pleurs, le seigneur Ilmater. Tu penses que c'est par pitié ? Mais elle sera à toi seul et donnée librement, pas volée.~
+
+@79   = ~Une fois que tu auras appris à de nouveau ressentir, peut-être pourras-tu refaire ton chemin et retourner en Arvandor ? Je peux promettre que si dans le futur tu acceptes la responsabilité de tes péchés et que tu te rachètes à nos yeux, nous restaureront ta connection à l'esprit elfique. Acceptes-tu ? ~
+
+@80   = ~Je ne peux... Oui... J'accepte.~
+
+@81   = ~Ainsi soit-il ? ~ [WIZEYE02]
+
+@82   = ~Le seigneur Ilmater et la Seldarine vont à présent agir par mes mains.~ [SOLARG01]
+
+@83   = ~Je désire toujours cette récompense.~
+
+@84   = ~<CHARNAME>, tu as promis à Irenicus l'âme d'un enfant de Bhaal et il est à présent temps de payer ta dette.~
+
+@85   = ~Exilé, tous les enfants de Bhaal sont morts ou ont abandonné leur essence sauf un. Ce qui est parti dans le puits d'essence l'est pour de bon et contrairement à Amélissane, <CHARNAME> n'a jamais appris à manipuler l'essence suivant son bon vouloir. Comment comptes-tu obtenir ce qui t'es dû ?~
+
+@86   = ~Puisque ce stupide imbécile a tenté de me refuser ce qui m'était promis, je veux son âme comme paiement !~
+
+@87   = ~<CHARNAME>, tu sais que ta promesse te lie. Qu'as-tu à dire pour ta défense ?~
+
+@88   = ~Tu ne peux pas être sérieux ! J'ai remporté la victoire, il a perdu ! C'est ainsi que cela devait se passer depuis le début, n'est-ce pas ?!!~
+
+@89   = ~C'est une stupide plaisanterie ou quoi ? Ça suffit ! Renvois-le dans les abysses. Je refuse de continuer cette comédie !~
+
+@90   = ~Je suppose que tu as raison... Je n'aurais pas dû essayer d'utiliser Irenicus puis essayé de lui refuser ce que je lui avais promis... Mais ce qui est fait est fait. Irenicus, vieux renard, fais de ton mieux. Je suis assez <PRO_MANWOMAN> pour payer mes dettes !~
+
+@91   = ~<CHARNAME>, tu ne lui as promis que de l'espoir... Et tu as échoué.~
+
+@92   = ~Exilé, vu que ta part du marché avec l'enfant divin est rempli, tu as l'opportunité de faire la paix avec tes dieux et d'accepter une âme mortelle en te repentant de tes péchés et en t'en remettant à la Seldarine. Saisiras-tu cette opportunité ? ~ [SOLARG02]
+
+@93   = ~Jamais ! Je défierai la Seldarine et son jugement durant l'éternité, dans les abysses et au-delà.~
+
+@94   = ~Je savais que ça allait finir ainsi et j'avais raison ! <CHARNAME>, toutes tes tentatives à rectifier la perfidie d'Irenicus étaient vains depuis le début. Je suis heureuse que ce monstre soit de retour dans les abysses, là où il doit être et pourtant mon coeur souffre... L'esprit sans repos de Khalid me pardonnera-t'il un jour d'avoir toléré son meurtrier durant si longtemps ? Je... Tu... <CHARNAME>, la douleur que tu m'as fait subir n'était pas nécessaire.~
+
+@95   = ~Encore une fois... Encore une fois l'Exilé refuse la grâce qu'on lui offre ? Si seulement il pliait le genou et demandait pardon à la Seldarine et à la reine Ellesime, tout serait si simple... N'est-ce pas ?~
+
+@96   = ~Alors, Irenicus préfèrerait retourner en enfer plutôt que de demander pardon pour une fois ? Je ne suis pas surpris car la fierté à toujours été sa faiblesse et une vengeance finit par obséder au fil du temps. J'ai appris cette leçon à temps, mais pas lui, pas plus que mon père. ~
+
+@97   = ~Alors, Irenicus crache dans l'oeil de la confrérie des dieux elfique, n'est-ce pas ? Ha ! ça a beau être stupide, on ne peut pas dire qu'il est lâche. Et parfois, il faut savoir suivre son coeur, même si le reste du monde pense que l'on fait une erreur, comme je l'ai appris par moi-même. ~
+
+@98   = ~C'est toujours sympathique de se débarrasser des mages fou, c'est tout ce que j'ai à dire. (Je ne vois toujours pas pourquoi <CHARNAME> à voulu s'encombrer de ce vieil elfe désaxé alors que ma magie est à sa disposition.)~
+
+@99   = ~Il refuse ?! Dans un choix entre une éternité en enfer et être un simple mortel, il refuse ? Cela semble insensé et pourtant, tout le monde semble penser qu'il est très intelligent. Quel pouvoir va-t'il pouvoir retirer de tout cela, je me le demande.~
+
+@100  = ~Tu trouves un peu dur de devoir dire que tu es désolé, Jon-bon ? Mon cousin décédé, Dobbo Jansen, avait le même problème. Il poussa toute la famille à aller chasser le navet dans les montagnes de Cloudpeak, tu vois, et il jurait sur sa mère qu'il savait qu'il y avait des champs de navets qu'on pouvait piller là-bas. Et bien, après quelques mois, on n'avait trouvé aucun navet, juste quelques kobolds en colère qui n'aimaient pas qu'un groupe de gnomes se baladent sur leur territoire. "Allons Dobbo", avons-nous dit tandis que nous retirions les flêches enflammées de nos jolis culs de Jansens, "nous savons que tu as menti, tu n'as qu'à dire que tu es désolé. Nous retournerons tous à la maison et on oubliera tout."~
+
+@101  = ~Mais non, Dobbo continua d'insister à propos des navets et se mit en colère en disant que nous n'étions que de misérables traîtres en cheville avec les kobolds. Il n'a jamais été très doué pour dire pardon, Dobbo, même lorsque nous avons vérifié sa "carte secrète" qui lui avait été soit disant donné par Elminster et qu'il avait faite lui-même. Il a juste prétendu que c'était une conspiration pour lui donner mauvaise réputation et que nous étions de mauvais et de méchants Jansen pour oser douter de lui. Oh, et il m'a appelé "gros nez". Le pauvre Dobbo n'a jamais été très bon pour trouver de bonnes insultes. Quoi qu'il en soit, il est parti tout seul et s'est retourné pour nous jurer qu'on le regretterait lorsque on verrait tous les navets qu'il allait rapporter à la maison. Dommage qu'il y ait eu cette falaise en pente raide juste devant lui – Mais j'imagine que les gens qui ne disent pas souvent "pardon" tombent souvent de haut.~
+
+@102  = ~Malgré toutes ses vantardises et son panache, Irenicus n'était pas aussi puissant que toi, mon <PRO_BROTHERSISTER>. Je l'ai finalement battu. Chacun d'entre nous est venu à toi, humblement et cherchant un accord. Mais il a chuté encore une fois, et j'ai triomphé !~
+
+@103  = ~Et donc, <CHARNAME>, tu n'as pas pu le sauver de lui-même comme tu l'as fait pour moi, juste parce qu'Irenicus n'a jamais pu admettre qu'il avait tort comme je l'ai fait. Je... Je le regrette. Oui, je ne l'ai jamais aimé mais... Il ne méritait pas ça.~
+
+@104  = ~Tout comme un loup enfermé même dans l'habitation humaine la plus plaisante s'ennuierait de la fôret, cette créature des abysses ne peut pas rester avec nous. Il retourne à présent vers son élément. Tu as fait se balancer le pendule, <CHARNAME> et il est allé ici et là mais au final, il est revenu à sa position d'origine.~
+
+@105  = ~Retour dans les abysses la tête la première, tout comme la première fois... Dis-moi, petit <PRO_BROTHERSISTER>, tu n'as pas l'impression d'avoir déjà vécu tout ça ? Pourtant son choix m'attriste quelque part... Comme si nous aurions pu changer les choses cette fois... Et que nous avons échoué.~
+
+@106  = ~Qu'il en soit ainsi. Il n'y a rien de plus à dire et mon devoir est d'appliquer un marché, pas de juger.~
+
+@107  = ~Je suis désolé, enfant divin, mais une promesse est une promesse. J'ai été envoyé afin de t'apprendre les lois divines et j'ai échoué. J'accepte la responsabilité de mon échec. Je suis juste là pour veiller à la fin de l'histoire des rejetons de Bhaal, pas pour interférer.~ [WIZEYE01]
+
+@108  = ~Exilé, tu peux prendre ce qui t'appartient.~
+
+@109  = ~(Presque avec affection) Ne t'inquiète pas, ça ne durera pas très longtemps.~ [IRENIC82]
+
+@110  = ~J'imagine qu'il n'y a aucune chance que tu refuses l'essence de Bhaal à présent, Exilé ? ~ [SOLARG01]
+
+@111  = ~Horripilant insecte céleste, pourquoi me poser cette question ? Oui, je vais prendre l'héritage de ce crétin arrogant à présent et je vais devenir un Dieu à sa place.~
+
+@112  = ~Après cela, j'irais voir mon "aimée" et je m'emparerai également du pouvoir de l'Arbre.~ [IRENIC85]
+
+@113  = ~N-nooon ! C'est impossible, je ne le permettrai pas ! Tu ne m'arracheras pas le coeur de la poitrine une deuxième fois, monstre ! Je... Je te tuerai d'abord... <CHARNAME>, REGARDE CE QUE TU T'ES FAIT, stupide enfant !~
+
+@114  = ~Qu'est ce que c'était ? M-mon amour, que t'est-il arrivé ? Irenicus, je sais que ta vilénie n'a pas de limite... Mais... Comment oses-tu défier la volonté des dieux en plein milieu du plan qui appartient à <CHARNAME> ? Que lui as-tu fait ! J'exige de le savoir !! Réponds-moi !!~
+
+@115  = ~M-mon mrannd d'ssinss'... Que lui est il arrivé ? Vreg'nth darthiir, je vais t'arracher les entrailles et danser sur ta carcasse sanglante !~
+
+@116  = ~Mon amour... Que se passe-t'il ? Où es-tu ? Que fait-il à ton... ton... où es-tu, <CHARNAME> ?!~
+
+@117  = ~Il est temps pour toi de mourir, mage. Ce sera aussi lent et douloureux qu'un thayvian peut le faire. Je ne plaisante plus, tu vas devoir affronter la véritable fureur d'Edwin Odesseiron, imbécile simien !~
+
+@118  = ~N-nooon ! C'est impossible, je ne le permettrai pas ! Et ma promesse à Gorion ? <CHARNAME>, REGARDE CE QUE TU T'ES FAIT, stupide enfant !~
+
+@119  = ~Qu'est ce que c'était ? Irenicus, je sais que ta vilenie n'a pas de limite... Mais... Comment oses-tu défier la volonté des dieux en plein milieu du plan qui appartient à <CHARNAME> ? Que lui as-tu fait ! J'exige de le savoir !! Réponds-moi !!~
+
+@120  = ~Par les lames jumelles de Shar, c'était une trahison à l'échelle divine. Je suis impressionnée. Darthiir, tu es une puissance avec laquelle il faut compter.~
+
+@121  = ~Qu'as-tu fait à notre chef, misérable monstre ?! Par la barbe de Helm, je vengerai <CHARNAME> même si je dois mourir ici aujourd'hui !~
+
+@122  = ~N-Non, tu ne t'en tireras pas comme ça. Pas cette fois ! Pas après que je me sois finalement débarrassé de cette stupide souillure de Bhaal. Irenicus, je vais t'arracher ton masque et ramener mon <PRO_BROTHERSISTER>, quel qu'en soit le prix !~
+
+@123  = ~Vile abomination, qu'as-tu fait à <CHARNAME> ?! On ne te permettra pas de parcourir les plans en tant que nouvelle incarnation de Bhaal ! Je vais t'arrêter maintenant, même si cela doit me coûter la vie !~
+
+@124  = ~Je savais que <CHARNAME> était en danger depuis le moment où <PRO_HESHE> l'a pris dans le groupe ! Tu payeras pour ton injustice, vile abomination. Par tout ce qui est juste et bon – Tu ne partiras pas d'ici tant que je respire !~
+
+@125  = ~C'est le dernier moment pour s'interposer. Nécromancien, par tout ce qui est juste, tu seras bientôt mort à nouveau.~
+
+@126  = ~C'était un pari des plus risqués, mon corbeau. Mais vu que tu as permis à Irenicus d'être plus malin que toi dans cette histoire, je ne vois pas pourquoi je devrais t'aider en me faisant tuer aussi.~
+
+@127  = ~<PRO_HESHE>, où est-tu parti cette fois ? Bouh s'inquiète !~
+
+@128  = ~Encore ? Je pourrais presque appeler ça un cycle mais ce n'est pas... C'est définitif à présent. Ton souhait contre nature est accompli, espèce de fou, et je doute que tu écouteras mon avertissement maintenant, à l'heure de ton abominable triomphe. Mais pas plus qu'une bête écorchée ne peut emprunter la fourrure de son frère encore en vie, un homme ne peut prendre pour sienne une âme qui n'est pas à lui. Elle te trahira tôt ou tard, Irenicus.~
+
+@129  = ~Espèce d'imposteur, comment oses-tu voler l'héritage de mon <PRO_BROTHERSISTER> à l'instant même de son triomphe ultime ? Je ne vais pas te laisser partir avec ce qui était autrefois à moi ! Tu n'as aucun droit au trône du seigneur du Meurtre – Tu n'es même pas un rejeton de Bhaal !~
+
+@130  = ~Irenicus, je ne te laisserai pas partir après que tu aies repris l'âme de mon <PRO_BROTHERSISTER>. <PRO_HESHE> à été la seule personne à me tendre la main en ce monde, m'aidant à me relever lorsque j'étais à genoux. Je vengerai <CHARNAME> car c'est véritablement ma famille !~
+
+@131  = ~Silence, vermines. Soyez reconnaissants que votre misérable existence ne vaille pas la peine que je perde mon temps avec vous.~
+
+@132  = ~Silence, ver. Sois reconnaissant que ta misérable existence ne vaille pas la peine que je perde mon temps avec toi.~
+
+@133  = ~Céleste, j'espère que tu vas t'occuper de ces... Nuisances. Je veux que les serviteurs de ce stupide fou mort soient renvoyés dans le plan primaire.~
+
+@134  = ~Je regrette ce qui va se produire, cela va sans dire, mais le malchanceux enfant ne m'a pas laissé le choix.~
+
+@135  = ~Qu'il en soit ainsi.~
+
+@136  = ~Quant à ce qu'il va advenir de lui... Seul le temps nous le dira. Il a un libre arbitre et une âme à lui. Lorsque j'aurais fini avec toi, je le renverrai dans le plan primaire, comme le souhaite la Seldarine.~
+
+@137  = ~Oui, <CHARNAME>, je suis satisfait. Autrefois je pensais que voir Irenicus mourir mille fois ne suffirait pas à le faire payer pour... Pour le meurtre de Khalid. Mais vu qu'il a dû en fait subir toute ses... Expériences et sentir chaque coupure de couteau, chaque brûlure... Je me sens... Mieux.~
+
+@138  = ~Je ne l'ai pas vu *vraiment* changer. Mais je pense à présent que c'est possible... Avec le temps. Il est certain que la grande balance est mieux servie ainsi.~
+
+@139  = ~Hé, <CHARNAME>, je peux l'appeler *jeune homme* ? Il a l'air plutôt mignon. Non, je ne devrais pas jubiler. (soupir) Mais c'est un châtiment qui lui convient. Il traitait toujours les autres *d'enfants ignorants* ou de trucs dans ce genre là. Humm... Je me demande ce que Gorion en aurait pensé.~
+
+@140  = ~<CHARNAME>, t'ai-je déjà raconté l'histoire de mon cousin ClignePierre Jansen et du griffon ? ça ce passait il y a très longtemps au temps des troubles, lorsque les dieux frappaient à ta porte tous les quinze jours pour venir boire un thé de navet et que la magie chaotique apparaissait partout, comme les champignons dans la cave d'oncle Gerhard.~
+
+@141  = ~Cousin Cligne était pourchassé dans la campagne par un griffon en colère lorsqu'il tomba sur un coin tapissé de pissenlits mauves et de petits poissons frétillants qui poussaient sur les arbres. Cligne n'avait pas grand-chose d'un mage, mais il était capable de reconnaître de la magie chaotique quand il la voyait à l'oeuvre. Il n'avait rien à perdre – le griffon était déjà presque sur lui et déjà en train de réfléchir à la partie de l'anatomie de Cligne qui était la plus appétissante (en fait, il n'en avait pas, vu qu'il a toujours été aussi mince qu'un bout de bois, mais va dire ça à un griffon affamé.)~
+
+@142  = ~Alors il se tourna vers le griffon et lança un missile magique qu'il gardait sous le coude. Boum ! Un rayon de mort frappa le griffon et lorsque la fumée disparut, il y avait un petit lapin rose à l'air très mignon au milieu de la clairière.~
+
+@143  = ~Incidemment, on a jamais su ce qu'il était advenu du griffon.~
+
+@144  = ~C'est ce qui arrive lorsqu'on laisse les males faire ce qu'ils veulent : ils se ruinent tout seuls. Ellesime aurait dû utiliser un bâton à tentacules là où je pense plutôt que cette stupide malédiction. Vu son nouveau postérieur bien fichu, cela aurait pu être une expérience fort plaisante.~
+
+@145  = ~Alors même un monstre maléfique comme Irenicus peut être racheté. C'est la voie des dieux. Je vais prier le vigilant et y réfléchir.~
+
+@146  = ~Alors il restait un grain de bonté en lui. <CHARNAME>, je suis sûr que c'est le contact avec ton âme pure et divine qui a provoqué ce changement chez lui.~
+
+@147  = ~Ah, <CHARNAME>, si tu as réussi à pardonner quelqu'un comme lui, il y a de l'espoir pour chacun d'entre nous. Pourtant je tremble à la penser de ce qui est à venir. ~
+
+@148  = ~I-il avait un lien à l'esprit elfique et l'amour de la reine et il a tout laissé tombé pour quelque chose d'aussi vain et chimérique que la quête de la divinité. A présent qu'il possède l'âme mortelle d'un humain, j'espère qu'il a appris sa leçon et qu'il va essayer de redevenir ce qu'il était.~
+
+@149  = ~C'est ce à quoi Irenicus ressemblait "avant" qu'il ait mis son masque ? j'imagine que ce n'est pas étonnant qu'il soit devenu fou après la malédiction.~
+
+@150  = ~<CHARNAME>, je trouve ironique qu'Irenicus, qui autrefois menaçait ton existence même, soit maintenant consigné dans un corps adolescent. C'est une histoire qui ferait une bonne ballade, mon corbeau. Je répendrai la chanson de tes faits à travers les plans et au-delà. (commence à fredonner)~
+
+@151  = ~Ces fichus oreilles en pointe n'y comprendront jamais rien. Coupez sa tête et qu'on en finisse ! Je suis volontaire pour le faire !~
+
+@152  = ~Minsc se demande où est Irenicus ? Et qu'est-il arrivé au garçon elfe ? Bouh dit qu'il a l'air malade !~
+
+@153  = ~Par Torm, j'espère qu'Irenicus prendra plus soin de sa nouvelle âme que de celle qu'il a perdu. Il y a des chances que cela arrive, pourtant je prierai pour lui.~
+
+@154  = ~C'est un châtiment convenable pour un crétin ignorant qui estimait que son intelligence était supérieure à la mienne. (Mais moi je l'aurais pluôt changé en babouin !)~
+
+@155  = ~Irenicus pourra peut-être s'en sortir maintenant que son esprit est libre de la magie nécromancienne corruptrice. Pourtant, connaissant son histoire, je ne parierais pas là-dessus.~
+
+@156  = ~Par le pouvoir d'Arvoreen, il a eu ce qu'il méritait !~
+
+@157  = ~ (rire sarcastique) <CHARNAME>, tu as toujours eu l'habitude de traverser les plans en laissant un sillage d'injustices corrigées et d'ennemis rachetés derrière toi ? Quoi qu'il en soit, je crois que je m'en suis bien tiré.~
+
+@158  = ~Un filet d'eau creuseraient des cavernes dans la roche si on les laissait travailler pendant quelques siècles. Telle est la voie de la Nature. La grande balance trouvera toujours un moyen.~
+
+@159  = ~J'imagine que tu as eu assez de temps pour réfléchir à ta propre situation, enfant divin ?~ [SOLARG02]
