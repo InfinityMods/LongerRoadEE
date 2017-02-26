@@ -66,6 +66,8 @@ ADD_JOURNAL @51 @53 @54 @56 @57 USING ~LongerRoadEE/tra/%LANGUAGE%/Jonel25J.TRA~
 
 ADD_JOURNAL @71 @85 @95 USING ~LongerRoadEE/tra/%LANGUAGE%/LRRielev.TRA~
 
+ADD_JOURNAL @9 @22 @25 USING ~LongerRoadEE/tra/%LANGUAGE%/LRAbaia.TRA~
+
 COPY_EXISTING ~botsmith.cre~ ~override/botsmith.cre~
      WRITE_ASCII 0x34  ~CespS~
      
