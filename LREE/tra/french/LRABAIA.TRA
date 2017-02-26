@@ -1,0 +1,101 @@
+@0    = ~Hé, l'aventurier, qu'est-ce que tu en penses ? Il prétend que tout change alors que je dis qu'on ne peut altérer la nature de quelqu'un !~
+
+@1    = ~Qu'est-ce que tu racontes, créature ? Je ne vois personne d'autre ici à part ta misérable personne !~
+
+@2    = ~Bien sûr. Tout le monde peut changer – même toi. Maintenant calme-toi et parlons affaire. Ne serais-tu pas la bebilith qui a avalé l'Etincelle de la déva, par hasard ?~
+
+@3    = ~Non, je ne crois pas. Un démon reste un démon, quoi qu'il en soit. A présent, vas-tu me donner l'Etincelle volontairement ou vais-je devoir te trancher en deux et fouiller tes boyaux pour l'obtenir ?~
+
+@4    = ~Tu vois, je te l'avais dit, tu n'existes pas ! Maintenant sort de ma tête, faible pleurnichard, et va remuer ta boîte à os ailleurs !~
+
+@5    = ~ (Chante)
+
+Marie avait un petit agneau
+
+Petit agneau, petit agneau
+
+Mary avait un petit agneau
+
+Sa toison était blanche comme des os~ [MARY]
+
+@6    = ~Et chaque fois qu'elle détournait son regard
+
+Détournait son regard, détournait son regard
+
+Chaque fois qu'elle détournait son regard
+
+Sûr de grandir était l'agneau~ [MARY]
+
+@7    = ~(Chante)
+
+Pourquoi l'agneau aime tant Marie ?
+
+Tant Marie ? Tant Marie ?
+
+Pourquoi l'agneau aime tant Marie ?
+
+L'enfant affamé pleure.~ [MARY]
+
+@8    = ~Parce que Marie lui donne des coeurs d'enfants,
+
+De jolis petits yeux, ce genre de gourmandises.
+
+Parce que Marie lui donne du sang pour s'abreuver
+
+Pas de réponse de la part du professeur.~ [MARY]
+
+@9    = ~La bebilith folle
+
+J'ai trouvé Abaia, la bébilith folle qui a accidentellement avalé l'Etincelle de la déva. Le démon est dément et je n'arrive pas à comprendre ses divagations.~
+
+@10   = ~Je dis que cela va à l'encontre de l'ordre naturel des choses. D'après toi, un Balor pourrait décider d'abandonner sa fourberie et devenir un sous-fifre du Mont Céleste ? Et après tu vas dire que *je* pourrais changer également. Je suis une bébilith ! Tu vois ces griffes et ces mandibules ? Une bébilith, te dis-je !~
+
+@11   = ~(Pleure) Du moins *J'étais* une Bebilith... Ai, ça fait mal, ça fait mal, ça fait mal... ÇA FAIT TELLEMENT MAL !!! Pourquoi ça fait mal ?~
+
+@12   = ~Arrête tes divagations insensées, démon, et réponds à mes questions. Ton nom est-il Abaia ? Vas-tu coopérer ou vais-je devoir te forcer à me donner l'Etincelle ?~
+
+@13   = ~Malédiction ! Le démon est complètement dément. Réponds-moi, créature, ou tu feras face à la colère du Véritable Héritier de Bhaal ! Qu'as-tu fais de l'Etincelle de la déva ?~
+
+@14   = ~Hmm, peut-être que ça te fait mal parce qu'à présent tu as une conscience ? Peut-être puis-je t'aider, si tu viens avec moi.~
+
+@15   = ~Arrête de faire semblant, démon. Rien ne peut changer l'ordre naturel des choses. Le bien reste le bien et le mal reste le mal. A présent, j'ai besoin de savoir ce que tu as fait de l'Etincelle de la deva.~
+
+@16   = ~Pourquoi Abaia devrait venir avec toi, aventurier ? Tu n'es pas lui, pas lui, pas lui. La deva est morte. Ma lâcheté l'a tué !~
+
+@17   = ~Parles-tu d'Ybdiel, créature ? Il est avec moi. Maintenant arrête de divaguer et aide-moi à vous aider tous deux.~
+
+@18   = ~Tu peux rester là, je m'en fiche, mais ne t'en prend pas à moi si ça continue à faire mal.~
+
+@19   = ~Ça suffit avec cette plaisanterie. Je crois que tu ne comprends que le langage de la force.~
+
+@20   = ~La déva est avec toi ? Laisse-moi, laisse-moi, laisse-moi le voir ! Ouiii, je peux sentir son sang. Il est vivant.~
+
+@21   = ~Laisse-moi le porter. Abaia prendra soin de la déva, Abaia suivra, Abaia fera tout ce que tu dis, aventurier. Enlève-moi cette chose et fais cesser la douleur !~
+
+@22   = ~Un étrange allié
+
+Irenicus m'a poussé à parler avec le démon et maintenant la bébilith voyage avec nous... Et nous aide à prendre soin de la déva. Avec toute la démence qui m'entoure chaque jour, je me dois de me demander où va le monde. Bah ! Je devrais cesser d'écrire pour retourner expliquer ce qu'est le "bien" et pourquoi ça fait "mal" au démon qui se complait dans le misérabilisme et les remords. Pourquoi les dieux n'ont-ils pas choisi quelqu'un d'autre pour cette stupide tâche ?~
+
+@23   = ~Punis-moi de ma culpabilité !~ [CHILM04]
+
+@24   = ~Il est mort, il est mort, il est mort ! Aventurier, tu arrives trop tard. Abaia doit suivre maintenant. Abaia doit suivre la déva vers les plans !~
+
+@25   = ~Je n'ai pas pu trouver tous les objets de l'Accord à temps pour sauver la déva Ybdiel. Après que la déva soit morte, la bébilith a également disparu et Irenicus m'a accusé d'avoir tout fait rater. Oh bah, on ne peut pas plaire à tout le monde...~
+
+@26   = ~Ce démon parle comme un Chaoteux. Je suis curieux de savoir... Non, c'est impossible. Quoi qu'il en soit, <CHARNAME>, fais attention à ta réponse.~
+
+@27   = ~Arrête de parler, aventurier, ça fait mal !~
+
+@28   = ~<CHARNAME>, ce doit être le spécimen que nous cherchons. Ses entrailles brillent d'une lumière céleste. Aucun démon normal n'aurait cela... Tu peux en croire mon expérience en la matière. Je te conseille d'y aller en douceur. Prend l'air amical et engage la conversation avec la créature.~
+
+@29   = ~C'est étrange. Je me demande si je ne devrais pas... Non, non, *je* serais sûrement capable de régler ce genre de chose insignifiante.~
+
+@30   = ~Ah, ça fait mal !~
+
+@31   = ~(Tressaille) C'est étrange. Je me demande si je ne devrais pas... Non, non, sûrement un véritable rejeton de Bhaal sera capable de régler ce genre de chose insignifiante.~
+
+@32   = ~Un spectacle vraiment drôle, mais également une maîtrise désastreuse d'une situation délicate, enfant divin. Quoi ? Ne me fixe pas comme si je te devais une âme, essaye encore.~
+
+@33   = ~Excellent. <CHARNAME>, jusqu'ici tu t'es vraiment très bien débrouillé. A présent il te faut trouver une méthode pour extraire l'Etincelle du démon. J'aurais quelques propositions de intéressantes, une fois que tu seras prêt à passer à l'action.~ 
+
+@34   = ~Quoi, c'est ça ta maladroite "résolution" de cette situation ! A présent le démon est mort et nous ne pouvons plus récupérer l'Etincelle. Tu as tout ruiné, enfant divin, oui, tu as vraiment tout raté. J'espère vraiment que tu ne feras pas de même avec ma tentative d'obtenir une âme de Rejeton de Bhaal !~

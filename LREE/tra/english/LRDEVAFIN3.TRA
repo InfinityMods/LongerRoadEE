@@ -1,0 +1,26 @@
+@0    = ~That was a cruel choice, <CHARNAME>... but it was yours to make. Farewell.~ [nymph118]
+@1    = ~Farewell, godchild. I fear I cannot congratulate you on your chosen path.~ [nymph210]
+@2    = ~Ah, you have made your path longer... by a few lifecycles, no less. Remember that even a new deity of Murder can die and return the Great Wheel. Still, I believe you will eventually come back to your true self. Farewell to you. Farewell to you too, Broken One.~ [nymph319]
+@3    = ~(cries) Ai, what have you done, mortal! You have killed the potential for goodness that was in the Bebilith... I am grateful for your help, but my heart will be forever mired in sadness. I will never forgive myself for being the reason behind this sacrifice...~ [deva3]
+@4    = ~That was a rational choice, <CHARNAME>... but it was yours to make. Still, please accept this parting gift and fare thee well.~ [nymph120]
+@5    = ~Ah, you have made your path longer... by a lifecycle maybe. Remember that even a new deity of Murder can die and return the Great Wheel. Still, I believe you will eventually return to your true self. Farewell to you. Farewell to you too, Broken One.~ [nymph319]
+@6    = ~(bawls) Ai, what have you done, mortal! You've killed him, killed him, killed the Deva, you did! And now Abaia cannot even follow Ybdiel! He has to take care of the Spark.~
+@7    = ~Shhh, poor lost soul, we will take care of you, and your hurt. Godchild, please accept this discarded weapon as a parting gift.~
+@8    = ~That was a poor choice, <CHARNAME>... but it was yours to make. Farewell.~ [nymph122]
+@9    = ~Ah, you have made your path longer... by a lifecycle maybe. Still, I believe you will eventually return to your true self. Farewell to you. Farewell to you too, Broken One.~ [nymph319]
+@10   = ~Thank you, <CHARNAME>. You've saved us both and given us new life in this new amazing mind. We shall never forget your kindness, Wise One. Only in forgiveness and unity is there harmony and life. Division gives birth to nothing but more suffering. Please accept this humble parting gift.~ [deva8]
+@11   = ~That was a choice befitting one of divine blood, <CHARNAME>, and it was yours to make. Fare thee well.~ [nymph123]
+@12   = ~Fare thee well, godchild. I rejoice at your wisdom and congratulate you on your chosen path.~ [nymph28]
+@13   = ~<CHARNAME>, you have excelled in your task and I thank you from my heart for your kindness that is rivaled only by your insight.~ [nymph323]
+@14   = ~I can see you carrying the gift of the Seldarine. It is a bright day indeed when one so blessed visits Mother Nature's Realm. Let me add Earthmother's blessing to that of the Elven Gods, and may your path always shine with truth and warm sunlight.~
+@15   = ~Farewell to thee, <CHARNAME>. Farewell to you too, Broken One, and may *your* path be shortened by this brief visit as well. ~
+@16   = ~I am pleased that in the end you have succumbed to reason, godchild. Your new trophy is surely worth the price of two useless lives. Still, I wish we had not had to travel there - the very memory of this place will chafe my nerves!~
+@17   = ~Deva Quest finale
+After the mad Bebilith Abaia teleported me to Elysium we were greeted by a trio of local nymphs. They asked me some strange questions and then declared that I had passed their tests. I followed Irenicus's advice and kept the Spark... only time will tell if that choice was the most rational one.~
+@18   = ~What was the point in succumbing to a pathetic fit of sentiment and losing the Spark? Bah! At least your new trophy is worth the price of one useless life. Still, I wish we had not had to travel here - the very memory of this place will chafe my nerves!~
+@19   = ~Deva Quest finale
+After the mad Bebilith Abaia teleported me to Elysium we were greeted by a trio of local nymphs. They asked me some strange questions and then declared that I had passed their tests. I tried to solve their riddle to the best of my capacity - my only hope now is that 'my best' was quite enough.
+~
+@20   = ~<CHARNAME>, what was the point in succumbing to a pathetic fit of sentiment and losing the Spark? I guess you did it to humiliate me even further by defying my advice! I cannot see any other explanation for that inane act. Now stop staring at me with that silly grin on your face, and leave me to my thoughts - the very memory of this place will chafe my nerves!~
+@21   = ~Deva Quest finale
+After the mad Bebilith Abaia teleported me to Elysium we were greeted by a trio of local nymphs. They asked me some strange questions and then declared that I had passed their tests. I tried to solve their riddle to the best of my capacity. The new creature that I created was a delightful if slightly amusing sight. Irenicus went through another fit of caustic blather berating my 'pathetic' sentiments. Something tells me though that I've made the right choice - he has not been the same ever since.~

@@ -1,0 +1,25 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    CreateVisualEffect("SPGRWHRL",[1240.1100])
+    Wait(1)
+    MoveGlobal("AR6200","lrirenic",[1240.1100])
+    ReallyForceSpellRES("lrres","lrirenic")
+    ActionOverride("lrirenic",SetDialog("jonel25j"))
+    ActionOverride("lrirenic",ChangeAIScript("",OVERRIDE))
+    ActionOverride("lrirenic",FaceObject("finsol01"))
+    Wait(2)
+    MoveViewObject("finsol01",8)
+    CreateVisualEffectObject("SPHOLYMT","finsol01")
+    Wait(2)
+    ActionOverride("finsol01",ForceSpell(Player1,SAREVOK_SOULSTEAL))
+    Wait(2)
+    ActionOverride("finsol01",ForceSpell("lrirenic",SAREVOK_SOULSTEAL))
+    Wait(2)
+    CreateVisualEffectObject("SPGFLSH1","lrirenic")
+    Wait(4)
+    ActionOverride("finsol01",StartDialogueNoSet(Player1))
+    EndCutSceneMode()
+END

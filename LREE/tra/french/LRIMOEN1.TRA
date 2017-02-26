@@ -1,0 +1,53 @@
+@0    = ~Tu n'es pas sérieux, n'est-ce pas, <CHARNAME> ?~
+
+@1    = ~Qu'est-ce qu'il y a Imoen ?~
+
+@2    = ~Pas toi aussi ! Franchement, nous en avons suffisamment parlé pour cette <DAYNIGHT>.~
+
+@3    = ~Comment pourrais-je être sérieux quand tu es dans les parages ?~
+
+@4    = ~Je t'aime aussi, petite soeur. Comment puis-je t'aider ?~
+
+@5    = ~Bien sûr que je le suis. Comment pourrais-je plaisanter d'un tel sujet ?~
+
+@6    = ~Oh, arrête de bluffer, <CHARNAME>. Tu n'arriveras pas à *me* tromper. Nous allons le tuer maintenant, n'est-ce pas ? Je veux dire... Tu ne devrais pas me donner un signal ou quelque chose comme ça ?~
+
+@7    = ~Quel signal ?~
+
+@8    = ~Que veux-tu dire, Imoen ?~
+
+@9    = ~Maintenant c'est toi qui n'es pas sérieuse...~
+
+@10   = ~Attends un peu, ça va trop loin.~
+
+@11   = ~Allons, <PRO_BROTHERSISTER>, je te vois déjà me faire un clin d'oeil. Je pense que j'ai toujours ce Symbole : Mort que j'étudiais hier... Ou préférerais-tu que j'économise ma magie et que j'attrape mon arc ou l'épée courte ? Qu'est-ce que tu attends – Il m'a entendu ! Il n'y a pas de temps à perdre.~
+
+@12   = ~Il... Il me parlait, <CHARNAME> ? Et il... Il est *encore* en vie ? Alors... Tu *es* sérieux à propos de cette histoire de résurrection...~
+
+@13   = ~Aussi sérieux que possible.~
+
+@14   = ~Irenicus voyage avec nous, Imoen. Il va falloir t'y habituer.~
+
+@15   = ~Je suis désolé, petite soeur. J'imagine que j'aurais dû passer plus de temps à te prévenir.~
+
+@16   = ~Mais il... Il m'a *torturée*, <CHARNAME>, il a fait des expériences sur moi ! Je me souviens encore de la sensation de ses doigts froids sur ma peau quand il me touchait, cherchant mes points les plus sensibles ! Et il m'a arraché mon âme... Comme... Comme si c'était un beau morceau... Une entrée avant le plat principal de ton propre esprit divin. <CHARNAME>, tu *dois* t'en souvenir !~
+
+@17   = ~Il m'a fait à peu près la même chose, Imoen. Et pourtant, j'ai été capable de mettre cela de coté pour mon glorieux futur. "Notre" futur, Imoen.~
+
+@18   = ~Oui, il a fait tout cela et même plus... Et pourtant je ressens cet incroyable besoin de le sortir de son lieu de châtiment éternel dans l'abysse. Tu peux dire que je suis étrange... Ou fou... Ou peut-être peux-tu le comprendre.~
+
+@19   = ~Je n'ai aucun désir d'expliquer mes motifs, Imoen. C'est à prendre ou à laisser, mais il reste avec nous.~
+
+@20   = ~Sa chair mortelle est liée à ma force vitale, Imoen. De quoi as-tu peur ? Je te protègerai de lui si on doit en arriver là.~
+
+@21   = ~Je crois que nous avons besoin d'avoir une longue conversation à ce sujet. Imoen, je vais tout t'expliquer.~
+
+@22   = ~Dans ce cas, <CHARNAME>, tu peux continuer à chercher ta "gloire" ou ce qui t'attend sans moi. Je suis peut-être seulement ta fragile petite Imoen, mais je ne dormirais pas à coté de cette "chose" cette nuit !~
+
+@23   = ~Je... Je ne te comprends pas, <CHARNAME>. Non. NON ! Ce n'était pas mon <PRO_BROTHERSISTER> qui parlait. Il t'a manipulé. Oui, ça doit être ça – Irenicus a dû jeter un terrible sort sur toi et tu n'est PAS TOI-MEME. Je prie pour que ça passe et je resterai avec toi pour te protéger de lui comme tu l'as fait lorsque tu m'as sauvé de l'asile.~
+
+@24   = ~Me protéger ? *Me* Protéger de *lui* ? Je suis un Archimage, <CHARNAME>, pas ta fable petite soeur qui courut après toi avec quelques potions, la lettre de Gorion et une baguette. Je peux m'assumer. Tout de même... Je ne recherche pas une protection, je recherche... Ton coeur si tu veux. J'ai besoin de savoir que tu es toujours là pour moi, quoi qu'il arrive.~
+
+@25   = ~Je ne suis pas sourde, <CHARNAME>, seulement "quelqu'un qui s'énerve facilement", comme il l'a si PRECISEMENT indiqué ! J'aurais tout entendu. Irenicus était toujours très doué pour le mensonge, n'est-ce pas ? Un *philosophe* du meurtre et de sa gloire, rien de moins. La morte est jolie... Beurk ! J'ai entendu tes raisons de le traîner derrière toi et je ne suis pas d'accord. IL NE MERITE PAS ta compassion, <CHARNAME>. Tu aurais dû le laisser brûler dans les abysses.~
+
+@26   = ~Je reste avec toi <CHARNAME>... Pour l'instant. Mais... Lui donneras-tu vraiment l'âme de quelqu'un si on en arrive là ? Je veux dire, aurais-tu oublié que je *suis* également un rejeton de Bhaal ? Lui promettrais-tu *mon* âme ? Peut-être que tu devrais choisir avec qui de nous deux tu souhaite voyager.~

@@ -1,0 +1,257 @@
+@0    = ~Alors, <CHARNAME>... Maintenant c'est juste toi et moi, encore une fois. Contre toute attente dans les boyaux des enfers et prêts à en découdre. Ça correspond parfaitement à la situation.~
+
+@1    = ~Tes vantardises ne te fatiguent jamais ? Je ne t'ai pas déjà donné suffisamment de fessées ? ~
+
+@2    = ~Tu penses vraiment pouvoir m'arrêter ? Il semble que tu te fasses toujours des illusions, même après toutes les corrections que je t'aie infligé. ~
+
+@3    = ~Pas si vite, enfant divin ! Cet homme que tu appelles Irenicus nous appartient de droit. Nous sommes le Prince des Abysses aux deux volontés, maître de l'étrange, roi des aberrations ; rien ne peut plus nous plaire qu'un haut mage elfique corrompu.~
+
+@4    = ~Jon Irenicus a été condamné à se battre l'éternité entière dans la guerre sanglante et nous n'avons pas l'intention de le laisser partir maintenant. Le mage de guerre elfique est un atout précieux – Un que nous ne perdrons pas sans paiement en échange.~
+
+@5    = ~Désirerais-tu être détruit une fois pour toute, rejeton des enfers ? Je vais accomplir ton souhait, vu que tu es entré dans le trône de Sang, un demi-plan des abysses où mes pouvoirs sont supérieurs aux tiens et ou je vais finalement pouvoir te détruire à jamais !~
+
+@6    = ~(Baille) On n'avait pas déjà réglé le problème ? Je t'ai déjà donné une leçon une première fois mais cela ne m'embêterai pas de recommencer.~
+
+@7    = ~C'est de plus en plus ridicule. Ne t'aurais-je pas déjà tué ? ~
+
+@8    = ~Tu oses nous parler aussi effrontément, mortel ? Bien que tu sois puissant, tu n'es pas encore un dieu. Ton ignorance est pathétique. Personne ne peut nous détruire pour de bon tant que nous sommes loin de notre Plan !~
+
+@9    = ~(Montre les dents vers Irenicus) Nous te voyons trembler, esclave. Nous imaginons que tu te souviens bien du peu de temps que tu as passé sous notre férule ? Il est temps pour toi de retourner sur le lieu de ton châtiment ultime. Et puisque tu as été assez fou pour aider l'insolent enfant dans son assaut contre nous, cette fois nous te promettons une attention toute personnelle !~
+
+@10   = ~Rends-nous Irenicus, <CHARNAME>, et nous partirons sans poser de problème. Nous avons tous deux de puissants ennemis et nous savons que leur influence grandit. Nous n'avons pas besoin de combattre encore.~
+
+@11   = ~(Tête gauche)
+Je te dis qu'<PRO_HESHE> ne va pas accepter. Mais tu n'écoutes jamais la voix de la raison. Non, il faut toujours qu'on fasse comme tu décides.~
+
+@12   = ~(Tête droite)
+Ferme-la, imbécile. Laisse-moi faire. Souviens-toi que nous devons rester logiques. L'Enfant de Bhaal est occupé et ne voudra pas se battre avec nous maintenant. <PRO_HESHE> a d'autres priorités. Si tu arrêtes de pleurnicher et que tu coopères, nous aurons une chance d'obtenir ce que nous voulons.~
+
+@13   = ~(Tête gauche)
+C'est ce que tu dis toujours ! *Je* veux qu'on parte maintenant. Pourquoi dois-je toujours participer à tes plans stupides ?~
+
+@14   = ~(Tête droite)
+Parce que tu n'as pas le choix imbécile, et moi non plus ! Maintenant arrête de te plaindre et écoute ceux qui te sont supérieurs.~
+
+@15   = ~<CHARNAME>, tu détiens quelque chose qui est à nous et nous refusons de te l'abandonner. Cela fera du tort à notre réputation si nous laissons les choses comme elles sont !~
+
+@16   = ~Nous te défions donc dans un duel. Dans ce genre de situation, il y a des règles à suivre, des règles que même un prince tanar'ri ne peut violer. Nous allons te donner un choix de méthodes afin de résoudre ce petit problème.~
+
+@17   = ~Te battras-tu pour l'essence d'Irenicus ou préfères tu subir l'ancien Rituel des trois devinettes ? ~
+
+@18   = ~Les trois devinettes ? En quoi cela consiste-t'il ?~
+
+@19   = ~Nous allons te poser trois devinettes. Si tu réponds à toutes correctement, nous accepterons ta victoire et il sera su à travers les plans que tu as battu le prince des démons à son propre jeu non pas une fois, mais deux.~
+
+@20   = ~Tu garderas l'esclave et auras la promesse que nous te servirons pendant mille ans. Mais si tu échoues, tu devras payer le prix de ton âme.~
+
+@21   = ~Je n'aime pas jouer aux devinettes avec les démons, rejeton de l'enfer. Combattons à nouveau !~
+
+@22   = ~Très bien, je vais tenter ma chance. Pose tes questions !~
+
+@23   = ~Très bien, je vais te poser la première devinette, enfant divin :~
+
+@24   = ~Qu'est-ce qui est plus grand en malice et qui est un plus puissant démon que nous, que les morts mangent mais qui tue les vivants s'ils le mangent ? ~
+
+@25   = ~Quelles bêtises ! Cette devinette n'a pas de réponse. Rien ne peut être plus répugnant que toi et il serait ridicule de donner une autre réponse.~
+
+@26   = ~Orcus, peut-être ? L'autre prince démon ? ~
+
+@27   = ~Graz'zt aux six doigts ! ~
+
+@28   = ~Si cinq démons peuvent tuer cinq mortels en cinq minutes, combien faut-il de démons pour tuer cent mortels en cent minutes ? ~
+
+@29   = ~100~
+
+@30   = ~500~
+
+@31   = ~20~
+
+@32   = ~5~
+
+@33   = ~Imagine que nous ayons tous deux le même nombre d'âmes mortelles. Combien dois-tu m'en donner pour que j'en aie dix de plus que toi ? ~
+
+@34   = ~10~
+
+@35   = ~1~
+
+@36   = ~25~
+
+@37   = ~Je sais qu'<PRO_HESHE> a triché !~
+
+@38   = ~Le deuxième défi ne sera PAS aussi facile.~
+
+@39   = ~Chacune de nos tête possède un nom : l'une d'elle se nomme Aameul, l'autre Hethradiah. L'une des têtes va te raconter une histoire avec une devinette. Tu vas devoir répondre à la devinette puis nous poser une question pour déterminer quelle tête t'a parlé.~
+
+@40   = ~C'est toi qui triche à présent, démon !~
+
+@41   = ~Alors tu refuses notre second défi, enfant divin ? Je savais bien que tu n'étais pas à la hauteur de nos deux intelligences réunies !~
+
+@42   = ~Je refuse de continuer ces absurdités !~
+
+@43   = ~Je ne refuse rien, mais tu es un sale arnaqueur et un menteur, Démongorgon.~
+
+@44   = ~Silence, esclave ! Tu payeras pour cela ! Nous pensons que nous avons rendu ta tâche trop aisée, <CHARNAME>. Nous promettons donc par notre stature en tant que seigneur démon supérieur que l'un de nous deux dira la vérité.~
+
+@45   = ~Qui va me poser une devinette alors ? ~
+
+@46   = ~(Tête gauche) La semaine dernière, mes serviteurs ont tué le frère d'une certaine personne noble. Mais tant que ce frère était en vie, elle n'avait pas de frère.~
+
+@47   = ~(Tête droite) Il vient de l'inventer. Ça ne peut pas être une histoire vraie.~
+
+@48   = ~Vous demandez à la tête gauche : est-ce vrai que ton nom est Aameul ? ~
+
+@49   = ~Vous demandez à la tête gauche : est-ce vrai que ton nom est Hethradiah ?~
+
+@50   = ~Vous demandez à la tête droite : est-ce vrai que ton nom est Aameul ?~
+
+@51   = ~Vous demandez à la tête droite : est-ce vrai que ton nom est Hethradiah ?~
+
+@52   = ~(Tête droite) Un certain tanar'ri avait deux jarres de dix litres. Dans l'une il y avait six litres de sang et dans l'autre, six litres de vin.~
+
+@53   = ~(Tête droite) Le démon préparait un festin et versa trois litres de vin dans le sang avant de remuer, puis versa trois litres du mélange dans la jarre de vin et remua, puis versa trois litres du mélange qui se trouvait à présent dans la jarre de vin dans celle de sang puis remua et continua jusqu'à ce que la concentration de vin dans les deux jarres soit la même. Je dis la vérité ! Quel est mon nom et combien de fois à t'il dû verser ?~
+
+@54   = ~(Tête gauche) Il a tout inventer. Ça ne peut pas être une histoire vraie !~
+
+@55   = ~Oui.~
+
+@56   = ~Tu es un menteur, Aameul !~
+
+@57   = ~Tu es un menteur, Hethradiah !~
+
+@58   = ~Tu as dit la vérité et ton nom est Hethradiah.~
+
+@59   = ~Tu as dit la vérité et ton nom est Aameul.~
+
+@60   = ~Non.~
+
+@61   = ~Ah, tu es malin mortel, et tu as raison. Le noble était une femme !~
+
+@62   = ~Ah, tu es malin mortel, et tu as raison. Cette tâche ne peut être accomplie, quel que soit le nombre de versements.~
+
+@63   = ~Mais la troisième énigme ne sera pas aussi facile.~
+
+@64   = ~Il existe une et une seule question dans le multivers à laquelle nous sommes forcés de répondre par la vérité si nous voulons rester logiques, même si nous voulions te mentir, <CHARNAME>. Et puisque nous devons rester logiques afin d'éviter que nos deux esprits se séparent à jamais, nous devrons répondre par la vérité. Quelle est-elle ? ~
+
+@65   = ~La question est : Es-tu le démon le plus puissant des abysses ? ~
+
+@66   = ~La question est : Répondras-tu n'importe quoi à cette question ? ~
+
+@67   = ~La question est : Répondras-tu oui à cette question ? ~
+
+@68   = ~La question est : l'univers sera-t'il détruit si jamais la guerre sanglante s'arrête ? ~
+
+@69   = ~La question est : Quel est ton vrai nom ? ~
+
+@70   = ~La question est : Quelle est l'ultime vérité ? ~
+
+@71   = ~La question est : Quel est mon vrai nom ?~
+
+@72   = ~La question est : Répondras-tu non à cette question ? ~
+
+@73   = ~(Hethradiah)
+Espèce d'arnaqueur et de tricheur ! Tu connaissais la réponse depuis le début !~
+
+@74   = ~(Aameul)
+Je t'avais dit qu'<PRO_HESHE> était malin ! Que faisons-nous maintenant ?~
+
+@75   = ~Disparais, rejeton des enfers ! Je n'ai pas besoin de toi pour le moment, mais je pourrais te demander tes services après que j'ai pris possession de mon droit de naissance ! ~
+
+@76   = ~Que lui fais-tu ? Arrête, je l'exige !~
+
+@77   = ~C'est moi que tu veux, Mélissane ! Laisse-la tranquille !~
+
+@78   = ~Résiste, Imoen ! Attaque !!~
+
+@79   = ~Pourquoi me soucierai-je d'Imoen ? Tue-la, Mélissane.~
+
+@80   = ~Si tu penses que cette comédie me fatigue moins que toi, tu ferais mieux d'y réfléchir. Pourtant, tu ne me laisses pas le choix. Finissons-en donc de ce combat, que je puisse retourner à des choses plus importantes comme planifier ma fuite des abysses.~
+
+@81   = ~Je suis heureux que tu aies finalement appris ta leçon, Irenicus. Tu ne me battras jamais, même si tu t'y appliques !~
+
+@82   = ~Quel est ton problème, Irenicus ? Tu n'as pas l'air très réjoui par la perspective de me combattre encore une fois. Aurais-tu finalement appris la leçon ? ~
+
+@83   = ~(Baille) Mélissanne a fait certains... Arrangements avec ses alliés dans les abysses et je suis donc obligé de lui obéir, ne serait-ce que pour cette fois. Je me battrai de mon mieux quoi qu'il en soit, mais ne te fais pas d'illusions, enfant divin – Tu n'as plus d'importance dans mes plans. Pourtant, si je réussis à t'arracher ton âme, cela rendra ma fuite plus facile.~ [IRENIC93]
+
+@84   = ~Amuse-toi bien à discuter entre filles avec Imoen, Bodhi. Bah, je ne devrais pas perdre mon temps avec toi. Je dois toujours absorber les essences de Bhaal... Et il y a suffisamment de pouvoir dans ce plan pour te garder occupé. Bodhi... Imoen... Montrez à <CHARNAME> le pouvoir auxquel <PRO_HESHE> ose s'opposer pendant que je prends ce qui m'appartient ! Mes serviteurs vous aideront !~
+
+@85   = ~Tu ne crois pas en mon pouvoir, je le vois bien. Tu as combattu de terribles ennemis par le passé et tu as toujours réussi à les battre. Et tu as même réussi à en appâter un à tes cotés on ne sait comment.~
+
+@86   = ~Mais je ne vois pas Irenicus à tes cotés à présent. Arrogant enfant divin, tu as dû le rejeter comme un jouet cassé après qu'il ne t'ait plus intéressé. C'est à mon avantage, je le crois, vu que ton Exilé a été assez entêté pour résister à ma volonté.~
+
+@87   = ~Mais malgré tes machinations avec l'Exilé, j'ai toujours quelqu'un de spécial que tu aimerais revoir, j'en suis sûre <CHARNAME> ! Ne voudrais-tu pas revoir la douce soeur d'Irenicus ? ~
+
+@88   = ~C'est si amusant de te voir encore changer de camp, mon cher frère. Alors tu as trouvé plus facile de t'allier avec un perdant comme toi plutôt que de plier ton cou rigide devant le vrai pouvoir ? Comment vas-tu ? <CHARNAME> ? Cela me fait plaisir de te voir en parfaite santé, vu que je trouve les proies malades dégoûtantes, si tu veux bien me pardonner ce jeu de mots.~ [BODHIX05]
+
+@89   = ~Toujours en esclavage, et si ce n'est pas aux ordres d'Irenicus, c'est à la première folle qui élève la voix et qui possède un peu de pouvoir, hein, Bodhi ? Je vois que tu n'as aucune force de caractère vu que tu reflètes toujours gentiment celui de tes maîtres. Pardonne-moi mais Mélissane est encore un plus mauvais choix que ton très distingué frère. Et la dernière fois que je t'ai vue, tu avais toi-même l'air d'une cote de boeuf fraîchement embrochée.~
+
+@90   = ~Alors mon faible frère à trouvé plus facile de s'allier avec un perdant comme toi plutôt que de plier son coup rigide devant le vrai pouvoir ? ~
+
+@91   = ~C'est bien fait pour lui s'il a été abandonné par cet enfant de Bhaal sournois. Comment vas-tu <CHARNAME> ? Cela me fait plaisir de te voir en parfaite santé, vu que je trouve les proies malades dégoûtantes, si tu veux bien me pardonner ce jeu de mots.~ [BODHIX05]
+
+@92   = ~Tu es faible, <CHARNAME> et ma nouvelle maîtresse et forte et elle me donnera ce dont j'ai besoin ! J'attends avec impatience de me baigner dans ton sang divin, stupide enfant, ce sera un festin digne de mes goûts raffinés !~
+
+@93   = ~Tu ne peux pas me faire ça <CHARNAME> !~
+
+@94   = ~Bien que je n'aime pas Irenicus, je dois tenir la promesse que je lui ai faite et donc je dois refuser cette offre.~
+
+@95   = ~J'accèderai à tes exigences lorsque l'abysse gèlera, démon ! Sors de mon demi plan avant que je te donne une autre correction !~
+
+@96   = ~Tu n'auras pas un sou de cuivre terni de ma part et encore moins un outil aussi puissant que l'est Irenicus.~
+
+@97   = ~Avec une cerise sur sa tête ou encore mieux, fourré au pommes, hein ?~
+
+@98   = ~<CHARNAME> !~
+
+@99   = ~Du calme, Jon. Je mourrai avant de me laisser intimider par un singe géant à deux têtes qui a une pieuvre pour grand-père.~
+
+@100  = ~ça te surprend, <CHARNAME> ? Les démons mentent toujours. Mais tu peux utiliser cela à ton avantage pour résoudre cette énigme.~
+
+@101  = ~Je ne t'ai pas appelée. Cette fois c'est quelqu'un d'autre que tu dois remercier pour l'invitation, Bodhi.~
+
+@102  = ~C'est moi qui t'ai invité à te joindre à notre petite fête, vampire, et je t'ai revitalisée avec mes pouvoirs ! Je suis Amélissane, la véritable héritière de Bhaal et un dieu en puissance. Puisque ton imbécile de frère à choisi le camp de l'enfant de Bhaal plutôt que le mien, je veux bien revoir mes projets et t'offrir la récompense que j'avais prévue pour lui. Si tu détruits le traître pour moi et que tu m'aides à tuer ton vieil ennemi <CHARNAME>, tu pourras avoir l'âme du rejeton de Bhaal mort comme récompense.~
+
+@103  = ~Je peux sentir l'afflux d'énergie tourbillonner en moi, ma déesse ! Ah ! C'est si bon – C'est presque divin ! Je ferais comme tu me le demandes, ma nouvelle maîtresse, si je peux boire encore à la source de ton pouvoir et être restaurée.~ [BODHIX04] 
+
+@104  = ~Tu en auras plus... Lorsque tu auras fait ton travail. (Sourire) J'y veillerai en personne. Mais ce serait une honte de te laisser combattre l'enfant de Bhaal seule, ma chère. Il convient que celle dont tu as volé l'âme avec tant de talent partage tes exploits.~
+
+@105  = ~<CHARNAME>, tu voulais une démonstration de mon influence sur l'essence, je vais à présent te la fournir !~
+
+@106  = ~C'est moi qui t'ai invité à te joindre à notre petite fête, vampire, et je t'ai revitalisée avec mes pouvoirs ! Je suis Amélissane, la véritable héritière de Bhaal et un dieu en puissance.~
+
+@107  = ~Puisque ton imbécile de frère à choisi le camp de l'enfant de Bhaal plutôt que le mien et qu'il a plus tard été abandonné par l'enfant qui est trop égoïste pour tenir une simple promesse, je veux bien revoir mes projets et t'offrir la récompense que j'avais prévue pour lui. Si tu détruis <CHARNAME> pour moi, tu pourras avoir l'âme du rejeton de Bhaal mort comme récompense.~
+
+@108  = ~Je peux sentir l'afflux d'énergie tourbillonner en moi, ma déesse ! Ah ! C'est si bon – C'est presque divin ! Je ferais comme tu me le demandes, ma nouvelle maîtresse, si je peux boire encore à la source de ton pouvoir et être restaurée.~ [BODHIX04] 
+
+@109  = ~Tu en auras plus... Lorsque tu auras fait ton travail. (Sourire) J'y veillerai en personne. Mais ce serait une honte de te laisser combattre l'enfant de Bhaal seule, ma chère. Il convient que celle dont tu as volé l'âme avec tant de talent partage tes exploits.~
+
+@110  = ~Dis-moi, Exilé, qu'a fait l'enfant divin pour te recruter à son service ? Tu as refusé mon offre et pourtant tu sembles se prosterner à ses pieds, obéissant tel un chien.~
+
+@111  = ~Tu m'ennuies, prêtresse. Je t'ai détesté depuis la première fois que je t'ai vu pénétrer dans les abysses. Je suis heureux d'avoir une autre chance de t'en informer.~ [IRENIC92]
+
+@112  = ~Tes insultes sont à peu près aussi creuses et pathétiques que le sont tes menaces ou tes promesses. Il aurait fallu que tu m'offres plus pour mériter une miette de mon attention.~
+
+@113  = ~Est-ce que je me trompe ou as-tu l'air mécontent de ton présent sort, Exilé ? N'aurais-tu pas encore obtenu ce que tu voulais de la part de l'enfant de Bhaal ? Tu peux encore tenter ta chance avec une autre puissance... Une qui appréciera plus tes talents.~
+
+@114  = ~J'imagine que c'est maintenant que je suis censé changer de camp. Je connais cependant bien le clergé de Bhaal et j'ai vu ce que tu as fait à la Main. Franchement, je préfèrerai faire un marché avec des tanar'ri plutôt qu'avec toi. Tu n'es pas une déesse et tu n'en seras jamais une, et je n'ai aucun désir d'être transformer en marionnette sans volonté dans les mains d'une sorcière délirante.~
+
+@115  = ~Alors tu préfère la tendre attention des démons plutôt que de traiter avec moi ? Ton souhait est sur le point d'être réalisé, Exilé ! Démongorgon t'accueillera avec plaisir dans son royaume. Je suis sûre que le prince démon sera tout particulièrement attentif à la manière de traiter un esprit qui a fuit, vu qu'il est toujours furieux de l'humiliation qu'il a subi après avoir passé presque la moitié d'un siècle sur le plan primaire, emprisonné par Helm !~
+
+@116  = ~Ah, donc il a honte et préfère que cela reste un secret ? Comme c'est intéressant. Je suis allé à la tour de garde durant ma vie précédente. Grâce à <CHARNAME> et à mes propres... Enquêtes, j'avais presque tous les faits dont j'avais besoin pour résoudre cet intriguant mystère des plans. Tu viens de gentiment m'offrir le dernier indice.~
+
+@117  = ~Vu que ta proposition n'a aucun intérêt pour moi, je suggère que nous brisions là et que nous retournions à nos occupations.~ [DPJON129]
+
+@118  = ~Tes insultes sont à peu près aussi creuses et pathétiques que le sont tes menaces ou tes promesses. Mon alliance avec l'enfant de Bhaal a accompli son but. Ta misérable personne ne m'est d'aucun intérêt.~ [DPJON129]
+
+@119  = ~Exilé, après que je sois devenue un dieu je t'apprendrai l'obéissance. Une leçon si spectaculaire que même les tanar'ri trembleront d'horreur délectable en entendant parler. Prépare-toi à rencontrer ton destin !~
+
+@120  = ~Mais quelles que soient tes machinations avec Irenicus, <CHARNAME>, j'ai toujours un invité spécial que tu adoreras revoir. Voudrais-tu revoir ta douce soeur, Exilé ?~
+
+@121  = ~Et bien, Et bien... On dirait que l'enfant de Bhaal s'est offert un sens de l'humour. L'a-t'il trouvé tout seul, mon chèr frère, ou lui as-tu implanté durant l'une de tes étranges expériences ? J'aimerais que ce soit le cas, vu que tes talents avec des couteaux sont délicieusement amusants.~ [BODHIX42]
+
+@122  = ~Ecoute-moi, idiote, Mélissanne ne tiendra pas sa promesse. Ecarte-toi et n'essaye pas d'affronter ceux qui te sont supérieurs. Il ne restera pas grand-chose de toi si tu nous attaque, moi ou <CHARNAME>.~ [DPJON150]
+
+@123  = ~Toujours fidèle à toi-même en me déniant ma restauration ! Tu m'as toujours traité comme la boue sur tes chaussures, "frère" ! Croyais-tu que je me satisferais de tes restes ? ~ [BODHIX31]
+
+@124  = ~Ne sous-estime pas mes nouveaux pouvoirs... Ni l'étendue de mon affection, inexistante pour toi. Croyais-tu que j'avais oublié tes murmures insidieux qui m'ont poussé sur le chemin de mon exil ? Quoi qu'il en soit, je préférerai t'épargner cette fois plutôt que de te voir tomber en poussière à mes pieds.~ [IRENIC03]
+
+@125  = ~Tu as eu ta chance, frère. Tes plans ont échoué, si je m'en souviens bien, et m'ont mené à ma mort. A présent tu es faible et ma nouvelle maîtresse est forte et me donnera ce dont j'ai besoin ! Je suis impatiente de me baigner dans ton sang, cher frère... C'est une récompense appropriée pour ton échec total !~

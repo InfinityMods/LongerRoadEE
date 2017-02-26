@@ -1,9 +1,0 @@
-IF
-  Global("FinalFight","AR6200",5)
-  HPLT(Myself,20)
-THEN
-  RESPONSE #100
-    ClearAllActions()
-    StartCutSceneMode()
-    StartCutScene("cut233f")
-END

@@ -1,0 +1,155 @@
+@0    = ~Ne me prends pas pour un imbécile, <CHARNAME>, j'ai les moyens de te faire respecter notre marché. Si tu essayes de me priver de ma récompense, tu le regretteras.~
+
+@1    = ~Arrête de divaguer, enfant. <CHARNAME>, tu devrais mieux la surveiller. Ta "petite Imoen" m'a toujours semblé être quelqu'un qui s'énerve facilement.~
+
+@2    = ~<CHARNAME>, ta peste volante prend le risque de finir en morceaux et de perdre la vie en m'énervant. Si tu continues à m'envoyer le chercher, tu finiras par avoir un diablotin empaillé comme maître d'hôtel.~ [IRENIC92]
+
+@3    = ~Quel lamentable imbécile ! Un mage qui se fait voler son livre de sorts ne mérite que du mépris.~
+
+@4    = ~Donc de nos jours, le beau et noble "peuple" ne peut même pas s'occuper de ses propres affaires ? Je savais que cette race était en pleine dégénérescence depuis des siècles, mais je ne les avais jamais vu descendre aussi bas.~
+
+@5    = ~A ta place <CHARNAME>, je choisirais certainement de mettre fin à leur souffrance. Il y a une limite en dessous de laquelle il ne devrait pas être permis de tomber. ~
+
+@6    = ~Leur état lamentable n'a pas de limites. A présent je suis vraiment dégoûté de les avoir considéré comme ma race. ~
+
+@7    = ~Et tu le mérites, car vous êtes devenus des être faibles, lamentables et méprisables ! On ne devrait jamais faire confiance qu'à soi-même.~
+
+@8    = ~Ne salis pas les affaires de tes supérieurs avec tes sales insultes, misérable imbécile ! Les elfes, leurs coutumes et le pouvoir de l'Arbre de Vie ne sont pas des choses que tu peux un jour espérer de comprendre.~
+
+@9    = ~Ah, l'incomparable finesse des nains – Comment peut-on l'oublier ? <CHARNAME>, parfois ta patience me surprend. Tu sais certainement comment remettre ce tas de fer rouillé et de poils à sa place.~
+
+@10   = ~Je ne l'avais pas remarqué. Non, <CHARNAME>, tu étais aussi éloquent que d'habitude.~
+
+@11   = ~C'était "l'intégralité" des royaumes, pas une simple moitié, si j'ose dire. Mais continue, humain, j'ai plaisir à regarder ta pomme d'adam aller et venir.~ [IRENIC92]
+
+@12   = ~Ça suffit ! Je n'écouterais pas plus longtemps les divagations de bardes incapables et d'enfants divins mal éduqués qui sortent à peine de leurs couches. Barde, tu connais peut-être les bases de ton métier, mais pour laisser ta trace dans l'histoire des Royaumes, il te faudra plus qu'un total manque de pudeur et le désir forcené d'être connu. En fait, être connu demande du travail et du *talent*, des choses qui te font sévèrement défaut malgré tout tes semblants d'enthousiasme.~ [DPJON136]
+
+@13   = ~<CHARNAME>, quel que soient les statuts de notre présente association, je me dois de te prévenir. C'est dans mon intérêt après tout, de te garder en vie... Pour l'instant. Je soupçonne que la sympathique dame Mélissane à ses propres plans et qu'elle pourrait fort bien ne pas être le sauveur altruiste de tes belliqueux parents.~ [DPJON159]
+
+@14   = ~Mais pourquoi te méfies-tu de Mélissane ? La dame ne nous a donné aucune raison de la soupçonner. Laisse tomber, Irenicus. Tu te fais des idées.~
+
+@15   = ~Je préfèrerais risquer ma vie en suivant ses étranges instructions plutôt que d'écouter tes mensonges !~
+
+@16   = ~J'ai vu tes yeux briller derrière le masque pendant qu'elle parlait et je me demandais ce que tu allais dire. Je pense aussi qu'on ne doit pas lui faire confiance. Mais le fait est, Irenicus, que je te fais encore moins confiance. ~
+
+@17   = ~Eh bien, merci d'être franc une fois de temps en temps, Irenicus. En fait, je ne fais pas non plus confiance à Mélissane. Malheureusement nous n'avons pas d'autre choix que de suivre ses conseils douteux et d'espérer que tout se passe pour le mieux.~
+
+@18   = ~<CHARNAME>, tu fais montre d'autant d'insolence que de bêtise, comme je m'y attendais de la part d'un égoïste comme toi. Fais comme tu veux, je ne t'ennuierai plus avec d'autres conseils, quoi qu'il advienne.~
+
+@19   = ~Enfant divin, tu as dû manger un aliment périmé aujourd'hui, je ne peux trouver d'autre raison rationnelle à ta soudaine bouffée de bon sens. Tu ne gagnerais rien à me faire confiance, à part mon mépris, et pourtant faire confiance à Mélissane pourrait bien se révéler être ta dernière décision stupide sur ce plan.~
+
+@20   = ~J'avais entendu parler de l'Enfant géant de feu élevé par une sorcière adepte de Bhaal, mais je ne l'avais pas considéré comme donneur d'âme potentiel. On dit que Yaga-Shura s'est mêlé de sorcellerie primitive, ce qui n'est pas étonnant vu d'où il vient – Né d'un sang élémentaire et élevé par une vieille bique. Une utilisation aussi primaire de la Toile me dégoûte du plus profond de moi-même, mais c'est un dangereux ennemi à avoir. Es-tu sûr que tu veux te le mettre à dos ?~
+
+@21   = ~Ai-je le choix ?~
+
+@22   = ~Il faudra que je m'occupe de lui tôt ou tard.~
+
+@23   = ~C'est une admirable décision de ta part. Mais je suppose que chasser un géant de feu dans la nature sera plus divertissant que d'éviter des boules de feu dans le piège à rats qu'est cette ville.~ [IRENIC85]
+
+@24   = ~J'admets que ton lamentable tour de saute-plans peut faire sa petite impression... Sur un novice en magie. Pourtant, enfant divin, as-tu la moindre idée de l'endroit où tu nous as amené cette fois-ci ?~
+
+@25   = ~Je n'en ai aucune idée, Irenicus, bien que j'imagine que nous ne sommes pas loin de Saradush.~
+
+@26   = ~Je te mets au défi de répeter ce petit "tour" toi-même, Irenicus ! Et incidemment, oui, je pense que nous sommes toujours assez proches des murs de Saradush.~
+
+@27   = ~"Pas loin" ne suffit pas, enfant de Bhaal. Laisse-moi essayer quelque chose de plus intelligent pour une fois.~
+
+@28   = ~Ah. Nous sommes en effet toujours en Tethyr... Et Saradush est a un demi jour de marche de là où nous nous trouvons. A présent dis-moi, <CHARNAME>, veux-tu toujours accomplir le stupide plan de Mélissane ? Vas-tu te mettre à chercher le secret du géant de feu ?~
+
+@29   = ~Que puis-je faire d'autre pour le moment ?~
+
+@30   = ~<CHARNAME>, je pense que tu as besoin d'une base d'opération en Tethyr, même si tu as raison et que ta destinée est liée au siège de Saradush. Tu sais très bien que cette misérable ville ne tiendra pas longtemps et que vas-tu faire, dis-moi, après qu'elle soit tombée ?~
+
+@31   = ~Je ferais tout ce que je peux pour sauver Saradush. Ton discours défaitiste n'a pas le moindre effet sur moi.~
+
+@32   = ~Je ne sais pas trop, Irenicus. Que proposes-tu ?~
+
+@33   = ~D'abord, bien sûr, tu vas devoir te porter volontaire pour leur quête stupide et purger le donjon d'un "mal" inconnu qui est censé rôder à l'intérieur. En tous cas, j'imagine que ce genre d'aventure est en quelque sorte ta spécialité. Tu auras vite fait d'expulser les occupants et de préparer le château pour tes besoins.~
+
+@34   = ~Je pense que tu as oublié de mentionner un fait "sans importance", Irenicus, c'est-à-dire que la Tour de Garde est la prison d'une horreur inconnue, scellée dans l'endroit par Helm lui-même. Je connais très bien l'endroit... Mais même moi j'ai été incapable de finir le nettoyage de la souillure qui hante ses murs.~
+
+@35   = ~Je pense que tu as oublié de mentionner un fait "sans importance", Irenicus, c'est-à-dire que la Tour de Garde est la prison de Démongorgon lui-même, le Prince des démons en personne !~
+
+@36   = ~Je pense que tu as oublié de mentionner un fait "sans importance", Irenicus, c'est-à-dire que la Tour de Garde est la prison de Démongorgon lui-même, le Prince des démons en personne ! Enfin, jusqu'à ce qu'à ce que je l'ai battu et renvoyé dans les abysses. ~
+
+@37   = ~Etonnant. Peut-être devrais-je réfléchir à cette possibilité en temps et en heure.~
+
+@38   = ~Je suis déjà venu... Je n'ai jamais osé entrer pour une raison ou pour une autre.~
+
+@39   = ~Vraiment ?! Tu es une vermine impressionnante, enfant divin, et je suis forcé de reconnaître encore une fois ma défaite. Je plaisantais, enfant de Bhaal, dans l'espoir que tu n'avais pas entendu parler de la Tour. Mais tu devrais m'en dire plus au sujet de ton expérience avec le Prince Démon, car je suis curieux d'en entendre les détails. Franchement, je suis très soulagé que ce n'ait été "que" démongorgon qu'ils gardaient à l'intérieur.~
+
+@40   = ~Ta fourberie n'a pas de limites, Irenicus, mais je suis content d'avoir pu te donner une leçon une fois encore ; Je suis sûr que ta "plaisanterie" n'avait pour but que de m'attirer dans un piège !~
+
+@41   = ~J'ai du mal à croire que ce soit une "plaisanterie". Tu essayais de me piéger, Irenicus, et je suis content d'avoir pu t'empêcher d'accomplir ton plan perfide.~
+
+@42   = ~Crois ce que tu veux, enfant divin, je ne vais pas essayer de te convaincre de ma "vertu". Si tu as réussi à battre Démongorgon lui-même, il n'y a rien qui puisse t'empêcher de conquérir le trône de ton père, avec ou sans mon aide. Tu *es* puissant, mais même toi tu ne peux me faire changer de nature et m'empêcher d'essayer de rompre notre lien. Et ceci est peut-être ma seule consolation à ma condition.~
+
+@43   = ~Je suis heureux de savoir qu'il reste toujours un défi sur ce plan qui retienne ton attention, enfant divin. Je suggère que tu rendes visite à la Tour de Garde avant qu'il ne soit trop tard.~
+
+@44   = ~Et tant qu'on en parle, je suis sûr que ce qui rôde à l'intérieur ne fera pas le poids face à nos pouvoirs combinés. Une fois que tu te seras installé dans la forteresse, tu devrais cependant penser à traquer et à éliminer tes rivaux avant qu'ils ne le fassent.~
+
+@45   = ~On dirait que nous avons enfin atteint la citadelle de la Tour de Garde. Alors, qu'en dis-tu, <CHARNAME> ?~
+
+@46   = ~Un édifice impressionnant, en effet. Mais Irenicus, tu dois bien l'admettre – L'endroit est pratiquement en ruines.~
+
+@47   = ~Hum, je ne peux pas dire que la Tour m'impressionne beaucoup vue de l'extérieur. En fait, on dirait la dent cariée d'un démon !~
+
+@48   = ~Ce n'est définitivement pas Château-Suif. Aurais-tu perdu l'esprit, Irenicus ? Qu'est-ce que cette tour érodée construite dans une falaise dominant la mer a de si spécial ? ~
+
+@49   = ~L.t.M sont d'étranges initiales. <CHARNAME>, me laisseras-tu jeter un coup d'oeil à cet... Exercice de géométrie chromatique ?~ [DPJON157]
+
+@50   = ~C'est ça ta "solution" à la situation ! A présent la déva est morte et son secret est mort avec elle. Tu as tout ruiné de la plus maladroite des manières, enfant divin. J'espère vraiment que tu ne feras pas de même avec ma tentative d'obtenir une âme de Rejeton de Bhaal !~
+
+@51   = ~Ruiné un quête
+
+Pendant que je traversais la Tour de Garde, j'ai rencontré une déva blessée nommée Ybdiel qui m'a demandé de l'aider. A la place, j'ai décidé de tuer cet ennuyeux céleste et Irenicus m'a accusé d'avoir ruiné la quête. Oh, bon, on ne peut pas plaire à tout le monde.~
+
+@52   = ~C'est ça ta "solution" à la situation ! A présent la déva est morte et son secret est mort avec elle. Tu as tout ruiné de la plus maladroite des manières, enfant divin. J'espère vraiment que tu ne feras pas de même avec ma tentative d'obtenir une âme de Rejeton de Bhaal !~
+
+@53   = ~Ruiné un quête
+
+Je n'ai pas eu le temps d'aider la déva Ybdiel. La déva est morte et Irenicus m'a accusé d'avoir ruiné la quête. Oh, bon, on ne peut pas plaire à tout le monde...~
+
+@54   = ~Ruiné un quête
+
+Je n'ai pas pu trouver les Objets de l'Accord à temps pour sauver la déva Ybdiel. Irenicus m'a accusé d'avoir ruiné la quête. Oh, bon, on ne peut pas plaire à tout le monde...~
+
+@55   = ~C'est ça ta "solution" à la situation ! A présent le démon est mort et l'Etincelle nous est inaccessible. Tu as tout ruiné de la plus maladroite des manières, enfant divin. J'espère vraiment que tu ne feras pas de même avec ma tentative d'obtenir une âme de Rejeton de Bhaal !~
+
+@56   = ~Ruiné un quête
+
+J'ai décidé de tuer la bébilith Abaia qui avait avalé l'Etincelle de la déva. Etrangement, après que je me sois débarrassé du démon, la déva a également disparu et Irenicus m'a accusé d'avoir ruiné la quête. Oh, bon, on ne peut pas plaire à tout le monde...~
+
+@57   = ~Ruiné un quête
+
+Je n'ai pas pu protéger la bébilith Abaia qui avait avalé l'Etincelle de la déva, et après qu'elle soit morte, la déva a également disparu. Irenicus m'a accusé d'avoir ruiné la quête. Oh, bon, on ne peut pas plaire à tout le monde...~
+
+@58   = ~C'est ça ta "solution" à la situation ! A présent le démon et la déva sont mort et l'Etincelle nous est inaccessible. Tu as tout ruiné de la plus maladroite des manières, enfant divin. J'espère vraiment que tu ne feras pas de même avec ma tentative d'obtenir une âme de Rejeton de Bhaal !~
+
+@59   = ~Et bien, <CHARNAME>, qu'as-tu décidé ? Vas-tu écouter les demandes de celle qui se nomme ta "protectrice" et courir droit dans ce nouveau piège ou vas-tu plutôt chercher une autre solution ?~ [DPJON103]
+
+@60   = ~Et quelles sont mes autres options ?~
+
+@61   = ~Laisse tomber, Irenicus. Tu es la dernière personne à qui je demanderais conseil !~
+
+@62   = ~Quoi que tu décides, je suivrais tes ordres, enfant divin.~
+
+@63   = ~Quoi que tu décides, je suivrais tes ordres, enfant divin. Mais souviens-toi que tu as une alternative. Incidemment, je pense que même la Tour de Garde avec son monstre imaginaire pourrait se révéler un lieu plus sûr que cette "Amkethran".~
+
+@64   = ~Tu fais peur à personne, gros méchant ! Mais faut que je fasse gaffe avec lui dans les parages... Je parierai ma queue que je connais cette voix.~
+
+@65   = ~Oups ! C'était celui qui fait peur.~ [BOTSM01]
+
+@66   = ~C'est une chose très cruelle à dire à un vieux mage en détresse, homme étrange. Mais qu'en dis-tu, <CHARNAME>, m'aideras-tu où pas ?~
+
+@67   = ~<LADYLORD>, ce que ton compagnon a dit était brutal et injustifié. Mais je t'assure que le Peuple n'oubliera jamais ta bonté !~
+
+@68   = ~Tu peux suivre les indications de Mélissane jusqu'à la bouche des enfers, <CHARNAME> ou tu peux faire quelque chose auquel ils ne s'attendent pas du tout.~
+
+@69   = ~A moins d'un jour de voyage à l'ouest d'ici se trouve une forteresse dont les qualités défensives dépassent celles de l'infâme château Spulzeer et de ton ancien foyer, la bibliothèque-forteresse de Château-Suif.~
+
+@70   = ~L'endroit est appelé la Tour de Garde et est gardé pour une secte de lunatiques à moitié fous qui se donnent eux même le nom de "chevaliers du Vigilant". J'y ai été une fois, il y a longtemps, pour une affaire qui ne t'intéresse pas. Tu peux facilement abattre leurs défenses si tu le veux et prendre possession de la forteresse.~
+
+@71   = ~Les premières impressions peuvent être trompeuses, enfant divin, et si tu regardes de plus près, tu remarqueras que les murs sont protégés par des boucliers magiques et sont physiquement inaltérables. Cette forteresse est un piège, intelligemment conçu pour garder ses prisonniers et pour que les visiteurs impromptus ne puisse y entrer.~
+
+@72   = ~Curieusement, les membres de cette misérable secte helmite attendent aux portes. <CHARNAME>, tu vas devoir agir intelligemment si tu veux rentrer à l'intérieur.~

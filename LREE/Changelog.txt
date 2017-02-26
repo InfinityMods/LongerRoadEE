@@ -1,0 +1,12 @@
+Version 1.6 EE
+--------------------------------------------------
+- incorporate known issues from BWF
+- remove tiz/tis conversion and use PVRZ
+- update portraits for EE
+- update journal entries for EE
+- update item descriptions and useability
+- use wav instead ogg and remove conversion
+- adapted scripts to EE functions
+- Added HANDLE_CHARSETS
+- reflect all of the above in the TP2
+- LREE requires Ascension

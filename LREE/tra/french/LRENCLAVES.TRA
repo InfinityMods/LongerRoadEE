@@ -1,0 +1,69 @@
+@0    = ~<CHARNAME>, j'ai entendu les rumeurs de tes exploits en Ombreterre. Est-ce vrai que dans ton acharnement à me poursuivre, tu as été obligé de pénétrer à Ust Natha déguisé en Drow ? En tous cas, on dirait la plaisanterie a fait long feu.~
+
+@1    = ~<CHARNAME>, j'ai entendu les rumeurs de tes exploits en Ombreterre. Est-ce vrai que dans ton acharnement à me poursuivre, tu as été obligé de pénétrer à Ust Natha déguisé en Drow ? En tous cas, on dirait la plaisanterie a fait long feu.~
+
+@2    = ~Minute, abomination, je préfèrerais mourir plutôt que de te laisser *me* soumettre à un contrat magique ! Ou plutôt, je me taillerais une nouvelle paire de gant dans ta peau écailleuse.~
+
+@3    = ~Irenicus, ne fais pas l'idiot et accepte le geas – Je veux me battre avec lui.~
+
+@4    = ~Ah, placer un geas sur quelqu'un d'autre ne te pose pas de problème, mais lorsqu'il s'agit de ta petite personne tâtillone, ça te pose un problème ? Laisse tomber Irenicus, tu vas devoir ravaler ta fierté et te soumettre au sort comme un bon garçon.~
+
+@5    = ~Jon, n'est-tu pas déjà lié à moi ? Qu'est-ce qu'un stupide sort de plus puisque tu es déjà sous le geas que t'a jetté Rielev ?~
+
+@6    = ~Eh bien, eh bien, comme tu es susceptible aujourd'hui ! Très bien Irenicus, je veux bien oublier cette idée si elle te gêne.~
+
+@7    = ~Ah, donc afin d'atteindre ses objectifs, l'abbé moralisateur s'est abaissé à utiliser la magie. Poser un geas sur un dragon n'est pas chose facile... Et en enlever un est encore plus difficile. Je me demande ou Balthazar s'est procuré ce sort et combien il l'a payé.~
+
+@8    = ~Tu cherches des moyens de te faire de l'argent facile, hein, Irenicus ? Mais blague à part – Peux-tu me faire une copie du sort d'Inversion ?~
+
+@9    = ~Quel lamentable idiot. Le *devoir* pour lequel il était si fier de mourir n'était rien d'autre qu'une illusion. Sa haine pour l'enfant de Bhaal dragon était aussi artificielle que sa loyauté pour l'humain, vu que lorsque l'on regarde les choses dans leur ensemble, l'un n'est pas meilleur que l'autre.~
+
+@10   = ~<CHARNAME>, le dragon a vraiment l'air d'être sous un geas. Je te conseille de ne pas attaquer cette bête dans son état. Si le portail est scellé magiquement, le tuer pourrait ruiner tes chances de pénétrer la tanière.~
+
+@11   = ~(Marmonne dans sa barbe) Encore un esprit faible et inactif, se cachant cette fois dans le tout puissant corps d'un dragon. Je n'ai aucun respect pour un intellect qui a laissé son propriétaire se faire piéger par un geas.~
+
+@12   = ~Tu insistes à ton habitude. Très bien. Fais comme tu veux, Rejeton de Bhaal, mais ne me crie pas de t'aider quand le drow t'égorgera comme un agneau. ~
+
+@13   = ~(Tressaille) Il faudrait des semaines pour mener à bien une recherche de ce genre là. Et bien que je sois sûr de pouvoir obtenir le résultat espéré, je doute que tu veuilles attendre aussi longtemps.~
+
+@14   = ~Intéressant. <CHARNAME>, il semble que l'un de tes parents a réussi à produire son propre Rejeton. Je me demande comment le cycle de gestation d'un oeuf de dragon est affecté par un peu d'essence divine.~
+
+@15   = ~Je me demande si je peux...~
+
+@16   = ~Irenicus, *je* ne peux que me demander comment tu as réussi survivre jusqu'à l'âge avancé de... Quel que soit ton âge, avec tes crises incessantes de "curiosité scientifique" ! Quoi que, tu n'as pas vraiment survécu... Ce qui prouve que j'aie raison.~
+
+@17   = ~T'ai-je jamais raconté l'histoire de mon arrière grand oncle Huevro Jansen, qui effectuait ce projet de recherche sur les oeufs de griffon ? Non ?~
+
+@18   = ~Tu vois, oncle Huvry adorait les omelettes (chose rare chez un gnome – Les navets sont bien meilleurs pour la digestion, selon moi) et décida arbitrairement qu'il ne pourrait obtenir les meilleurs oeufs pour son plat préféré qu'en croisant des griffons avec des volailles domestiques.~
+
+@19   = ~Tristement, son seul spécimen de griffon disponible s'entêtait à manger les poules au lieu de euh... D'être attiré par elles. Naturellement, oncle Huvry a été obligé de diriger ses études vers les "phéromones" du griffon, si tu vois ce que je veux dire... Malheureusement pour lui, lorsque l'effluve était presque raffinée, il a trébuché et s'est renversé dessus toute la bouteille. Imagine son horreur lorsque...~
+
+@20   = ~Gnome, c'est mon dernier avertissement – Arrête de raconter tes bétises ou tu finiras avec la langue nouée et les yeux qui te sortiront de la tête à ton grand inconfort !~
+
+@21   = ~Aah, Echalas, il faut toujours que tu gâches une bonne plaisanterie. J'arrivais à la partie la plus intéressante de l'histoire...~
+
+@22   = ~Cessez vos babillages insensés, aberrations humanoides ! Vous ne me distrairez pas de mon devoir. Ma destinée et mon droit de naissance son en jeu !~
+
+@23   = ~Mais bien sûr, il est bien plus facile de dédaigner les choses de loin en espérant que le misérable enfant divin se tue en faisant une erreur stupide. Je me demande si c'est ainsi que tu as gardé ta réputation de demi dieu presque imbattable, humain, en "n'interférant pas" lorsque tu sais que tu ne peux rien faire.~
+
+@24   = ~Hein ? <CHARNAME>, les gens que tu fréquentes ces temps-ci... ~
+
+@25   = ~J'étais sur le point de dire que je n'interviendrai pas personnellement dans ta quête.~
+
+@26   = ~Ah, donc Saemon travaille maintenant pour les Harpistes. J'ai toujours pensé qu'il aurait des problèmes à cause de son manque de discernement dans ses fréquentations. D'un autre coté, pourquoi ne pas lui rendre visite quand nous serons de retour à Amkethran ?~
+
+@27   = ~Ce... Ce sale rat, ce traître de pirate !? Irenicus, comment oses-tu sous-entendre ce genre de chose ! Les Harpistes ne feraient jamais...~
+
+@28   = ~Ahum...~
+
+@29   = ~(Rougit) Et en parlant de "mauvaises fréquentations", Irenicus, comment te qualifierais-tu ainsi que ta soeur morte vivante ?!~
+
+@30   = ~Comme j'allais le dire... Mr... Euh... L'Exilé ? Oui, je crois me souvenir de bribes de ton histoire. C'est très curieux ce que tu as fait à l'Arbre de Vie.~
+
+@31   = ~Au moins, contrairement à certains vieillards intrusifs portant des chapeaux pointus et des robes de femmes, je m'enorgueillis de ne jamais me mêler des affaires des autres !~
+
+@32   = ~Sauf lorsque tu as besoin de quelque chose qu'ils possèdent – Comme leurs âmes immortelles !~
+
+@33   = ~Oui, un masque et un pudique costume de cuir sont certainement de bien meilleur goût qu'un chapeau pointu. Hmm, je me demande de quoi *j'aurais* l'air avec un chapeau pointu... Un lavande, peut-être ? Qu'est-ce que tu en penses, <CHARNAME> ?~
+
+@34   = ~Mon vieil ami, je pense que tu devrais faire un peu plus attention à ce que tu portes. Mais en parlant du capitaine Havarian...~

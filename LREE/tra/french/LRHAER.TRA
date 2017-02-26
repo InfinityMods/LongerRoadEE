@@ -1,0 +1,91 @@
+@0    = ~Ah, mon cher phénix. Tu fais partie de notre groupe depuis un certain temps, mais nous ne nous sommes pas encore parlé.~ [HAERDA34]
+
+@1    = ~Tu as l'air pensif aujourd'hui, mon phénix. Tu as des pensées sombres à partager avec ce rossignol ?~ [HAERDA33]
+
+@2    = ~Une chose m'intrigue, tieffelin.~ [DPJON101]
+
+@3    = ~Pardon ? Tu viens de m'appeler "phénix" ?~ [DPJON132]
+
+@4    = ~Tu préfèrerais que je t'appelle mon vautour ? C'est le nom que je te donnais avant.~
+
+@5    = ~Vautour, hein ? Cette créature chauve, laide, lâche qui recherche constamment des restes pour se nourrir ?~
+
+@6    = ~Oui, exactement. Mais cela ne correspond plus. C'est amusant de voir comme la roue de la fortune à tendance à nous faire vivre des évènements inattendus, n'est-ce pas ? La métaphore du phénix décrit bien mieux ton état actuel.~
+
+@7    = ~Explique-toi et épargne-moi tes comparaisons ornithologiques, barde. Je suis sûr de pouvoir très bien te comprendre sans elles. ~
+
+@8    = ~Ah, oui, j'ai remarqué que souvent les mages n'appréciaient pas les images extravagantes et les descriptions vagues. Se mêler de l'inconnu peut-être dangereux lorsqu'on manipule une magie qui façonne la réalité. Mais pour en revenir à notre sujet, oui, le phénix est un oiseau qui renaît de ses propres cendres. Toute vie, toute réalité subit cet inévitable cycle de déchéance et d'oubli tout comme tu l'as fait, c'est évident. Mais ton cas est spécial, mon phénix.~
+
+@9    = ~Fais attention, tieffelin ! Je t'ai demandé de laisser tomber les métaphores à plumes. Et je ne suis pas un cas d'espèce pour tes divagations philosophiques.~
+
+@10   = ~Je n'oserais pas le penser, mais ce que je voulais dire, c'est que tu avais réussi à inverser ton propre processus de dégradation et à tromper l'entropie, ne serait-ce que temporairement. D'abord, tu as stoppé l'inévitable en volant l'âme de <CHARNAME> et en la greffant sur les restes de la tienne ; ensuite, tu es revenu de l'oubli après que ton corps naturel ait été détruit. Et maintenant tu es là, peut-être sur la route de la renaissance. Je dois admettre que je suis assez fasciné par ton personnage et ta destinée.~
+
+@11   = ~Fasciné ?! Ma position n'est pas vraiment enviable, barde !~
+
+@12   = ~Non, pas vraiment, mais dans toute l'histoire de la garde fatale, qui s'étend sur des centaines d'année, mon phénix, ce n'est jamais arrivé. Personne n'avait jamais surmonté la déchéance. Pourtant, peut-être l'entropie et la décadence te pourchasseront encore après ta renaissance ? Eh bien, il va falloir attendre pour voir ça. Dans tous les cas, ton histoire pourrait faire un récit qui résonnerait dans tout le multivers. ~
+
+@13   = ~J'espère bien que non ! Je te préviens, tieffelin, si un jour j'entends parler d'une pièce dont le héros est "un pauvre petit elfe se dépérissant en route vers l'illumination", je saurais sur qui je dois envoyer mes golems.~
+
+@14   = ~(Rire) Je n'oserais jamais, mon phénix. Discutons de philosophie une autre fois, si tu préfères.~
+
+@15   = ~ça m'irait très bien.~
+
+@16   = ~Ah, mon phénix. Je meurs d'envie de savoir à quoi tu penses. Peut-être à quelque chose qui pourrait être immortalisé par écrit ?~ [HAERDA23]
+
+@17   = ~Ne force pas ta chance, mon *gazouillant pigeon*, ou tu pourrais très vite découvrir qu'être "libre comme l'oiseau" est peu plaisant lorsqu'il s'agit de se battre pour des miettes et d'utiliser des statues comme toilettes portables. Cependant, il y a dans ta philosophie de la garde fatale des éléments qui m'intriguent. Tu crois à l'entropie, n'est-ce pas ? ~
+
+@18   = ~Oui, l'entropie et la décadence érodent tout et tout le monde, mon phénix. L'ancien doit être remplacé par le nouveau et quand bien même l'ancien résiste, le nouveau triomphera toujours tandis que l'ancien sera relégué dans l'oubli. Puis le nouveau deviendra ancien et le cycle recommencera.~
+
+@19   = ~Si c'est le cas, pourquoi prendre la peine de vivre ?~
+
+@20   = ~Hein ? Que veux-tu dire, mon phénix ?~
+
+@21   = ~Selon ta philosophie, barde, toute les actions que tu fais sont futiles car tous tes exploits sont destinés à disparaître et à être oubliés. La vie a-t-elle un sens si toutes ces ambitions sont inutiles ? Si l'entropie éclipse toute ton existence ? En d'autre termes, a quoi sert-il de vivre si tu suis la philosophie de la garde fatale ? Y a t'il un sens à se laisser porter sans but par la vie ? ~
+
+@22   = ~Une question intéressante, mon phénix, surtout si on considère la suffisance et le narcissisme autonome du style de vie de l'elfe moyen.~
+
+@23   = ~Ah, mais ne confonds pas une vie béate avec une vie insignifiante, tieffelin. Le Peuple peut ne pas sembler pressé d'atteindre sa destination finale comparée aux vies pleines de ta vermine éphémère, mais ils ont quand même des buts et des objectifs. J'attends toujours que tu répondes à ma question.~
+
+@24   = ~Alors permets-moi de répondre à ta question par une autre : pourquoi, selon toi, un objectif n'est qu'un objectif si son résultat final dure à jamais ?~
+
+@25   = ~C'est le seul objectif *valable*. ~
+
+@26   = ~Et si tu ne réussis pas à l'atteindre, diras-tu que ta vie était finalement futile ? Tu vois à quelle vitesse l'entropie a envahi ta conviction temporaire ? Et ce n'est qu'un petit exemple pratique de la philosophie de la garde fatale.~
+
+@27   = ~Déforme le sens de mes propos tant que tu veux, tieffelin, tu ne me battras jamais à mon propre jeu en matière de discours ambigu.~
+
+@28   = ~L'entropie nous attend tous les bras ouverts à la fin, mon phénix.~
+
+@29   = ~Pour que je puisse être ajouté à ton répertoire de personnages clichés et exagérés, mon "pigeon" ? Non merci. Trouve un autre imbécile de qui te moquer. Il y en a plein dans le coin, j'ai l'impression.~ [DPJON158]
+
+@30   = ~Non, mon phénix, non. J'ai seulement posé la question parce que j'ai vu ce genre d'expression sombre et pensive sur les visages des membres de mon ancienne faction. Les vieux souvenirs ne lâchent pas facilement prise. Voudrais-tu que je te fasse part de quelques-uns de leurs points de vue ?~
+
+@31   = ~Alors, c'est ce que tu vas m'offrir, tieffelin ? Tu vas me faire bénéficier de la philosophie de la garde fatale approuvé par les célébrités de Sigil après que tu les aies payé pour cela ?~
+
+@32   = ~Ma faction ne mérite pas ta colère, mon cher phénix. La garde fatale est le seul groupe à Sigil qui comprend les vérités fondamentales de l'existence.~
+
+@33   = ~Je vois. Je doute que les *autres* factions de Sigil approuvent tes dires, mais cela ne nous avance pas vu que la tienne est celle de bonne foi, bien sûr.~
+
+@34   = ~Leur erreur réside dans leur imprévoyance, bien sûr. La glorieuse décadence et l'entropie insatiable sont sans aucun doute les forces mêmes qui érodent le multivers. Nier cela serait comme nier l'existence du soleil dans le ciel ou de l'eau dans la mer.~
+
+@35   = ~Dois-tu encore parler de ces bêtises, tieffelin ? Tu devrais savoir mieux que personne que cela ne sert à rien de me bombarder avec des métaphores vides de sens. Il y a des mondes qui n'ont jamais vu le moindre rayon de soleil et des mers pleines de poussière grise.~
+
+@36   = ~Je me souviens d'avoir entendu April en parler... Elle était très éloquente... Quand elle était capable de parler.~
+
+@37   = ~C'est remarquable que tu aies réussi à comprendre ça, enfant, et encore plus que arrives à t'en souvenir. Intéressant. Peut-être pourrais-je...~
+
+@38   = ~Ne t'approche pas de moi !~
+
+@39   = ~J'imagine que non.~
+
+@40   = ~Quoi qu'il en soit, je dois dire, tieffelin, que je ne serais pas surpris de te voir courir comme un poulet sans tête, en train de crier que le ciel va nous tomber sur la tête. Je soupçonne que tu t'entraînes tous les jours devant un miroir. Et si tout doit disparaître, alors ça t'arrivera aussi. Acceptes-tu ton vieillissement et ta dégradation aussi facilement que la décadence du reste de l'univers ?~
+
+@41   = ~Je dois admettre que j'ai du... Mal à accepter ma propre décadence, même si elle est inévitable. L'inconnu est à la fois attirant et effrayant. ~
+
+@42   = ~La mort n'est qu'une transition dans un autre cycle d'ordre et d'entropie. Aucun des deux ne dure en permanence. Et dans ton cas, je pense qu'un trépas prématuré pourrait être bénéfique. Peut-être devrais-tu pratiquer ce que tu prêches, barde.~
+
+@43   = ~Peut-être. Et peut-être le fais-je, mais il n'y a rien de mal à apprécier la vie pendant que tu attends l'inévitable.~
+
+@44   = ~Nul doute que toutes tes connaissances précédentes voyaient les choses de la même façon, Haer'Dalis. C'est pour ça que cette fille à Saradush t'a lancé un chou pourri au visage ?~
+
+@45   = ~Hum, disons que tout le monde n'accepte pas la déchéance et l'entropie aussi facilement que d'autres, et n'allons pas plus loin.~

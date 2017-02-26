@@ -1,0 +1,296 @@
+@0    = ~(Lit un parchemin) La mélancolie est surtout caractérisée par des symptômes psychiques allant de la peur à la folie en passant par la dépression. Elle peut être causée par deux facteurs – soit par une pathologie qui supprime l'optimisme, soit par un état mental qui le consume...~
+
+@1    = ~Cette instabilité mentale a depuis longtemps été associée astrologiquement avec la planète Chandos, aussi connue sous le nom d'Iaras, la planète la plus lente dans sa révolution et la moins visible à l'oeil nu, à laquelle ont été associés les attributs similaires de la cristallisation, de la dépression et de la peur.~
+
+@2    = ~Mmm... Je ne crois pas que cela va nous aider dans ce cas. (Range son parchemin) Ce Gavid était une personne étrange, <CHARNAME>, comme la plupart de tes frères et soeurs décédés. Aaah... Il avait l'air assez fou et crois-le où pas, j'ai été une sorte d'expert en folie et en égarement.~
+
+@3    = ~Alors, qu'en penses-tu, enfant divin ? Y aura-t'il une fin aux vengeances et aux rancunes qui te suivent comme la queue gazeuse d'une comète, ou es-tu à jamais voué à répandre le meurtre dans ton sillage ?~
+
+@4    = ~Oh, encore un fou. Cet endroit semble les attirer. Que veux-tu de moi, esprit malade ?~
+
+@5    = ~Est-tu bien sûr d'être sain d'esprit toi-même ? Pourquoi est-ce que je donne toujours la réplique à tous ces morts insensés ? Les dieux se lasseront-ils un jour de s'amuser à mes dépends ? Très bien, très bien, vas-y, dis ce que tu as à dire.~
+
+@6    = ~On dirait qu'un autre défi m'attend – rien d'autre qu'un astronome. Je te préviens, esprit, tiens-toi loin de moi ou tu goûteras la morsure aiguisée de *ma* vengeance.~
+
+@7    = ~Esprit, tu as l'air en déséquilibré et plutôt perdu. Y a-t'il quelque chose que je puisse faire pour toi ?~
+
+@8    = ~Ta voie m'est familière et cependant, je ne reconnais pas ton visage. Contrôles-tu ton esprit ou es-tu encore l'une de ces bizarres hallucinations ? Les dieux on l'air de bien s'amuser à jouer avec moi.~
+
+@9    = ~Le temps passe... Mais certaines choses ne changent pas. Tu es tout aussi rebelle que dans mon souvenir, <CHARNAME>. Avec un peu de chance, le challenge que je peux t'offrir sera un défi pour ton esprit combatif.~
+
+@10   = ~Aaah... Tu es devenu quelque peu moins... Véhément que la dernière fois que nous nous sommes vus, <CHARNAME>. Je suis heureux de voir que le temps a calmé tes ardeurs. Peut-être le défi que je vais t'offrir t'intéressera-t'il suffisamment.~
+
+@11   = ~Et avant que tu te souviennes de me demander qui je suis et où tu m'as vu auparavant – Mon nom est Rielev.~
+
+@12   = ~Je savais bien que tu m'étais familier. Mais Rielev, tu étais...~
+
+@13   = ~Une chose folle et bégayante dans un bocal de verre. Aaaah... Oui, oui <CHARNAME>, c'était bien moi... *Moi*... Rielev le demi elfe. Mais il se trouve que mon nouveau maître est plus attentif et moins tête en l'air que l'ancien... Et il n'a pas encore perdu les facultés les plus hautes et nobles de son âme à cause d'une malédiction.~
+
+@14   = ~Lorsque enfin je mourus grâce à toi, <CHARNAME>, on me rendit mes souvenirs. Après tout – Je ne servirais à rien à mon maître sans eux.~
+
+@15   = ~Une transformation des plus fortunée après ton expérience sous les ordres d'Irenicus. Que fais-tu ici, Rielev, et qui sers-tu à présent ?~
+
+@16   = ~Horrible parasite du plus vil des monstres ! J'aurais aimé ne jamais t'avoir libéré de ton bocal à cornichons. Laisse-moi deviner – Tu sers à présent l'un des démons mineurs des Abysses ?~
+
+@17   = ~Et qui est ton nouveau maître, Rielev ? Ton ancien était... Comment dire... "une épine dans mon pied" ? Non, pas assez descriptif. "La plus répugnante de toutes les choses glauques et dégoutantes que j'aie jamais combattu" ? Oui, cette expression rend bien l'idée.~
+
+@18   = ~Quelle que soit ta nouvelle position maintenant, c'est certainement mieux que d'être le spécimen mariné d'Irenicus. Tu sais... Je ne peux toujours pas mordre dans un cornichon sans avoir la chair de poule. Alors, comment vont les choses ici, dans les Abysses ? Des folles orgies, des succubes, groupes d'intérêts "spéciaux", cocktails tanar'ri, ce genre de choses ?~
+
+@19   = ~On m'a un jour promis la jeunesse éternelle, <CHARNAME>. Une vie, brillante et excitante, semblable à la lumière pour un papillon de nuit ; chaque jour empli de recherches sans fin et d'étonnantes nouvelles découvertes. C'était un rêve... Un rêve qui s'est transformé en un cauchemar sombre et horrible. A présent je suis mort et je sers mon Seigneur Ilmater. Le Dieu brisé veille sur moi, même lorsque j'accomplis sa volonté.~
+
+@20   = ~<CHARNAME>, <CHARNAME>, tu as toujours tendance à sauter aux conclusions. Je ne vis pas dans le royaume de ton géniteur mort. Je ne suis qu'un visiteur ici, tout comme toi. Je sers mon Seigneur Ilmater, le dieu aux mains liées.~
+
+@21   = ~Je suis là à sa demande.~
+
+@22   = ~Te serais-tu tourné vers Ilmater à la fin de ta vie, Rielev ? Ce serait compréhensible que le Dieu en Pleurs ait été la seule personne vers qui te tourner dans ton bocal. Mais que veut le serviteur du Seigneur Ilmater d'un rejeton du Meurtre ? T'a-t-il envoyé pour me convaincre d'abandonner mes mauvaises manières et de me tourner vers la lumière ? ~
+
+@23   = ~Alors à présent tu sers le dieu des esclaves en fuite et des prostituées malades. Rielev, tu es toujours aussi pathétique. Dégage de ma vue avant que je me mette *vraiment* en colère. Je ne me laisserai pas manipuler par un faible.~
+
+@24   = ~Je n'ai que le plus grand respect et la plus grande admiration pour ton nouveau maître, Rielev. Si tu *es* ici pour le service du seigneur Ilmater, je serais honoré de satisfaire la volonté du Dieu Brisé.~
+
+@25   = ~Tiens-toi le pour dit, Rielev – Si tu essayes de me rouler dans la farine, j'achèverai ta pathétique existence une fois de plus, que tu sois un serviteur d'Ilmater ou pas. A présent, parle vite et qu'on en finisse. Ta simple vue me donne envie de vomir.~
+
+@26   = ~Un serviteur d'Ilmater, rien de moins. Je supposer qu'après que ce Solaire m'ait traîné dans le royaume abyssal de Bhaal, plus rien ne devrait me surprendre. Dis-moi donc pourquoi tu es là, esprit.~
+
+@27   = ~Tu t'es fait très clair, <CHARNAME>. Je ne t'ennuierai plus.~
+
+@28   = ~Je suis heureux que tu sois assez tolérant pour accepter de m'écouter. Je dois l'admettre, j'avais des doutes en venant ici.~
+
+@29   = ~Je suis plaisamment surpris par ton attitude, <CHARNAME>. Hélas, je ne me rappelle pas grand-chose de notre dernière rencontre. Juste la vague image de ton visage... Et ma libération.~
+
+@30   = ~Mais revenons à nos moutons. <CHARNAME>, tu dois être au courant de la position de mon maître en ce qui concerne les enfants de Bhaal. Comme pour tous les autres dieux, il n'a pas le droit d'intervenir.~
+
+@31   = ~Oui, le solaire à tenté de me l'expliquer bien que je n'aie jamais rencontré un être qui arrive à mettre tant d'énigmes en si peu de phrases. Pourquoi es-tu là alors ?~
+
+@32   = ~Les détails ne m'intéressent pas vraiment. Continue avec ton histoire.~
+
+@33   = ~Le jeu que les Dieux jouent à... Certaines règles, enfant de Bhaal. C'est un peu comme la roulette, ou cet étrange jeu de chance où on fait un mouvement puis où on lance les dés sur la surface de jeu en le regardant rouler. Personne n'a le droit d'intervenir dans les nombres qu'ils donnent, même si on n'obtient pas le bon total.~
+
+@34   = ~Mais quelqu'un qui avait parié contre toi, <CHARNAME>, a intrigué avec les envoyés du Plan Abyssal et cela à donné à mon Seigneur une possibilité d'agir.~
+
+@35   = ~Cela vaut probablement la peine de mentionner que mon Seigneur Ilmater n'agit pas seul dans cette affaire, enfant de Bhaal. Il y a... D'autres personnes, bien qu'elles préfèrent rester cachées vu que leur heure n'est pas encore venue. Tu finiras par en savoir plus. ~
+
+@36   = ~Pour l'instant je suis autorisé à te montrer l'entrevue entre le tricheur et une certaine personne qui pourrait bien t'intéresser... Mais tu verras cela par toi-même bien assez tôt.~
+
+@37   = ~Je crois que tu en as vu assez, <CHARNAME>, ce qui reste est moins important. Mon Seigneur Ilmater était mécontent, comme beaucoup d'autres. Ils n'ont pas d'influence directe sur ton destin et Cyric ne devrait pas non plus en avoir une. En fait, bien qu'il soit très énervant, le Prince des Mensonges n'est plus une menace pour toi. Mais il a mis des choses en branle... Des choses très déplaisantes.~
+
+@38   = ~Cet "allié" à lui essayait de recruter Irenicus à leur cause – Quelque chose qui est strictement interdit par les règles. Une fois qu'un pion est hors de l'échiquier, il devrait rester hors-jeu. Qui que soit la personne qui a essayé de ramener mon vieux Maître a fait une grave erreur et à présent c'est ton tour de jouer dans le jeu divin des échecs. Alors, qu'en penses-tu, <CHARNAME> ?~
+
+@39   = ~Cette "Personne encapuchonnée" était un de mes ennemis, je présume ?~
+
+@40   = ~Oui <CHARNAME>, tu as raison. C'est l'un de tes adversaires les plus dangereux dans la lutte à venir. Mais je suis plus intéressé par ta réaction envers les difficultés de ton ancien tourmenteur. Que dis-tu du châtiment d'Irenicus ?~
+
+@41   = ~Une terrible destinée, mais Irenicus l'a bien cherché.~
+
+@42   = ~Je ne me suis jamais senti si énergisé et revigoré. Puis-je le voir encore, pour savourer le moindre délectable détail ?~
+
+@43   = ~Je me sens... Oppressé. Personne ne devrait subir un tel destin pour l'éternité. J'aurais cru qu'Irenicus cesserait tout simplement d'exister après que je l'aie battu pour la dernière fois.~
+
+@44   = ~Je me sentais si vide sans mon âme. Vide, froid et... désolé. Personne ne devrait avoir à endurer ce genre d'horreur. Mais il a dû vivre ainsi pour combien de temps – Un siècle ? Peut-être plus... Je pourrais peut-être réussir à le pardonner, je pense. Ce serait un miracle, bien sûr, mais c'est une possibilité.~
+
+@45   = ~Ce démon maléfique a été puni par les dieux elfiques qu'il avait trahi et à présent il endure un châtiment bien mérité.~
+
+@46   = ~Je suis satisfait que ton "maître" doive souffrir des conséquences de ses actes, Rielev. Je donnerais bien une ou deux idées au tanar'ri concernant la manière de s'occuper de lui.~
+
+@47   = ~J'ai de la peine pour lui-même s'il m'a fait beaucoup de mal. Je pense qu'un noble coeur devrait pardonner à ses ennemis, se montrant ainsi au-delà de la haine et de la vengeance.~
+
+@48   = ~Pourquoi devrais-je me soucier du destin de quelqu'un qui pourrit dans sa tombe depuis des mois ? Tu commences vraiment à m'ennuyer, Rielev. Revenons en aux choses vraiment importantes comme *ma* destinée et ce qui va avec.~
+
+@49   = ~Mais quel est ton verdict, <CHARNAME> ?~
+
+@50   = ~Tu pardonnes plus facilement que je l'aurais cru, <CHARNAME>. Peut-être ma demande ne tombera pas dans l'oreille d'un sourd après tout.~
+
+@51   = ~Ahh... Alors tu prends un grand plaisir dans la vengeance et dans la rétribution, <CHARNAME>. C'est naturel vu ton sang, sans oublier ce qui s'est passé entre Jon et toi. Mais peut-être le coté pratique de mon offre t'intéressera également.~
+
+@52   = ~Alors tu n'es ni proie ni prédateur, <CHARNAME>, mais quelqu'un entre les deux qui est seulement intéressé par lui-même. Un curieux spécimen en effet, mais même quelqu'un comme toi devrait être intéressé par l'amélioration de ses chances de réussite.~
+
+@53   = ~Ma suggestion, <CHARNAME>, est la suivante : si tu veux empêcher ton nouvel ennemi d'utiliser ton ancienne némésis comme outil dans la lutte finale pour le trône de ton père, tu peux lui faire une offre toi-même. Si tu réussis à convaincre Jon Irenicus de se joindre à toi plutôt qu'à ce mystérieux "étranger", tu te rendras un grand service et j'accomplirais la demande de mon Seigneur Ilmater.~
+
+@54   = ~Zut ! Il n'y aurait pas un moyen de te faire dire qui était cette personne encapuchonnée ?~
+
+@55   = ~Je ne vois pas ce que tirer Irenicus des Enfers pourrait m'apporter, à part des ennuis.~
+
+@56   = ~Tu es encore plus dérangé que je ne le pensais !~
+
+@57   = ~Remarquable. Mais attendons et écoutons ce que tu as à dire.~
+
+@58   = ~<CHARNAME>, Je ne peux répondre à cette question sans trop faire pencher la balance de la destinée en ta faveur. Cependant...~
+
+@59   = ~C'est le souhait de mon Seigneur, de ses alliés de la Triade et d'autres forces qui sont de ton coté et qui désirent restées cachées que L'Exilé se voit donner une autre chance. S'il choisit de se joindre à toi et de se faire pardonner en t'aidant dans ton dernier combat, il pourra obtenir une âme à lui et mettre fin à sa malédiction s'il montre du repentir.~
+
+@60   = ~Si tu décides de l'attirer de ton coté d'une autre manière que par la promesse d'une rédemption, alors tu devras payer son aide de tes propres moyens. Mon Seigneur peut juste d'offrir une opportunité, pas te forcer à l'accepter.~
+
+@61   = ~Es-tu en train de me dire que je peux faire revenir Irenicus à la vie et le lâcher sur un monde qui ne se doute de rien en lui promettant une quelconque "rédemption" ? Tu *es* fou, Rielev. Cet homme à déjà eu plus d'en chances qu'il n'en méritait. Je ne vais pas tomber dans ce piège.~
+
+@62   = ~Tu as toujours été secrètement romantique, hein, Rielev ? Et tu penses que je suis aussi fou que toi. En imaginant que je décide de voir où peut nous mener ce plan stupide, comment garantiras-tu qu'il ne me trahira pas dès que j'aurais le dos tourné ? C'est d'Irenicus dont nous sommes en train de parler, pas d'une pauvre âme perdue.~
+
+@63   = ~Oublie ça, Rielev. Je n'ai aucun désir de voir Irenicus "sauvé" et je ne me soucie pas non plus de son soutien à ma cause. Je préfèrerai plutôt mourir que de gagner avec *son* aide.~
+
+@64   = ~Ce bâtard ne mérite pas une deuxième chance, Rielev, mais peut-être puis-je l'utiliser à mes fins... Pendant un moment.~
+
+@65   = ~Ce serait extrêmement amusant et sans oublier gratifiant d'avoir cette fière ordure sous mes ordres. Mais comment proposes-tu que je le lie à ma volonté ?~
+
+@66   = ~Peut-être n'as-tu pas tout à fait tort, Rielev, bien que je pense toujours que tu n'as pas toute ta tête. Je ne crois pas que quiconque puisse être sauvé contre sa volonté et je ne vois pas Irenicus coopérer... D'un autre coté, s'il y avait un moyen de s'assurer de sa loyauté, j'aurais peut-être essayé, juste pour voir si je pouvais.~
+
+@67   = ~Je vois que tu as déjà floué la mort, sombre guerrier. Pourquoi renierai-je une étincelle d'espoir à mon ancien ami et maître ?~
+
+@68   = ~Quoi qu'il en soit, qu'en penses-tu, <CHARNAME> ?~
+
+@69   = ~Ce serait extrêmement amusant et sans oublier gratifiant d'avoir cette fière ordure sous mes ordres. Mais comment proposes-tu que je le lie à ma volonté ?~
+
+@70   = ~Si c'est en effet ton dernier mot, je ne peux rien dire de plus. C'est dommage. Quelque part, j'entretenais le faible espoir de pouvoir l'aider... Une dernière fois. Porte-toi bien, enfant divin.~
+
+@71   = ~Irenicus en Enfer : Enième partie – Qui a compté ?
+
+Alors que je m'habituais à mon nouveau royaume et que j'absorbais le choc de la résurrection de Sarevok, j'ai eu de nouvelles surprises. Juste après m'être débarrassé du fantôme du tueur en série Gavid et de sa "vengeance", un autre esprit insensé s'est montré. Ce n'était rien d'autre que mon vieil "ami" Rielev – le cornichon humain du donjon d'Irenicus – qui est apparu de nulle part pour me proposer une nouvelle difficulté !
+On dirait qu'Irenicus lui-même est toujours un facteur dans ce jeu, malgré qu'il ait été plongé dans un puits de lave bouillante pour y mariner toute l'éternité. Rielev m'a assuré qu'un ennemi inconnu complote pour ranimer l'ancien mage et le remettre dans mes pattes une fois de plus et que ma seule chance d'empêcher cela est de faire un marché avec Irenicus moi-même.
+Une telle absurdité n'a pu être conçue que par l'esprit tordu d'un démon ou, peut-être, dans les hallucinations effrénées d'un fou. J'ai refusé et le fantôme insensé est parti - Sans aucun doute pour rapporter son échec à ses maîtres, quels qu'ils soient.~
+
+@72   = ~Je n'espérais pas que cela arrive, enfant divin. Tu ne le regretteras pas, à moins que je ne me trompe grandement sur tes motivations. Ce sera un défi pour tes talents de diplomate et ton caractère, mais je suis sûr que tu en émergeras vainqueur.~
+
+@73   = ~Tu es aussi logique et rusé que je pensais que tu l'étais, enfant divin. Et bien que tu imagines un plan dangereux, j'espère que les choses finiront bien. Jon ne sera pas facile à calmer et tout cela pourrait bien vous changer d'une manière inattendue.~
+
+@74   = ~Si tu décides d'invoquer Jon ici pour négocier sa collaboration, il y a quelque chose que tu dois savoir, <CHARNAME>. Il n'est qu'une entité spirituelle sans corps qui se maintient uniquement par la volonté et un désir forcené d'exister.~
+
+@75   = ~En vérité, il ne reste pas grand-chose de lui et je suis assez surpris qu'il continue à s'accrocher à cette étrange non-vie... Mais tu as entendu ses propres mots – il projette de prendre une forme démoniaque et de conquérir les Abysses. (Soupir) Il n'y a que lui pour concevoir un tel plan... Alors qu'il est plus mort que vivant. Il ne peut t'être utile sur le plan matériel que sous une seule condition – que tu lui fournisses un nouveau corps. Je ne peux simplement le ramener à la vie vu qu'il n'a pas vraiment d'âme et les résidus flétris qui en restent disparaissent rapidement dans les climats abyssaux. Si jamais il doit en avoir une – elle doit être gagnée, pas mendiée.~
+
+@76   = ~Mais je sais que tu as en ta possession quelque chose qui pourrait m'aider dans cette tâche. Son masque – ce n'était pas juste un objet qu'il portait pour cacher la ruine brûlée qu'est son visage. Jon l'avait enchanté de nombreux sorts de protection qui étaient censés protéger son corps des effets de la malédiction. De plus, il contient encore assez de sa véritable essence pour me fournir un point de départ. Et il y a également le fait que vous ayez partagé la même âme pendant un bref moment. Tu vois, <CHARNAME>, ton âme se "souvient" encore de lui. Je peux recréer sa chair en utilisant le masque comme base, mais son nouveau corps ne tiendra que si tu me permets de le lier à ton âme divine. Dans le plan matériel, il ne tiendra que s'il ne s'éloigne pas trop de toi. Cela devrait aussi soulager ta peur qu'il te trahisse.~
+
+@77   = ~Jon saura que son existence est intimement liée à la tienne et donc il ne prendra pas le risque de te trahir. Bien sûr, tu peux avoir quelques doutes, enfant divin, mais je t'assure – c'est le seul moyen.~
+
+@78   = ~Mais c'est une sorte d'esclavagisme virtuel... Tu ne t'attends sûrement pas à ce qu'Irenicus accepte ce genre de chose ?~
+
+@79   = ~C'est un plan des plus machiavéliques. C'était l'idée de ton Seigneur Ilmater ? Je commence à me demander si les bons dieux ne sont pas plus rusés que les mauvais.~
+
+@80   = ~Pas question que je risque mon âme en l'utilisant comme ancre pour *son* corps. Je n'accepte pas ce marché.~
+
+@81   = ~Ah, je peux distinguer les possibilités infinies de vengeance subtile. J'aime déjà ce plan, en espérant qu'Irenicus soit d'accord pour être lié à moi de cette façon.~
+
+@82   = ~Ce misérable le mérite et de plus, il pourra apprendre l'humilité et la perfidie de ses actions maléfiques sous ma férule.~
+
+@83   = ~Je suis heureux que nous soyons parvenu à un accord, <CHARNAME>. Quels que soient tes intentions ou tes plans pour Irenicus, cela n'aura pas d'effet sur cette partie de notre marché. J'imagine que tu seras capable de convaincre Jon qu'il n'a pas d'autre choix que de te suivre.~
+
+@84   = ~Préviens-moi lorsque tu seras prêt à effectuer le marché. Je t'attendrai ici.~
+
+@85   = ~Irenicus en Enfer : Enième partie – Qui a compté ??? 
+
+Alors que je m'habituais à mon nouveau royaume et que j'absorbais le choc de la résurrection de Sarevok, j'ai eu de nouvelles surprises. Juste après m'être débarrassé du fantôme du tueur en série Gavid et de sa "vengeance", un autre esprit insensé s'est montré. Ce n'était rien d'autre que mon vieil "ami" Rielev – le cornichon humain du donjon d'Irenicus – qui est apparu de nulle part pour me proposer une nouvelle difficulté !
+On dirait qu'Irenicus lui-même est toujours un facteur dans ce jeu, malgré qu'il ait été plongé dans un puits de lave bouillante pour y mariner toute l'éternité. Rielev m'a assuré qu'un ennemi inconnu complote pour ranimer l'ancien mage et le remettre dans mes pattes une fois de plus et que ma seule chance d'empêcher cela est de faire un marché avec Irenicus moi-même.
+Je me méfie de ce marché, même si Rielev m'a dit qu'il sert à présent Ilmater et que le Dieu Brisé ainsi que d'autres alliés inconnus se cachent derrière cette idée tirée par les cheveux. Je peux soit ramener Irenicus à la vie et lui offrir une chance de se racheter soit l'utiliser à mes propres fins, comme mon esclave personnel. Quoi qu'il en soit, cette perspective est surprenante et je devrais vite me décider – Je ne peux pas quitter cet endroit avant d'avoir congédié Rielev.~
+
+@86   = ~Je suis désolé mais c'est une affaire délicate. Comprenez que je ne puisse en discuter qu'avec <CHARNAME>.~
+
+@87   = ~Es-tu prêt à invoquer Jon Irenicus dans ton Antichambre, enfant divin ?~
+
+@88   = ~Oui, autant en finir avec ces bêtises.~
+
+@89   = ~Non, laisse-le attendre encore. Je ne suis pas encore prêt.~
+
+@90   = ~Je n'ai pas la moindre intention de suivre ton plan insensé. Va-t'en.~
+
+@91   = ~Je vois que tu n'as plus le masque, <CHARNAME>. Sans, tu ne peux pas lier Jon à toi. L'as-tu perdu ou juste mis à l'abri ?~
+
+@92   = ~C'est ma faute Rielev. Je vais le chercher immédiatement.~
+
+@93   = ~Tu n'as toujours pas le masque, <CHARNAME>. Sans, tu ne peux pas lier Jon à toi. L'as-tu perdu ou juste mis à l'abri ?~
+
+@94   = ~Dommage. Quelque part, je nourrissais le vain espoir de pouvoir aider Jon... Une dernière fois. Porte-toi bien, enfant divin.~
+
+@95   = ~Irenicus en Enfer : Enième partie – Qui a compté ? – Résolution
+
+J'ai décidé que je ne voulais rien avoir à faire avec Irenicus et sa "rédemption". Que le mage pourrisse en Enfer jusqu'à la fin du monde – J'ai ma propre destinée dont je dois me soucier !~
+
+@96   = ~Je... Je me souviens de toi. Je t'ai vu mourir dans cet aquarium et quelque chose en moi s'est réveillé, juste comme ça... Je me souviens avoir pensé à quel point cela avait l'air d'être agréable, de pourvoir fermer ses yeux et de le quitter, *lui* et cet endroit, une fois pour toutes... Pendant un moment, j'ai cru que la mort était douce et belle, comme la fourrure d'un châton ou une longue marche dans un jardin de fleurs qui éclosent de nuit... <CHARNAME>, te souviens-tu toujours de Château-suif et de ses jardins ?~
+
+@97   = ~La mort n'est jamais une fin, enfant. C'est seulement une porte vers d'autres dimensions ; certaines sont belles et brillantes comme des visions du paradis, d'autres sont sombres et désolées et encore plus remplies d'horreurs hurlantes pires que celles que tu as laissé derrière toi, un peu comme l'endroit où nous nous trouvons. Je me souviens de ta voix, jeune fille. Je suis heureux que Jon... Que mon ancien maître n'ait pas réussi à faire de toi ce qu'il voulait.~
+
+@98   = ~Irenicus... Il m'a fait des choses. Des choses horribles et effrayantes. C'est un miracle que je ne sois pas devenue complètement folle dans cet endroit rempli de gens morts flottant dans des bocaux de verre. Et cependant, tu as éveillé ma curiosité – Que serions-nous devenus moi et mon <PRO_BROTHERSISTER> si nous n'avions pas subi ces expérimentations ?~
+
+@99   = ~Ah, tu es donc l'un des enfants de Bhaal, jeune fille. Un si beau visage et un si doux tempérament pour quelqu'un née du meurtre incarné. J'ai cependant vu des choses plus étranges dans ma vie mortelle. Mon vieux maître était un homme à l'ambition dévorante. Nombreux sont ceux qui avaient le même héritage divin et qui ont eu la malchance de tomber dans ses mains avant vous. Mais je m'écarte du sujet. Mon nouveau maître à une proposition pour toi et ton <PRO_BROTHERSISTER>.~
+
+@100  = ~Ah ! Un autre de tes ennemis vaincus qui souhaite *exister*, j'imagine ? Je me demande quel choix tu feras cette fois-ci, <PRO_BROTHERSISTER> ? Je te conseille de refuser, à moins que tu penses pouvoir apaiser deux fantômes rancuniers en même temps.~ [SAREVO33]
+
+@101  = ~Le mauvais mage qui a tué le gentille Dynaheir est mort, et pourtant il ne l'est pas. Minsc ne comprend pas mais ce n'est pas la première fois que ça lui arrive. Comment peut-on punir quelqu'un qui n'est pas là ? Même le petit Bouh est troublé !~ [MINSC06]
+
+@102  = ~J'aurais aimé ne pas avoir à voir cela, petit <PRO_BROTHERSISTER> ! Avant je croyais que j'aurais pu arracher le coeur d'Irenicus de mes mains et de mes dents pour ce qu'il m'avait fait... Pour ce qu'il t'avait fait... Pour ce qu'il nous avait tous fait. Comme quand nous sommes sortis de ce tunnel et que nous avons débouché dans la lumière – Et il était là à nouveau, si cruel, si détaché et juste... Ennuyé que nous nous soyons enfuis, comme si nous n'étions rien d'autres que des gamins agaçants refusant de prendre nos médicaments et d'aller nous coucher tôt.~
+
+@103  = ~C'est pour cela que je n'ai pas pu m'empêcher de l'attaquer, même si je savais que ma faible magie ne valait rien face à ses "pouvoirs". Mais le voir brûler vivant... Je viens de réaliser que je n'arrive pas à l'oublier. Je voulais être débarrassée d'Irenicus, <CHARNAME>, mais *ça* ne m'a apporté aucune liberté !~
+
+@104  = ~Je peux ressentir ta peur et ta confusion, enfant, et j'aimerais qu'il y ait un autre moyen de délivrer mon message. Je suis désolé d'avoir fait remonter de mauvais souvenirs à la surface, et j'ai peur que le pire soit à venir...~
+
+@105  = ~Que sais-tu de la souffrance, enfant ? Tes blessures ont été guéries. Avec un peu de temps, tu seras débarrassée d'Irenicus à jamais. L''Exilé a seulement blessé ta chair. Par les cornes de Silvanus, comme j'aurais aimé changer de place avec toi ou <CHARNAME> pour avoir *seulement* avoir à endurer l'aspect physique de cette torture !~
+
+@106  = ~Tes blessures ont été guéries, enfant et en temps la Nature suivra son cours, la balance sera restaurée et tu seras débarrassée de lui pour toujours. Tu es si jeune, en bonne santé et vigoureuse... Je... Je t'envie presque. Presque. Si ce n'est pour <CHARNAME>...~
+
+@107  = ~Quoi qu'il en soit, tu n'aurais pas dû me faire voir Irenicus dans ces conditions. Le simple fait de penser qu'il existe quelle que soit sa forme me trouble. Il est toujours aussi froid, sans âme et arrogant. Il ne comprend pas la signification de son châtiment et il ne se soucie pas non plus des crimes qu'il a commis. Mon mari est mort et aucun tourment même s'il est terrible et hideux, ne peut me rendre Khalid ou faire cesser mon chagrin. Si je pouvais lui faire ressentir *ma* souffrance, le voir pleurer de douleur devant l'horreur de ses méfaits, convulser dans l'agonie de la culpabilité et du remords... Peut-être me sentirai-je mieux. Mais cela n'arrivera jamais !~
+
+@108  = ~Je ressens ta douleur et ta colère, femme et j'aimerais qu'il y ait un autre moyen de livrer mon message. Je suis désolé d'avoir fait remonter de mauvais souvenirs à la surface, et j'ai peur que le pire soit à venir...~
+
+@109  = ~Mais par les cornes de Silvanus, comme j'aurais aimé changer de place avec toi ou <CHARNAME> pour avoir *seulement* avoir à endurer l'aspect physique de cette torture !~
+
+@110  = ~Jaheira, n'y avons-nous pas mis fin lorsque nous avons servi la justice ? Ton ennemi est mort.~
+
+@111  = ~Soit raisonnable, femme. Le meurtrier de Khalid est mort.~
+
+@112  = ~Mais mon aimée, je pensais... J'*espérais* que ta peine était amoindrie par le fait qu'il soit mort.~
+
+@113  = ~Tout comme l'est mon mari ! Calme toi, coeur de mon coeur. J'aimerais pouvoir te faire comprendre. Qu'ai-je à gagner du fait qu'Irenicus pourrisse en enfer ? Khalid ne fait plus partie de ma vie mais le souvenir de sa mort violente et la manière dont il m'a été arraché par cet homme... Cruel, me hantera jusqu'à ma tombe, comme si quelque part c'était de ma faute... De notre faute, <CHARNAME>.~
+
+@114  = ~Tu appelles ça un châtiment, esprit ? Par les cornes de Silvanus, comme j'aurais aimé changer de place avec toi, <CHARNAME> pour avoir *seulement* avoir à endurer l'aspect physique de cette torture !~
+
+@115  = ~Je vais t'ouvrir une faille vers la partie du Plan Abyssal où Jon est retenu. Tu dois seulement te concentrer et utiliser ta volonté pour l'attirer. Mais avant que nous ne procédions, je te conseille d'oublier tes idées de vengeance et d'être plus diplomate que ton ancien ennemi.~
+
+@116  = ~La seule pensée d'être dans le même endroit que lui me donne la chair de poule, petit <PRO_BROTHERSISTER>. Et pourtant, c'est également étrangement fascinant... Seulement cette fois il est à l'autre bout de la laisse. Tu ne crois pas qu'il y a une certaine justice à cela ? C'est tellement amusant – Je pourrais presque en pleurer.~
+
+@117  = ~J'aimerais que tu arrêtes et que tu réfléchisses avant d'agir, <CHARNAME>. J'ai plus confiance en toi qu'en moi-même sur bien des choses, mais il y a des limites, même en ma confiance en toi. Irenicus est l'une d'elles. Réfléchis-y. Si tu ramènes ce monstre à la vie de tes propres mains, la Nature elle-même criera d'horreur devant la perversité de cet acte vil !~
+
+@118  = ~Vas-tu vraiment parler avec *lui*, <CHARNAME> ? C'est folie. Quels que soient tes plans, je ne vais pas te laisser glisser dans les ténèbres. Si tu ramènes ce monstre à la vie de tes propres mains, la Nature elle-même criera d'horreur devant la perversité de cet acte vil !~
+
+@119  = ~Un défi à la hauteur de ton sang divin, <CHARNAME>. Je te conseille fortement d'accepter cette plaisanterie. Ce sera très amusant de te regarder dresser Irenicus, lui apprenant la voie des vaincus et des faibles.~
+
+@120  = ~Ah, les tables ont tournées et le jeu vient enfin de devenir intéressant. A présent nous aurons un divertissement à nos heures perdues – Nous devrons dresser notre ancien ennemi et lui apprendre la voie des vaincus et des faibles.~
+
+@121  = ~Je ne peux pas croire que tu aies accepté de marchander avec ton ancien tourmenteur et boucher, <CHARNAME> ! A mon avis, le mage est un détestable démon consigné dans les plus profonds boyaux des Abysses et c'est là qu'il devrait rester. La simple pensée de ses yeux souillés qui ont désiré ton âme divine sur ta personne est révoltante. J'espère que tu vas changer d'avis, mon amour.~
+
+@122  = ~Je te dois mon bonheur et ma santé mentale, <CHARNAME> et donc je n'oserais pas mettre ton choix en doute, aussi étrange et dangereux qu'il me semble être. Peut-être ton noble coeur voit-il plus loin que l'esprit simple d'un soldat et peut-être le voile de ma dévotion envers toi me rend aveugle à tes buts vertueux. Mais je me méfierai de cet homme plus que d'une enclave entière de fidèles du Dieu Bane sur le sentier de la guerre !~
+
+@123  = ~Ceci est sans aucun doute la chose la plus stupide et dangereuse que je t'aie vu faire durant nos voyages ensemble ! <CHARNAME>, j'espère que tu n'as pas sérieusement l'intention de lui faire confiance. Le Grand Veilleur voit tout et si Irenicus essaye de retrouver ses habitudes, il fera face à la justice d'Helm aussi vite que ma masse peut la prodiguer.~
+
+@124  = ~Ma confiance envers ta profonde sagesse est ébranlée, <CHARNAME>. Peut-être serai-je capable de voir s'il y a un but élevé derrière tes actions une fois que nous en aurons appris plus au sujet de ta situation présente. Pour l'instant cependant, je te conseille de faire attention aux intentions d'Irenicus.~
+
+@125  = ~Vas-tu invoquer ici cet horrible et mauvais homme qui t'a torturé et volé ton âme, <CHARNAME> ? Je ne peux pas croire que tu sois prêt à risquer ta vie et notre bonheur futur ensemble sur la foi des mots de cet étrange fantôme. Mais si tu es sûr de toi – J'accepterai ta décision, comme toujours.~
+
+@126  = ~L'accepteras-tu... Ici, dans notre groupe ? Lui qui est responsable des morts de tant de personnes... De crimes contre le Peuple ? Je... Je ne peux pas le comprendre ! <CHARNAME>, j'espère que cette terrible erreur ne se retournera pas contre toi et que tu ne lâcheras pas cette horreur sur le monde une fois encore...~
+
+@127  = ~Le maléfique rejeton du mal est sur le point de revenir à la vie ?!! Minsc va le charger de sa lame et de sa botte !
+Hein ? Que dis-tu, Bouh ? Que de mener le Mal à sa rédemption peut-être une *bonne chose* ? Hmm... Tu as raison peut-être et <CHARNAME> sait ce qu'<PRO_HESHE> fait...~
+
+@128  = ~Soit conscient du mal qui essaye de se frayer un chemin dans tes bonnes grâces, <CHARNAME>. Même le plus brillant stratège échouera s'il sous-estime la force de son adversaire. Le mage que nous avons vaincu en Enfer est une créature de pures ténèbres et qui est loin de pouvoir ressentir du remords ou de pouvoir atteindre une rédemption.~
+
+@129  = ~Quoi ? Pourquoi réfléchis-tu à cette histoire, <CHARNAME> ? Qu'est-ce qui pourrait te faire *seulement* désirer la compagnie de ce bouffon en harnais de cuir doublé d'un fétichiste des couteaux alors que tu es déjà accompagné par le plus grand mage du monde, c'est-à-dire moi ? Bah... Si tu insistes sur ce sujet, je respecterai tes désirs. Mais je garderais un oeil sur lui, oh oui. (Et peut-être aurais-je l'opportunité de lui rendre la souffrance qu'il lui a infligé. Donnez moi juste vingt centimètres de corde, trois grenouilles vivantes et une bougie allumée et il regrettera vite le jour où il a posé la main sur sa parfaite silhouette.)~
+
+@130  = ~Alors tu souhaites te faire un serviteur de lien d'un mage fou, <CHARNAME> ? Peut-être es-tu un tout petit peu plus intelligent que je ne le pensais. (Une intelligence vertébrée plutôt qu'invertébrée, mais pas très évoluée.) Il m'est bien sûr totalement inférieur en matière d'Art, mais il est possible qu'il y ait une petite parcelle de savoir périmé à retirer de son cerveau avant que nous ne l'arrachions de son corps pour le mettre dans un bocal, suivant ses propres préférences. (Cela rendrait bien sur mon bureau, je pense, juste à côté du pseudo dragon empaillé.)~
+
+@131  = ~Tu as un penchant pour attirer les ennemis les plus intéressants, <CHARNAME>. Mais cet "Irenicus" ne possède pas ma volonté ni mes capacités et il a été incapable de s'extirper de L'Abysse sans l'aide risible d'Ilmater.~
+
+@132  = ~Je commence à douter de ta raison et de ta santé mentale, <CHARNAME>. Tout au long de ta quête nous avons vaincus nos ennemis sans la répugnante magie de cet homme, et je ne pense pas que nous en ayons besoin à présent.~
+
+@133  = ~Il ne devrait pas y avoir de pardon pour des personnes comme lui, <CHARNAME> ! Combien de chances doivent être données au mal avant que la puissance du bien l'efface de la surface de Féérune ? Combien de fois permettras-*tu* cet homme de se moquer de tout ce qui est juste et bon ? Réfléchis-y en marchant, <CHARNAME>, et je suis sûre que tu verras ton erreur.~
+
+@134  = ~Cela va modifier la balance de la vie sans aucun doute. Un arbre ne peut regagner sa santé qu'en se débarrassant du fruit pourri. Et pourtant, tu as forcé Mère Nature a accepter quelque chose dont pleine de honte, elle a essayé de se débarrasser non pas une fois, mais deux !~
+
+@135  = ~<CHARNAME>, n'accepte pas ce "marché" imprudent. Cet endroit raisonne de vibrations maléfiques qui pourraient attirer toute sortes de dangereux démons. On ne peut jamais savoir ce qu'une personne morte a en tête.~
+
+@136  = ~Ha ! Celui-là était drôlement dur à tuer. Mais tu sais c'qu'on dit... Une fois c'est jamais assez !~
+
+@137  = ~J'ai vu de nombreuses histoires étranges en traversant les plans, mon corbeau, mais les clauses de ce contrat les surpassent toutes. As-tu l'intention de faire de ton ancien geôlier ton prisonnier et ton serviteur ? C'est un scénario qui ferait une excellente tragédie et cet oiseau est curieux de savoir comment il se déroulera.~
+
+@138  = ~Tu sais, <CHARNAME>, tu me rappelles mon cousin Flinty Jansen. Lui aussi avait un penchant pour la douleur, si tu vois ce que je veux dire. Mais il avait trop honte pour l'avouer à sa famille, le pauvre, alors chaque samedi soir il s'enfermait dans sa chambre avec une bouteille de vin, des poulets fris et il invoquait des succubes pour lui donner des sensations qu'il ne pouvait obtenir autrement.~
+
+@139  = ~Hé, ça s'est bien passé pendant un temps et le pauvre Flinty n'aurait rien eu s'il s'était contenté des démons mineurs. Mais lorsqu'il devint trop puissant, il invoqua un très gros tanar'ri qui le tua en fourrant lentement les poulets et la bouteille de vin dans son derrière. La pauvre tante Gardénia en a eu le coeur brisé.~
+
+@140  = ~Mais cousin Flinty aurait pu nous parler de ses besoins étranges, car nous les Jansen, nous sommes une drôle de famille et nous sommes habitués a à peu près tout dans ce monde...~
+
+@141  = ~Tout ce qu'il aurait eu à faire, c'était d'acheter quelques bâtons à tentacules et une tournée de bière de navets pour toute la famille. Quoi qu'il en soit, j'espère que tu sais que si tu te retrouves dans la même situation que lui, tu peux toujours nous faire confiance avec tes secrets plutôt que d'invoquer de dangereuses créatures dans ta chambre – Le masochisme est juste un passe-temps comme un autre.~
+
+@142  = ~Très bien, commençons.~

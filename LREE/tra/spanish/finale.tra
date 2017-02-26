@@ -1,0 +1,625 @@
+@0    = ~No pareces sorprendido, <CHARNAME>. Bien. Te ahorraré los aburridos 
+detalles de mi alianza momentánea con tu última enemiga. Debo reconocérselo 
+a Melissan - es tan persistente como un picor calishita.~ ~No pareces 
+sorprendida, <CHARNAME>. Bien. Te ahorraré los aburridos detalles de mi 
+alianza momentánea con tu última enemiga. Debo reconocérselo a Melissan - es 
+tan persistente como un picor calishita.~
+@1    = ~¿Es que acaso nunca te cansas de tus fanfarronerías? ¿No te he dado 
+ya suficientes azotes?~
+@2    = ~¿De verdad piensas que podrás detenerme? Parece ser que tus falsas 
+ilusiones han sobrevivido a los muchos golpes que te he proporcionado.~
+@3    = ~Si crees que estoy menos cansado que tú de esta comedia, piénsalo 
+bien. No me has dejado otra opción. Bien, acabemos de una vez con esta 
+batalla, para que así pueda volver a asuntos más importantes, como planear 
+mi huida del Abismo.~
+@4    = ~Me alegra que finalmente hayas aprendido la lección, Irenicus. 
+¡Nunca podrás derrotarme por mucho que te empeñes!~
+@5    = ~¿Qué pasa contigo, Irenicus? No pareces particularmente animado 
+ante la perspectiva de luchar contra mí de nuevo. ¿Por fin aprendiste tu 
+lección de humildad?~
+@6    = ~(bosteza) Melissan realizó ciertos... acuerdos con sus aliados del 
+Abismo, por lo que estoy obligado a complacerla, al menos en esta ocasión. 
+Daré lo mejor de mí en esta batalla, sin reparar en las consecuencias, pero 
+no te hagas ilusiones, hijo de dios - ya no eres importante en mi escala de 
+prioridades. Aun así, si tuviera éxito al intentar arrebatarte tu alma, mi 
+huida sería mucho más fácil.~ [IRENIC93] ~(bosteza) Melissan realizó 
+ciertos... acuerdos con sus aliados del Abismo, por lo que estoy obligado a 
+complacerla, al menos en esta ocasión. Daré lo mejor de mí en esta batalla, 
+sin reparar en las consecuencias, pero no te hagas ilusiones, hija de dios - 
+ya no eres importante en mi escala de prioridades. Aun así, si tuviera éxito 
+al intentar arrebatarte tu alma, mi huida sería mucho más fácil.~ [IRENIC93]
+@7    = ~Esto no es... no... ¡esto no es!~ [IRENIC73]
+@8    = ~Supongo que ahora piensas reclamar el trono de tu padre, ¿me 
+equivoco? Date prisa, diosecillo. A diferencia de ti, algunos de nosotros 
+aún necesitamos ganar unas cuantas batallas más antes de conseguir lo que 
+merecemos.~ ~Supongo que ahora piensas reclamar el trono de tu padre, ¿me 
+equivoco? Date prisa, diosecilla. A diferencia de ti, algunos de nosotros 
+aún necesitamos ganar unas cuantas batallas más antes de conseguir lo que 
+merecemos.~
+@9    = ~Entonces, <CHARNAME>, por fin aceptaste tu derecho de nacimiento. 
+Espero que disculpes por mi falta de entusiasmo ante tu triunfo. Pero cuando 
+las puertas celestiales de Arvandor caigan ante mí, quizás te haga una 
+visita... para discutir nuestra futura coexistencia en los Planos.~
+@10   = ~<CHARNAME>, si has sido lo suficientemente desconsiderado como para 
+rechazar la divinidad cuando prácticamente cayó en tu regazo, no tengo nada 
+más que decir. Patético loco, cuando las puertas celestiales de Arvandor 
+caigan ante mí, me reiré al contemplar cómo te arrastras como un gusano por 
+el maldito mundo de Toril.~ ~<CHARNAME>, si has sido lo suficientemente 
+desconsiderada como para rechazar la divinidad cuando prácticamente cayó en 
+tu regazo, no tengo nada más que decir. Patética loca, cuando las puertas 
+celestiales de Arvandor caigan ante mí, me reiré al contemplar cómo te 
+arrastras como un gusano por el maldito mundo de Toril.~
+@11   = ~Cuando el Solar lanza su hechizo, Irenicus queda envuelto por una 
+luz brillante. Grita espantosamente y ves cómo intenta desgarrar su antifaz 
+de cuero como si luchara por respirar. Los guantes gruesos que siempre 
+cubren sus manos se desintegran cayendo a pedazos, su máscara se deshace 
+bajo sus dedos malditos, revelando algo que no te esperabas...~
+@12   = ~Una oleada de pelo, pálido como la luz de la luna, y una cara joven 
+e insólitamente hermosa... aunque altiva y arrogante, con los prominentes 
+pómulos y las largas y delicadas orejas de un elfo. Los rasgos que emergen 
+de la asquerosa maraña de cuero agrietado se asemejan a los de la máscara... 
+tal y como una nueva mariposa se asemeja a su seco y marchito capullo.~
+@13   = ~Supones que Irenicus moldeó ese macabro rostro del recuerdo de la 
+cara que vio en su anterior vida cada día en un espejo. Mientras observas la 
+transformación con mórbida fascinación, el Solar alza su sobrecogedora voz 
+para lanzar otro hechizo. El elfo renegado se convulsiona como si hubiera 
+sido alcanzado por un rayo y se retuerce violentamente. Gritos y súplicas de 
+clemencia se hielan en sus labios; su cara se desfigura mostrando la misma 
+mueca que una víctima estirada en un potro de tortura.~
+@14   = ~Tienes la desagradable sensación de estar presenciando una 
+ejecución en vez de una curación, y los gritos que brotan de la boca del 
+elfo torturado han perdido todo su raciocinio, semejantes a los de un animal 
+al que despellejan vivo. Apartas la vista deseando que tu ex enemigo y 
+atormentador pierda el conocimiento, pero algo te dice que el Solar le hace 
+sentir absolutamente todo lo que le está ocurriendo.~
+@15   = ~No sabes cuánto dura, ya que el flujo del tiempo en este lugar - 
+una pequeña Bolsa Planar denominada el Trono de Bhaal - es extraño... Pueden 
+pasar días o eones, pero para ti son sólo unos pocos minutos. No obstante, 
+tú sabes que Irenicus, o bien Joneleth, está encerrado en su propia 
+dimensión espacio-temporal.~
+@16   = ~Los ojos del elfo permanecen abiertos durante toda su experiencia, 
+y lo que se refleja en ellos es incluso más aterrador que todos los horrores 
+del Abismo. Cuando finalmente acaba, el que llamabas Irenicus cae al suelo 
+sin fuerzas como si de una muñeca de trapo se tratara, quedando 
+completamente inmóvil.~
+@17   = ~No crees en mi poder, puedo verlo en tus ojos. Has luchado contra 
+temibles enemigos en el pasado y siempre has vencido. Por qué... incluso has 
+podido atraer a uno de ellos a tu lado usando dudosas artimañas.~
+@18   = ~¿Estás preparado para tomar tus propias decisiones ahora, hijo de 
+dios?~ [WIZEYE01] ~¿Estás preparada para tomar tus propias decisiones ahora, 
+hija de dios?~ [WIZEYE01]
+@19   = ~Sí, ¿pero qué le ha pasado a Jon? ¿Está muerto?~
+@20   = ~Él sobrevivirá, aunque pronto deseará no haberlo hecho. Para poder 
+‘unirle’ su nueva alma, he tenido que hacerle padecer todo el dolor que ha 
+causado desde su primer ataque al Árbol.~
+@21   = ~(se estremece) Entonces, ¿crees haberle *infundido* compasión? Dudo 
+que eso sea posible... Aun así, si Jon tuviera que soportar todas las 
+torturas que una vez perpetró en mí, e Imoen... y los demás... no me extraña 
+que casi parezca haber muerto.~
+@22   = ~¿Qué le sucederá ahora? Parece... apagado, en cierto sentido.~
+@23   = ~Es mejor que algunas cosas permanezcan ocultas. Te aburriría con 
+los detalles.~
+@24   = ~Y qué más me da. No me importa lo que le pase.~
+@25   = ~Sí, <CHARNAME>, cuando se lanzó el hechizo Joneleth perdió mucha 
+fuerza vital. Pero después su maldición desapareció, y su cuerpo fue 
+restaurado a su estado original, como le fue prometido por los dioses. El 
+horrible soporte que creó para su marchito cuerpo por medios mágicos ya no 
+existe. Además, su edad se revirtió a la de un joven, siendo esto parte de 
+su nuevo castigo.~
+@26   = ~Algunos lo llamarían una recompensa injusta. ¡Aun así, Irenicus 
+tuvo suerte de que los Seldarine no lo transformaran en una asquerosa 
+babosa!~
+@27   = ~No estoy seguro de aprobar esto, pero creo que los Seldarine sólo 
+querían darle una lección. Después de todo se ha comportado como un 
+chiquillo malcriado.~
+@28   = ~Muy apropiado. Pero no hablemos más de él. Ahora quiero que 
+hablemos de mi propia situación.~
+@29   = ~Hijo de dios, Joneleth fue una vez el favorito de los Seldarine, su 
+hijo más querido. Fue el mago con más talento nacido en Tel’Quessir desde la 
+caída de Myth Drannor. Pero los Dioses se disgustaron mucho al verle 
+reducido a un instrumento de dolor sin piedad, deteriorándose lentamente en 
+un demonio menor del Abismo.~ ~Hija de dios, Joneleth fue una vez el 
+favorito de los Seldarine, su hijo más querido. Fue el mago con más talento 
+nacido en Tel’Quessir desde la caída de Myth Drannor. Pero los Dioses se 
+disgustaron mucho al verle reducido a un instrumento de dolor sin piedad, 
+deteriorándose lentamente en un demonio menor del Abismo.~
+@30   = ~Ellos querían corregir eso, y obraron su voluntad a través de ti. 
+El llamado Rielev, aunque fue enviado por Ilmater, era en realidad el 
+emisario de los Seldarine. Necesitaban el consentimiento de Joneleth para 
+que aceptara una nueva alma, ya que su vanidad hubiera imposibilitado que 
+trataran con él directamente. Cuando aceptó, los Seldarine realizaron su 
+movimiento final.~
+@31   = ~Estás casi preparado para realizar tu elección final, hijo de dios. 
+No obstante, aún queda un asunto que resolver. <CHARNAME> - antes de decidir 
+el destino de tu esencia deberás liberar a quien llamas Irenicus de su 
+vínculo.~ [WIZEYE01] ~Estás casi preparada para realizar tu elección final, 
+hija de dios. No obstante, aún queda un asunto que resolver. <CHARNAME> - 
+antes de decidir el destino de tu esencia deberás liberar a quien llamas 
+Irenicus de su vínculo.~ [WIZEYE01]
+@32   = ~Tu destino está en tus manos.~
+@33   = ~Dime, Exiliado, ¿qué hizo el hijo de dios para que te pusieras a su 
+servicio? Rechazaste mi oferta, y aun así pareces arrastrarte a sus pies, 
+obediente como un perro.~ ~Dime, Exiliado, ¿qué hizo la hija de dios para 
+que te pusieras a su servicio? Rechazaste mi oferta, y aun así pareces 
+arrastrarte a sus pies, obediente como un perro.~
+@34   = ~Me aburres, sacerdotisa. Te desprecio desde el primer momento en 
+que te vi entrar en el Abismo. Me alegra tener otra oportunidad de 
+comunicártelo.~ [IRENIC92]
+@35   = ~Tus insultos son casi tan vacíos y patéticos como tus amenazas o 
+promesas. Deberías mostrarte más persuasiva para ser merecedora de mi 
+atención.~
+@36   = ~¿Me equivoco, o pareces desdichado con tu presente destino, 
+Exiliado? ¿Aún no has conseguido lo que querías del engendro de Bhaal? Por 
+qué, aún puedes probar suerte con otro poder... uno que aprecie más tus 
+habilidades.~
+@37   = ~Imagino que esta es la parte en la que se supone que debo cambiar 
+de bando. No obstante, estoy familiarizado con la fe hacia Bhaal, y vi lo 
+que hiciste con los Cinco. Francamente, prefiero tratar con los tanar’ri a 
+acordar algo contigo. No eres una diosa y nunca lo serás, y no tengo la 
+intención de transformarme en una marioneta sin voluntad bajo el control de 
+una arpía demente.~
+@38   = ~¿Entonces prefieres los tiernos cuidados de los demonios a tratar 
+conmigo? ¡Tu deseo se hará realidad, Exiliado! Demogorgon te dará la 
+bienvenida cuando vuelvas a su redil. ¡Estoy segura de que el Príncipe 
+Demonio será especialmente ingenioso en su trato a un espíritu desertor, ya 
+que aún está furioso por la humillación de haber pasado casi medio siglo en 
+el Primer Plano Material, aprisionado por Helmo!~
+@39   = ~Ah, ¿entonces le avergüenza y prefiere guardarlo en secreto? Un 
+detalle interesante. Estuve en el Torreón del Vigilante en mi anterior vida. 
+Gracias a <CHARNAME> y a mis propias... investigaciones recopilé casi todos 
+los factores que necesitaba para resolver este intrigante misterio de los 
+Planos. Y tú amablemente me has dado la última pista que necesitaba.~
+@40   = ~Como tu proposición no me interesa en absoluto, sugiero que 
+detengamos esta estúpida conversación y que volvamos a nuestras tareas 
+primarias.~ [DPJON129]
+@41   = ~ Tus insultos son casi tan vacíos y patéticos como tus amenazas o 
+promesas. Mi alianza con el engendro de Bhaal sirvió a su propósito. No 
+tengo ningún interés en tu maldita presencia.~ [DPJON129]
+@42   = ~Exiliado, tras convertirme en una diosa te enseñaré una lección de 
+obediencia. Una lección de tal magnitud que incluso los tanar’ri temblarán 
+de delicioso terror cuando se enteren. ¡Prepárate para asumir tu condena!~
+@43   = ~Exiliado, aún no tienes el espíritu divino que buscabas. ¿Tuvo 
+éxito el hijo de dios al intentar convencerte de que aceptaras un alma 
+mortal para ti, o aún ansías una parte del legado de Bhaal?~ [SOLARG02] 
+~Exiliado, aún no tienes el espíritu divino que buscabas. ¿Tuvo éxito la 
+hija de dios al intentar convencerte de que aceptaras un alma mortal para 
+ti, o aún ansías una parte del legado de Bhaal?~ [SOLARG02]
+@44   = ~Solicité el alma de un engendro de Bhaal como pago por mi ayuda en 
+la búsqueda de poder de <CHARNAME>.~ [DPJON127]
+@45   = ~Exiliado, sé que posees el alma del engendro de Bhaal muerto, 
+atrapada en una gema junto con su esencia divina.~ [SOLARG02]
+@46   = ~Fue un acuerdo bastante antinatural... Aun así, debo honrar las 
+obligaciones de <CHARNAME>. Esta porción de la esencia es significativa, 
+pero no te la puedo quitar sin tu consentimiento.~
+@47   = ~¿Liberarás la esencia que posees o te la guardarás para ti?~
+@48   = ~Te reto a que me niegues el premio que legalmente me gané 
+arriesgando una eternidad en el Abismo. ¡El alma atrapada y su porción de la 
+esencia divina son míos, tal y como se especificó en mi contrato con el 
+engendro de Bhaal!~
+@49   = ~¡¿Qué... hiciste qué?! <CHARNAME>, ¡¿has estado conspirando con mi 
+peor enemigo a mis espaldas?! ¡Te maldigo, monstruo! Un día... ¡un día 
+*pagarás* con dolor por lo que me arrebataste mediante la manipulación y el 
+engaño!~
+@50   = ~¡<CHARNAME>! Cómo... ¿cómo pudiste c-cometer semejante atrocidad? 
+Has sacrificado el alma de uno de tus hermanos al dárselo a ese monstruo... 
+aunque fueran malvados... ¿lo siguiente que harás será volverte contra mí, 
+si así lo requieren tus planes?~
+@51   = ~Qué... ¿qué crueldad es esta? <CHARNAME>, ¡¿cometiste un acto 
+despreciable más allá de lo que cualquiera de nosotros pueda llegar jamás a 
+imaginar y lo guardaste en secreto?! ¿No aprendiste de tu propio sufrimiento 
+a manos de este brujo lo que significa arrebatar el alma de otro ser vivo?~
+@52   = ~¡Torm llévame! <CHARNAME>, no sólo cometiste un acto de depravada 
+maldad, sino que también nos hiciste creer a todos que despreciabas la 
+repugnante ayuda de Irenicus. ¡Eres un monstruo más malvado de lo que él 
+nunca fue!~
+@53   = ~¡No me gusta esto, <CHARNAME>, no me gusta nada! Tenía la esperanza 
+de que le engañarías… que romperías vuestro acuerdo de alguna manera... ¿Y 
+qué has hecho tú en vez de eso? Pero… supongo que gente de gran poder, como 
+nosotros, a veces tiene que hacer cosas que no le gustan... aunque desearía 
+poder detenerte... ~
+@54   = ~¡<CHARNAME>, cometiste un acto de depravada maldad y nos lo 
+ocultaste a todos! ¡Es repugnante pensar que he sido un instrumento en tu 
+victoria y ascenso al poder como verdadero heredero de Bhaal!~ ~¡<CHARNAME>, 
+cometiste un acto de depravada maldad y nos lo ocultaste a todos! ¡Es 
+repugnante pensar que he sido un instrumento en tu victoria y ascenso al 
+poder como verdadera heredera de Bhaal!~
+@55   = ~<CHARNAME>, nos has engañado a todos. Si hubiera sabido el tipo de 
+ayuda que le ibas a conceder a tu mascota nigromante, te hubiera hundido mi 
+espada en tu pecho en vez de luchar a tu lado.~
+@56   = ~Finalmente realizaste tu deseo antinatural, hombre loco, y dudo que 
+escuches mi advertencia en la hora de tu cercano triunfo. Pero al igual que 
+una bestia sin pelo no le puede arrebatar el pelaje a su hermano, un hombre 
+no le puede arrebatar el alma a otro para sí. Esto al final será tu 
+perdición, Irenicus.~
+@57   = ~Entonces, el mago sobrevive, y con un espléndido premio. 
+Probablemente fallará en sus deseos, pero de todas maneras, ten cuidado, 
+hermano. A diferencia de mí, él aún tiene motivos y la oportunidad de 
+atacarte de nuevo, si alguna vez llega a alcanzar sus objetivos.~ ~Entonces, 
+el mago sobrevive, y con un espléndido premio. Probablemente fallará en sus 
+deseos, pero de todas maneras, ten cuidado, hermana. A diferencia de mí, él 
+aún tiene motivos y la oportunidad de atacarte de nuevo, si alguna vez llega 
+a alcanzar sus objetivos.~
+@58   = ~<CHARNAME>, esto es... perturbador; ¡y a la larga será catastrófico 
+para todos nosotros! Yo he visto mis errores, pero él... él no. Si Irenicus 
+no falla en su deseo, será un gran peligro, no sólo para los Reinos, sino 
+para todos los Planos.~
+@59   = ~¡¿Qué?! <CHARNAME>, ¿de verdad le diste el alma de nuestro hermano 
+y me lo ocultaste? ¿P-pensaste que nunca me enteraría? Tú... tú... ¡y yo que 
+*pensaba* que tenía un hermano en quien podía confiar!~ ~¡¿Qué?! <CHARNAME>, 
+¿de verdad le diste el alma de nuestro hermano y me lo ocultaste? 
+¿P-pensaste que nunca me enteraría? Tú... tú... ¡y yo que *pensaba* que 
+tenía una hermana en quien podía confiar!~
+@60   = ~Muy bien, Exiliado, puedes quedarte con tu recompensa. No puedo 
+prever el futuro... pero puedo presentir que este ‘tesoro’ no te traerá más 
+que sufrimiento, tanto para ti como para aquéllos de quienes ansías 
+vengarte. Aunque eso sería un final... en cierta manera.~
+@61   = ~Ahórrame tu sabiduría, polilla celestial. He pagado por esta alma 
+divina con un dolor que tú jamás podrías imaginar, y mucho menos soportar al 
+completo. El poder del Árbol será mío, ¡Y LO TENDRÉ!~
+@62   = ~Pero ya no necesito esta ayuda.~ [WIZEYE02]
+@63   = ~<CHARNAME>, ni siquiera eres una verdadera deidad por ti mismo... y 
+aun así has realizado tu primer milagro verdadero, posiblemente la proeza 
+más difícil y más asombrosa en la larga lista de tus sublimes acciones. Me 
+enorgullece haber guiado a un espíritu tan brillante y compasivo como el 
+tuyo.~ ~<CHARNAME>, ni siquiera eres una verdadera deidad por ti misma... y 
+aun así has realizado tu primer milagro verdadero, posiblemente la proeza 
+más difícil y más asombrosa en la larga lista de tus sublimes acciones. Me 
+enorgullece haber guiado a un espíritu tan brillante y compasivo como el 
+tuyo.~
+@64   = ~Exiliado, tu parte del trato con <CHARNAME> ha finalizado. A 
+cambio, te será concedida un alma mortal para ti, y tu maldición será 
+retirada. Debo informar a los Dioses Élficos de que tu deuda con el hijo de 
+dios, a quien una vez robaste su alma, ha sido saldada.~ ~Exiliado, tu parte 
+del trato con <CHARNAME> ha finalizado. A cambio, te será concedida un alma 
+mortal para ti, y tu maldición será retirada. Debo informar a los Dioses 
+Élficos de que tu deuda con la hija de dios, a quien una vez robaste su 
+alma, ha sido saldada.~
+@65   = ~¡¿Qué?! ¡¿Me estás diciendo que el dios lisiado de Rielev ha 
+actuado como intermediario entre mi persona y los propios Seldarine?! ¡Me 
+niego a...! Yo... supongo que siempre lo supe...~
+@66   = ~Los Seldarine… nunca aceptarán que vuelva. No existe la más mínima 
+esperanza de clemencia por su parte, y mi humillación acabará en otra farsa 
+inútil.~
+@67   = ~Los Seldarine han oído tu súplica, Exiliado. Ahora tú debes 
+escuchar su respuesta.~
+@68   = ~Exiliado, tú, quien una vez fuiste de nuestra sangre - por tu mayor 
+crimen contra el Árbol de la Vida y la nación Élfica fuiste desvinculado del 
+Espíritu Élfico. Pero eso no te detuvo en persistir en tu perfidia, y 
+trajiste dolor y sufrimiento a nuestros Hijos, y al mundo entero de Toril. 
+¿Buscas ahora la expiación de tus pecados?~ [WIZEYE02]
+@69   = ~¡No! ... Sí... No puedo... ¡no puedes hacerme esto! Yo... me 
+niego...~
+@70   = ~Ten coraje, Exiliado. Las expiaciones no pueden hacerse a medias.~
+@71   = ~Tú mismo te has denigrado por completo, traicionando nuestra 
+confianza y dañando a aquéllos a nuestro cuidado. Es nuestro deseo que 
+experimentes la agonía de aquéllos a quienes has perjudicado.~
+@72   = ~También es nuestro deseo que entiendas tus crímenes. No tiene 
+sentido un castigo vacío que no sirva para nada, y para percibir y 
+comprender el dolor uno debe poseer los medios necesarios.~
+@73   = ~Uno no debe esperar que los sordos sean expertos en música... ni 
+que un elfo sin alma pueda sentir remordimientos. Por lo tanto, admito que 
+al desvincularte del Espíritu colectivo los Seldarine cometieron un error.~
+@74   = ~Tú... ¿de verdad lo admites?~
+@75   = ~Sí, incluso los Dioses no son inmunes a la llamada de la sangre, y 
+Rillifane estaba predispuesto. Él nubló nuestro juicio, e insistió en emitir 
+un veredicto ni justo ni lógico. Por todo lo que es justo deberías haber 
+sido ejecutado por tu crimen.~
+@76   = ~Ah, ¿y ahora vais a corregir ese ‘error’?~
+@77   = ~Exiliado, de nuevo sacas conclusiones precipitadas, como siempre. 
+Tras ser desvinculado del Espíritu, tu alma ha muerto desangrada, ya que te 
+revelaste en tu caída en vez de intentar enmendar tu error.~
+@78   = ~Es probable que la conmoción fuera demasiado severa; nadie podría 
+haber sobrevivido durante tanto tiempo como tú lo hiciste. Tu alma se ha 
+desvanecido... se desperdició... ya nunca la recuperarás. En su lugar, lo 
+que te puedo ofrecer es un alma mortal que te será concedida a petición 
+nuestra por nuestro aliado humano – el Dios que Llora, Lord Ilmater. ¿Una 
+miseria, dirás? Pero será sólo tuya, y dada libremente, no arrebatada.~
+@79   = ~Cuando de nuevo hayas aprendido a sentir, ¿quizás seas capaz de 
+desandar tus pasos y regresar a Arvandor? Te prometo que si en el futuro 
+aceptas la responsabilidad de tus pecados y te redimes ante nuestros ojos, 
+restauraremos tu conexión con el Espíritu Élfico. ¿Aceptas?~
+@80   = ~Yo no puedo ser... Sí... acepto...~
+@81   = ~Entonces así sea.~ [WIZEYE02]
+@82   = ~Lord Ilmater y los Seldarine actuarán a través de mis manos.~ 
+[SOLARG01]
+@83   = ~Aún necesito esta ayuda.~
+@84   = ~<CHARNAME>, le prometiste a Irenicus el alma de un engendro de 
+Bhaal, ahora debes pagar tu deuda.~
+@85   = ~Exiliado, todos los hijos de Bhaal menos uno han muerto o han 
+renunciado a su esencia. Lo que cayó al Estanque de las esencias no se puede 
+recuperar, y a diferencia de Amelissan, <CHARNAME> nunca ha sido entrenado 
+para manipular la esencia a su antojo. ¿Cómo planeas conseguir tu pago?~ 
+~Exiliado, todos los hijos de Bhaal menos uno han muerto o han renunciado a 
+su esencia. Lo que cayó al Estanque de las esencias no se puede recuperar, y 
+a diferencia de Amelissan, <CHARNAME> nunca ha sido entrenada para manipular 
+la esencia a su antojo. ¿Cómo planeas conseguir tu pago?~
+@86   = ~¡Como el insolente necio intentó estafarme la recompensa que me 
+prometió, quiero su propia alma como pago!~ ~¡Como la insolente necia 
+intentó estafarme la recompensa que me prometió, quiero su propia alma como 
+pago!~
+@87   = ~<CHARNAME>, sabías que debías cumplir tu juramento. ¿Qué tienes que 
+decir en tu defensa?~
+@88   = ~No puedes estar hablando en serio. ¡Yo soy el ganador de este 
+juego! ¡Él es el perdedor! ¡¡¿Y supuestamente esto siempre ha sido así, 
+no?!!~ ~No puedes estar hablando en serio. ¡Yo soy la ganadora de este 
+juego! ¡Él es el perdedor! ¡¡¿Y supuestamente esto siempre ha sido así, 
+no?!!~
+@89   = ~¿Es esto una broma pesada o qué? ¡Ya es suficiente! Simplemente 
+devuélvelo al Abismo. ¡Me niego a continuar con esta farsa!~
+@90   = ~Supongo que tienes razón... no debería haber intentado usar a 
+Irenicus para después estafarle su pago prometido... Pero lo hecho, hecho 
+está. Irenicus, viejo fraude, haz lo que quieras. ¡Soy lo suficiente hombre 
+como pagar todas mis deudas al completo!~ ~Supongo que tienes razón... no 
+debería haber intentado usar a Irenicus para después estafarle su pago 
+prometido... Pero lo hecho, hecho está. Irenicus, viejo fraude, haz lo que 
+quieras. ¡Soy lo suficiente mujer como pagar todas mis deudas al completo!~
+@91   = ~<CHARNAME>, sólo le prometiste esperanza... y fallaste.~
+@92   = ~Exiliado, como tu parte del trato con el hijo de dios ha sido 
+completada, tienes tu última oportunidad de hacer las paces con tus Dioses y 
+aceptar un alma mortal, arrepintiéndote por tus pecados y aceptando la 
+misericordia de los Seldarine. ¿Aprovecharás esta oportunidad?~ [SOLARG02]
+@93   = ~¡Nunca! Me enfrentaré a los Seldarine y a su sentencia durante toda 
+la eternidad en el Abismo e incluso más allá.~
+@94   = ~¡Pensé que esto acabaría así y estaba en lo cierto! <CHARNAME>, 
+todos tus intentos de corregir la maldad de las acciones de Irenicus estaban 
+condenados desde el principio. Me alegra que el monstruo haya vuelto al 
+Abismo, al que pertenece, pero aún me duele el corazón... ¿Me perdonará 
+alguna vez el perturbado espíritu de Khalid por haber soportado a este 
+asesino a mi lado durante tanto tiempo? Yo... Tú... <CHARNAME>, me has hecho 
+sentir un gran dolor innecesario.~
+@95   = ~Una vez más... ¿una vez más el Exiliado rechaza la clemencia que se 
+le ha ofrecido? Si sólo se tragara su orgullo y les pidiera perdón a los 
+Seldarine y a la Reina Ellesime sería tan f-fácil... ¿verdad?~
+@96   = ~Entonces, ¿Irenicus volverá voluntariamente al Infierno, en vez de 
+dar su brazo a torcer por una vez? No me sorprende, su perdición siempre fue 
+su orgullo, y una disputa puede durar toda una vida hasta que desaparece por 
+completo. Yo aprendí esto justo a tiempo, pero él no – al igual que mi 
+padre.~
+@97   = ~Entonces, Irenicus escupe a los ojos de la congregación de dioses 
+élficos, ¿no? ¡Ja! Aunque es una insensatez, yo diría que no se puede negar 
+su valentía. Y a veces, uno se debe guiar por su corazón, sin importar las 
+críticas del resto del mundo sobre sus acciones, como he aprendido por mí 
+mismo.~
+@98   = ~Que se pudran los hechiceros locos, eso es todo lo que tengo que 
+decir. (Aún no entiendo por qué <CHARNAME> consideró conveniente rescatar a 
+esta sombra de elfo inadaptado, y menos teniendo mi magia a su 
+disposición.)~
+@99   = ~¡¿Se niega?! Puede elegir entre una eternidad en el Infierno o ser 
+un simple mortal, ¿y se niega? No tiene sentido – y aun así, todos parecen 
+estar de acuerdo en que es muy inteligente. Me pregunto qué poder puede 
+esperar conseguir de esto.~
+@100  = ~¿Te resulta difícil pedir ‘perdón’, Jon-Bon? Mi propio difunto 
+primo, Dobbo Jansen, tenía el mismo problema. Verás, convenció a toda la 
+familia para que fuera a una inmensa caza de nabos en las Montañas de los 
+Picos Nublados, y les juró a todos que tenía la certeza sagrada de que allí 
+habrían campos de nabos, libres para ser recogidos. Bien, pasados unos meses 
+nadie había encontrado ningún nabo, sólo algunos kobolds enfadados a quienes 
+no les hizo gracia ver a un montón de gnomos vagando por su territorio. 
+“Vamos, Dobbo,” dijimos mientras sacábamos flechas de fuego de nuestros 
+seductores pantalones Jansen, “sabemos que nos has estado mintiendo, sólo 
+confiesa y pide perdón. Volveremos todos a casa y no hablaremos más de 
+ello.”~
+@101  = ~Pero no, Dobbo siguió insistiendo sobre los nabos, y se volvió 
+realmente loco sobre ello, diciendo que éramos todos unos miserables 
+traidores aliados con los kobolds. Dobbo nunca pidió perdón, incluso cuando 
+comprobamos que el ‘mapa secreto’ que según él le había dado el mismo 
+Elminster estaba escrito con su propia letra. Él sólo dijo que todo era una 
+conspiración para hacerle quedar mal y que éramos Jansens malos y falsos por 
+dudar de él. Oh, y entonces me llamó ‘Narizotas’. El pobre Dobbo nunca fue 
+bueno ideando contestaciones ingeniosas. El caso es que se alejó por su 
+cuenta y se giró para jurar que todos lo lamentaríamos cuando viéramos todos 
+los nabos que traería a casa. Fue mala suerte que hubiera un profundo 
+precipicio tras él – pero supongo que a la gente que no suele pedir ‘perdón’ 
+le suceden cosas similares.~
+@102  = ~Pese a todas sus fanfarronadas y alardes, Irenicus no era rival 
+para ti en poder, hermano mío. Al final yo he sido mejor que él. Ambos 
+vinimos a ti, humillados y buscando un pacto. ¡Pero él ha caído de nuevo, y 
+yo he triunfado!~ ~Pese a todas sus fanfarronadas y alardes, Irenicus no era 
+rival para ti en poder, hermana mía. Al final yo he sido mejor que él. Ambos 
+vinimos a ti, humillados y buscando un pacto. ¡Pero él ha caído de nuevo, y 
+yo he triunfado!~
+@103  = ~Y entonces, <CHARNAME>, no podías salvarle de sí mismo como hiciste 
+conmigo, porque Irenicus nunca podría admitir estar equivocado, como yo 
+hice. Lo... lamento. Sí, nunca me cayó bien pero... él no se merecía esto.~
+@104  = ~De igual manera que un lobo contenido incluso en la morada humana 
+más acogedora anhelaría un bosque, esta criatura del Abismo no puede 
+soportarnos. Ahora vuelve a su elemento. Has movido el péndulo, <CHARNAME>, 
+y ha oscilado de un lado a otro, pero al final ha vuelto a su posición 
+original.~
+@105  = ~De vuelta al Abismo de nuevo, exactamente como la última vez... 
+Dime, hermanito, ¿has tenido la misma sensación de deja vu? Aunque su 
+elección me hace sentir mal por alguna razón... Como si pudiéramos haber 
+cambiado las cosas esta vez... pero hubiéramos fallado.~ ~De vuelta al 
+Abismo de nuevo, exactamente como la última vez... Dime, hermanita, ¿has 
+tenido la misma sensación de deja vu? Aunque su elección me hace sentir mal 
+por alguna razón... Como si pudiéramos haber cambiado las cosas esta vez... 
+pero hubiéramos fallado.~
+@106  = ~Entonces así sea. No queda nada más por decir y mi deber es hacer 
+cumplir los pactos, no juzgar a nadie.~
+@107  = ~Lo siento, hijo de dios, pero un juramento es un juramento. Fui 
+enviado para educarte en el camino de la Divinidad, y he fallado. Acepto la 
+responsabilidad de mi fracaso. Ahora sólo estoy aquí para supervisar el 
+final del asunto del engendro de Bhaal, no para interferir.~ [WIZEYE01] ~Lo 
+siento, hija de dios, pero un juramento es un juramento. Fui enviado para 
+educarte en el camino de la Divinidad, y he fallado. Acepto la 
+responsabilidad de mi fracaso. Ahora sólo estoy aquí para supervisar el 
+final del asunto del engendro de Bhaal, no para interferir.~ [WIZEYE01]
+@108  = ~Exiliado, puedes coger lo que se te debe.~
+@109  = ~(casi afectuoso) No te preocupes, esto acabará pronto.~ [IRENIC82]
+@110  = ~¿Debo asumir que ya no hay posibilidad alguna de que rechaces la 
+esencia de Bhaal, Exiliado?~ [SOLARG01]
+@111  = ~Molesto insecto celestial, ¿por qué te molestas en preguntar 
+semejante cosa? Sí, reclamo el legado del arrogante loco ahora, y 
+convertirme en un dios en su lugar.~ ~Molesto insecto celestial, ¿por qué te 
+molestas en preguntar semejante cosa? Sí, reclamo el legado de la arrogante 
+loca ahora, y convertirme en un dios en su lugar.~
+@112  = ~Después de esto le haré una visita a mi 'amada' y asimismo buscaré 
+el poder del Árbol.~ [IRENIC85]
+@113  = ~¡N-nooo! ¡Eso no puede ser, no lo permitiré! ¡No me arrancarás mi 
+corazón una segunda vez, monstruo! Antes... antes te veré muerto... 
+<CHARNAME>... ¡QUÉ TE HAS HECHO, niño insensato!~ ~¡N-nooo! ¡Eso no puede 
+ser, no lo permitiré! ¡No me arrancarás mi corazón una segunda vez, 
+monstruo! Antes... antes te veré muerto... <CHARNAME>... ¡QUÉ TE HAS HECHO, 
+niña insensata!~
+@114  = ~¿Q..qué fue eso? Mi a-amor, ¿q-qué te ha pasado? Irenicus, sé que 
+tu maldad no tiene límites... Pero... ¿cómo te atreves a desafiar la 
+voluntad de los Dioses en el propio Plano cumbre del legado de <CHARNAME>? 
+¡Qué le has hecho! ¡¡Exijo saberlo!! ¡¡¿Contéstame ahora?!!~
+@115  = ~M-mi Mrannd d'ssinss'... ¿qué le ha pasado? Vreg'nth darthiir, ¡te 
+arrancaré los intestinos por la boca y bailaré encima de tu sangriento 
+cadáver!~
+@116  = ~Mi amor... ¿qué está pasando aquí? ¿Dónde estás? Qué le está 
+haciendo a tu... tu... ¡¿Dónde estás, <CHARNAME>?!~
+@117  = ~Es la hora de tu muerte, mago. Será tan lenta y dolorosa como sólo 
+un Thayino sabe hacerlo. ¡No perdamos más tiempo, enfréntate a la ira de 
+Edwin Odesseiron en todo su esplendor, simio loco!~
+@118  = ~¡N-nooo! ¡Eso no puede ser, no lo permitiré! ¿Qué pasa con la 
+promesa que le hice a Gorion? <CHARNAME>... ¡QUÉ TE HAS HECHO, niño 
+insensato!~ ~¡N-nooo! ¡Eso no puede ser, no lo permitiré! ¿Qué pasa con la 
+promesa que le hice a Gorion? <CHARNAME>... ¡QUÉ TE HAS HECHO, niña 
+insensata!~
+@119  = ~¿Q..qué fue eso? Irenicus, sé que tu maldad no tiene límites... 
+Pero... ¿cómo te atreves a desafiar la voluntad de los Dioses en el propio 
+Plano cumbre del legado de <CHARNAME>? ¡Qué le has hecho! ¡¡Exijo saberlo!! 
+¡¡¿Contéstame ahora?!!~
+@120  = ~Por las espadas de Shar, esa fue una traición de magnitud divina. 
+Estoy impresionada. Darthiir, eres un poder al que temer.~
+@121  = ~¡¿Qué le has hecho a nuestro líder, malvado monstruo?! ¡Por la 
+barba de Helmo, vengaré a <CHARNAME>, incluso si hoy muero aquí!~ ~¡¿Qué le 
+has hecho a nuestra líder, malvado monstruo?! ¡Por la barba de Helmo, 
+vengaré a <CHARNAME>, incluso si hoy muero aquí!~
+@122  = ~N-no, no te vas a salir con la tuya. ¡No esta vez! No después de 
+que finalmente me haya librado de la estúpida mancha de Bhaal. ¡Irenicus, te 
+arrancaré tu cara y traeré a mi hermano de vuelta a cualquier precio!~ 
+~N-no, no te vas a salir con la tuya. ¡No esta vez! No después de que 
+finalmente me haya librado de la estúpida mancha de Bhaal. ¡Irenicus, te 
+arrancaré tu cara y traeré a mi hermana de vuelta a cualquier precio!~
+@123  = ~¡¿Malvada abominación, qué le has hecho <CHARNAME>?! ¡No se te 
+debería permitir caminar por los Planos como nueva Encarnación de Bhaal! ¡Te 
+detendré ahora, incluso si me cuesta mi propia vida!~
+@124  = ~¡Sabía que <CHARNAME> estaba en peligro desde el primer momento en 
+que *le* aceptó en el grupo! Pagarás por esta injusticia, malvada 
+abominación. Por todo lo que es bueno y justo – ¡no saldrás de este lugar 
+mientras yo todavía respire!~
+@125  = ~Bien, este es el momento menos adecuado para quedarnos 
+indiferentes. Nigromante, por todo lo que es justo pronto estarás muerto de 
+nuevo.~
+@126  = ~Esta fue la apuesta más desafortunada, mi cuervo. Pero como has 
+dejado que Irenicus sea más listo que tú en esta partida, no veo cómo podría 
+beneficiarte dejándome matar yo también.~
+@127  = ~<CHARNAME>, ¿dónde fuiste esta vez? ¡Bubú se está preocupando!~
+@128  = ~¿Otra vez? Casi lo llamaría un ciclo, pero no lo es... Ya ha 
+llegado a su final. Finalmente realizaste tu deseo antinatural, hombre loco, 
+y dudo que escuches mi advertencia en la hora de tu aborrecible triunfo. 
+Pero al igual que una bestia sin pelo no le puede arrebatar el pelaje a su 
+hermano, un hombre no le puede arrebatar el alma a otro para sí. Esto al 
+final será tu perdición, Irenicus.~
+@129  = ~Impostor y fraude, ¿cómo te atreves a robar el legado de mi hermano 
+en el mismo instante de su triunfo final? ¡No dejaré que te marches con lo 
+que una vez fue mío! No tienes ningún derecho sobre el Trono del Señor del 
+Asesinato - ¡nunca perteneciste a la estirpe de Bhaal!~ ~Impostor y fraude, 
+¿cómo te atreves a robar el legado de mi hermana en el mismo instante de su 
+triunfo final? ¡No dejaré que te marches con lo que una vez fue mío! No 
+tienes ningún derecho sobre el Trono del Señor del Asesinato - ¡nunca 
+perteneciste a la estirpe de Bhaal!~
+@130  = ~¡Irenicus, no dejaré que te marches tras recuperar el alma de mi 
+hermano! Él fue la única persona de este mundo que me tendió su mano, me 
+ayudó a alzarme de nuevo sobre mis pies cuando yo estaba arrodillado. 
+¡Vengaré a <CHARNAME> como el verdadero hermano que ha sido para mí!~ 
+~¡Irenicus, no dejaré que te marches tras recuperar el alma de mi hermana! 
+Ella fue la única persona de este mundo que me tendió su mano, me ayudó a 
+alzarme de nuevo sobre mis pies cuando yo estaba arrodillado. ¡Vengaré a 
+<CHARNAME> como la verdadera hermana que ha sido para mí!~
+@131  = ~Silencio, insectos. Agradeced que vuestra patética existencia no 
+sea merecedora ni de unos instantes de mi desperdiciado tiempo.~
+@132  = ~Silencio, gusano. Agradece que tu patética existencia no sea 
+merecedora ni de unos instantes de mi desperdiciado tiempo.~
+@133  = ~Celestial, confío en que te ocupes de esta... molestia. Quiero que 
+el séquito de locos sea devuelto al Primer Plano Material.~
+@134  = ~Huelga decir que lamento lo que va a suceder, pero el desafortunado 
+Hijo de Dios no me dejó otra opción.~ ~Huelga decir que lamento lo que va a 
+suceder, pero la desafortunada Hija de Dios no me dejó otra opción.~
+@135  = ~Entonces así sea.~
+@136  = ~Y lo que suceda con él – sólo el tiempo lo dirá. Es libre y posee 
+un alma propia. Cuando haya acabado contigo lo transferiré al Primer Plano 
+Material, ese es el deseo de los Seldarine.~
+@137  = ~Sí, <CHARNAME>, estoy satisfecha. Me di cuenta de que ver morir a 
+Irenicus miles de veces no sería suficiente para hacerle pagar por... por el 
+asesinato de Khalid. Pero como él ha tenido que sufrir todos sus... 
+experimentos en su propia piel, y sentir todo corte de cuchillo y toda 
+quemadura... me siento... mejor.~
+@138  = ~No he visto un *verdadero* cambio en él. Pero ahora creo que sería 
+posible... con el tiempo. Sin duda, de esta manera se sirve mejor al Gran 
+Equilibrio.~
+@139  = ~Hey, <CHARNAME>, ¿puedo llamarle *pequeño*? Parece muy mono. No, no 
+debería alegrarme. (suspira) Pero es un castigo apropiado. Él era quien 
+llamaba a todos *niños ignorantes* y eso. Hmm... me preguntó qué hubiera 
+dicho Gorion.~
+@140  = ~<CHARNAME>, ¿alguna vez te he contado la historia de mi primo 
+Blinkerstone Jansen y el grifo? Sucedió en la Era de los Trastornos, cuando 
+los dioses llegaban al umbral de tu puerta para pedir té de nabo cada quince 
+días, y la Magia Salvaje brotaba en todo lugar como los champiñones del 
+sótano del tío Gerhard.~
+@141  = ~Una vez el primo Blinky fue perseguido por el campo por un grifo 
+enfadado, cuando por casualidad llegó a uno de esos sitios con un montón de 
+dientes de león morados y pececitos creciendo en los árboles. Pues bien, 
+Blinky era un aprendiz de mago, pero podía reconocer un Brote Salvaje cuando 
+veía uno. No tenía nada que perder, casi podía notar el aliento del grifo 
+en su cuello, pensando en qué parte de la anatomía de Blinky parecía más 
+apetecible (de hecho no lo era ninguna, ya que siempre ha sido tan flaco 
+como un palo, pero ve y díselo a un grifo hambriento).~
+@142  = ~Entonces se gira y lanza el último proyectil mágico que guardaba 
+para sí. ¡Puff! El rayo mortal alcanza al grifo, y cuando todo se despeja, 
+hay un conejito rosa muy lindo sentado en medio del claro.~
+@143  = ~Por cierto, nadie ha descubierto jamás lo que sucedió con el 
+grifo.~
+@144  = ~Eso es lo que sucede cuando dejas que los hombres sean libres: se 
+arruinan ellos mismos. Ellesime debería haber usado un cetro tentacular en 
+sus partes inferiores en vez de lanzar esa ridícula maldición. A juzgar por 
+su nuevo cuerpo posterior, hubiera sido una experiencia muy agradable.~
+@145  = ~Entonces, incluso un monstruo malvado como Irenicus puede ser 
+redimido a largo plazo. Ese es el camino de los divinos. Rezaré al Vigilante 
+y reflexionaré sobre esto.~
+@146  = ~Entonces, aún quedaba un minúsculo grano de bondad en él. 
+<CHARNAME>, estoy seguro de que fue el contacto con tu alma pura y divina lo 
+que provocó el cambio de Irenicus.~
+@147  = ~Ah, <CHARNAME>, si tu corazón te permitió perdonar a alguien como 
+él, aún hay esperanza para nosotros. Aunque tiemblo sólo de pensar qué será 
+lo siguiente.~
+@148  = ~É-él tenía un vínculo con el E..espíritu, y el amor de la Reina, y 
+lo echó todo a perder por a..algo tan vano y quimérico como su b..búsqueda 
+de divinidad. A-ahora tiene el alma mortal de un humano, espero que haya 
+aprendido la lección y que intente enmendar sus errores.~
+@149  = ~¿A..así es como era Irenicus ‘antes’ de tener que ponerse la 
+máscara? Supongo que no es de extrañar que se volviera loco tras la 
+maldición.~
+@150  = ~<CHARNAME>, me parece irónico que Irenicus, quien una vez amenazó 
+tu propia existencia, ahora esté destinado a vagar teniendo rabietas 
+juveniles. Esta es una historia apropiada para una balada, mi cuervo. Debo 
+llevar la canción de tus hazañas a través de los Planos y más allá. (empieza 
+a tararear)~
+@151  = ~Las asquerosas orejas puntiagudas nunca entienden. ¡Simplemente 
+córtale la cabeza de un tajo y termina con esto! ¡Me presto voluntario!~
+@152  = ~Minsc se pregunta dónde está Irenicus. ¿Y qué le ha pasado al niño 
+elfo? ¡Bubú dice que parece estar enfermo!~
+@153  = ~Por Torm, espero que Irenicus cuide mejor su nueva alma de lo que 
+lo hizo con la que perdió. Pero la probabilidad es pequeña, por ello rezaré 
+por él.~
+@154  = ~Un castigo apropiado para un paleto ignorante que consideró su 
+intelecto superior al mío. (¡Aunque yo lo hubiera convertido en un 
+babuino!)~
+@155  = ~Irenicus puede tener una posibilidad ahora que su mente está libre 
+de corruptora magia nigromántica. Aunque conociendo su historia pasada, no 
+apostaría por ello.~
+@156  = ~¡Por el poder de Arvoreen, él sólo tuvo lo que se merecía!~
+@157  = ~(risa sarcástica) <CHARNAME>, ¿siempre tuviste el hábito de ir 
+zumbando por los Planos, dejando una estela de errores corregidos y villanos 
+redimidos a tu paso? En cualquier caso, creo que yo he hecho un trato 
+mejor.~
+@158  = ~Una pequeña gotera de agua puede cavar cavernas en la sólida roca 
+si le dejas realizar su suave trabajo durante unos cuantos siglos. Así son 
+los caminos de la Naturaleza. El Gran Equilibrio siempre conseguirá lo que 
+se proponga.~
+@159  = ~¿Has tenido tiempo suficiente para considerar tu propia situación, 
+hijo de dios?~ [SOLARG02] ~¿Has tenido tiempo suficiente para considerar tu 
+propia situación, hija de dios?~ [SOLARG02]

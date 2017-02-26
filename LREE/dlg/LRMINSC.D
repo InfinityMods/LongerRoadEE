@@ -1,0 +1,27 @@
+APPEND BMINSC25
+
+IF ~InParty("lrirenic")
+See("lrirenic")
+!StateCheck("lrirenic",STATE_SLEEPING)
+Global("LRJonMinsc","LOCALS",0)
+Global("MinscIsMad","GLOBAL",2)~ THEN BEGIN BJM1
+  SAY @0 
+  IF ~~ THEN DO ~SetGlobal("LRJonMinsc","LOCALS",1)~ EXTERN BJONEL25 JON_MINSC1
+END
+END
+
+CHAIN BJONEL25 JON_MINSC1
+@1 
+==BMINSC25
+@2
+==BJONEL25
+@3
+==BMINSC25
+@4
+==BJONEL25
+@5
+==BMINSC25
+@6
+EXIT
+
+

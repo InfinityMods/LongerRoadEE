@@ -1,0 +1,22 @@
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId(Player1)
+        ActionOverride("lrirenic",ReallyForceSpellRES("JONCHNG2",Myself)) // Life Energy Drain
+        ActionOverride("lrirenic",CreateVisualEffectObject("ICRMPARI",Myself))
+        PlaySound("DPJON145")
+        Wait(1)
+        CreateVisualEffectObject("SPIMPFR","lrirenic")
+        Wait(1)
+        PlaySound("EFF_M20")
+        CreateVisualEffectObject("SPIMPFR","lrirenic")
+        Wait(1)
+        CreateVisualEffectObject("SPIMPPT","lrirenic")
+        Wait(1)
+        CreateVisualEffectObject("SPFIREPI","lrirenic")
+        ActionOverride("lrirenic",DestroySelf())
+        Wait(3)
+        EndCutSceneMode()
+        ActionOverride("finsol01",StartDialogueNoSet(Player1)) 
+END

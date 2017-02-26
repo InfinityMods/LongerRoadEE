@@ -1,0 +1,101 @@
+@0    = ~Qui a pris mon Etincelle ?~ [deva6]
+
+@1    = ~Quitte mon bois !~ [DRYAD04]
+
+@2    = ~Bienvenu au coeur du labyrinthe de l'Accord, enfant divin. Tu portes les objets. As-tu emprunté le chemin apaisant ? ~ [nymph11]
+
+@3    = ~Afin de contrôler l'Etincelle, tu vas devoir faire avouer à son juste propriétaire qu'il a commis une erreur. Laisse-moi voir quelles images je peux conjurer de l'esprit troublé de la déva Ybdiel.~ [nymph13]
+
+@4    = ~Nous allons t'emmener dans le rêve de la déva – choisis, mais sache qu'une fois que tu auras pris un certain chemin, il te sera impossible de revenir.~
+
+@5    = ~Je peux voir un feu... Une auberge qui brûle. Un groupe de gens forme un cercle autour du bâtiment en feu et ils regardent tous en l'air, contemplant les enfants qui pleurent et appellent à l'aide des fenêtres en feu.~
+
+@6    = ~Je ne perçois pas de bien ici, pas de bien... Juste du mal, de la cruauté et du désespoir... L'enfant chute vers sa mort.~ [nymph14]
+
+@7    = ~Je m'avance et j'essaye d'attraper l'enfant qui tombe.~
+
+@8    = ~Je ne fais rien.~
+
+@9    = ~Je ris et je montre la déva du doigt, me moquant d'elle.~
+
+@10   = ~Non, je perçois qu'ils viennent d'un endroit chaotique qu'ils gardent toujours dans leur coeur. Mais ils ont apporté deux créatures en grande détresse.~ [nymph21]
+
+@11   = ~De nombreux chemins mènent au centre du labyrinthe de l'Accord. Si vous êtes arrivés ici sans suivre l'un d'entre eux, votre détresse doit être bien grande. Mais parce que vous n'avez pas suivi l'un de ces chemins, cet endroit paisible ne peut rien faire pour soulager le tourment de vos esprits et pour vous apporter l'harmonie intérieure. Malheureusement, vous devrez partir par le même chemin que vous avez suivi.~ [nymph311]
+
+@12   = ~L'entrée... L'entrée de l'Arvandor doit ressembler à ça...~ [IRENIC87]
+
+@13   = ~Malédiction ! Les vibrations de ce plan m'affaiblissent. <CHARNAME>, je souhaite que nous puissions vite sortir d'ici. Dans tous les cas, ce sera vite terminé.~ [IRENIC10]
+
+@14   = ~Etranger, tu n'as pas ta place ici... Je peux sentir le vide en toi. As-tu besoin d'être soigné ? Je pense que je peux...~ [nymph22]
+
+@15   = ~Ne me touche pas !~ [IRENIC05]
+
+@16   = ~(Acquiesce) Tu *es* vide à l'intérieur. C'est la sensation la plus bizarre que j'ai jamais ressenti... Nous sommes les servantes du labyrinthe de l'Accord, mais ton esprit est dans un tel désordre... Je peux à peine le toucher et il est tellement anormal... C'est plus une ombre qu'une âme. Mais il y a également une étincelle d'autre chose, comme si les émotions de quelqu'un d'autre te parvenaient... Qui es-tu, étranger ?~ [nymph12]
+
+@17   = ~Je t'ai dit de ne pas m'approcher !~ [DPJON129]
+
+@18   = ~Ils se tournent tous comme une seule personne et on aperçoit leurs brillants yeux rouges et leurs sourires mauvais pour la première fois. "Je l'ai", dit en riant l'un d'entre eux. "Je l'ai", rie un autre. "Je l'ai", rient-ils tous à l'unisson.~
+
+@19   = ~Non ! Je ne donnerais jamais mon Etincelle à une créature du mal.~
+
+@20   = ~Le groupe continue à rire tandis que le premier enfant saute du bâtiment en feu, tombant bien que personne ne tente d'arrêter sa chute...~
+
+@21   = ~Mais non, il y avait un homme... Je l'ai vu ! Il a stoppé la chute de l'enfant, il l'a sauvé... C'était une force du bien ! Pourquoi n'est-il pas ici ?~
+
+@22   = ~J'aurais dû vérifier ! L'homme que j'ai vu sauver l'enfant qui à sauté du bâtiment en feu est le même qui y a mis le feu...~ [deva6]
+
+@23   = ~Donc, c'est ainsi que l'essence de la déva à fini dans les abysses. Il n'a jamais soupçonné que l'homme qui a "sauvé" l'enfant était celui qui avait allumé le feu. C'est étrange pourtant de voir un *céleste* admettre qu'il a fait une erreur... Il est possible que les mêmes les dieux ne soient pas insensibles à... Ah ! Ce plan altère mon jugement.~ [DPJON136]
+
+@24   = ~A présent pour faire sortir l'Etincelle du corps de celui qui la porte, tu vas devoir calmer son esprit... Laisse-moi voir quelles images je peux conjurer de l'esprit du démon Abaia.~ [nymph23]
+
+@25   = ~Vous vous retrouvez dans un paysage gris et désolé. A la place d'une douce herbe sous vos pieds, vous apercevez une mer de petites créatures larvesques à la peau blanche et enflée qui vous entoure, s'agitant sous vos pieds...~
+
+@26   = ~C'est impossible ! Le... Le sort des manes lui inspire de la tristesse ? Les manes sont la vermine la plus basse des plans inférieurs... Ils sont les esprits des gens qui n'étaient pas assez importants pour mériter "l'attention personnelle" des tanar'ri ou pour devenir des démons mineurs.~
+
+@27   = ~Plusieurs démons supérieurs vagabondent parmi les manes, les tuant sans discrimination, juste pour le plaisir que cela leur donne.~
+
+@28   = ~(Froidement) J'imagine que ces nymphes sont les gardiennes de ce temple. <CHARNAME>, afin d'obtenir l'Etincelle de la déva, du vas devoir t'occuper d'elles d'une manière ou d'une autre. Ne sous-estime pas leur ruse – ces créatures influencent l'esprit en leur insufflant des désirs superflus. Leur beauté peut suffire à influencer ceux qui manquent de volonté.~ [IRENIC92]
+
+@29   = ~(Sourire) Ah, c'est donc pour ça que tu gardais ces trois dryades dans ton donjon sous la promenade – pour exercer ta volonté ?~
+
+@30   = ~(Rire) Tu ne peux pas être un expert sur tout, Irenicus, bien qu'il soit possible que tu *connaisses* très bien les nymphes et les dryades.~
+
+@31   = ~(Grogne) Irenicus, j'en ai vraiment assez que tu prétendes avoir la science infuse. Laisse-moi m'occuper de ces charmantes jeunes femmes comme je l'entends ; ton propre comportement envers les dryades que tu hébergeais était loin d'être exemplaire.~
+
+@32   = ~Mes expériences personnelles sont sans importance !~ [IRENIC66]
+
+@33   = ~Quelqu'un qui souffre fera n'importe quoi pour se guérir... Mais je ne devrais pas parler de cela avec toi. Enfant insolent, tu ne sais rien du vide qui ne peut être rempli...~ [DPJON158]
+
+@34   = ~J'ai entendu ce que tu as dit. En fait, j'en sais quelque chose... Tu le réaliserais si tu te souvenais des faits. Mais nous ne sommes pas là pour retourner le couteau dans de vieilles plaies, Irenicus. Nous sommes là pour aider deux créatures dans le besoin.~
+
+@35   = ~Je me moque de tes excuses insignifiantes pour avoir soumis ces dryades à l'esclavage, Irenicus. Elles ont dit être tes concubines et m'ont supplié de les relâcher. Mais nous sommes là pour résoudre le problème de l'Etincelle, pas pour discuter des malheurs de notre passé.~
+
+@36   = ~Tu es un vieux pervers, Irenicus, bien que j'eusse aimé être à ta place, ne serait-ce qu'une fois ! Mais pour l'instant je dois m'occuper de l'Etincelle, pas des charmes des femmes.~
+
+@37   = ~Manes... Pauvres manes…~ [EPRIM08]
+
+@38   = ~C'est moi qui ai fait ça... Ah... L'odeur du sang frais... Les cris... Le craquement des os... Laisse-moi, Laisse-moi ! Je veux vivre la douce folie du meurtre une dernière fois !~
+
+@39   = ~Vous tentez de stopper la bébilith.~
+
+@40   = ~Vous encouragez la bébilith à continuer et à se joindre au massacre !~
+
+@41   = ~Non, je ne veux plus faire ça. Emmène-moi ! Emmène-moi très loin d'ici, aventurier. J'aimerais pouvoir les aider, j'aimerais pouvoir tous les soigner !~
+
+@42   = ~Si le démon peut changer aussi fondamentalement en rejetant sa nature violente et en acceptant sa culpabilité, peut-être est-il toujours possible...~ [IRENIC73]
+
+@43   = ~(Tressaille) Ridicule. Je ne devrais pas douter de ma décision – le "bien pur" n'existe pas, il n'y a que des simulateurs hypocrites, prêts à s'attaquer à la moindre faiblesse d'une armure.  Mon hésitation n'apporte que plus de souffrance... Et est si honteuse... Je me le suis logiquement prouvé il y a longtemps.~
+
+@44   = ~<CHARNAME>, j'espère que ces tests déplaisants sont finis et que tu peux récupérer la récompense que tu mérites.~
+
+@45   = ~Tu as bien agi, enfant divin. Attends, laisse-moi t'aider à prendre l'Etincelle à celui qui la porte. Je vais remplir le Calice de la Paix avec l'Eau de la Sérénité et asperger la Pierre de l'Harmonie. Tiens la bien. A présent le réceptacle pour l'Etincelle est prêt. Regarde, elle flotte vers toi.~ [nymph34]
+
+@46   = ~A la fin de notre quête pour résoudre le mystère de la déva souffrante et de la bébilith folle, nous avons été emmenés sur le plan de l'Elysée et nous avons été accueillis par un trio de nymphes charmantes. A présent je dois résoudre le dilemme final – que vais-je faire de l'Etincelle de la déva ?~
+
+@47   = ~Tu as échoué au test, enfant divin et il n'y a rien d'autre que nous puissions faire pour toi. Adieu.~ [nymph35]
+
+@48   = ~Faites confiance au stupide rejeton d'un dieu parasite pour échouer à tout ce qui est un peu plus difficile que se curer le nez. Bah ! Je ne devrais pas perdre mon temps à parler de ton incompétence.~ [IRENIC92]
+
+@49   = ~Après que la bébilith folle Abaia m'ait téléporté vers l'Elysée, nous avons été accueillis par un trio de nymphes locales. Elles m'ont posé d'étranges questions puis ont déclaré que j'avais raté leur test. Avant que je puisse protester ou chercher des trésors, les nymphes nous ont tout simplement renvoyés sur le plan matériel. Irenicus m'a accusé d'avoir raté la quête. Oh, bon, on ne peut pas plaire à tout le monde...~
+
+@50   = ~Après que nous soyons arrivés à l'Elysée et que nous ayons été accueillis par un trio de nymphes locales, j'ai décidé d'attaquer ces créatures. Pourtant, avant que je puisse leur faire du mal ou chercher des trésors, elles nous ont simplement renvoyé sur le plan matériel. Irenicus m'a accusé d'avoir raté la quête. Oh, bon, on ne peut pas plaire à tout le monde...~

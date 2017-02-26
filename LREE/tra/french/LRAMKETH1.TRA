@@ -1,0 +1,79 @@
+@0    = ~Hé, Esamon, nous n'avons pas le temps d'écouter tes réminiscences...~
+
+@1    = ~Ferme-là, stupide larbin en armure extravagante. Cette conversation est bien plus importante que tes plaintes mesquines. Quoi qu'il en soit, ce généreux <PRO_RACE> que voici vous rendra ta marchandise ou vous remboursera complètement.~
+
+@2    = ~Rien de moins que l'âme d'une jeune vierge. Ce Vongoethe avait... Des goûts particuliers. Je me demande pourquoi la liche en voulait une.~
+
+@3    = ~Tu as l'air surpris.~
+
+@4    = ~(Sourir) Un choix intéressant, je suis d'accord.~
+
+@5    = ~Irenicus, tu devrais savoir depuis le temps que je considère le vol d'âme comme étant un crime abominable, quel qu'en soit la raison !~
+
+@6    = ~Je pense que le marchand ne nous dit pas toute la vérité, enfant divin. Il avait l'air louche lorsqu'il nous a parlé de l'état de sa fille. Quoi qu'il en soit, pourquoi s'embarrasser d'une nouvelle quête sans intérêt ?~
+
+@7    = ~Qu'y a-t-il, Irenicus ? Tu te sens mal à l'aise, peut-être ?~
+
+@8    = ~Je veux juste m'occuper de la liche, Irenicus. Cette abomination pourrait très bien être assez riche pour en valoir la peine.~
+
+@9    = ~Je ressens de la compassion pour la jeune fille sans âme, Irenicus, de la même manière que j'ai de la peine pour *toi*. Je sais que tu ne peux pas comprendre l'émotion... Mais peut-être peux-tu la ressentir par le lien ?~
+
+@10   = ~Toute cette histoire est extrêmement agaçante, mais je souhaite souligner que si c'est vraiment l'âme de la vierge que nous voulons, se mettre la liche à dos est le moyen le moins probable de l'obtenir.~
+
+@11   = ~Quoi ? Cet humain a vendu son âme seulement pour *vingt années* de prospérité ? <CHARNAME>, pourquoi essayerions-nous de sauver sa peau ? Nous devrions laisser cet imbécile avoir ce qu'il mérite.~
+
+@12   = ~Je suis d'accord avec toi, Irenicus. Nous devrions laisser Marlowe à son sort.~
+
+@13   = ~Tu as peut-être raison, mais j'ai pitié de la jeune fille. ~
+
+@14   = ~Ah, voici la solution à cette petite difficulté, <CHARNAME>. Oui, Vongoethe est loin d'être un idiot. La valeur d'une âme librement offerte est bien plus grande que celle de l'âme qui a été prise sans consentement.~
+
+@15   = ~Oui. Mais Jon, n'est-ce pas ce que j'essaye de te dire depuis le début ? Réfléchiras-tu à tes propres mots si tu ne peux réussir à te mettre d'accord avec moi ?~
+
+@16   = ~Beuh, je n'ai aucun désir de discuter de ces détails macabres avec toi.~
+
+@17   = ~Une curieuse remarque, Irenicus, surtout venant de ta bouche.~
+
+@18   = ~Bonjour, Saemon. Je vois que tu n'as pas changé du tout.~
+
+@19   = ~M... Maître Irenicus ?!! M... Mais je croyais... j'étais sûr que vous étiez mort !~
+
+@20   = ~Les rumeurs de mon trépas étaient quelque peu exagérées.~
+
+@21   = ~Quelque peu ? J'appellerais ça une sérieuse déformation de la vérité ! Et quelle est votre relation avec le rejeton de Bhaal ici présent ? Avez-vous toujours l'... Je veux dire... <PRO_HESHE> semble être en pleine forme.~
+
+@22   = ~De nombreuses choses ont changé depuis la dernière fois que nous nous sommes vus, capitaine Saemon. Mais cela ne te regarde pas. Tout ce que j'ai à dire, c'est que ces temps-ci je voyage en la compagnie du rejeton de Bhaal.~
+
+@23   = ~J'ai entendu parler de l'infortune de maîtresse Bodhi par la même source qui m'a fourni les nouvelles de votre euh... Départ, maître Irenicus. C'est dommage, je dirais. (Il trace en l'air une forme qui vous fait vaguement penser à un sablier) C'était une femme exceptionnelle. Je veux dire... Si on aime les femmes au sang froid terriblement dangereuses.~
+
+@24   = ~Oui, malgré toute sa faim de vivre, Bodhi a été... Moins chanceuse.~
+
+@25   = ~<<CHARNAME>, vu ton silence j'imagine que tu as fais la paix avec maître Irenicus ? Le passé reste le passé, ce genre de choses ?~
+
+@26   = ~Irenicus voyage avec moi. Nous avons fait une sorte d'alliance.~
+
+@27   = ~Ce ne sont pas tes affaires, Saemon !~
+
+@28   = ~(Il vous regarde avec un sourire radieux) Ces habitants marchands du désert ne pourront jamais apprécier l'appel romantique qu'a pour moi la mer. Mais toi, c'est complètement différent ! Si tu as été capable de trouver un accord avec Irenicus, alors tu aideras sans aucun doute ton vieil ami à résoudre ce petit malentendu d'équipement "volé ".~
+
+@29   = ~Comme c'est gentil de sa part. Enfant divin, je me demande si elle n'a pas suivi tous nos mouvements depuis Saradush. Bien sûr, avec ta façon de te déplacer dans les plans, ce serait une performance difficile à accomplir, mais rien n'est impossible... Pour quelqu'un d'aussi déterminé qu'elle.~
+
+@30   = ~<CHARNAME>, je suis heureux qui tu aies assez de bon sens pour oublier cette bêtise au sujet de cette fille sans âme. Ta quête de pouvoir personnel est sans aucun doute plus importante.~
+
+@31   = ~L'imbécile a eu ce qu'il méritait vraiment. Mais je suis heureux d'avoir la chance d'être le témoin du rituel de Vongoethe. Sa technique d'extraction de l'âme est plutôt primitive, mais il y a quelque détails dont je veux me souvenir pour mes besoins futurs.~
+
+@32   = ~Je vois que tu as décidé de ne pas rendre son âme à la fille. J'admire ton esprit d'aventure, <CHARNAME>, et pardonne le jeu de mot involontaire. Dans un certain sens, tu es ma création et je ne peux m'empêcher de me demander – Quelle part de moi-même t'ai-je passé par notre lien ?~
+
+@33   = ~<CHARNAME>, j'ai une impression des plus troublantes envers cet homme, Balthazar. Il est puissant, en effet... Presque aussi puissant que toi.~
+
+@34   = ~Qu'essayes-tu de me dire, Irenicus ?~
+
+@35   = ~Je me fiche de tes sous-entendus, Irenicus. Parles clairement ou laisse tomber ta manière ampoulée de t'exprimer.~
+
+@36   = ~Tu as toujours été pressé, <CHARNAME>, mais tel n'est pas mon cas. Je te ferais connaître ma nouvelle théorie en temps voulu.~
+
+@37   = ~Parfait. Fais le beau et sauve la demoiselle en détresse ! Et pendant que tu y es, tu peux t'arrêter pour sortir le mouton égaré du puits asséché et pour nourrir les mendiants locaux. Oh, et n'oublie pas d'aller chercher quelques seaux d'eau pour le vieux prêtre de l'autre coté du village, et de lui offrir après de lui laver les pieds et de lui couper les ongles ! Tes frères et soeurs vindicatifs peuvent certainement attendre que tu aies fini d'accomplir toutes les bonnes actions d'Amkethran.~
+
+@38   = ~Cela semble être une excuse valable. Sois rapide, ta rapidité d'action peut être vitale.~
+
+@39   = ~Impudent enfant divin, m'amèneras-tu Marlowe que je récupère ce qui m'est dû ?~

@@ -1,0 +1,864 @@
+//LongerRoad v 1.6 EE/EET
+
+BACKUP ~LREE/backup~
+AUTHOR ~ladydorotea@hotmail.com~
+
+ALLOW_MISSING ~ar3003.bcs~
+ALLOW_MISSING ~ar5502.bcs~
+
+VERSION ~v1.6 EE~
+
+ASK_EVERY_COMPONENT
+
+
+/////////////////////////////////////////////////////////////////////////
+//  Language Options
+//
+//  American english and spanish versions are available now
+/////////////////////////////////////////////////////////////////////////
+ALWAYS
+  ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charset = 1
+    STR_VAR
+      tra_path = ~LREE/tra~
+      reload_array = fl#reload
+      default_language = ~English~
+  END
+END
+
+
+AUTO_TRA ~LREE/tra/%s~
+
+LANGUAGE ~American English~
+         ~english~
+         ~LREE/tra/english/setup.tra~
+
+LANGUAGE ~Espanol (Traducido cerca Immortality y companía)~
+         ~spanish~
+         ~LREE/tra/spanish/setup.tra~
+         
+LANGUAGE ~Francais (Traduction de Erszebeth - phénomène français de sideshow de vampire de graphomane)~
+         ~french~
+         ~LREE/tra/french/setup.tra~
+
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+// The Longer Road
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+
+BEGIN @0
+REQUIRE_COMPONENT ~Ascension.tp2~ 0 ~Ascension mod required.~
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+COPY  ~LREE/are~          ~override~
+COPY ~LREE/bmp~		~override~
+COPY ~LREE/bam~		~override~
+END ELSE BEGIN
+PRINT ~For BG2EE or EET ONLY!!~
+END
+
+ADD_JOURNAL @15 @90 @94 @48 @29 USING ~LREE/tra/%LANGUAGE%/LRELLESIME.TRA~
+
+ADD_JOURNAL @51 @53 @54 @56 @57 USING ~LREE/tra/%LANGUAGE%/Jonel25J.TRA~
+
+ADD_JOURNAL @71 @85 @95 USING ~LREE/tra/%LANGUAGE%/LRRielev.TRA~
+
+COPY_EXISTING ~botsmith.cre~ ~override/botsmith.cre~
+     WRITE_ASCII 0x34  ~CespS~
+     
+COPY_EXISTING ~25spell.cre~ ~override/25spell.cre~
+     WRITE_ASCII 0x34  ~lasrS~
+
+COPY_EXISTING ~hgwra01.cre~ ~override/hgwra01.cre~
+     WRITE_ASCII 0x34  ~wgorS~
+
+COPY_EXISTING ~d1gori.cre~ ~override/d1gori.cre~
+     WRITE_ASCII 0x34  ~wgorS~
+     
+COPY_EXISTING ~d1ghost.cre~ ~override/d1ghost.cre~
+     WRITE_ASCII 0x34  ~mothS~
+
+COPY_EXISTING ~d1mothdw.cre~ ~override/d1mothdw.cre~
+     WRITE_ASCII 0x34  ~mothS~
+
+COPY_EXISTING ~d1mothel.cre~ ~override/d1mothel.cre~
+     WRITE_ASCII 0x34  ~mothS~
+
+COPY_EXISTING ~d1mothha.cre~ ~override/d1mothha.cre~
+     WRITE_ASCII 0x34  ~mothS~
+
+COPY_EXISTING ~d1mothhu.cre~ ~override/d1mothhu.cre~
+     WRITE_ASCII 0x34  ~mothS~
+     
+COPY_EXISTING ~d1sarev.cre~ ~override/d1sarev.cre~
+     WRITE_ASCII 0x34  ~skidS~
+
+COPY_EXISTING ~hgnya01.cre~ ~override/hgnya01.cre~
+     WRITE_ASCII 0x34  ~nyalS~
+
+COPY_EXISTING ~sarvolo.cre~ ~override/sarvolo.cre~
+     WRITE_ASCII 0x34  ~VoloS~
+     
+COPY_EXISTING ~gorchr.cre~ ~override/gorchr.cre~
+     WRITE_ASCII 0x34  ~ChrodS~
+     
+COPY_EXISTING ~amcler01.cre~ ~override/amcler01.cre~
+     WRITE_ASCII 0x34  ~ChyilS~
+     
+COPY_EXISTING ~amcler02.cre~ ~override/amcler02.cre~
+     WRITE_ASCII 0x34  ~ChyilS~
+
+COPY_EXISTING ~gorcar.cre~ ~override/gorcar.cre~
+     WRITE_ASCII 0x34  ~CarstS~
+     
+COPY_EXISTING ~gormad1.cre~ ~override/gormad1.cre~
+     WRITE_ASCII 0x34  ~yakmS~
+     
+COPY_EXISTING ~amtgen01.cre~ ~override/amtgen01.cre~
+     WRITE_ASCII 0x34  ~genrS~
+     
+COPY_EXISTING ~amlich01.cre~ ~override/amlich01.cre~
+     WRITE_ASCII 0x34  ~lichS~
+     
+COPY_EXISTING ~marlowe.cre~ ~override/marlowe.cre~
+     WRITE_ASCII 0x34  ~MarlwS~
+     
+COPY_EXISTING ~amcarras.cre~ ~override/amcarras.cre~
+     WRITE_ASCII 0x34  ~smugS~
+     
+COPY_EXISTING ~amsaemon.cre~ ~override/amsaemon.cre~
+     WRITE_ASCII 0x34  ~saemS~
+     
+COPY_EXISTING ~gorcamb.cre~ ~override/gorcamb.cre~
+     WRITE_ASCII 0x34  ~cambS~
+
+COPY_EXISTING ~chalcy01.cre~ ~override/chalcy01.cre~
+     WRITE_ASCII 0x34  ~CyricS~
+
+COPY_EXISTING ~senbeh01.cre~ ~override/senbeh01.cre~
+     WRITE_ASCII 0x34  ~SpecS~
+     
+COPY_EXISTING ~amelm01.cre~ ~override/amelm01.cre~
+     WRITE_ASCII 0x34  ~ElmoS~
+
+COPY  ~LREE/itm/imask.itm~    ~override~
+      SAY NAME1 @3
+      SAY NAME2 @4
+      SAY DESC @5
+
+COPY ~LREE/cre/lrelle1.cre~ ~override/lrelle1.cre~
+     WRITE_ASCII 0x34  ~lrelleS~
+     WRITE_ASCII 0x250 ~lrelle1~  // class script
+     WRITE_ASCII 0x2CC ~lrelle1~  // dialog
+     WRITE_ASCII 0x280 ~lrelle1~  // death variable
+
+//add music
+<<<<<<<< .../LREE/bogus/LrBogus.mus
+>>>>>>>>
+  
+COPY ~.../LREE/bogus/LrBogus.mus~ ~Music/LrBogus.mus~
+
+ADD_MUSIC ~LrBogus~ ~Music/LrBogus.mus~
+
+COPY_EXISTING ~SongList.2da~  ~override~
+  SET ~row~ = 0
+  WHILE NOT (~LrBogus~ STR_CMP ~%string%~ = 0)
+    BEGIN
+      SET ~row~ = (~%row%~ + 1)
+      READ_2DA_ENTRY ~%row%~ 1 3 ~string~
+    END
+
+COPY_EXISTING ~SongList.2da~ ~override~
+  REPLACE_TEXTUALLY ~[0-9]* LrBogus LrBogus.mus~ ~~
+
+  SET ~MxAbys~ = 0
+  SET ~MxElle~ = 0
+  SET ~MxIren~ = 0
+  SET ~MxTroll~ = 0
+  SET ~MxHeal~ = 0
+  SET ~warning~ = 0
+
+ACTION_IF (~%row%~ < 500)
+  THEN
+    BEGIN
+      COPY ~LREE/sound/MxIren.mus~ ~music/MxIren.mus~
+      ADD_MUSIC ~MxIren~	~LREE/sound/MxIren.mus~
+    END
+
+ACTION_IF (~%row%~ < 499)
+  THEN
+    BEGIN
+      COPY ~LREE/sound/MxElle.mus~ ~music/MxElle.mus~
+      ADD_MUSIC ~MxElle~	~LREE/sound/MxElle.mus~
+    END
+
+ACTION_IF (~%row%~ < 498)
+  THEN
+    BEGIN
+      COPY ~LREE/sound/MxAbys.mus~ ~Music/MxAbys.mus~
+      ADD_MUSIC ~MxAbys~	~LREE/sound/MxAbys.mus~
+    END
+
+ACTION_IF (~%row%~ < 497)
+  THEN
+    BEGIN
+      COPY ~LREE/sound/MxTroll.mus~ ~music/MxTroll.mus~
+      ADD_MUSIC ~MxTroll~	~LREE/sound/MxTroll.mus~
+    END
+
+ACTION_IF (~%row%~ < 496)
+  THEN
+    BEGIN
+      COPY ~LREE/sound/MxHeal.mus~ ~music/MxHeal.mus~
+      SET ~warning~ = 1
+      ADD_MUSIC ~MxHeal~	~LREE/sound/MxHeal.mus~
+    END
+
+COPY ~LREE/wav~ ~override~
+
+COPY_EXISTING ~AR3003.are~ ~override~
+WRITE_ASCII 0x94 ~AR3003~
+EXTEND_TOP ~ar3003.bcs~ ~LREE/bcs/AR3003.BCS~
+
+COPY_EXISTING ~AR5502.are~ ~override~
+WRITE_ASCII 0x94 ~AR5502~
+EXTEND_TOP ~ar5502.bcs~ ~LREE/bcs/ar5502.BCS~
+
+EXTEND_TOP ~AR5505.bcs~ ~LREE/bcs/extar5505.bcs~
+COPY_EXISTING ~AR5505.bcs~ ~override/AR5505.bcs~
+REPLACE_BCS_BLOCK ~LREE/bcs/AR5505_No_Jon.bcs~ ~LREE/bcs/AR5505_Jon.bcs~
+
+EXTEND_TOP ~ar5202.bcs~ ~LREE/bcs/AR5202_Jon.BCS~
+EXTEND_TOP ~ar3001.bcs~ ~LREE/bcs/AR3001_EL.BCS~
+EXTEND_TOP ~ar5011.bcs~ ~LREE/bcs/AR5011_EL.BCS~
+EXTEND_TOP ~ar5504.bcs~ ~LREE/bcs/AR5504_EL.BCS~
+EXTEND_BOTTOM ~BALTH.bcs~   ~LREE/bcs/Balth_Jon.bcs~
+
+COPY ~LREE/bcs/copy~		~override~
+REPLACE 999999 @6
+REPLACE_TEXTUALLY 999990 ~%MxElle%~
+REPLACE_TEXTUALLY 999991 ~%MxAbys%~
+REPLACE_TEXTUALLY 999980 ~%MxIren%~
+REPLACE_TEXTUALLY 999970 ~%MxTroll%~
+REPLACE_TEXTUALLY 999964 ~%MxHeal%~
+REPLACE 999971 @7
+REPLACE 999956 @8
+REPLACE 999959 @9
+REPLACE 999958 @10
+REPLACE 999957 @11
+REPLACE 999993 @12
+REPLACE 999992 @13
+REPLACE 999996 @14
+REPLACE 999995 @15
+REPLACE 999994 @16
+REPLACE 999981 @17
+REPLACE 999982 @18
+REPLACE 999966 @19
+REPLACE 999968 @20
+REPLACE 999972 @21 
+REPLACE 999973 @22 
+REPLACE 999974 @23 
+REPLACE 999975 @24 
+REPLACE 999976 @25 
+REPLACE 999977 @26 
+REPLACE 999978 @27 
+REPLACE 999979 @28 
+REPLACE 999960 @29 
+REPLACE 999961 @30 
+REPLACE 999962 @31 
+REPLACE 999963 @32 
+REPLACE 999969 @33
+REPLACE 999949 @129
+
+EXTEND_BOTTOM ~ar4000.bcs~ ~LREE/bcs/iqtest.bcs~
+COPY_EXISTING ~ar4000.bcs~ ~override/ar4000.bcs~
+
+REPLACE_BCS_BLOCK ~LREE/bcs/AR4000_NO_ELLE.BCS~ ~LREE/bcs/AR4000_ELLE.bcs~
+REPLACE 999998 @34
+REPLACE 999965 @35
+
+
+COPY ~LREE/cre/lrrielev.cre~ ~override/lrrielev.cre~
+     SAY NAME1 @36
+     SAY NAME2 @36
+     WRITE_ASCII 0x34  ~rielevS~
+     WRITE_ASCII 0x250 ~lrrielev~  // class script
+     WRITE_ASCII 0x2CC ~lrrielev~  // dialog
+     WRITE_ASCII 0x280 ~lrrielev~  // death variable
+
+EXTEND_BOTTOM ~ar4500.bcs~ ~LREE/bcs/AR4500_RIELEV.bcs~
+EXTEND_BOTTOM ~AR5002.BCS~ ~LREE/bcs/AR5002_JON.BCS~
+
+COPY_EXISTING ~ITPPLANE.bcs~ ~override/ITPPLANE.bcs~
+REPLACE_BCS_BLOCK ~LREE/bcs/ITPPLANE_NO_RIELEV.BCS~ ~LREE/bcs/ITPPLANE_RIELEV.bcs~
+REPLACE 999997 @37
+
+COPY_EXISTING ~ar6108.bcs~ ~override/ar6108.bcs~
+REPLACE_BCS_BLOCK ~LREE/bcs/Sendai_No_Jon.bcs~ ~LREE/bcs/Sendai_Jon.bcs~
+
+EXTEND_TOP ~BALDUR25.bcs~ ~LREE/bcs/NPC_JON.bcs~
+EXTEND_BOTTOM ~BALDUR25.bcs~ ~LREE/bcs/JON_PC_LINK.BCS~
+EXTEND_BOTTOM ~BALDUR25.bcs~ ~LREE/bcs/JON_REMOVED.BCS~
+COPY_EXISTING ~BALDUR25.bcs~ ~override/BALDUR25.bcs~
+REPLACE 999956 @8
+
+EXTEND_BOTTOM ~EDWI25.bcs~ ~LREE/bcs/Edwin_Jon.bcs~
+COPY_EXISTING ~EDWI25.bcs~ ~override/EDWI25.bcs~
+REPLACE_TEXTUALLY 999970 ~%MxTroll%~
+EXTEND_BOTTOM ~AERI25.BCS~ ~LREE/bcs/AERIE_JON.BCS~
+EXTEND_BOTTOM ~IMOE25.BCS~ ~LREE/bcs/Immy_Jon.BCS~
+
+COPY_EXISTING ~JAHE25.BCS~ ~override/JAHE25.BCS~
+REPLACE_BCS_BLOCK ~LREE/bcs/JAH_NO_JON.BCS~ ~LREE/bcs/JAH_JON.BCS~
+
+EXTEND_BOTTOM ~AR3012.BCS~  ~LREE/bcs/AR3012_ABAIA.BCS~
+REPLACE 999967 @38
+
+EXTEND_TOP ~AR3011.BCS~ ~LREE/bcs/AR3011_SEREN.BCS~
+
+COPY ~LREE/cre/lrcyric1.cre~ ~override/lrcyric1.cre~
+WRITE_ASCII 0x34  ~cyricS~
+WRITE_ASCII 0x250 ~lrcyric~  // class script
+WRITE_ASCII 0x2CC ~lrcyric~  // dialog
+WRITE_ASCII 0x280 ~lrcyric1~  // death variable
+
+COPY ~LREE/cre/lrhood.cre~ ~override/lrhood.cre~
+     SAY NAME1 @39
+     SAY NAME2 @39
+WRITE_ASCII 0x34  ~hoodS~
+WRITE_ASCII 0x250 ~lrhood~  // class script
+WRITE_ASCII 0x2CC ~lrhood~  // dialog
+WRITE_ASCII 0x280 ~lrhood~  // death variable
+
+COPY ~LREE/cre/lrburnin.cre~ ~override/lrburnin.cre~
+WRITE_ASCII 0x34  ~lrburnS~   //bmp
+WRITE_ASCII 0x250 ~lrburnin~  // class script
+WRITE_ASCII 0x2CC ~lrburnin~  // dialog
+WRITE_ASCII 0x280 ~lrburnin~  // death variable
+
+COPY  ~LREE/itm/imask1.itm~    ~override~
+      SAY NAME1 @3
+      SAY NAME2 @4
+      SAY DESC @40
+      SAY 0x2de Irenicus
+
+COPY ~LREE/cre/lrirenic.cre~ ~override/lrirenic.cre~
+WRITE_ASCII 0x34  ~LRJonS~
+WRITE_ASCII 0x3c  ~LRJonM~
+WRITE_ASCII 0x250 ~lrirenic~  // class script
+WRITE_ASCII 0x2CC ~lrirenic~  // dialog
+WRITE_ASCII 0x280 ~lrirenic~  // death variable
+
+SAY INITIAL_MEETING  @41 
+SAY TIRED @42 
+SAY SELECT_COMMON4 @43 
+SAY HURT @41 
+SAY AREA_FOREST @44 
+SAY AREA_NIGHT @45 
+SAY SELECT_ACTION5 @46 
+SAY SELECT_ACTION6 ~~ [IRENIC92]
+SAY ATTACK4 @48 
+SAY BIO @49
+
+COPY  ~LREE/spl/jonchng1.spl~    ~override~
+SAY 8 @50
+WRITE_ASCII 0x1ce ~LRJonS~
+
+COPY  ~LREE/spl/jonchng2.spl~    ~override~
+SAY 8 @51
+WRITE_ASCII 0x1ce ~lrburnS~
+
+COPY  ~LREE/spl/jonchng3.spl~    ~override~
+
+//PATCH 2DA 
+APPEND ~pdialog.2da~
+~LRIRENIC     Jonel25P           Jonel25J          Jonel25D       Jonel25P           Jonel25J              Jonel25D              Jonel25~
+UNLESS ~LRIRENIC~
+IF     ~25POST~
+
+APPEND ~interdia.2da~
+~LRIRENIC    BJONEL25      BJONEL25~
+UNLESS ~LRIRENIC~
+IF     ~25FILE~
+
+//SPELLS
+COPY  ~LREE/spl/GLOTRN1.SPL~    ~override~
+SAY 8 @52
+WRITE_ASCII 0x10e ~LRSQRLS~
+
+COPY  ~LREE/spl/GLOTRN2.SPL~    ~override~
+SAY 8 @53
+WRITE_ASCII 0xde ~LRJonS~
+
+COPY  ~LREE/spl/GLOTRN3.SPL~    ~override~
+SAY 8 @53
+
+COPY ~LREE/spl/JONW01.SPL~       ~override~
+COPY ~LREE/spl/JONW02.SPL~       ~override~
+COPY ~LREE/spl/JONW03.SPL~       ~override~
+COPY ~LREE/spl/RMFEAR.SPL~       ~override~
+COPY ~LREE/spl/RMMGC.SPL~        ~override~
+
+//DEVA QUEST CREATURES AND ITEMS
+COPY ~LREE/cre/abaia.cre~ ~override/abaia.cre~
+     SAY NAME1 @54
+     SAY NAME2 @54
+     WRITE_ASCII 0x34  ~abaiaS~
+     WRITE_ASCII 0x248 ~ABAIAI~  // override script
+     WRITE_ASCII 0x250 ~ABAIA~  // class script
+     WRITE_ASCII 0x2CC ~LRABAIA~  // dialog
+     WRITE_ASCII 0x280 ~abaia~  // death variable
+
+COPY  ~LREE/itm/gemh1.itm~    ~override~
+      SAY NAME1 @55
+      SAY NAME2 @55
+      SAY DESC @56
+      
+COPY  ~LREE/itm/chalice2.itm~    ~override~
+      SAY NAME1 @57
+      SAY NAME2 @57
+      SAY DESC @58
+      
+COPY  ~LREE/itm/waterser.itm~    ~override~
+      SAY NAME1 @59
+      SAY NAME2 @59
+      SAY DESC @60
+
+COPY  ~LREE/itm/devasprk.itm~    ~override~
+      SAY NAME1 @61
+      SAY NAME2 @61
+      SAY DESC @62
+
+COPY  ~LREE/itm/curssp1.itm~    ~override~
+      SAY NAME1 @61
+      SAY NAME2 @61
+      SAY DESC @63
+COPY ~LREE/cre/ybdiel.cre~ ~override~
+SAY NAME1 @64
+SAY NAME2 @64
+WRITE_ASCII 0x34  ~ybdielS~
+WRITE_ASCII 0x248 ~ybdiel~  // override script
+WRITE_ASCII 0x2CC ~lrdeva~  // dialog
+WRITE_ASCII 0x280 ~ybdiel~  // death variable
+
+SAY INITIAL_MEETING  ~~ [deva5]
+SAY DAMAGE  ~~ [deva4]
+SAY DYING  ~~ [deva6]
+
+COPY  ~LREE/itm/dbody.itm~    ~override~
+      SAY NAME1 @68
+      SAY NAME2 @68
+      SAY DESC @69
+
+COPY ~LREE/cre/LRNY01.CRE~ ~override~
+SAY NAME1 @70
+SAY NAME2 @70
+WRITE_ASCII 0x34  ~nym1S~
+WRITE_ASCII 0x248 ~LRDRY01~  // override script
+WRITE_ASCII 0x2CC ~lrnymph1~  // dialog
+WRITE_ASCII 0x280 ~yanieth~  // death variable
+
+COPY ~LREE/cre/LRNY02.CRE~ ~override~
+SAY NAME1 @71
+SAY NAME2 @71
+WRITE_ASCII 0x34  ~nym2S~
+WRITE_ASCII 0x2CC ~lrnymph2~  // dialog
+WRITE_ASCII 0x280 ~elesrem~  // death variable
+
+COPY ~LREE/cre/LRNY03.CRE~ ~override~
+SAY NAME1 @72
+SAY NAME2 @72
+WRITE_ASCII 0x34  ~nym3S~
+WRITE_ASCII 0x248 ~LRDRY03~  // override script
+WRITE_ASCII 0x2CC ~lrnymph3~  // dialog
+WRITE_ASCII 0x280 ~fresienne ~  // death variable
+
+COPY ~LREE/cre/lrimp1.CRE~ ~override~
+WRITE_ASCII 0x34  ~RustS~
+WRITE_ASCII 0x2CC ~bimp1~  // dialog
+WRITE_ASCII 0x250 ~lrimpatt~  // class script
+WRITE_ASCII 0x280 ~lrimp1~  // death variable
+
+COPY ~LREE/cre/lrimp2.CRE~ ~override~
+WRITE_ASCII 0x34  ~DustS~
+WRITE_ASCII 0x2CC ~bimp2~  // dialog
+WRITE_ASCII 0x250 ~lrimpatt~  // class script
+WRITE_ASCII 0x280 ~lrimp2~  // death variable
+
+COPY ~LREE/cre/lryugol.CRE~ ~override~
+SAY NAME1 @73
+SAY NAME2 @73
+WRITE_ASCII 0x34  ~yuglS~
+WRITE_ASCII 0x258 ~yugol~  // race script
+WRITE_ASCII 0x268 ~lrygft~  // default script
+//WRITE_ASCII 0x268 ~AESGAR~  // default script
+WRITE_ASCII 0x250 ~GRPSHT01~ //class script
+WRITE_ASCII 0x2CC ~lrgar~  // dialog
+WRITE_ASCII 0x280 ~lryugol~  // death variable
+
+COPY_EXISTING ~GORALU01.cre~ ~override/yugalu01.cre~
+WRITE_LONG 0x250 0
+WRITE_LONG 0x254 0
+WRITE_BYTE 0x270 255
+
+COPY_EXISTING ~GORSUC01.cre~ ~override/yugsuc01.cre~
+WRITE_LONG 0x250 0
+WRITE_LONG 0x254 0
+WRITE_LONG 0x2cc 0
+WRITE_LONG 0x2d0 0
+WRITE_BYTE 0x270 255
+
+COPY ~LREE/cre/ybsleep.CRE~ ~override~
+SAY NAME1 @64
+SAY NAME2 @64
+WRITE_ASCII 0x34  ~YbdielS~
+WRITE_ASCII 0x248 ~ybsleep~  // override script
+WRITE_ASCII 0x2CC ~lrydream~  // dialog
+WRITE_ASCII 0x280 ~ybsleep~  // death variable
+
+COPY_EXISTING ~gorlum.cre~ ~override~
+WRITE_SHORT 0x28 32556
+
+COPY_EXISTING ~gorsal.cre~ ~override~
+WRITE_ASCII 0x34  ~SalS~
+
+COPY ~LREE/cre/ybdiel2.cre~ ~override~
+SAY NAME1 @64
+SAY NAME2 @64
+WRITE_ASCII 0x34  ~ybdielS~
+WRITE_ASCII 0x2CC ~lryafter~  // dialog
+WRITE_ASCII 0x280 ~ybdiel2~  // death variable
+
+COPY ~LREE/cre/abaia2.cre~ ~override~
+     SAY NAME1 @54
+     SAY NAME2 @54
+     WRITE_ASCII 0x34  ~abaiaS~
+     WRITE_ASCII 0x2CC ~lrbafter~  // dialog
+     WRITE_ASCII 0x280 ~abaia2~  // death variable
+     
+COPY ~LREE/cre/NEWCRE.CRE~ ~override~
+     SAY NAME1 @74
+     SAY NAME2 @74
+     WRITE_ASCII 0x34  ~NewCS~
+     WRITE_ASCII 0x2CC ~devilith~  // dialog
+     WRITE_ASCII 0x280 ~newcre~  // death variable
+     
+COPY  ~LREE/itm/namul.itm~    ~override~
+      SAY NAME1 @75
+      SAY NAME2 @75
+      SAY DESC @76
+
+COPY  ~LREE/itm/leafbow.itm~    ~override~
+      SAY NAME1 @77
+      SAY NAME2 @77
+      SAY DESC @78
+
+COPY  ~LREE/itm/hellbow.itm~    ~override~
+      SAY NAME1 @79
+      SAY NAME2 @79
+      SAY DESC @80
+
+COPY  ~LREE/itm/abymace.itm~    ~override~
+      SAY NAME1 @81
+      SAY NAME2 @81
+      SAY DESC @82
+
+COPY ~LREE/cre/Mirriam.cre~ ~override/Mirriam.cre~
+     SAY NAME1 @83
+     SAY NAME2 @83
+     //WRITE_ASCII 0x34  ~MirS~
+     WRITE_ASCII 0x280 ~mirriam~  // death variable
+     
+COPY ~LREE/cre/Kessen.cre~ ~override/Kessen.cre~
+     SAY NAME1 @84
+     SAY NAME2 @84
+     //WRITE_ASCII 0x34  ~KesS~
+     WRITE_ASCII 0x280 ~kessen~  // death variable
+     
+COPY  ~LREE/itm/sesstn.itm~    ~override~
+      SAY NAME1 @85
+      SAY NAME2 @85
+      SAY DESC @86
+  
+COPY  ~LREE/itm/absstn.itm~    ~override~
+      SAY NAME1 @87
+      SAY NAME2 @87
+      SAY DESC @88
+  
+COPY  ~LREE/itm/basstn.itm~    ~override~
+      SAY NAME1 @89
+      SAY NAME2 @89
+      SAY DESC @90
+
+
+COPY ~LREE/itm/impnote.itm~ ~override~
+      SAY DESC  @130
+  
+COPY  ~LREE/spl/lrsoul1.spl~    ~override~
+SAY 8 @91
+
+COPY  ~LREE/spl/lrsoul2.spl~    ~override~
+SAY 8 @91
+
+COPY  ~LREE/spl/lrsoul3.spl~    ~override~
+SAY 8 @91
+
+COPY  ~LREE/spl/lrshadow.spl~    ~override~
+SAY 8 @92
+
+COPY_EXISTING ~AR6200.bcs~ ~override/AR6200.bcs~
+  REPLACE_BCS_BLOCK ~LREE/bcs/lrtext1.baf~ ~LREE/bcs/lrtext2.baf~
+
+COPY ~LREE/spl/Cslsuck.spl~ ~override~
+  WRITE_ASCII 0x1ce ~LREJons~
+  WRITE_ASCII 0x1fe ~LREJonm~
+
+COPY ~LREE/spl/Jonchng4.spl~ ~override~
+  SAY NAME1 @93
+  SAY NAME2 @93
+  SAY 0x18e @94
+  WRITE_ASCII 0x1ce ~newjons~
+  WRITE_ASCII 0x1fe ~newjonm~
+  
+COPY ~LREE/spl/lrres.spl~ ~override~
+
+COMPILE ~LREE/bcs/lrjonr1.baf~
+        ~LREE/bcs/lrjonr2.baf~
+        ~LREE/bcs/lrjonr3.baf~
+        ~LREE/bcs/banish2.baf~
+        ~LREE/bcs/brlink.baf~
+        ~LREE/bcs/lrfijon1.baf~
+        ~LREE/bcs/lrfijon2.baf~
+        ~LREE/bcs/cssuck2.baf~
+
+COPY_EXISTING ~lrjonr2.bcs~ ~override/lrjonr2.bcs~
+  REPLACE_TEXTUALLY 999999 ~%MxAbys%~
+
+COPY_EXISTING ~lrfijon1.bcs~ ~override/lrfijon1.bcs~
+  REPLACE_TEXTUALLY 999999 ~%MxElle%~
+
+
+COPY ~LREE/cre/Lravatar.cre~ ~override/Lravatar.cre~
+  WRITE_ASCII 0x34 ~Corellon~
+  WRITE_ASCII 0x2cc ~lrcorell~
+  SAY NAME1 @95
+  SAY NAME2 @95
+
+EXTEND_TOP ~ar6200.bcs~ ~LREE/bcs/ar6200.baf~
+
+//COMPILE THE DIALOGS
+
+COMPILE
+~LREE/dlg/lrellesime.d~
+~LREE/dlg/lrrielev.d~
+~LREE/dlg/lrgavid.d~
+~LREE/dlg/lrcyric.d~
+~LREE/dlg/lrirenic.d~
+~LREE/dlg/lrjaheira1.d~
+~LREE/dlg/jonel25j.d~
+~LREE/dlg/lrimoen1.d~
+~LREE/dlg/lrminsc1.d~
+~LREE/dlg/jonel25p.d~
+~LREE/dlg/bjonel25.d~
+~LREE/dlg/lredwin.d~
+~LREE/dlg/lrviconia.d~
+~LREE/dlg/lrsaradush.d~
+~LREE/dlg/lrvolo.d~
+~LREE/dlg/lrjan.d~
+~LREE/dlg/lrkeldorn.d~
+~LREE/dlg/lrmazzy.d~
+~LREE/dlg/lrkorgan.d~
+~LREE/dlg/lrminsc.d~
+~LREE/dlg/lrhaer.d~
+~LREE/dlg/lraerie.d~
+~LREE/dlg/lrvalygar.d~
+~LREE/dlg/lranomen.d~
+~LREE/dlg/lrnalia.d~
+~LREE/dlg/lrimoen.d~
+~LREE/dlg/lrjaheira.d~
+~LREE/dlg/lrjaheira2.d~
+~LREE/dlg/lrdeva.d~
+~LREE/dlg/lrabaia.d~
+~LREE/dlg/lrnymph1.d~
+~LREE/dlg/lrbimp1.d~
+~LREE/dlg/lrgromnir.d~
+~LREE/dlg/lrsarevok.d~
+~LREE/dlg/lrabaia2.d~
+~LREE/dlg/lrsaradush2.d~
+~LREE/dlg/lrsarevok2.d~
+~LREE/dlg/lrnyalee.d~
+~LREE/dlg/lrdevafin2.d~
+~LREE/dlg/lrdevafin3.d~
+~LREE/dlg/lryagacon.D~
+~LREE/dlg/lryaga.d~
+~LREE/dlg/lrwrath.d~
+~LREE/dlg/lrjaheira3.d~
+~LREE/dlg/lrodren.d~
+~LREE/dlg/lrchrod.d~
+~LREE/dlg/lryakman.d~
+~LREE/dlg/lrbwar.d~
+~LREE/dlg/lramove.d~
+~LREE/dlg/lrahurt.d~
+~LREE/dlg/lrcamb.d~
+~LREE/dlg/lrgar.d~
+~LREE/dlg/lrabaia3.d~
+~LREE/dlg/lrmachine.d~
+~LREE/dlg/lrdemogor.d~
+~LREE/dlg/lramketh1.d~
+~LREE/dlg/LREYE.D~
+~LREE/dlg/LRSAEMON2.D~
+~LREE/dlg/LRBALTH2.D~
+~LREE/dlg/LRSENABA.D~
+~LREE/dlg/LRENCLAVES.D~
+~LREE/dlg/LRBALTH3.D~
+
+// ELVEN LORE
+
+COPY  ~LREE/books/bookel1.itm~    ~override~
+      SAY NAME2 @96
+      SAY DESC @97
+
+COPY  ~LREE/books/bookel2.itm~    ~override~
+      SAY NAME2 @98
+      SAY DESC @99
+
+COPY  ~LREE/books/bookel3.itm~    ~override~
+      SAY NAME2 @100
+      SAY DESC @101
+
+COPY  ~LREE/books/bookel4.itm~    ~override~
+      SAY NAME2 @102
+      SAY DESC @103
+
+COPY  ~LREE/books/bookel5.itm~    ~override~
+      SAY NAME2 @104
+      SAY DESC @105
+
+COPY  ~LREE/books/bookel6.itm~    ~override~
+      SAY NAME2 @106
+      SAY DESC @107
+
+COPY  ~LREE/books/bookel7.itm~    ~override~
+      SAY NAME2 @108
+      SAY DESC @109
+
+//EPILOGUES
+COPY ~LREE/bcs/jonepil1.2da~ ~override/jonepil1.2da~
+  REPLACE_TEXTUALLY ~LRJONL~ ~LREJonL~
+  REPLACE ~999999~ @110
+
+COPY ~LREE/bcs/jonepil1.2da~ ~override/jonepil2.2da~
+  REPLACE ~999999~ @111
+
+COPY ~LREE/bcs/jonepil1.2da~ ~override/jonepil3.2da~
+  REPLACE ~999999~ @112
+  
+COPY ~LREE/bcs/jonepil1.2da~ ~override/jonepil4.2da~
+  REPLACE_TEXTUALLY ~LRJONL~ ~NEWJONL~
+  REPLACE ~999999~ @113
+
+//COMPATIBILITY BLOCKS
+
+ACTION_IF FILE_EXISTS_IN_GAME  ~d0hosti.bcs~ // Improved Oasis
+ THEN BEGIN
+   PRINT @114
+ END
+ ELSE BEGIN
+   PRINT @115
+   COMPILE ~LREE/dlg/lroasis.d~
+ END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~finbodh.cre~
+ THEN BEGIN
+   PRINT @116 
+   COPY  ~LREE/balth/ascen/balth.cre~    ~override~
+   
+   COPY ~LREE/spl/zombify1.spl~ ~override/senzom.spl~
+     SAY 0x9e @117
+   COPY ~LREE/spl/zombify1.spl~ ~override/abazom.spl~
+     SAY 0x9e @118
+   COPY ~LREE/spl/zombify1.spl~ ~override/balzom.spl~
+     SAY 0x9e @119
+   
+   EXTEND_TOP ~Imoslay.bcs~ ~LREE/bcs/imosj.baf~
+
+   COPY_EXISTING ~finiren.cre~ ~override/finiren.cre~
+   WRITE_ASCII 0x34  ~LRJonS~
+   WRITE_ASCII 0x3c  ~LRJonM~
+
+   COMPILE ~LREE/dlg/finale.d~
+           ~LREE/dlg/finaleA.d~
+
+  EXTEND_TOP ~AR6200.bcs~  ~LREE/bcs/lr6200jon.baf~
+
+   EXTEND_TOP ~Finabaz.bcs~ ~LREE/bcs/lrabazigal.bcs~
+   EXTEND_TOP ~Finbalth.bcs~ ~LREE/bcs/lrbalthazar.bcs~
+   EXTEND_TOP ~Finsend.bcs~ ~LREE/bcs/lrsendai.bcs~
+
+
+    COPY_EXISTING ~demogor2.cre~ ~override/demogor3.cre~
+        WRITE_ASCII 0x34 ~demos~
+        WRITE_ASCII 0x2CC ~lrgodemo~
+        WRITE_ASCII 0x280 ~demogor3~
+        WRITE_LONG 0x270 "128" //neutral
+        WRITE_LONG 0x271 "255" //monster
+        WRITE_LONG 0x272 "121" //demonic
+        WRITE_LONG 0x273 "160" //tanari
+        WRITE_LONG 0x274 "60" //unknown
+        WRITE_LONG 0x275 "4" //nether
+
+   COPY_EXISTING ~ar5505.bcs~ ~override/ar5505.bcs~
+   REPLACE_BCS_BLOCK ~LREE/bcs/ar5505_No_JonAc.bcs~ ~LREE/bcs/ar5505_JonAc.bcs~
+ END
+
+ ELSE BEGIN // if Ascension is not installed
+   PRINT @120
+   COPY  ~LREE/balth/vanilla/balth.cre~    ~override~
+   COPY_EXISTING ~finmel01.bcs~ ~override~
+        REPLACE_BCS_BLOCK ~LREE/bcs/lrmelcut1.baf~ ~LREE/bcs/lrmelcut2.baf~
+
+    COPY_EXISTING ~itfpool3.bcs~ ~override~
+        REPLACE_BCS_BLOCK ~LREE/bcs/lrpool1.baf~ ~LREE/bcs/lrpool2.baf~
+
+
+    COMPILE ~LREE/bcs/lrc233f.baf~
+            ~LREE/dlg/finale.d~
+            ~LREE/dlg/finalena.d~
+
+    COPY ~LREE/cre/finiren.cre~ ~override/lrpoolir.cre~
+        WRITE_ASCII 0x34  ~LRJonS~
+        WRITE_ASCII 0x3c  ~LRJonM~
+        WRITE_ASCII 0x250 ~lrirenic~  // class script
+        WRITE_ASCII 0x2CC ~pooliren~  // dialog
+        WRITE_ASCII 0x280 ~lrpoolir~  // death variable
+        WRITE_LONG 0x248 0
+        WRITE_LONG 0x24c 0 //Removing the override script.
+ END
+
+EXTEND_TOP ~ar6005.bcs~ ~LREE/bcs/Abazi_Jon.bcs~
+
+ACTION_IF FILE_CONTAINS ~override/aerie25j.dlg~ ~("Imoen")~ 
+THEN BEGIN 
+   PRINT @123 
+   COMPILE ~LREE/immyfix/immyfix.d~ 
+END 
+ELSE BEGIN 
+   PRINT @124
+END
+
+ACTION_IF (~%warning%~ != 1)
+  THEN BEGIN
+    PRINT @131
+  END
+
+//RESTORE IRENICUS'S SOA PORTRAIT
+BEGIN @126
+REQUIRE_COMPONENT ~SETUP-LREE.tp2~ ~0~ @127
+PRINT @128
+  COPY_EXISTING ~NJONS.bmp~ ~override/LRJONS.bmp~
+  COPY_EXISTING ~NJONM.bmp~ ~override/LRJONM.bmp~
+  COPY_EXISTING ~NJONL.bmp~ ~override/LRJONL.bmp~
+
