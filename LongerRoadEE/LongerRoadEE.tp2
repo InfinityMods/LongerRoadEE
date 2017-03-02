@@ -851,6 +851,12 @@ ELSE BEGIN
    PRINT @124
 END
 
+//EE Ascension compatibility fix
+EXTEND_TOP
+~Imoslay.bcs~ ~LongerRoadEE/immyfix/Imolast.baf~
+EXTEND_TOP 
+~Imoe25.bcs~ ~LongerRoadEE/immyfix/Imolast.baf~
+
 ACTION_IF (~%warning%~ != 1)
   THEN BEGIN
     PRINT @131

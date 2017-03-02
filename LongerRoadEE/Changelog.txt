@@ -9,5 +9,5 @@ Version 1.6 EE
 - use wav instead ogg and remove conversion 
 - adapted scripts to EE functions 
 - Added HANDLE_CHARSETS 
-- LongerRoadEE requires Ascension
+- LongerRoadEE requires Ascension, added full compatibility with EE fixes
 - removed speedbanter component for overall compatibility
