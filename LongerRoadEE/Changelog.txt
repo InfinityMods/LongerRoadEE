@@ -9,4 +9,5 @@ Version 1.6 EE
 - adapted scripts to EE functions
 - Added HANDLE_CHARSETS
 - reflect all of the above in the TP2
-- LREE requires Ascension
+- requires Ascension
+- removed speedbanter component for overall compatibility

@@ -21,7 +21,7 @@ END
 
 IF ~~ Pool3
   SAY @6 
-  IF ~~ DO ~
+  IF ~~ THEN DO ~
   ChangeAIScript("",CLASS)
   ChangeAIScript("",DEFAULT)
   ChangeAIScript("",GENERAL)
@@ -38,20 +38,20 @@ IF ~Dead("lrirenic") OR(2) G("lrHasSoulStone",1) !G("AcceptIlmater",0) Global("l
 END
 
 EXTEND_BOTTOM FINSOL01 8
-IF ~OR(2) InParty("lrIrenic") G("lrJonToFinal",1) OR(2) !Dead("lrirenic") G("AcceptIlmater",0) Global("lrFinSolJon","LOCALS",0)~ DO ~SetGlobal("lrFinSolJon","LOCALS",1)~ + lrSolar1
-IF ~Dead("lrirenic") OR(2) G("lrHasSoulStone",1) !G("AcceptIlmater",0) Global("lrFinSolJon","LOCALS",0)~ DO ~SetGlobal("lrFinSolJon","LOCALS",1)~ EXTERN FINSOL01 5
+IF ~OR(2) InParty("lrIrenic") G("lrJonToFinal",1) OR(2) !Dead("lrirenic") G("AcceptIlmater",0) Global("lrFinSolJon","LOCALS",0)~ THEN DO ~SetGlobal("lrFinSolJon","LOCALS",1)~ + lrSolar1
+IF ~Dead("lrirenic") OR(2) G("lrHasSoulStone",1) !G("AcceptIlmater",0) Global("lrFinSolJon","LOCALS",0)~ THEN DO ~SetGlobal("lrFinSolJon","LOCALS",1)~ EXTERN FINSOL01 5
 END
 
-EXTEND_BOTTOM FINSOL01 27
-IF ~InParty("lrirenic") Alignment("lrirenic",MASK_EVIL) Global("JonComments","AR6200",0)~ DO ~SetGlobal("JonComments","AR6200",1)~ EXTERN JONEL25J Comment
+I_C_T FINSOL01 27 FinJonComments
+==JONEL25J IF ~InParty("lrirenic") Alignment("lrirenic",MASK_EVIL) ~ THEN @8
 END
 
 EXTEND_BOTTOM FINSOL01 29 30 31
-IF ~InParty("lrirenic") Alignment("lrirenic",MASK_EVIL) Global("JonComments","AR6200",1)~ DO ~SetGlobal("JonComments","AR6200",2)~ EXTERN JONEL25J CommentG
+IF ~InParty("lrirenic") Alignment("lrirenic",MASK_EVIL) Global("JonComments","AR6200",1)~ THEN DO ~SetGlobal("JonComments","AR6200",2)~ EXTERN JONEL25J CommentG
 END
 
-EXTEND_BOTTOM FINSOL01 32
-IF ~InParty("lrirenic") Alignment("lrirenic",MASK_EVIL) Global("JonComments","AR6200",1)~ DO ~SetGlobal("JonComments","AR6200",2)~ EXTERN JONEL25J CommentM
+I_C_T FINSOL01 32 FinJonComments2
+==JONEL25J IF ~InParty("lrirenic") Alignment("lrirenic",MASK_EVIL) ~ THEN @10 
 END
 
 ADD_STATE_TRIGGER FINSOL01 4 ~G("lrFinale",0)~
@@ -62,23 +62,12 @@ IF ~Global("lrFinale","GLOBAL",3)~ Not
   IF ~~ DO ~SG("lrFinale",4) ClearAllActions() StartCutSceneMode() StartCutScene("lrjonr2")~ EXIT
 END
 
-IF ~~ Comment
-  SAY @8
-  COPY_TRANS FINSOL01 27
-END
-
 IF ~~ CommentG
   SAY @9
   COPY_TRANS FINSOL01 31
 END
 
-IF ~~ CommentM
-  SAY @10
-  COPY_TRANS FINSOL01 32
 END
-END
-
-A_T_T JONEL25J Comment ~!G("EdwinRomanceActive",2)~ DO 20
 
 APPEND Player1
 IF ~G("lrFinale",4)~ FinalSelfTalk
@@ -247,8 +236,8 @@ CHAIN JONEL25J NoBoon
   =
    @66
   == FINSOL01
-   @67
-END IF ~~ DO ~ClearAllActions() StartCutSceneMode() StartCutScene("lrfijon1")~ EXIT
+   @67 DO ~ClearAllActions() StartCutSceneMode() StartCutScene("lrfijon1")~ EXIT
+
 
 CHAIN
 IF ~NumTimesTalkedTo(0)~ THEN lrCorell CorellonChain
@@ -280,8 +269,8 @@ IF ~NumTimesTalkedTo(0)~ THEN lrCorell CorellonChain
   == LRCORELL
    @81 
   == FINSOL01
-   @82 
-END IF ~~ DO ~SG("JonEpilogue",4) SG("lrFinale",3) ClearAllActions() StartCutSceneMode() StartCutScene("lrjonr1")~ EXIT
+   @82 DO ~SG("JonEpilogue",4) SG("lrFinale",3) ClearAllActions() StartCutSceneMode() StartCutScene("lrjonr1")~ EXIT
+
 
 CHAIN JONEL25J CraveBoon1
    @83
@@ -332,8 +321,7 @@ CHAIN JONEL25J CraveBoon2
     == IMOEN25J IF ~InParty("Imoen2")~ THEN
      @105
   == FINSOL01
-   @106
-END  IF ~~ DO ~SG("JonEpilogue",3) SG("lrFinale",6) ClearAllActions() StartCutSceneMode() StartCutScene("banish2")~ EXIT
+   @106 DO ~SG("JonEpilogue",3) SG("lrFinale",6) ClearAllActions() StartCutSceneMode() StartCutScene("banish2")~ EXIT
 
 CHAIN FINSOL01 lrJonWins
    @107 
@@ -352,53 +340,13 @@ IF ~G("lrFinale",7)~ THEN FINSOL01 lrJonWins2
    @111
   =
    @112 
-  == JAHEI25P IF ~InActiveArea("Jaheira") !Dead("Jaheira") G("JaheiraRomanceActive",2)~ THEN
-   @113
-  == AERIE25P IF ~InActiveArea("Aerie") !Dead("Aerie") G("AerieRomanceActive",2)~ THEN
-   @114
-  == VICON25P IF ~InActiveArea("Viconia") !Dead("Viconia") G("ViconiaRomanceActive",2)~ THEN
-   @115
-  == ANOME25P IF ~InActiveArea("Anomen") !Dead("Anomen") G("AnomenRomanceActive",2)~ THEN
-   @116
-  == EDWIN25P IF ~InActiveArea("Edwin") !Dead("Edwin") G("EdwinRomanceActive",2)~ THEN
-   @117
-  == JAHEI25P IF ~InActiveArea("Jaheira") !Dead("Jaheira") !G("JaheiraRomanceActive",2)~ THEN
-   @118
-  == AERIE25P IF ~InActiveArea("Aerie") !Dead("Aerie") !G("AerieRomanceActive",2)~ THEN
-   @119
-  == VICON25P IF ~InActiveArea("Viconia") !Dead("Viconia") !G("ViconiaRomanceActive",2)~ THEN
-   @120
-  == ANOME25P IF ~InActiveArea("Anomen") !Dead("Anomen") !G("AnomenRomanceActive",2)~ THEN
-   @121
-  == IMOEN25P IF ~InActiveArea("Imoen2") !Dead("Imoen2")~ THEN
-   @122
-  == KELDO25P IF ~InActiveArea("Keldorn") !Dead("Keldorn")~ THEN
-   @123
-  == MAZZY25P IF ~InActiveArea("Mazzy") !Dead("Mazzy")~ THEN
-   @124
-  == VALYG25P IF ~InActiveArea("Valygar") !Dead("Valygar")~ THEN
-   @125
-  == HAERD25P IF ~InActiveArea("HaerDalis") !Dead("HaerDalis")~ THEN
-   @126
-  == MINSC25P IF ~InActiveArea("Minsc") !Dead("Minsc")~ THEN
-   @127
-  == CERND25P IF ~InActiveArea("Cernd") !Dead("Cernd")~ THEN
-   @128
-  == SAREV25P IF ~InActiveArea("Sarevok") !Dead("Sarevok") Alignment("Sarevok",MASK_EVIL)~ THEN
-   @129
-  == SAREV25P IF ~InActiveArea("Sarevok") !Dead("Sarevok") !Alignment("Sarevok",MASK_EVIL)~ THEN
-   @130
-  == LRJONPC IF ~Global("Partysize","AR6200",2)~ THEN
-   @131
-  == LRJONPC IF ~Global("Partysize","AR6200",1)~ THEN
-   @132
-  == LRJONPC IF ~!Global("Partysize","AR6200",0)~ THEN
+  =
    @133
   == FINSOL01
    @134
   =
-   @135
-END IF ~~ DO ~StartCutSceneMode() StartCutScene("cssuck2")~ EXIT
+   @135 DO ~StartCutSceneMode() StartCutScene("cssuck2")~ EXIT
+
 
 CHAIN FINSOL01 jon_banter
 @136
