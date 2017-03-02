@@ -327,8 +327,10 @@ CHAIN FINSOL01 lrJonWins
    @107 
   =
    @108
-  == JONEL25J
+  == JONEL25J IF~!InParty("CVSandr")~THEN
    @109  
+  == JONEL25J IF~InParty("CVSandr")~THEN 
+   @209
 END IF ~NumInPartyGT(2)~ DO ~SG("lrFinale",7) SG("JonEpilogue",1) SetGlobal("Partysize","AR6200",1) ClearAllActions() StartCutSceneMode() StartCutScene("cssuck")~ EXIT
     IF ~NumInPartyGT(3)~ DO ~SG("lrFinale",7) SG("JonEpilogue",1) SetGlobal("Partysize","AR6200",2) ClearAllActions() StartCutSceneMode() StartCutScene("cssuck")~ EXIT
     IF ~!NumInPartyGT(2)~ DO ~SG("lrFinale",7) SG("JonEpilogue",1) ClearAllActions() StartCutSceneMode() StartCutScene("cssuck")~ EXIT
