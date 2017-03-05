@@ -1,0 +1,383 @@
+@0    = ~Longer Road v 1.5~
+@1    = ~Przed zainstalowaniem Longer Road musisz odinstalowac mod Redemption!~
+@2    = ~Dodatek ToB nie jest zainstalowany!~
+@3    = ~Roztrzaskana maska~
+@4    = ~Stara maska Irenicusa~
+@5    = ~Maska ta zakrywa³a niegdyœ twarz Twego dawnego nemezis – elfiego maga i renegata Jona Irenicusa. Królowa Ellesime podarowa³a Ci j¹ jako osobliw¹ pami¹tkê. Nie wygl¹da na to, aby posiada³a jakieœ specjalne w³aœciwoœci.~
+@6    = ~S³yszysz, ¿e ktoœ nadchodzi.~
+@7    = ~Jej g³os brzmi dziwnie znajomo. Lepiej jednak, abym zachowa³ tê obserwacjê dla siebie.~
+@8    = ~Gdy Irenicus umiera, czujesz ¿e wiêŸ miêdzy wami ulega zerwaniu. Niestety tracisz równie¿ nieodwracalnie czêœæ twych si³ ¿yciowych.~
+@9    = ~Ojcze, szukaliœmy ciebie po ca³ej wiosce. Wszystko w porz¹dku?~
+@10   = ~Co do... Tato, co tu siê wydarzy³o? Czy ty... zabi³eœ ich wszystkich w pojedynkê?~
+@11   = ~Wynoœcie siê st¹d w tej chwili, oboje, i nie wracajcie!! Czekaj... powiedzcie swojej matce... Ach, na wygolone pachy suczej królowej – zmiatajcie st¹d w te pêdy!~
+@12   = ~Witaj. Zastanawia³em siê, czy przyjdziesz.~
+@13   = ~¯egnaj, mój Panie. Dziêkujê za pomoc w za³atwieniu tych wszystkich spraw.~
+@14   = ~Nieudolny g³upiec! NajwyraŸniej wci¹¿ tkwi w swym szaleñstwie skoro uwa¿a, ¿e mog³abym kiedykolwiek przed³o¿yæ jego interes ponad w³asny. To zadziwiaj¹ce, ¿e niegdyœ przysz³o mu zmierzyæ siê z boskoœci¹. Gdy nadejdzie pora i zajmê nale¿ne mi miejsce, z przyjemnoœci¹ poka¿ê mu i reszcie tych boskich prostaków moj¹ prawdziw¹ rangê.~
+@15   = ~Achh...~
+@16   = ~Zobaczymy siê znów za parê dni, Wygnañcze. Byæ mo¿e gdy pojmiesz ró¿nicê miêdzy tym kim jesteœ, a kim mo¿esz siê staæ us³uguj¹c mi, to staniesz siê bardziej uleg³y.~
+@17   = ~(rzuca zaklêcie) Ja tylko próbujê pomóc... O wiecznie niecierpliwy.~
+@18   = ~Szkoda. Z jakiegoœ powodu ¿ywi³em z³udn¹ nadziejê, ¿e zdo³am pomóc Jonowi... ten jeden ostatni raz. Niech ci siê wiedzie, boskie dzieciê.~
+@19   = ~Konaj¹c deva krzyczy przeraŸliwie... w jego g³osie s³yszysz dŸwiêk umieraj¹cego œwiata i nie mo¿esz oprzeæ siê wra¿eniu, ¿e pope³ni³eœ straszliwy b³¹d.~ ~Konaj¹c deva krzyczy przeraŸliwie... w jego g³osie s³yszysz dŸwiêk umieraj¹cego œwiata i nie mo¿esz oprzeæ siê wra¿eniu, ¿e pope³ni³aœ straszliwy b³¹d.~
+@20   = ~Deva szlocha raz jeszcze zanim umiera... w jego g³osie s³yszysz dŸwiêk umieraj¹cego œwiata i nie mo¿esz oprzeæ siê wra¿eniu, ¿e pope³ni³eœ straszliwy b³¹d. Cia³o Ybdiela rozb³yskuje jaskrawobia³ym œwiat³em i znika po ostatnim wybuchu promienistej energii.~ ~Deva szlocha raz jeszcze zanim umiera... w jego g³osie s³yszysz dŸwiêk umieraj¹cego œwiata i nie mo¿esz oprzeæ siê wra¿eniu, ¿e pope³ni³aœ straszliwy b³¹d. Cia³o Ybdiela rozb³yskuje jaskrawobia³ym œwiat³em i znika po ostatnim wybuchu promienistej energii.~
+@21   = ~Oto dusze, które próbuj¹ wejœæ w skórê demona.~ [MALE004M]
+@22   = ~Zobaczysz to, gdy uwierzysz. W przeciwnym razie wszyscy bêdziemy straceni... Straceni!~ [MALE004M]
+@23   = ~Ogieñ jest tak jaskrawy, tak gor¹cy, dlaczego on ca³y czas p³onie? Zabierzcie st¹d dzieci, zabierzcie je! Pozwólcie im pobiegaæ na dworze wœród pachn¹cych traw...~ [MALE004M]
+@24   = ~Krew, krew, krew i koœci, zakrwawione koœci wszêdzie woko³o... Zabierzcie je, powiadam! Uwolnijcie je wszystkie!~ [MALE004M]
+@25   = ~Ogieñ, dusze... dlaczego wszystkie p³on¹? Te p³omienie s¹ zbyt jasne! Zabierzcie mnie st¹d – to nie by³em ja!~ [MALE004M]
+@26   = ~Trzeba jeœæ aby ¿yæ, a nie ¿yæ aby jeœæ. W przeciwnym razie mo¿na zostaæ po¿artym przez coœ, co z¿era nas od œrodka. Na¿r¹ siê twym sercem i w¹trob¹, obedr¹ ciê ze skóry i po¿r¹ ¿ywcem, jak tylko zanurz¹ w tobie swe pazury!~ [MALE004M]
+@27   = ~Ktokolwiek wychwala samego siebie jest skazany na zgubê, a ktokolwiek skazuje siebie na zgubê, zostanie wychwalony... Ale co wtedy, gdy ktoœ zosta³ skazany na zgubê za coœ, czego nie uczyni³?~ [MALE004M]
+@28   = ~Jeœli ktoœ przelewa krew bliŸniego swego to i jego krew przelana przez bliŸniego bêdzie... ktokolwiek przelewa krew anio³a... oddaje sw¹ krew demonom...~ [MALE004M]
+@29   = ~Widzê p³on¹cy ogieñ... g³êboko wewn¹trz mej duszy... on p³onie nieustannie... nadpalaj¹c ziemiê i doprowadzaj¹c krew do wrzenia!~ [MALE004M]
+@30   = ~Prochy, wszêdzie prochy... wszyscy upadamy...~ [MALE004M]
+@31   = ~Nie nazywaj mnie tak! Nie jestem ju¿ tym, kogo szukasz – nie ma go tutaj, wypuœæcie mnie st¹d, powiadam!~ [MALE004M]
+@32   = ~Biada tym, którzy nazywaj¹ z³o dobrem a dobro z³em,
+którzy maj¹ ciemnoœæ za œwiat³oœæ a œwiat³oœæ za ciemnoœæ,
+którzy maj¹ gorycz za s³odycz a s³odycz za gorycz!~ [MALE004M]
+@33   = ~Ku Twemu zaskoczeniu zosta³eœ teleportowany do wielkiego labiryntu krzewów i kwitn¹cych drzew. W jego œrodku znajduje siê ma³a kapliczka pokryta winoroœl¹ i kwiatami. Jesteœ w Sercu Labiryntu Jednoœci w sferze Elizjum. Patrzysz w zachwycie, jak kolor i œwiat³a sp³ywaj¹ przez okr¹g³e okna osadzone z pokrytych listowiem œcianach. Tutaj ka¿da roœlina i kwiat mieni siê w³asn¹ po³yskliw¹ poœwiat¹, nadaj¹c miejscu magii.~ ~Ku Twemu zaskoczeniu zosta³aœ teleportowana do wielkiego labiryntu krzewów i kwitn¹cych drzew. W jego œrodku znajduje siê ma³a kapliczka pokryta winoroœl¹ i kwiatami. Jesteœ w Sercu Labiryntu Jednoœci w sferze Elizjum. Patrzysz w zachwycie, jak kolor i œwiat³a sp³ywaj¹ przez okr¹g³e okna osadzone z pokrytych listowiem œcianach. Tutaj ka¿da roœlina i kwiat mieni siê w³asn¹ po³yskliw¹ poœwiat¹, nadaj¹c miejscu magii.~
+@34   = ~Duchy lasu wci¹¿ czekaj¹ abyœ poœwiêci³<HESHE> im sw¹ uwagê.~
+@35   = ~Królowa Ellesime zostawi³a Ci ksiêgê z elfi¹ wiedz¹. Mo¿e uda Ci siê znaleŸæ kolejne tomy podczas swych podró¿y.~
+@36   = ~Velemir Rielev~
+@37   = ~Nie mo¿esz jeszcze opuœciæ tego miejsca – masz niedokoñczone sprawy w sferze kieszeniowej.~
+@38   = ~Portal otwiera siê i zalewa Ciê fala pogmatwanych emocji i dziwnej, niemal dzieciêcej gorliwoœci. Coœ przechodzi przez portal...~
+@39   = ~Zakapturzona Postaæ~
+@40   = ~Maska ta zakrywa³a niegdyœ twarz Twego dawnego nemezis – elfiego maga i renegata Jona Irenicusa, zanim zgin¹³ z Twej rêki i zosta³ zrzucony z powrotem do Otch³ani. Królowa Ellesime podarowa³a Ci j¹ jako osobliw¹ pami¹tkê. Jednak po tym, gdy dziêki niej odbudowano cia³o Irenicusa by na sta³e zwi¹zaæ go z Tob¹, maska ponownie zosta³a nasycona magi¹. Podejrzewasz, ¿e posiada teraz pewne osobliwe moce, ale poniewa¿ wygl¹da jakby zosta³a szczepiona z twarz¹ Jona, to nie ma sposobu, aby potwierdziæ twe przypuszczenia.
+      
+PARAMETRY:
+
+Premia do Klasy Pancerza: brak
+Specjalne:
+ +1 do Inteligencji
+ Pozwala zapamiêtaæ 4 dodatkowe czary maga ze wszystkich poziomów
+ Przyspieszenie ruchów
+ Niewra¿liwoœæ na Petryfikacjê i Zauroczenie
+Waga: 1
+Mo¿e u¿ywaæ tylko:
+ Irenicus~
+@41   = ~I nie ma wyjœcia. Oczywiœcie nigdy nie by³o.~ [DPJON127]
+@42   = ~Nie martw siê. To nied³ugo siê skoñczy.~ [IRENIC82]
+@43   = ~¯a³oœni g³upcy, nie uwiêzicie mnie swoimi prostackimi czarami.~ [IRENIC76]
+@44   = ~Domy p³on¹.~ [DPJON128]
+@45   = ~Mam nadziejê, ¿e nie œpisz. Czas na kolejny... test.~ [IRENIC81]
+@46   = ~Wkrótce nie bêdzie mia³o znaczenia, kto przychodzi.~ [IRENIC93]
+
+@48   = ~Hmm. Pozostali z³odzieje cienia te¿ bêd¹ robiæ zamieszanie.~ [IRENIC83]
+@49   = ~Gdy pokona³eœ Irenicusa po raz ostatni w bitwie, która rozgorza³a w samym sercu prywatnego piek³a Bhaala, widzia³eœ jak upada³ przez piekielne warstwy tej upiornej krainy prosto w pustkê wype³nion¹ wrz¹c¹ law¹. Zanurzy³ siê w g³êbsze alkowy Otch³ani, aby tam byæ wiecznie drêczonym przez tanar’ri – chaotycznie z³e demony zamieszkuj¹ce ten plan. Irenicus nie rozmawia z Tob¹ o czasie spêdzonym w tej nieskoñczonej krainie œciskaj¹cej serce grozy, ale z tych niewielu informacji, jakie wydoby³eœ z niego w czasie waszej pierwszej rozmowy, wnioskujesz, ¿e zosta³ skazany na wieczn¹ walkê w Wojnie Krwi – nieustannym konflikcie miêdzy chaotycznie z³ymi tanar’ri a praworz¹dnie z³ymi baatezu - diab³ami z Dziewiêciu Piekie³.~ ~Gdy pokona³aœ Irenicusa po raz ostatni w bitwie, która rozgorza³a w samym sercu prywatnego piek³a Bhaala, widzia³aœ jak upada³ przez piekielne warstwy tej upiornej krainy prosto w pustkê wype³nion¹ wrz¹c¹ law¹. Zanurzy³ siê w g³êbsze alkowy Otch³ani, aby tam byæ wiecznie drêczonym przez tanar’ri – chaotycznie z³e demony zamieszkuj¹ce ten plan. Irenicus nie rozmawia z Tob¹ o czasie spêdzonym w tej nieskoñczonej krainie œciskaj¹cej serce grozy, ale z tych niewielu informacji, jakie wydoby³aœ z niego w czasie waszej pierwszej rozmowy, wnioskujesz, ¿e zosta³ skazany na wieczn¹ walkê w Wojnie Krwi – nieustannym konflikcie miêdzy chaotycznie z³ymi tanar’ri a praworz¹dnie z³ymi baatezu - diab³ami z Dziewiêciu Piekie³.~
+@50   = ~Transfer energii ¿yciowej~
+@51   = ~Wyssanie energii ¿yciowej~
+@52   = ~Wspania³a transformacja~
+@53   = ~Ach!~
+@54   = ~Abaia~
+@55   = ~Kamieñ Harmonii~
+@56   = ~Kamieñ Harmonii to diamentowa kula nieco wiêksza od d³oni doros³ego mê¿czyzny.
+
+Jego powierzchnia sk³ada siê z tysiêcy faset, które w swym pryzmatycznym wnêtrzu za³amuj¹ ka¿dy promieñ s³oñca tworz¹c aureolê iskrz¹cych siê têcz. Tylko jednolity i doskonale harmonijny pojemnik nadaje siê do przetrzymywania Iskry devy, i wszystko wskazuje na to, ¿e po odpowiedniej obróbce klejnot ten móg³by spe³niæ tê funkcjê.
+
+PARAMETRY:
+
+Klejnot mo¿e zostaæ u¿yty równie¿ jak kamieñ ioun. Wówczas jego w³aœciciel staje siê niepodatny na wiêkszoœæ ataków mentalnych, takich jak uroki, dominacja i strach. Zapewnia równie¿ pewne w³aœciwoœci regeneracyjne przywracaj¹c 1 punkt ¿ycia co 3 rundy.~
+@57   = ~Kielich Pokoju~
+@58   = ~Kielich Pokoju
+Na pierwszy rzut oka przedmiot ten wygl¹da zwyczajnie i nieatrakcyjnie, i zaczynasz siê zastanawiaæ, dlaczego deva Ybdiel wspomina³ o tym prostym cynowym pucharze z tak¹ czci¹. 
+
+Jednak¿e gdy zagl¹dasz do œrodka tego pozbawionego ozdób naczynia, zdajesz sobie nagle sprawê, ¿e dno mieni siê z³ot¹ poœwiat¹. Doprawdy, ten skromny puchar to Kielich Pokoju - jeden z legendarnych Artefaktów Jednoœci. Kielich stanowi jeden z trzech przedmiotów, które po po³¹czeniu mog¹ uzdrowiæ zarówno devê jak i bebilitha.
+
+PARAMETRY:
+
+Po za tym, ¿e przedmiot ten ma kluczowe znaczenie dla Twej misji, posiada równie¿ olbrzymie moce uzdrawiaj¹ce. Trzy razy w ci¹gu dnia pozwala rzuciæ zaklêcie Uzdrowienie.~
+@59   = ~Woda £agodnoœci~
+@60   = ~Woda £agodnoœci
+Tylko wyciszenie i spokój mo¿e przynieœæ ulgê strapionej duszy. Woda ta, zaczerpniêta z jeziora Spokoju na Planie Spoczynku Elizjum, mieni siê delikatnym, ciep³ym blaskiem.
+
+PARAMETRY:
+
+Woda £agodnoœci posiada ogromne moce uzdrawiaj¹ce i mo¿na jej u¿yæ, aby uleczyæ choroby i rzuciæ czar Przywrócenie. Usuwa równie¿ skutki ociemnia³oœci i g³uchoty.~
+@61   = ~Iskra devy~
+@62   = ~Gdy Kamieñ Harmonii zostaje po³¹czony z Iskr¹ devy, zyskuje niezwyk³e w³aœciwoœci esencji planetara. Niebiañska poœwiata p³ynie i lœni wewn¹trz klejnotu sprawiaj¹c, ¿e serce diamentu jarzy siê niebieskim ogniem.
+
+Diament z uwiêzion¹ w œrodku Iskr¹ devy mo¿e byæ u¿yty jak kamieñ ioun.
+Jest wyj¹tkowo potê¿ny i wywo³uje nastêpuj¹ce efekty:
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne:
+ +3 do Charyzmy
+ +2 do Si³y
+ +2 do Kondycji
+ +2 do wszystkich rzutów obronnych 
+ +10% do odpornoœci na magiê
+ Niewra¿liwoœæ na trucizny
+ Regeneruje 1 P¯ na rundê
+Waga: 1
+Nie mo¿e u¿ywaæ:~
+@63   = ~Gdy Kamieñ Harmonii zostaje po³¹czony z Iskr¹ devy, zyskuje niezwyk³e w³aœciwoœci esencji planetara. Niebiañska poœwiata p³ynie i lœni wewn¹trz klejnotu sprawiaj¹c, ¿e serce diamentu jarzy siê niebieskim ogniem.
+
+Diament z uwiêzion¹ w œrodku Iskr¹ devy mo¿e byæ u¿yty jak kamieñ ioun.
+Jest wyj¹tkowo potê¿ny i wywo³uje nastêpuj¹ce efekty:
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne:
+ +3 do Charyzmy
+ +2 do Si³y
+ +2 do Kondycji
+ +2 do wszystkich rzutów obronnych 
+ +10% do odpornoœci na magiê
+ Niewra¿liwoœæ na trucizny
+ Regeneruje 1 P¯ na rundê
+Waga: 1
+Nie mo¿e u¿ywaæ:~
+@64   = ~Ybdiel~
+
+
+
+@68   = ~Cia³o Ybdiela~
+@69   = ~To jest cia³o devy o imieniu Ybdiel, który poprosi³ Ciê o pomoc w odnalezieniu Artefaktów Jednoœci zanim straci³ przytomnoœæ na skutek choroby wywo³anej trucizn¹ bebilitha. Pomimo atletycznej budowy, deva sprawia wra¿enie zadziwiaj¹co lekkiego. Czuæ równie¿ od niego wysok¹ gor¹czkê; wygl¹da na to, ¿e d³ugo nie poci¹gnie – lepiej abyœ siê poœpieszy³<HESHE>.  W gor¹czkowym amoku deva w kó³ko mamrocze proœby o pomoc i powtarza imiê 'Abaia' – to demon, który skrad³ jego Iskrê.~
+@70   = ~Yanieth~
+@71   = ~Elesrym~
+@72   = ~Fresienne ~
+@73   = ~Garrish~
+@74   = ~Nowa Istota~
+@75   = ~Amulet Natury~
+@76   = ~Podczas Twego pobytu na planie Elizjum amulet Seldarine, otrzymany od królowej Ellesime za ocalenie Drzewa ¯ycia, zosta³ dotkniêty przez Matkê-Ziemiê Chauntea'ê. Dziêki temu uzyska³ jeszcze lepsze w³aœciwoœci ochronne.
+      
+PARAMETRY:
+
+Specjalne: 
+ +10% do odpornoœci na magiê
+ +2 do wszystkich rzutów obronnych 
+ Ug³osowienie
+ Niewra¿liwoœæ na trucizny i strach
+Waga: 1
+Nie mo¿e u¿ywaæ:~
+@77   = ~£uk Liœcia +4~
+@78   = ~Ten elegancki ³uk nale¿a³ niegdyœ do devy Ybdiela. Stanowi on zas³u¿on¹ nagrodê za uratowanie zatrutego niebianina. £uk posiada kilka interesuj¹cych cech.
+      
+PARAMETRY:
+
+Obra¿enia: 1K6
+TraK0: +3
+Specjalne:
+ Ten ³uk nie potrzebuje amunicji
+ +20% do odpornoœci na ogieñ
+ +20% do odpornoœci na zimno 
+ +20% do odpornoœci na elektrycznoœæ
+Waga: 2
+OpóŸnienie: 3
+Rodzaj bieg³oœci: d³ugi ³uk
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@79   = ~£uk Ogni Piekielnych +3~
+@80   = ~£uk ten stanowi nagrodê od yugolotha ³owcy nagród za zdradzenie devy Ybdiela.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+TraK0: +3
+Specjalne:
+ Ten ³uk nie potrzebuje amunicji
+ +5% do odpornoœci na ogieñ
+ +5% do odpornoœci na kwas 
+Waga: 2
+OpóŸnienie: 3
+Rodzaj bieg³oœci: d³ugi ³uk
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@81   = ~Wekiera Piekielnej Nienawiœci~
+@82   = ~Ten osobliwy artefakt nale¿a³ niegdyœ do bebilitha Abai. Stanowi on prezent po¿egnalny. Choæ wekiera jest potê¿n¹ broni¹, to niestety mo¿e okazaæ siê równie¿ zgubna dla w³aœciciela.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +4
+TraK0: +3
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +3 do Si³y
+ -2 do Inteligencji
+ Odpornoœæ na strach
+Waga: 8
+OpóŸnienie: 6
+Rodzaj bieg³oœci: wekiera
+Typ broni: 1-rêczna
+Wymagana si³a: 10
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@83   = ~Mirriam~
+@84   = ~Kessen~
+@85   = ~Kamieñ duszy Sendai~
+@86   = ~Ten purpurowy ametyst skrywaj¹cy duszê drowiego pomiotu Bhaala, Sendai, posiada spore magiczne moce. Mo¿e byæ on jednak u¿ywany tylko i wy³¹cznie przez Irenicusa.
+
+PARAMETRY:
+
+Specjalne:
+ +25% do odpornoœci na magiê
+ +1 do prêdkoœci rzucania czarów
+ +1 do M¹droœci
+ Waga: 1~
+@87   = ~Kamieñ duszy Abazigala~
+@88   = ~Ten b³êkitny diament w kszta³cie ³zy skrywaj¹cy duszê smoczego pomiotu Bhaala, Abazigala, posiada spore magiczne moce. Mo¿e byæ on jednak u¿ywany tylko i wy³¹cznie przez Irenicusa.
+
+PARAMETRY:
+
+Specjalne:
+ +15% do odpornoœci na magiê
+ +50% do odpornoœci na elektrycznoœæ
+ +10% do odpornoœci na obra¿enia sieczne, k³ute i obuchowe
+ +10 do maksymalnych P¯
+ +1 do Si³y
+ Waga: 1~
+@89   = ~Kamieñ duszy Baltazara~
+@90   = ~Ten ¿ó³ty topaz w kszta³cie ³zy skrywaj¹cy duszê ludzkiego pomiotu Bhaala, Baltazara, posiada spore magiczne moce. Mo¿e byæ on jednak u¿ywany tylko i wy³¹cznie przez Irenicusa.
+
+PARAMETRY:
+
+Specjalne:
+ +1 do Zrêcznoœci
+ +15% do odpornoœci na magiê
+ Umiejêtnoœæ wrodzona: Pozycja cienia 1 na dzieñ 
+
+ Niewra¿liwoœæ na trucizny
+ Niewra¿liwoœæ na choroby
+ Waga: 1~
+@91   = ~Uwiêzienie duszy~
+@92   = ~Pozycja cienia~
+@93   = ~Przywrócenie duszy~
+@94   = ~Joneleth~
+@95   = ~Corellon Larethian~
+@96   = ~Stworzenie Elfów - czêœæ I~
+@97   = ~Stworzenie Elfów - czêœæ I
+Oto z pierwotnego chaosu w centrum wszechœwiata powstali bogowie w pe³ni dojrzali i ukszta³towani. Ka¿dy z nich za¿¹da³ w³adzy nad poszczególnymi aspektami œwiata i wszyscy zostali po równi obdzieleni potêg¹ i si³ami kosmosu. Wspó³pracowali ze sob¹ po raz pierwszy (i ostatni) przy tworzeniu œwiatów. Niektórzy z nich korzystali jednak ze swych mocy m¹drzej ni¿ pozostali.
+Pierwszy sojusz bogów uformowa³ siê pomiêdzy tymi, którzy u¿ywali swych mocy z m¹droœci¹. Zgromadzenie to, znane pod nazw¹ Seldarine (albo Bracia i Siostry Lasu), u¿yczy³o swej esencji by stworzyæ poszczególne aspekty œwiata. 
+Podczas gdy inni bogowie sprzeczali siê o wp³ywy i w³adzê nad konkretnymi cnotami i cechami, Seldarine przemienili czêœæ krain, czyni¹c je bujnymi, zielonymi i piêknymi. Dodatkowo stworzyli naczynia, które pewnego dnia mia³y pomieœciæ ducha pierwszych odczuwaj¹cych istot i zamieszkaæ stworzone przez bogów œwiaty - rasê t¹ nazwano elfami. Bogowie ulepili swe naczynia z namys³em i rozwag¹ oraz obdarowali je wyj¹tkowym piêknem. Pozostali bogowie zap³onêli zazdroœci¹ i pragn¹c naœladowaæ Seldarine poœpiesznie stworzyli w³asne naczynia, maj¹ce wspó³zawodniczyæ z tymi, stworzonymi przez Seldarine. Poniewa¿ jednak podeszli do tego niestarannie i nie poœwiêcili na ten proces wymaganego czasu, rezultat by³ daleki od doskona³oœci. Ich twory odbiega³y od tych, stworzonych przez Seldarine; w wiêkszoœci by³y to potwory, istoty, które pewnego dnia mia³y przeœladowaæ elfów. Z poœród wszystkich prymitywnych istot, tylko naczynia maj¹ce staæ siê ludŸmi rokowa³y cieñ nadziei, gdy¿ pewnego dnia mia³y pozyskaæ zdolnoœæ kszta³towania œrodowiska podobn¹ do elfiej. 
+Bogowie nowych ras poœpiesznie próbowali odtworzyæ cechy, których stworzenie zabra³o m¹drzejszych bogom eony. Ale ¿aden z tych tworów nie zosta³by powo³any do ¿ycia, gdyby nie historyczne spotkanie miêdzy Corellonem Larethianem i Gruumshem, przywódc¹ przeciwników Seldarine. 
+-spisane przez Lariana Lœni¹c¹ Pieœñ, kap³ana Corellona Larethiana~
+@98   = ~Stworzenie Elfów - czêœæ II~
+@99   = ~Stworzenie Elfów - czêœæ II
+Gdy bóg orków Gruumsh zobaczy³ twór Seldarine, elfy, uzna³ je za wypaczenie i wpad³ w wielki gniew. Wtedy po raz pierwszy w boskich ¿y³ach zap³onê³o pragnienie krwi. Gruumsh zapragn¹³ zniszczyæ Seldarine, a czêœæ bogów zawtórowa³a mu, podczas gdy inni zachowali neutralnoœæ. 
+
+Gdy rozjuszony Gruumsh zaatakowa³ Corellona Larethiana, przywódcê Seldarine, rozpoczê³a siê potê¿na bitwa znana jako Wojna Bogów. Nikt nie wie jak d³ugo pustoszy³a nieskazitelne pola najró¿niejszych planet. Ka¿da ze stron odnios³a powa¿ne rany, jednak podczas gdy inni rywale opadali z si³, Gruumsh i Corellon nie dawali za wygran¹ a wprost przeciwnie, kontynuowali sw¹ zaciêt¹ walkê. Podró¿owali przez sfery i rozlewali sw¹ krew po wszystkich krainach. 
+
+Gdy nadesz³a noc Gruumsh zyska³ przewagê podczas gdy si³y Corellona opada³y. Wszystko wskazywa³o na to, ¿e Seldarine s¹ na straconej pozycji. Wtem ³zy ksiê¿yca wyl¹dowa³y na skierowanej ku górze zatroskanej twarzy Corellona mieszaj¹c siê z jego krwi¹. Wówczas Corellon spojrza³ na swych towarzyszy i to w nich odnalaz³ wolê zwyciêstwa. Doby³ z powrotem swój miecz i jednym strasznym ciosem wyd³uba³ oko Gruumsha, który od tamtej pory znany jest jako Gruumsh Jednooki. Bóg zawy³ z bólu a z rany wytrys³a czarna posoka. Gruumsh wykona³ odwrót i uciek³ w zaœwiaty. Tam pielêgnowa³ sw¹ nienawiœæ, próbuj¹c uformowaæ rasê wrogów Seldarine. Najdoskonalszym z tych tworów, zrodzonym z zapalczywego gniewu i czarnej krwi, byli orkowie. Dlatego te¿, po dziœ dzieñ, orkowie i elfy s¹ tak zaciêtymi wrogami, gdy¿ nawet jeszcze przed ich stworzeniem, esencje ich bogów walczy³y ze sob¹. 
+
+Po pora¿ce Gruumsha, Seldarine i ich sojusznicy kontynuowali swe dzie³o.  Zebrali ³zy ksiê¿yca i krew rozlan¹ przez Corellona w tej wielkiej bitwie, a nastêpnie umieœcili je w stworzonych naczyniach i nape³nili je w³asnym duchem. Ka¿dy z bogów u¿yczy³ którejœ ze swych cnót, karmi¹c i pielêgnuj¹c nowo powsta³¹ rasê. W ten oto sposób powsta³y elfy zrodzone z krwi Corellona Larethiana, zmieszanej z ziemi¹ krain, pob³ogos³awione ³zami ksiê¿yca. ¯adna inna rasa nigdy nie by³a równie blisko bogów. 
+
+Pozostali bogowie poszli za ich przyk³adem i tchnêli ¿ycie w swe smutnie, zniekszta³cone naczynia, lecz efekty by³y ró¿ne. Niestety, wszystkie pozosta³e rasy by³y tylko smutn¹ imitacj¹ elfów. 
+
+Opowieœæ o Wojnie Bogów t³umaczy co poniektóre cechy elfów, zarówno fizyczne jak i te mentalne. Dziêki temu, ¿e zosta³y zrodzone z krwi boga Corellona Larethiana otrzyma³y d³ugowiecznoœæ. £zy ksiê¿yca t³umacz¹ eteryczne piêkno elfów - piêkno, które czêsto sprawia, ¿e ni¿sze rasy uznaj¹ je niemal za bogów. Cz¹stka ziemi, z której narodzi³y siê, wyjaœnia przywi¹zanie wszystkich elfów do natury.~
+@100  = ~Elfy i Œmieræ - czêœæ I~
+@101  = ~Œmieræ elfów - czêœæ I
+S¹ tacy, którzy uwa¿aj¹ elfy za istoty praktycznie nieœmiertelne. Choæ mog¹ zgin¹æ œmierci¹ gwa³town¹, na skutek wypadku b¹dŸ przemocy, nikt nigdy nie widzia³ elfa umieraj¹cego ze "staroœci". Wynika to z tego, ¿e ¿aden z naprawdê starych elfów nie pozosta³ w œwiecie znanym ludziom; "wiekowe" elfy opuszczaj¹ œwiat udaj¹c siê w podró¿ do miejsca zwanego Arvanaith. Zwykle w okolicach wieku 550 lat, elfy odczuwaj¹ nieodpart¹ potrzebê udania siê w sw¹ ostatni¹ podró¿. Próby zag³uszenia tej potrzeby s¹ tylko nieznacznie skuteczniejsze, ni¿ próby cz³owieka chc¹cego stawiæ opór nadchodz¹cej œmierci. 
+Dysponuj¹c czarami potrafi¹cymi przed³u¿yæ ¿ycie, elfy maj¹ mo¿liwoœæ chwilowego odroczenia tego, co nieuniknione. Jednak¿e ze wzglêdu na ich przywi¹zanie do naturalnych cyklów œwiata, wiêkszoœæ elfów odczuwa pogardê wzglêdem tych, którzy próbuj¹ unikn¹æ nieuniknionego. Jedynie elfy, które nie odczuwaj¹ szacunku wzglêdem cyklicznych zmian pór roku oraz ci, którzy nie ukoñczyli jeszcze swych kluczowych misji korzystaj¹ z tej mo¿liwoœci. W pozosta³ych przypadkach, wiekowe elfy udaj¹ siê w podró¿ do Arvanaith, ukrytej elfiej krainy. ¯aden z elfów, który uda³ siê w tak¹ podró¿, nigdy nie opuœci³ Arvanaith z w³asnej woli, ani nigdy nie po¿a³owa³ ¿e siê tam znalaz³. Majestat lasu oczekuj¹cy tam na wszystkie elfy przerasta wszystko, czego doœwiadczy³ jakikolwiek cz³owiek, a dla samych elfów jest czymœ trudnym do wyobra¿enia. 
+Arvanaith jest miejscem naturalnie piêknym, ukrytym przed wszystkimi istotami nienale¿¹cymi do ludu. Niektórzy mêdrcy rasy ludzkiej spekulowali, ¿e ten przytu³ek jest czêœci¹ Arvandoru na planie Olimpu, ale nigdy nie uda³o siê tam nikomu dostaæ za ¿ycia. Ci mêdrcy, który odbyli podró¿ do Arvanaith i powrócili na swój pierwotny plan, nie byli zdolni do mówienia o tej krainie. Pamiêæ o jej piêknie jest zbyt intensywna dla ich ludzkich mózgów. Zaprawdê, kraina ta jest przeznaczona wy³¹cznie dla elfów. 
+Jedynym sposobem na powrót z Arvanaith jest reinkarnacja lub wskrzeszenie, istniej¹ te¿ pewne sposoby na odzyskanie ducha przebywaj¹cego w tej krainie (dwa ostatnie sposoby s¹ zawsze wykonywane wbrew woli elfa). Tylko nieliczni decyduj¹ siê na dobrowolny powrót, spêdziwszy tysi¹clecia na rozkoszowaniu siê wspania³oœci¹ Arvanaithu; decyduj¹ siê wówczas na reinkarnacjê, a ich dusza ulega odnowieniu. Ci, którzy opuszczaj¹ to miejsce, rzadko kiedy zachowujê swe pierwotne cia³o. Zostaj¹ odrodzeni w ciele dowolnego zwierzêcia z ca³ej palety bestii królestwa zwierz¹t. Czasem powracaj¹ jako istoty na tak niskim poziomie ewolucji, ¿e trac¹ ca³kowicie swego elfiego ducha. 
+Tylko kilka legendarnych bohaterów powróci³o do swej pierwotnej postaci. Ich powrót podyktowany by³ koniecznoœci¹ ukoñczenia zbawiennej misji wymagaj¹cej epickiej walecznoœci. Jednak w wiêkszoœci przypadków bohaterskie elfy domagaj¹ce siê reinkarnacji odradzaj¹ siê jako zupe³nie nowe elfy.~
+@102  = ~Elfy i Œmieræ - czêœæ II~
+@103  = ~Œmieræ elfów - czêœæ II 
+W Arvanaith nie ma rzeczy niemo¿liwych. Czegokolwiek elfy zapragn¹, wliczaj¹c w to zapomnienie a nawet nieœwiadomoœæ, jest dostêpne na wyci¹gniecie rêki. Wiatry Arvanaithu wystarcz¹, aby ukoiæ nawet najbardziej strapion¹ duszê; sprawiaj¹, ¿e wszelkie niepokoje i cierpienia schodz¹ na bok. Tylko nieliczni, którzy nie godz¹ siê rozstaæ z w³asnym ¿alem, zachowuj¹ pamiêæ o dawnych troskach. 
+Pozostali zachowuj¹ wspomnienia o przyjacio³ach i wszelkich radosnych chwilach, które wraz z marzeniami i wyzwaniami staj¹ siê osi¹ nowego ¿ycia ka¿dego elfa. Wszystkie smutne prze¿ycia zazwyczaj zostaj¹ zepchniête w g³¹b œwiadomoœci, a ich szcz¹tkowa obecnoœæ ma s³u¿yæ tylko jako odniesienie do poziomu szczêœcia, jakiego doœwiadczaj¹ wszyscy mieszkañcy Arvanaith. Wiêkszoœæ elfów przystaje na to z entuzjazmem, zachowuj¹c œwiadomoœæ o dawnym cierpieniu, dziêki czemu s¹ w stanie jeszcze bardziej doceniæ swe szczêœcie. 
+Nale¿y tu nadmieniæ, ¿e elfy nie umieraj¹ w ten sposób, w jaki czyni¹ to inne œmiertelne rasy; w rzeczywistoœci elfy bardzo sporadycznie doœwiadczaj¹ prawdziwej œmierci. Tych, których to spotyka, op³akuje siê przez wiele miesiêcy, gdy¿ ich dusze mog¹ ju¿ nigdy nie powróciæ aby ponownie pielêgnowaæ ziemiê. Pociech¹ dla ich dzieci jest œwiadomoœæ, ¿e bêdzie im dane kontynuowanie dzie³a swych rodziców, oczywiœcie pod warunkiem, ¿e ich œmieræ by³a honorowa. W kilku przypadkach tak nie jest; mowa tu o ataku okreœlonych nieumar³ych, samobójstwie, œmierci w nienaturalnym miejscu. Te i jeszcze parê innych niezwyk³ych okolicznoœci œmierci mog¹ ca³kowicie zlikwidowaæ ¿ycie elfa. Jedynym sposobem na przywrócenie tych dzielnych elfów do ¿ycia jest skorzystanie z magii nie s³abszej jednak, ni¿ zaklêcie ¿yczenia. 
+Cia³a tych, którzy zginêli prawdziw¹ œmierci¹ czêsto s¹ palone. Dziêki temu si³y ¿yciowe nieumar³ych nie s¹ w stanie przej¹æ takich zw³ok. Elfie osady wiedz¹ z doœwiadczenia, ¿e niekompletna dusza jest gorsza, ni¿ nieumar³a. 
+Elfy obawiaj¹ siê równie¿ naruszenia swego ducha jak i wolnej woli, gdy¿ s¹ one niezbêdne aby wejœæ do Arvanaith. Ka¿da istota, która karmi siê si³ami ¿yciowymi innej, jest gorliwie unikana (albo zabijana, jeœli jest taka sposobnoœæ) przez elfy, gdy¿ takie istoty nale¿¹ do nielicznych, które mog¹ sprowadziæ na elfy ca³kowite zapomnienie. Nawet elfy ¿yj¹ce w cieniu z³a nie czuj¹ wiêzi z takimi istotami.~
+@104  = ~Elfie rasy Torilu~
+@105  = ~Elfy Torilu nie pod¹¿aj¹ za standardami mieszkañców wiêkszoœci innych œwiatów. Niemal wszystkie elfy z Krain ³¹czy wspólne miano, jakim siebie okreœlaj¹. Brzmi ono Tel'Quessir, co mo¿na przet³umaczyæ jako "Lud". Wszystkie pozosta³e rasy nazywane s¹ "N'Tel'Quess", czyli "Nie-ludzie". 
+Choæ elfy zamieszkuj¹ce Toril posiadaj¹ cechy wspólne dla wszystkich elfów, to wyraŸnie ró¿ni¹ siê od swych kuzynów z innych œwiatów wygl¹dem. Wzrostem dorównuj¹ ludziom, choæ na tym podobieñstwa do tej rasy siê koñcz¹. Elfy z Krain s¹ znacznie bardziej smuk³e i maj¹ delikatniejsze rysy. Dokonuj¹c dalszego podzia³u elfiego ludu mo¿na wyró¿niæ piêæ odrêbnych podras elfów z Krain. 
+Pierwsz¹ z nich s¹ z³ote elfy. Niektórzy zw¹ je równie¿ s³onecznymi lub wysokimi elfami, choæ wcale tak bardzo nie przypominaj¹ przeciêtnego wysokiego elfa, a wrêcz ich wygl¹d bardziej odpowiada elfom szarym. Z³ote elfy spostrzegane s¹ jako najbardziej ucywilizowane a jednoczeœnie najbardziej pogardliwe ze wszystkich podras. To arystokracja wœród elfów Torilu, która wyznacza pozosta³ym elfom standardy w³aœciwego sposobu ¿ycia. S¹ odpowiednikiem rasy Silvanesti z Krynnu. 
+Druga podrasa znana jest pod wieloma rozmaitymi nazwami, takimi jak elfy ksiê¿ycowe, srebrne, albo szare - choæ jedyn¹ rzecz¹, która ³¹czy je z prawdziwymi szarymi elfami, jest nazwa. Zdecydowanie bli¿ej im do wysokich elfów, co nie jest dziwne bior¹c pod uwagê, ¿e koczownicze plemiona wysokich elfów osadzi³y siê w Torilu. Podrasa ta jest najpopularniejsza spoœród wszystkich gatunków elfów, a przynajmniej najczêœciej spotykana przez pozosta³e rasy. Ze wzglêdu na ich wy¿sz¹ tolerancjê na inne rasy, przedstawiciele elfów ksiê¿ycowych czêœciej zostaj¹ poszukiwaczami przygód ni¿ pozosta³e elfy. Ponadto, wiêkszoœæ pó³-elfów w Krainach pochodzi w³aœnie od ksiê¿ycowych elfów. Choæ uwa¿ane s¹ one za mniej szlachetne ni¿ z³ote, to królowa Evermeet wywodzi siê w³aœnie z rasy ksiê¿ycowych elfów. 
+Trzecia podrasa w znacznym stopniu odpowiada leœnym elfom. Zwana jest dzikimi, zielonymi lub kniejowymi elfami. Jej przedstawiciele zadaj¹ siê wy³¹cznie z innymi elfami, ograniczaj¹c kontakty z innymi rasami do minimum. Poniewa¿ próbuj¹ ¿yæ mo¿liwie z dala od ludzi, s¹ jedn¹ z najrzadziej spotykanych elfich ras. Poniewa¿ nie posiadaj¹ w³asnego królestwa, mieszaj¹ siê z przedstawicielami wszystkich elfich narodów. 
+Morskie elfy stanowi¹ czwart¹ z elfich podras. One równie¿ s¹ niezwykle rzadko spotykane, choæ nie staraj¹ sie odizolowaæ w taki sposób jak dzikie elfy. Mo¿na wyró¿niæ morskie elfy zamieszkuj¹ce w Wielkim Morzu oraz te ¿yj¹ce w Morzu Spadaj¹cych Gwiazd. Oba gatunki nieznacznie ró¿ni¹ siê od siebie wygl¹dem. Jedne oddychaj¹ s³on¹ wod¹, a drugie œwie¿¹, ale oba gatunki potrafi¹ prze¿yæ w obu œrodowiskach. Wodne elfy mog¹ osi¹œæ w dowolnym akwenie, ale najczêœciej mo¿na je spotkaæ w pobli¿u wyspy Evermeet. 
+Ostatni¹ podras¹ elfów Torilu s¹ mroczne elfy. Zazwyczaj s¹ omijane szerokim ³ukiem przez pozosta³e rasy ze wzgl¹du na sw¹ nikczemnoœæ. To okrutne istoty zamieszkuj¹ce podziemia, które wychodz¹ na powierzchniê tylko w nocy, próbuj¹c zemœciæ siê na swych "ciemiê¿cach", czyli elfach odpowiedzialnych za wygnanie ich do podziemi.~
+@106  = ~Elfy i elfi duch~
+@107  = ~Elfi duch
+Elficka mitologia utrzymuje, ¿e Piêkny Lud narodzi³ siê z krwi Corellona Larethiana rozlanej podczas bitew z Gruumshem oraz ³ez Sehanine (b¹dŸ Angharradh). (Nale¿y nadmieniæ, ¿e wiêkszoœæ cz³onków panteonu czuje wrogoœæ lub co najmniej niechêæ do bogów takich goblinoidów, jak orki, gobliny, hobgobliny, niedŸwiedzio¿uki, koboldy, i urdy). Niektóre legendy g³osz¹, ¿e pierwsze elfy pojawi³y siê w Krainach w pe³ni uformowane i ukszta³towane na obraz Corellona, utkane z magii promieni s³oñca i ksiê¿yca, lasów, chmur, mórz i cieni. Inne mity podaj¹, ¿e przynajmniej niektóre z elfich podras - w szczególnoœci z³ote i ksiê¿ycowe elfy -zawêdrowa³y na Abeir-Toril przez magiczny portal z jednego lub kilku czarodziejskich œwiatów, powszechnie okreœlanych jako "faerie".
+
+Rzecz¹ charakterystyczn¹ dla elfickiej teologii jest fakt bliskiej relacji pomiêdzy Piêknym Ludem, magi¹ i œwiatem natury. Wiêkszoœæ elfich wierzeñ opiera siê na jednoœci ¿ycia z natur¹ i zacieraniu granic miêdzy elfami a ich œrodowiskiem, w analogiczny sposób w jaki uwa¿a siê Seldarine za duchy Arvandoru. Dlatego cz³onkowie Piêknego Ludu maj¹ duchy, a nie dusze, i wierz¹, ¿e odrodz¹ siê jako zwierzêta, roœliny, istoty faerie, a byæ mo¿e nawet powtórnie jako elfy. Jednoczeœnie elfy s¹ œciœle powi¹zane ze Splotem, bêd¹c czêœci¹ magicznej sieci oplataj¹cej Abeir-Toril. 
+
+Piêkny Lud okreœla siebie elfim terminem Tel'Quessir, co znaczy "ludzie". Wszystkie pozosta³e istoty nazywaj¹ N'Tel'Quess, co jest ma³o dyplomatycznym okreœleniem znacz¹cym "nie ludzie". Tel'Quessir pierwotnie dzielili siê na siedem podras; wierzy siê, ¿e ka¿da z nich pojawi³a siê w Krainach ponad 25 tysiêcy lat temu i skrzy¿owa³a siê z ludŸmi tworz¹c rasê Na'N'Tel'Quess, "niemal-nie-ludzi" (pó³-elfy).~
+@108  = ~Tel'Seldarine~
+@109  = ~Tel'Seldarine
+Piêkny Lud z Krain czci panteon bogów znany jako Seldarine, co w przybli¿eniu mo¿na przet³umaczyæ jako wspólnota braci i sióstr lasu. Ten z³o¿ony termin ma podkreœlaæ szerok¹ rozbie¿noœæ interesów pomiêdzy poszczególnymi bogami elfiego panteonu a jednoczeœnie ich pragnienie wspó³pracy. Postêpuj¹ niezale¿nie wzglêdem siebie, ale gdy staj¹ w obliczu wa¿nego zadania lub zewnêtrznego zagro¿enia potrafi¹ zjednoczyæ swe si³y dziêki mi³oœci, ciekawoœci i przyjaŸni. Choæ czêsto ich strefy wp³ywów siê pokrywaj¹, to nie ma miêdzy nimi ¿adnych konfliktów. Niemal wszyscy Seldarine maj¹ charakter chaotyczny, neutralny i/lub dobry. ¯aden z nich nie jest z³y. 
+
+Podczas gdy bogowie elfiego panteonu s¹ aktywnie zaanga¿owani we wspólne ¿ycie ich wyznawców, kilku z nich anga¿uje siê bezpoœrednio w wydarzenia wp³ywaj¹ce na okreœlon¹ jednostkê albo nawet ma³¹ grupê elfów. Podobnie jak Piêkny Lud, Seldarine maj¹ sk³onnoœæ do dalekosiê¿nego patrzenia, i ilekroæ wp³ywaj¹ bezpoœrednio w aktualne wydarzenia w Krainach czyni¹ to z wielk¹ rozwag¹ i poprzedzaj¹ sw¹ interwencjê ¿arliw¹ dyskusj¹.
+
+Corellon Larethian:
+
+Corellon jest ucieleœnieniem najwy¿szych idea³ów elfiej rasy. Jest stwórc¹ elfów, i tak jak wszyscy bogowie, mo¿e przyj¹æ postaæ dowolnej p³ci, choæ zazwyczaj pojawia siê jako mê¿czyzna i w tej postaci zwykle bywa czczony. 
+
+Sehanine, Ksiê¿ycowy ³uk: 
+
+Najczêœciej identyfikowana z ksiê¿ycem w pe³ni, Sehanine jest t¹, która odpowiada za wró¿by, przepowiednie i tak zwan¹ "subteln¹ magiê" - iluzjê, magiê ¿ywio³ów (powietrza), przemiany itp. Chroni równie¿ przed szaleñstwem. 
+
+Hanali Celanil: 
+
+Bogini romansu, mi³oœci i piêkna. Ci, którzy szukaj¹ szczêœcia w mi³oœci albo chc¹ zwiêkszyæ sw¹ atrakcyjnoœæ, czêsto szukaj¹ pomocy u Hanali. Posiada ona kryszta³ow¹ fontannê niezwyk³ych rozmiarów, któr¹ dzieli siê jedynie z bogini¹ Afrodyt¹. Woda z niej zaczerpniêta jest wykorzystywana przez starszych kap³anów Hanali jako eliksir mi³oœci. Hanali jest istot¹ obdarzon¹ ponadczasowym piêknem i ³agodn¹ natur¹, wyrozumiale przebacza wszystkie drobniejsze przewinienia. Rozkoszuje siê w nagradzaniu swych czcicieli szczêœciem niespodziewanego zauroczenia i mi³oœci.
+
+Rillifane Rallathil:
+
+Bóg lasów i œrodowiska. Liœciasty Pan. Czczony przez wiêkszoœæ elfich druidów i leœnych elfów. Przedstawiany jest jako olbrzymi d¹b, którego korzenie ³¹cz¹ siê z wszystkimi roœlinami na œwiecie. Dba o to, aby wszelkie istoty odgrywa³y sw¹ rolê w œwiecie natury.
+
+Shevarash, Czarny ³ucznik:
+
+Pó³bóg. Jego dziedziny to nienawiœæ do drowów, zemsta, krucjaty i strata.~
+@110  = ~Po tym, gdy <CHARNAME> podj¹³ fataln¹ decyzjê o z³amaniu swej obietnicy, Irenicus za zgod¹ Ao posiad³ nie tylko jego duszê, ale i fizyczne cia³o. Ku jego przera¿eniu, elfi wygnaniec po prostu przeniós³ swój umys³ w œmierteln¹ skorupê dziecka Bhaala, korzystaj¹c z psychicznej wiêzi ³¹cz¹cej tych dwoje. Po krótkiej walce, która zakoñczy³a siê st³umieniem ostatnich resztek osobowoœci gospodarza, Irenicus za¿¹da³ pierworództwa i dziedzictwa Bhaala, decyduj¹c siê na zostanie nowym bogiem mordu. Gdy tylko Irenicus zosta³ wyniesiony do boskiej rangi, u¿y³ swych mocy aby stworzyæ awatar posiadaj¹cy jego dawn¹ elfi¹ twarz i posturê.
+Gdy jego nowe cia³o by³o gotowe, uda³ siê z powrotem na Plan Materialny i wkroczy³ do Suldanessellar. To przy bramach miasta Ellesime wysz³a mu na przeciw, i jeden rzut oka na jego niegdyœ kochan¹ twarz, p³on¹c¹ wœciek³oœci¹ i triumfem, sprawi³, ¿e ugiê³y siê pod ni¹ kolana. Tym razem nawet uœwiêcona magia Królowej, czerpi¹ca bezpoœrednio z jej wiêzi z Drzewem ¯ycia, nie wystarczy³y, aby oprzeæ siê boskiemu gniewowi jej by³ego kochanka... a <CHARNAME> tym razem nie zdo³a³ przyjœæ jej z ratunkiem. Suldanessellar upad³o, spalone do zgliszczy, podobnie jak nieszczêsna Królowa... a wody rzeki Sulduskon zanios³y jej prochy do Bezdro¿nego Morza.
+W nastêpnym kroku Irenicus powróci³ do swego pierwotnego planu i na nowo po³¹czy³ siê z Drzewem ¯ycia, karmi¹c siê jego moc¹ i wysysaj¹c jego energiê. Poniewa¿ posiada³ teraz ca³¹ esencjê Bhaala, to nic nie stanê³o mu na przeszkodzie aby za trzecim razem osi¹gn¹æ to, w czym uprzednio dwukrotnie zawiód³, a gdy zrealizowa³ swój zamiar, po Drzewie ¯ycia pozosta³o tylko wspomnienie. Wówczas to Wygnaniec by³ gotów, aby rzuciæ wyzwanie elfim bogom we w³asnej osobie.
+Seldarine obserwowali uparte wspinanie siê Irenicusa po w³adzê z przera¿eniem i fascynacj¹, niczym ptaki sparali¿owane widokiem wê¿a. Ale gdy tylko wkroczy³ do ich domeny – pokojowego i pe³nego chwa³y planu Arvandor – zwarli swe szeregi przeciwko niemu. Zdaj¹c sobie sprawê z tego, ¿e jego nowo uzyskana boska moce nie mo¿e siê równaæ z po³¹czonymi si³ami Seldarine, Wygnaniec zdecydowa³ siê na niebezpieczny manewr i rzuci³ wyzwanie Correllonowi Larethianowi we w³asnej osobie. Lider Seldarine nie przyj¹³ jednak wyzwania i wyznaczy³ swego reprezentanta w postaci Rillifane'a Rallathila, który kipia³ gniewem i ¿alem po stracie swej córki. W serii magicznych pojedynków, które wstrz¹snê³y planami, strapiony bóg lasów pokona³ Irenicusa i jego niezliczonych demonich sojuszników, odci¹gaj¹c niebezpieczeñstwo od bram Arvandoru.
+Rillifane, jednak¿e, nie by³ w stanie pozbawiæ Wygnañca skradzionej boskoœci. Ostatecznie Seldarine zostali zmuszeni do zawarcia nie³atwego rozejmu. Joneleth Irenicus zosta³ pierwszym elfim bogiem zemsty i mrocznej sztuki magicznej. Rezyduje we w³asnej domenie Enuma Elish, ma³ej warstwie na planie Szarych Pustkowi, i odpowiada na modlitwy tych nieszczêsnych elfów, które jak on sam sta³y siê zgorzknia³e i porzuci³y beztroskie œcie¿ki Seldarine.~ ~Po tym, gdy <CHARNAME> podjê³a fataln¹ decyzjê o z³amaniu swej obietnicy, Irenicus za zgod¹ Ao posiad³ nie tylko jej duszê, ale i fizyczne cia³o. Ku jej przera¿eniu, elfi wygnaniec po prostu przeniós³ swój umys³ w œmierteln¹ skorupê dziecka Bhaala, korzystaj¹c z psychicznej wiêzi ³¹cz¹cej tych dwoje. Po krótkiej walce, która zakoñczy³a siê st³umieniem ostatnich resztek osobowoœci gospodarza, Irenicus za¿¹da³ pierworództwa i dziedzictwa Bhaala, decyduj¹c siê na zostanie nowym bogiem mordu. Gdy tylko Irenicus zosta³ wyniesiony do boskiej rangi, u¿y³ swych mocy aby stworzyæ awatar posiadaj¹cy jego dawn¹ elfi¹ twarz i posturê.
+Gdy jego nowe cia³o by³o gotowe, uda³ siê z powrotem na Plan Materialny i wkroczy³ do Suldanessellar. To przy bramach miasta Ellesime wysz³a mu na przeciw, i jeden rzut oka na jego niegdyœ kochan¹ twarz, p³on¹c¹ wœciek³oœci¹ i triumfem, sprawi³, ¿e ugiê³y siê pod ni¹ kolana. Tym razem nawet uœwiêcona magia Królowej, czerpi¹ca bezpoœrednio z jej wiêzi z Drzewem ¯ycia, nie wystarczy³y, aby oprzeæ siê boskiemu gniewowi jej by³ego kochanka... a <CHARNAME> tym razem nie zdo³a³a przyjœæ jej z ratunkiem. Suldanessellar upad³o, spalone do zgliszczy, podobnie jak nieszczêsna Królowa... a wody rzeki Sulduskon zanios³y jej prochy do Bezdro¿nego Morza.
+W nastêpnym kroku Irenicus powróci³ do swego pierwotnego planu i na nowo po³¹czy³ siê z Drzewem ¯ycia, karmi¹c siê jego moc¹ i wysysaj¹c jego energiê. Poniewa¿ posiada³ teraz ca³¹ esencjê Bhaala, to nic nie stanê³o mu na przeszkodzie aby za trzecim razem osi¹gn¹æ to, w czym uprzednio dwukrotnie zawiód³, a gdy zrealizowa³ swój zamiar, po Drzewie ¯ycia pozosta³o tylko wspomnienie. Wówczas to Wygnaniec by³ gotów, aby rzuciæ wyzwanie elfim bogom we w³asnej osobie.
+Seldarine obserwowali uparte wspinanie siê Irenicusa po w³adzê z przera¿eniem i fascynacj¹, niczym ptaki sparali¿owane przez wê¿a. Ale gdy tylko wkroczy³ do ich domeny – pokojowego i pe³nego chwa³y planu Arvandor – zwarli swe szeregi przeciwko niemu. Zdaj¹c sobie sprawê z tego, ¿e jego nowo uzyskana boska moce nie mo¿e siê równaæ z po³¹czonymi si³ami Seldarine, Wygnaniec zdecydowa³ siê na niebezpieczny manewr i rzuci³ wyzwanie Correllonowi Larethianowi we w³asnej osobie. Lider Seldarine nie przyj¹³ jednak wyzwania i wyznaczy³ swego reprezentanta w postaci Rillifane'a Rallathila, który kipia³ gniewem i ¿alem po stracie swej córki. W serii magicznych pojedynków, które wstrz¹snê³y planami, strapiony bóg lasów pokona³ Irenicusa i jego niezliczonych demonich sojuszników, odci¹gaj¹c niebezpieczeñstwo od bram Arvandoru.
+Rillifane, jednak¿e, nie by³ w stanie pozbawiæ Wygnañca skradzionej boskoœci. Ostatecznie Seldarine zostali zmuszeni do zawarcia nie³atwego rozejmu. Joneleth Irenicus zosta³ pierwszym elfim bogiem zemsty i mrocznej sztuki magicznej. Rezyduje we w³asnej domenie Enuma Elish, ma³ej warstwie na planie Szarych Pustkowi, i odpowiada na modlitwy tych nieszczêsnych elfów, które jak on sam, sta³y siê zgorzknia³e i porzuci³y beztroskie œcie¿ki Seldarine.~
+@111  = ~Zgodnie z warunkami nie³atwej umowy, jak¹ zawarli miêdzy sob¹ <CHARNAME> i Irenicus, elfi renegat otrzyma³ duszê jednego z rywali pomiotu Bhaala. Dysponuj¹c now¹ bosk¹ dusz¹, Wygnaniec sarkastycznie pogratulowa³ zwyciêstwa swemu dawnemu dowódcy. Po odzyskaniu pe³ni swych si³, ponownie opar³szy siê kl¹twie Seldarine i kpi¹c z ich sprawiedliwoœci, ruszy³ po swych œladach wzd³u¿ Faerunu; odwiedzi³ zarówno swe dawne laboratorium w Athkatli, jak i swoj¹ bazê w Czarowiêzach, gdzie zebra³ swe zniszczone urz¹dzenia oraz pozosta³e magiczne akcesoria. Nastêpnie znikn¹³ z Torilu na dobrych kilka dekad.
+Jednak jak by³o do przewidzenia, mag nie znikn¹³ na dobre, a jego powrót zmiót³ spokojne polany Tethyru jak niszcz¹cy huragan. Ostateczny atak Irenicusa na Suldanessellar zebra³ krwawsze ¿niwa ni¿ poprzedni. Tym razem <CHARNAME> nie ruszy³ miastu z pomoc¹, gdy¿ albo nie by³ œwiadom ataku, albo po prostu los miasta sta³ siê mu obojêtny. Kolejne punkty obronne Suldanessellar pada³y jeden po drugim, a¿ wreszcie Irenicus wkroczy³ do serca miasta, odnajduj¹c Ellesime i unikaj¹c jej zmyœlnych pu³apek.
+Od dawna wyczekiwa³a na jego powrót... Zaiste, Królowa spêdzi³a dekady gorzko pomstuj¹c na zdradê pomiotu Bhaala i wzmacniaj¹c sw¹ obronê. Ale gdy ponownie stanê³a przed obliczem swego dawnego kochanka, Ellesime nie mog³a sprostaæ jego gniewowi. Gdy zrozumia³a, ¿e Irenicus ponownie mia³ zamiar uwiêziæ j¹ i wykorzystaæ by po³¹czyæ siê z Drzewem, Ellesime dokona³a aktu ostatecznego poœwiêcenia i zakoñczy³a swój fizyczny ¿ywot w wybuchu magicznego ognia, a jej dusza uda³a siê w stronê przyzywaj¹cych j¹ brzegów Arvandoru. 
+Odwa¿na ucieczka Ellesime przed ostateczn¹ zemst¹ by³a okropnym ciosem dla planów Irenicusa, gdy¿ nawet dusza pomiotu Bhaala nie by³a wystarczaj¹co silna aby zdo³a³ podtrzymaæ wiêŸ z Drzewem ¯ycia na w³asn¹ rêkê. Jednak Joneleth by³ zbyt pró¿ny, aby zrezygnowaæ ze swoich planów boskoœci, a widok jego by³ej ukochanej pope³niaj¹cej samobójstwo przed jego oczami tylko umocni³ go w tym postanowieniu. 
+Gdy tylko Irenicus nawi¹za³ ponown¹ wiêŸ z Drzewem ¯ycia, jego majestatyczny pieñ i korona buchnê³y ogniem, który wkrótce poch³on¹³ krn¹brnego maga, i tym razem nie by³o nikogo w pobli¿u, kto zdo³a³by ugasiæ p³on¹ce cia³o Joneletha. Irenicus sp³on¹³ na popió³, nie pozostawiaj¹c po sobie ani œladu na umêczonej ziemi. Jego dusza zosta³a strawiona przez magiczny ogieñ i Wygnaniec doœwiadczy³ prawdziwej i ostatecznej œmierci, bez mo¿liwoœci powrotu i odrodzenia. Jego pogrzebny stos okaza³ siê zaiste najwiêkszy w historii Krain, gdy¿ unicestwi³ równie¿ ca³¹ populacjê Suldanessellar, jak i symbol obsesji maga – elfie Drzewo ¯ycia.~ ~Zgodnie z warunkami nie³atwej umowy, jak¹ zawarli miêdzy sob¹ <CHARNAME> i Irenicus, elfi renegat otrzyma³ duszê jednego z rywali pomiotu Bhaala. Dysponuj¹c now¹ bosk¹ dusz¹, Wygnaniec sarkastycznie pogratulowa³ zwyciêstwa swej dawnej dowódczyni. Po odzyskaniu pe³ni swych si³, ponownie opar³szy siê kl¹twie Seldarine i kpi¹c z ich sprawiedliwoœci, ruszy³ po swych œladach wzd³u¿ Faerunu; odwiedzi³ zarówno swe dawne laboratorium w Athkatli, jak i swoj¹ bazê w Czarowiêzach, gdzie zebra³ swe zniszczone urz¹dzenia oraz pozosta³e magiczne akcesoria. Nastêpnie znikn¹³ z Torilu na dobrych kilka dekad.
+Jednak jak by³o do przewidzenia, mag nie znikn¹³ na dobre, a jego powrót zmiót³ spokojne polany Tethyru jak niszcz¹cy huragan. Ostateczny atak Irenicusa na Suldanessellar zebra³ krwawsze ¿niwa ni¿ poprzedni. Tym razem <CHARNAME> nie ruszy³a miastu z pomoc¹, gdy¿ albo nie by³a œwiadoma ataku, albo po prostu los miasta sta³ siê jej obojêtny. Kolejne punkty obronne Suldanessellar pada³y jeden po drugim, a¿ wreszcie Irenicus wkroczy³ do serca miasta, odnajduj¹c Ellesime i unikaj¹c jej zmyœlnych pu³apek.
+Od dawna wyczekiwa³a na jego powrót... Zaiste, Królowa spêdzi³a dekady gorzko pomstuj¹c na zdradê pomiotu Bhaala i wzmacniaj¹c sw¹ obronê. Ale gdy ponownie stanê³a przed obliczem swego dawnego kochanka, Ellesime nie mog³a sprostaæ jego gniewowi. Gdy zrozumia³a, ¿e Irenicus ponownie mia³ zamiar uwiêziæ j¹ i wykorzystaæ by po³¹czyæ siê z Drzewem, Ellesime dokona³a aktu ostatecznego poœwiêcenia i zakoñczy³a swój fizyczny ¿ywot w wybuchu magicznego ognia, a jej dusza uda³a siê w stronê przyzywaj¹cych j¹ brzegów Arvandoru. 
+Odwa¿na ucieczka Ellesime przed ostateczn¹ zemst¹ by³a okropnym ciosem dla planów Irenicusa, gdy¿ nawet dusza pomiotu Bhaala nie by³a wystarczaj¹co silna aby zdo³a³ podtrzymaæ wiêŸ z Drzewem ¯ycia na w³asn¹ rêkê. Jednak Joneleth by³ zbyt pró¿ny, aby zrezygnowaæ ze swoich planów boskoœci, a widok jego by³ej ukochanej pope³niaj¹cej samobójstwo przed jego oczami tylko umocni³ go w tym postanowieniu. 
+Gdy tylko Irenicus nawi¹za³ ponown¹ wiêŸ z Drzewem ¯ycia, jego majestatyczny pieñ i korona buchnê³y ogniem, który wkrótce poch³on¹³ krn¹brnego maga, i tym razem nie by³o nikogo w pobli¿u, kto zdo³a³by ugasiæ p³on¹ce cia³o Joneletha. Irenicus sp³on¹³ na popió³, nie pozostawiaj¹c po sobie ani œladu na umêczonej ziemi. Jego dusza zosta³a strawiona przez magiczny ogieñ i Wygnaniec doœwiadczy³ prawdziwej i ostatecznej œmierci, bez mo¿liwoœci powrotu i odrodzenia. Jego pogrzebny stos okaza³ siê zaiste najwiêkszy w historii Krain, gdy¿ unicestwi³ równie¿ ca³¹ populacjê Suldanessellar, jak i symbol obsesji maga – elfie Drzewo ¯ycia.~
+@112  = ~W nastêpstwie tego, co uzna³ za zdradê, Irenicus zosta³ rzucony z powrotem w otch³anne czeluœcie, gdzie by³ torturowany i wyszydzany przez tanar’ri oraz wzgardzany przez pozosta³e demony. Jego krótki pobyt w dru¿ynie pomiotu Bhaala przyniós³ mu jednak coœ wiêcej ni¿ tylko napady frustracji i notoryczne zaciskanie zêbów. Zyska³ dziêki niemu reputacjê. Walka u boku prorokowanego dziedzica Tronu Bhaala uczyni³a go rozpoznawalnym wœród tysiêcy innych torturowanych dusz, a fakt, ¿e osobiœcie pozna³ Demogorgona, przyniós³ mu s³awê. 
+Ostatecznie uda³o mu siê skorzystaæ z tej znajomoœci i pozwolono mu spotkaæ siê na krótk¹ chwilê z g³ównym rywalem Demogorgona w Otch³ani – Graz’ztem o Szeœciu Palcach. Nikt nie wie w jakich okolicznoœciach dosz³o do tego spotkania, ani jak ono przebieg³o, ale zaowocowa³o gwa³town¹ odmian¹ losu Wygnañca, gdy¿ w jakiœ sposób uda³o mu siê pozyskaæ uwagê obytego i impulsywnego Ksiêcia Demonów. 
+Zdarzenie to zaowocowa³o nag³ym wybiciem siê Irenicusa z jamy, w której do tej pory p³on¹³, i równie nag³ym, niemal niewiarygodnym awansem do statusu demona œredniego szczebla, ale z mo¿liwoœci¹ zachowania swego cz³ekokszta³tnego cia³a i ogromu swych zachowanych wspomnieñ. Wygnaniec otrzyma³ medalion z symbolem hebanowej d³oni o szeœciu palcach, laboratorium do badañ magicznych w Azzagrat, prywatn¹ warstwê Grazz’zta w Otch³ani, oraz status adepta. Co wiêcej, od tamtej pory Irenicus czêsto by³ widywany w osobistym orszaku Mrocznego Ksiêcia – a to niezwykle rzadki zaszczyt, zarezerwowany tylko dla nielicznych wybranych.
+Charakter jego relacji z Ksiêciem Demonów pozostaje nieznany, ale czasem da siê s³yszeæ szepty, jakoby elfi mag zosta³ jednym z faworytów Grazz’zta po ujawnieniu wielce poufnej informacji maj¹cej zwi¹zek z uwiêzieniem Demogorgona na Planie Materialnym. Znaj¹c chaotyczn¹ i zdradzieck¹ naturê Graz’zta, jego przywi¹zanie do Wygnañca nie bêdzie trwa³o d³ugo; mimo wszystko dziêki pomiotowi Bhaala Irenicus zyska³ siln¹ pozycjê w hierarchii tanar’ri, a znaj¹c jego upór wydaje siê ca³kiem prawdopodobne, ¿e w ci¹gu kilku najbli¿szych stuleci Ellesime mo¿e spodziewaæ siê wizyty goœcia z Ni¿szych Planów...~
+@113  = ~Jon Irenicus ponownie sta³ siê Jonelethem. Pomimo ¿e niechêtnie zaakceptowa³ werdykt Seldarine, to nie by³o mu dane z powrotem odzyskaæ swego elfiego ducha. Bogowie orzekli, ¿e jego zbrodnie by³y zbyt powa¿ne aby puœciæ je po prostu w niepamiêæ, i umo¿liwili mu powrót do Arvandoru dopiero gdy oka¿e szczer¹ i prawdziw¹ skruchê. 
+Gdy nowa dusza Wygnañca po³¹czy³a siê z okaleczonymi resztkami jego istoty, doœwiadczy³ niewyobra¿alnej agonii. Jego odnowienie by³o byæ mo¿e nawet boleœniejsze, ni¿ wszystkie tortury, przez jakie przeszed³ w Otch³ani, a to dlatego, ¿e musia³ doœwiadczyæ ka¿dej krzywdy - zarówno mentalnej jak i fizycznej - któr¹ wyrz¹dzi³ ofiarom swego pierwszego ataku na Drzewo ¯ycia. 
+Gdy Joneleth ockn¹³ siê wreszcie ze swego letargu, le¿¹c na w¹skim pos³aniu w wiejskiej chacie w ma³ej wiosce Amkethran, ³zy ¿alu i g³êbokiego wstydu sp³ynê³y po jego twarzy; to po raz pierwszy od stu lat zap³aka³ nad tym, co utraci³ w swej daremnej misji poszukiwania boskoœci. By³ samotn¹, pêkniêt¹ skorup¹ mê¿czyzny, ze sk³onnoœci¹ do ataków trwogi, po których nastêpowa³y dni mrocznej melancholii i wœciek³ego gniewu. Ale zgodnie z tym, co obiecali bogowie, jego cia³o powróci³o do dawnej formy, a rysy jego twarzy sta³y siê ponownie wyraŸnie elfie. Jednak ku swej wielkiej rozpaczy, Wygnaniec nie rozumia³ w³asnych reakcji, gdy¿ zda³ sobie sprawê, ¿e nie pamiêta niczego ze swego poprzedniego ¿ycia, nie zna nawet swego prawdziwego imienia. Zaiste straci³ nawet sw¹ umiejêtnoœæ czarowania i musia³ uczyæ siê jej na nowo, jak gdyby rzeczywiœcie by³ tak m³ody, jak sugerowa³a to jego twarz. 
+Po opuszczeniu Amkethran, Joneleth skierowa³ siê na pó³noc, kierowany niejasnym przeczuciem, ¿e powinien udaæ siê do Evereski. Tam œlad po nim siê urywa, a to co siê z nim dzia³o dalej pozostaje tajemnic¹, której nawet <CHARNAME> nie zdo³a³<HESHE> odkryæ. Mimo to jedna rzecz wydaje siê pewna: dawny Jon Irenicus zgin¹³ na dobre. Joneleth jednak¿e przetrwa³ i doœwiadczy³ wielu lat radoœci i rozpaczy. Prze¿y³ wiele przygód, a jego œcie¿ki skrzy¿owa³y siê losami wielu bohaterów i mêdrców z Krain. Doœwiadczy³ wspó³czucia i pogardy ze strony swych elfich braci, jednak ból którego doœwiadczy³ i lekcje które przyswoi³, wystarczy³y, aby wytrwa³ na stromej i trudnej drodze do odkupienia. Z czasem Seldarine uznali jego prawdziw¹ skruchê i ofiarowali mu to, o co prosi³ – po³¹czenie z Elfim Duchem i prawo udania siê do Arvandoru.~
+@114  = ~Wykryto Ulepszona Oaze - interakcje w Oazie nie zostana zainstalowane.~
+@115  = ~Nie wykryto Ulepszonej Oazy...~
+@116  = ~Wykryto mod Ascension...~
+@117  = ~Zombie Sendai~
+@118  = ~Zombie Abazigal~
+@119  = ~Zombie Baltazar~
+@120  = ~Nie wykryto moda Asension...~
+@121  = ~Wykryto Trudniejszego Abazigala, instalowanie dodatkowej zawartosci...~
+@122  = ~Nie wykryto Trudniejszego Abazigala~
+@123  = ~Instalowanie poprawek Imoen dla ToB autorstwa jcompton...~
+@124  = ~Poprawki Imoen dla ToB autorstwa jcompton zainstalowano, pomijam...~
+@125  = ~PRZYSPIESZENIE ROZMÓW~
+@126  = ~Przywrócenie oryginalnego portretu Irenicusa z SoA.~
+@127  = ~Musisz zainstalowac Redemption the Longer Road - w przeciwny razie ten komponent jest bezuzyteczny.~
+@128  = ~Przywracanie oryginalnego portretu Jona...~
+@129  = ~Zauwa¿asz jakiœ przedmiot le¿¹cy na pod³odze. Schylasz siê, aby go podnieœæ. Okazuje siê, ¿e to brudny kawa³ek pergaminu z kilkoma nabazgranymi linijkami tekstu. Jesteœ prawie pewien, ¿e jeszcze parê chwil temu nie by³o go tutaj...~ ~Zauwa¿asz jakiœ przedmiot le¿¹cy na pod³odze. Schylasz siê, aby go podnieœæ. Okazuje siê, ¿e to brudny kawa³ek pergaminu z kilkoma nabazgranymi linijkami tekstu. Jesteœ prawie pewna, ¿e jeszcze parê chwil temu nie by³o go tutaj...~
+@130  = ~Hej¿e g³upku!
+
+Œlepisz za czymœ? Masz naprutom kabze?
+Poszed³ do pokoju z rurzom wiatruf na ziemi i zabrzdenkaj nam swom sakwom.
+
+Rzyczliwi.
+
+(Ta notatka wygl¹da doœæ zabawnie... Jest nie tylko brudna, nadpalona, i wygl¹da jak prze¿uta, ale charakter pisma sugeruje, ¿e zosta³a sporz¹dzona przez pijanego kurczaka, który co dopiero opanowa³ sztukê pisania.)~
+@131  = ~LR zostanie zainstalowany bez plikow muzycznych, jeœli chcesz dodac muzyke odinstaluj wpierw czesc innych modow i ponow instalacje LR.~
+
