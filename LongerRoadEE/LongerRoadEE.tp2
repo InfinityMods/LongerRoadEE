@@ -230,8 +230,6 @@ WRITE_ASCII 0x94 ~AR5502~
 EXTEND_TOP ~ar5502.bcs~ ~LongerRoadEE/bcs/ar5502.BCS~
 
 EXTEND_TOP ~AR5505.bcs~ ~LongerRoadEE/bcs/extar5505.bcs~
-COPY_EXISTING ~AR5505.bcs~ ~override/AR5505.bcs~
-REPLACE_BCS_BLOCK ~LongerRoadEE/bcs/AR5505_No_Jon.bcs~ ~LongerRoadEE/bcs/AR5505_Jon.bcs~
 
 EXTEND_TOP ~ar5202.bcs~ ~LongerRoadEE/bcs/AR5202_Jon.BCS~
 EXTEND_TOP ~ar3001.bcs~ ~LongerRoadEE/bcs/AR3001_EL.BCS~
@@ -298,8 +296,7 @@ COPY_EXISTING ~ITPPLANE.bcs~ ~override/ITPPLANE.bcs~
 REPLACE_BCS_BLOCK ~LongerRoadEE/bcs/ITPPLANE_NO_RIELEV.BCS~ ~LongerRoadEE/bcs/ITPPLANE_RIELEV.bcs~
 REPLACE 999997 @37
 
-COPY_EXISTING ~ar6108.bcs~ ~override/ar6108.bcs~
-REPLACE_BCS_BLOCK ~LongerRoadEE/bcs/Sendai_No_Jon.bcs~ ~LongerRoadEE/bcs/Sendai_Jon.bcs~
+EXTEND_TOP ~ar6108.bcs~ ~LongerRoadEE/bcs/Sendai_Jon.bcs~
 
 EXTEND_TOP ~BALDUR25.bcs~ ~LongerRoadEE/bcs/NPC_JON.bcs~
 EXTEND_BOTTOM ~BALDUR25.bcs~ ~LongerRoadEE/bcs/JON_PC_LINK.BCS~
@@ -812,9 +809,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~finbodh.cre~
         WRITE_LONG 0x274 "60" //unknown
         WRITE_LONG 0x275 "4" //nether
 
-   COPY_EXISTING ~ar5505.bcs~ ~override/ar5505.bcs~
-   REPLACE_BCS_BLOCK ~LongerRoadEE/bcs/ar5505_No_JonAc.bcs~ ~LongerRoadEE/bcs/ar5505_JonAc.bcs~
- END
+ EXTEND_TOP  ~ar5505.bcs~  ~LongerRoadEE/bcs/ar5505_JonAc.bcs~
 
  ELSE BEGIN // if Ascension is not installed
    PRINT @120
