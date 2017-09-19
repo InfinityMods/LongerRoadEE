@@ -12,3 +12,4 @@ Version 1.6 EE (derived from v1.5.1 for BG2/ToB)
 - LongerRoadEE requires Ascension, added full compatibility with EE fixes
 - removed speedbanter component for overall compatibility
 - added polish translation by Cuttooth
+- LoB flags added
