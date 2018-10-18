@@ -843,7 +843,7 @@ ACTION_IF (~%warning%~ != 1)
 BEGIN @126
 REQUIRE_COMPONENT ~SETUP-LongerRoadEE.tp2~ ~0~ @127
 PRINT @128
-  COPY_EXISTING ~NJONS.bmp~ ~override/LRJONS.bmp~
+  COPY_EXISTING ~NJONM.bmp~ ~override/LRJONS.bmp~
   COPY_EXISTING ~NJONM.bmp~ ~override/LRJONM.bmp~
   COPY_EXISTING ~NJONL.bmp~ ~override/LRJONL.bmp~
 
