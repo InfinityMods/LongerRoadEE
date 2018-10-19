@@ -1,3 +1,7 @@
+Version 1.6.1 EE
+-------------------------
+- various EE related corrections
+
 Version 1.6 EE (derived from v1.5.1 for BG2/ToB)
 --------------------------------------------------
 - rename tp2 to LongerRoadEE\LongerRoadEE.tp2 
