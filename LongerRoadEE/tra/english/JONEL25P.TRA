@@ -1,4 +1,4 @@
-@0    = ~Godchild, if you think our contract has come to an end I won’t begrudge you leaving me behind. I received what I wanted from you, and I am content. Are you sure you would not want my services again? Act wisely, this decision is irrevocable.~
+﻿@0    = ~Godchild, if you think our contract has come to an end I won’t begrudge you leaving me behind. I received what I wanted from you, and I am content. Are you sure you would not want my services again? Act wisely, this decision is irrevocable.~
 @1    = ~On second thought, I might need you again. Irenicus, I want you to stay with the party.~
 @2    = ~Yes, Irenicus, I want to part ways now, while we are both satisfied with our respective sides of the bargain.~
 @3    = ~Just get out of my sight, you creep! I hope I would never have to face you again.~
@@ -17,7 +17,7 @@
 @16   = ~I *knew* I could not trust you, god-child. Already you are trying to renege on your promise!~ [WIZEYE01]
 @17   = ~I don't need your services right now, Irenicus. But I will be back for you as soon as I can.~
 @18   = ~Taking you into the party was the worst mistake I ever made, Irenicus. Now get out and stay out!~
-@19   = ~Hmm... I’ve reconsidered. I still need you in the party after all.~
+@19   = ~Hmm... I've reconsidered. I still need you in the party after all.~
 @20   = ~I cannot wait for you at this location, <CHARNAME>. Due to Rielev's mediocre spell, my body will disintegrate within hours if I leave your presence. It would last longer within your Pocket Plane though.~ [DPJON162]
 @21   = ~Honestly, I don't give a damn. You can go back to Hell for all I care.~
 @22   = ~I have the power to send you there. Go now. When I need you again, I shall come to the Pocket Plane.~
