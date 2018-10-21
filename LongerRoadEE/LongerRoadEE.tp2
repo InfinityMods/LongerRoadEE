@@ -1,4 +1,4 @@
-//LongerRoad v 1.6.1 EE/EET
+//LongerRoad v 1.6.2 EE/EET
 
 BACKUP ~LongerRoadEE/backup~
 //AUTHOR ~ladydorotea@hotmail.com~
@@ -7,7 +7,7 @@ SUPPORT ~Roxanne - https://baldursextendedworld.com/Branched-EET-Updates-4/ or r
 ALLOW_MISSING ~ar3003.bcs~
 ALLOW_MISSING ~ar5502.bcs~
 
-VERSION ~v1.6.1 EE~
+VERSION ~v1.6.2 EE~
 
 ASK_EVERY_COMPONENT
 
