@@ -1,15 +1,20 @@
-Version 1.6.1 EE
--------------------------
+1.6.4
+- weidu 246
+- not needed backup folder
+- restored original homepage and forum
+- restored original readme
+- minor corrections
+
+1.6.1
 - various EE related corrections
 
-Version 1.6 EE (derived from v1.5.1 for BG2/ToB)
---------------------------------------------------
+1.6 (derived from v1.5.1 for BG2/ToB)
 - rename tp2 to LongerRoadEE\LongerRoadEE.tp2 
-- incorporate known issues from BWF 
+- incorporate known issues from BWFixpack
 - remove tiz/tis conversion and use PVRZ 
 - update portraits for EE 
 - update journal entries for EE 
-- update item descriptions and useability 
+- update item descriptions and usability 
 - use wav instead ogg and remove conversion 
 - adapted scripts to EE functions 
 - added HANDLE_CHARSETS 

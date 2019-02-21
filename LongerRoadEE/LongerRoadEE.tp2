@@ -1,5 +1,3 @@
-//LongerRoad v 1.6.2 EE/EET
-
 BACKUP ~LongerRoadEE/backup~
 //AUTHOR ~ladydorotea@hotmail.com~
 SUPPORT ~Roxanne - https://baldursextendedworld.com/Branched-EET-Updates-4/ or roxanne@baldursextendedworld.com~
@@ -7,10 +5,9 @@ SUPPORT ~Roxanne - https://baldursextendedworld.com/Branched-EET-Updates-4/ or r
 ALLOW_MISSING ~ar3003.bcs~
 ALLOW_MISSING ~ar5502.bcs~
 
-VERSION ~v1.6.2 EE~
+VERSION ~1.6.4~
 
 ASK_EVERY_COMPONENT
-
 
 /////////////////////////////////////////////////////////////////////////
 //  Language Options
@@ -32,21 +29,21 @@ END
 
 AUTO_TRA ~LongerRoadEE/tra/%s~
 
-LANGUAGE ~American English~
+LANGUAGE ~English~
          ~english~
          ~LongerRoadEE/tra/english/setup.tra~
 
-LANGUAGE ~Espanol (Traducido cerca Immortality y companÌa)~
+LANGUAGE ~Espanol (Traducido cerca Immortality y compan√≠a)~
          ~spanish~
          ~LongerRoadEE/tra/spanish/setup.tra~
          
-LANGUAGE ~Francais (Traduction de Erszebeth - phÈnomËne franÁais de sideshow de vampire de graphomane)~
+LANGUAGE ~Francais (Traduction de Erszebeth - ph√©nomƒçne fran√ßais de sideshow de vampire de graphomane)~
          ~french~
          ~LongerRoadEE/tra/french/setup.tra~
 
 LANGUAGE ~Polski (Tlumaczenie Cuttooth)~
          ~polish~
-         ~LongerRoadEE/tra/polish/setup.tra~	
+         ~LongerRoadEE/tra/polish/setup.tra~
 
 ///////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////
@@ -75,7 +72,7 @@ ADD_JOURNAL @9 @22 @25 USING ~LongerRoadEE/tra/%LANGUAGE%/LRAbaia.TRA~
 
 COPY_EXISTING ~botsmith.cre~ ~override/botsmith.cre~
      WRITE_ASCII 0x34  ~CespS~
-     
+
 COPY_EXISTING ~25spell.cre~ ~override/25spell.cre~
      WRITE_ASCII 0x34  ~lasrS~
 
@@ -84,7 +81,7 @@ COPY_EXISTING ~hgwra01.cre~ ~override/hgwra01.cre~
 
 COPY_EXISTING ~d1gori.cre~ ~override/d1gori.cre~
      WRITE_ASCII 0x34  ~wgorS~
-     
+
 COPY_EXISTING ~d1ghost.cre~ ~override/d1ghost.cre~
      WRITE_ASCII 0x34  ~mothS~
 
@@ -99,7 +96,7 @@ COPY_EXISTING ~d1mothha.cre~ ~override/d1mothha.cre~
 
 COPY_EXISTING ~d1mothhu.cre~ ~override/d1mothhu.cre~
      WRITE_ASCII 0x34  ~mothS~
-     
+
 COPY_EXISTING ~d1sarev.cre~ ~override/d1sarev.cre~
      WRITE_ASCII 0x34  ~skidS~
 
@@ -108,37 +105,37 @@ COPY_EXISTING ~hgnya01.cre~ ~override/hgnya01.cre~
 
 COPY_EXISTING ~sarvolo.cre~ ~override/sarvolo.cre~
      WRITE_ASCII 0x34  ~VoloS~
-     
+
 COPY_EXISTING ~gorchr.cre~ ~override/gorchr.cre~
      WRITE_ASCII 0x34  ~ChrodS~
-     
+
 COPY_EXISTING ~amcler01.cre~ ~override/amcler01.cre~
      WRITE_ASCII 0x34  ~ChyilS~
-     
+
 COPY_EXISTING ~amcler02.cre~ ~override/amcler02.cre~
      WRITE_ASCII 0x34  ~ChyilS~
 
 COPY_EXISTING ~gorcar.cre~ ~override/gorcar.cre~
      WRITE_ASCII 0x34  ~CarstS~
-     
+
 COPY_EXISTING ~gormad1.cre~ ~override/gormad1.cre~
      WRITE_ASCII 0x34  ~yakmS~
-     
+
 COPY_EXISTING ~amtgen01.cre~ ~override/amtgen01.cre~
      WRITE_ASCII 0x34  ~genrS~
-     
+
 COPY_EXISTING ~amlich01.cre~ ~override/amlich01.cre~
      WRITE_ASCII 0x34  ~lichS~
-     
+
 COPY_EXISTING ~marlowe.cre~ ~override/marlowe.cre~
      WRITE_ASCII 0x34  ~MarlwS~
-     
+
 COPY_EXISTING ~amcarras.cre~ ~override/amcarras.cre~
      WRITE_ASCII 0x34  ~smugS~
-     
+
 COPY_EXISTING ~amsaemon.cre~ ~override/amsaemon.cre~
      WRITE_ASCII 0x34  ~saemS~
-     
+
 COPY_EXISTING ~gorcamb.cre~ ~override/gorcamb.cre~
      WRITE_ASCII 0x34  ~cambS~
 
@@ -147,7 +144,7 @@ COPY_EXISTING ~chalcy01.cre~ ~override/chalcy01.cre~
 
 COPY_EXISTING ~senbeh01.cre~ ~override/senbeh01.cre~
      WRITE_ASCII 0x34  ~SpecS~
-     
+
 COPY_EXISTING ~amelm01.cre~ ~override/amelm01.cre~
      WRITE_ASCII 0x34  ~ElmoS~
 
@@ -165,7 +162,7 @@ COPY ~LongerRoadEE/cre/lrelle1.cre~ ~override/lrelle1.cre~
 //add music
 <<<<<<<< .../LongerRoadEE/bogus/LrBogus.mus
 >>>>>>>>
-  
+
 COPY ~.../LongerRoadEE/bogus/LrBogus.mus~ ~Music/LrBogus.mus~
 
 ADD_MUSIC ~LrBogus~ ~Music/LrBogus.mus~
@@ -263,18 +260,18 @@ REPLACE 999981 @17
 REPLACE 999982 @18
 REPLACE 999966 @19
 REPLACE 999968 @20
-REPLACE 999972 @21 
-REPLACE 999973 @22 
-REPLACE 999974 @23 
-REPLACE 999975 @24 
-REPLACE 999976 @25 
-REPLACE 999977 @26 
-REPLACE 999978 @27 
-REPLACE 999979 @28 
-REPLACE 999960 @29 
-REPLACE 999961 @30 
-REPLACE 999962 @31 
-REPLACE 999963 @32 
+REPLACE 999972 @21
+REPLACE 999973 @22
+REPLACE 999974 @23
+REPLACE 999975 @24
+REPLACE 999976 @25
+REPLACE 999977 @26
+REPLACE 999978 @27
+REPLACE 999979 @28
+REPLACE 999960 @29
+REPLACE 999961 @30
+REPLACE 999962 @31
+REPLACE 999963 @32
 REPLACE 999969 @33
 REPLACE 999949 @129
 
@@ -284,7 +281,6 @@ COPY_EXISTING ~ar4000.bcs~ ~override/ar4000.bcs~
 REPLACE_BCS_BLOCK ~LongerRoadEE/bcs/AR4000_NO_ELLE.BCS~ ~LongerRoadEE/bcs/AR4000_ELLE.bcs~
 REPLACE 999998 @34
 REPLACE 999965 @35
-
 
 COPY ~LongerRoadEE/cre/lrrielev.cre~ ~override/lrrielev.cre~
      SAY NAME1 @36
@@ -356,15 +352,15 @@ WRITE_ASCII 0x250 ~lrirenic~  // class script
 WRITE_ASCII 0x2CC ~lrirenic~  // dialog
 WRITE_ASCII 0x280 ~lrirenic~  // death variable
 
-SAY INITIAL_MEETING  @41 
-SAY TIRED @42 
-SAY SELECT_COMMON4 @43 
-SAY HURT @41 
-SAY AREA_FOREST @44 
-SAY AREA_NIGHT @45 
-SAY SELECT_ACTION5 @46 
+SAY INITIAL_MEETING  @41
+SAY TIRED @42
+SAY SELECT_COMMON4 @43
+SAY HURT @41
+SAY AREA_FOREST @44
+SAY AREA_NIGHT @45
+SAY SELECT_ACTION5 @46
 SAY SELECT_ACTION6 ~~ [IRENIC92]
-SAY ATTACK4 @48 
+SAY ATTACK4 @48
 SAY BIO @49
 
 COPY  ~LongerRoadEE/spl/jonchng1.spl~    ~override~
@@ -377,7 +373,7 @@ WRITE_ASCII 0x1ce ~lrburnS~
 
 COPY  ~LongerRoadEE/spl/jonchng3.spl~    ~override~
 
-//PATCH 2DA 
+//PATCH 2DA
 APPEND ~pdialog.2da~
 ~LRIRENIC     Jonel25P           Jonel25J          Jonel25D       Jonel25P           Jonel25J              Jonel25D              Jonel25~
 UNLESS ~LRIRENIC~
@@ -420,12 +416,12 @@ COPY  ~LongerRoadEE/itm/gemh1.itm~    ~override~
       SAY NAME1 @55
       SAY NAME2 @55
       SAY DESC @56
-      
+
 COPY  ~LongerRoadEE/itm/chalice2.itm~    ~override~
       SAY NAME1 @57
       SAY NAME2 @57
       SAY DESC @58
-      
+
 COPY  ~LongerRoadEE/itm/waterser.itm~    ~override~
       SAY NAME1 @59
       SAY NAME2 @59
@@ -542,14 +538,14 @@ COPY ~LongerRoadEE/cre/abaia2.cre~ ~override~
      WRITE_ASCII 0x34  ~abaiaS~
      WRITE_ASCII 0x2CC ~lrbafter~  // dialog
      WRITE_ASCII 0x280 ~abaia2~  // death variable
-     
+
 COPY ~LongerRoadEE/cre/NEWCRE.CRE~ ~override~
      SAY NAME1 @74
      SAY NAME2 @74
      WRITE_ASCII 0x34  ~NewCS~
      WRITE_ASCII 0x2CC ~devilith~  // dialog
      WRITE_ASCII 0x280 ~newcre~  // death variable
-     
+
 COPY  ~LongerRoadEE/itm/namul.itm~    ~override~
       SAY NAME1 @75
       SAY NAME2 @75
@@ -575,23 +571,23 @@ COPY ~LongerRoadEE/cre/Mirriam.cre~ ~override/Mirriam.cre~
      SAY NAME2 @83
      //WRITE_ASCII 0x34  ~MirS~
      WRITE_ASCII 0x280 ~mirriam~  // death variable
-     
+
 COPY ~LongerRoadEE/cre/Kessen.cre~ ~override/Kessen.cre~
      SAY NAME1 @84
      SAY NAME2 @84
      //WRITE_ASCII 0x34  ~KesS~
      WRITE_ASCII 0x280 ~kessen~  // death variable
-     
+
 COPY  ~LongerRoadEE/itm/sesstn.itm~    ~override~
       SAY NAME1 @85
       SAY NAME2 @85
       SAY DESC @86
-  
+
 COPY  ~LongerRoadEE/itm/absstn.itm~    ~override~
       SAY NAME1 @87
       SAY NAME2 @87
       SAY DESC @88
-  
+
 COPY  ~LongerRoadEE/itm/basstn.itm~    ~override~
       SAY NAME1 @89
       SAY NAME2 @89
@@ -600,7 +596,7 @@ COPY  ~LongerRoadEE/itm/basstn.itm~    ~override~
 
 COPY ~LongerRoadEE/itm/impnote.itm~ ~override~
       SAY DESC  @130
-  
+
 COPY  ~LongerRoadEE/spl/lrsoul1.spl~    ~override~
 SAY 8 @91
 
@@ -626,7 +622,7 @@ COPY ~LongerRoadEE/spl/Jonchng4.spl~ ~override~
   SAY 0x18e @94
   WRITE_ASCII 0x1ce ~newjons~
   WRITE_ASCII 0x1fe ~newjonm~
-  
+
 COPY ~LongerRoadEE/spl/lrres.spl~ ~override~
 
 COMPILE ~LongerRoadEE/bcs/lrjonr1.baf~
@@ -759,7 +755,7 @@ COPY ~LongerRoadEE/bcs/jonepil1.2da~ ~override/jonepil2.2da~
 
 COPY ~LongerRoadEE/bcs/jonepil1.2da~ ~override/jonepil3.2da~
   REPLACE ~999999~ @112
-  
+
 COPY ~LongerRoadEE/bcs/jonepil1.2da~ ~override/jonepil4.2da~
   REPLACE_TEXTUALLY ~LRJONL~ ~NEWJONL~
   REPLACE ~999999~ @113
@@ -777,16 +773,16 @@ ACTION_IF FILE_EXISTS_IN_GAME  ~d0hosti.bcs~ // Improved Oasis
 
 ACTION_IF FILE_EXISTS_IN_GAME ~finbodh.cre~
  THEN BEGIN
-   PRINT @116 
+   PRINT @116
    COPY  ~LongerRoadEE/balth/ascen/balth.cre~    ~override~
-   
+
    COPY ~LongerRoadEE/spl/zombify1.spl~ ~override/senzom.spl~
      SAY 0x9e @117
    COPY ~LongerRoadEE/spl/zombify1.spl~ ~override/abazom.spl~
      SAY 0x9e @118
    COPY ~LongerRoadEE/spl/zombify1.spl~ ~override/balzom.spl~
      SAY 0x9e @119
-   
+
    EXTEND_TOP ~Imoslay.bcs~ ~LongerRoadEE/bcs/imosj.baf~
 
    COPY_EXISTING ~finiren.cre~ ~override/finiren.cre~
@@ -818,11 +814,11 @@ EXTEND_TOP  ~ar5505.bcs~  ~LongerRoadEE/bcs/ar5505_JonAc.bcs~
 
 EXTEND_TOP ~ar6005.bcs~ ~LongerRoadEE/bcs/Abazi_Jon.bcs~
 
-ACTION_IF FILE_CONTAINS ~override/aerie25j.dlg~ ~("Imoen")~ 
-THEN BEGIN 
-   PRINT @123 
+ACTION_IF FILE_CONTAINS ~override/aerie25j.dlg~ ~("Imoen")~
+THEN BEGIN
+   PRINT @123
    COMPILE ~LongerRoadEE/immyfix/immyfix.d~
-END 
+END
 ELSE BEGIN
    PRINT @124
 END
@@ -830,7 +826,7 @@ END
 //EE Ascension compatibility fix
 EXTEND_TOP
 ~Imoslay.bcs~ ~LongerRoadEE/immyfix/Imolast.baf~
-EXTEND_TOP 
+EXTEND_TOP
 ~Imoe25.bcs~ ~LongerRoadEE/immyfix/Imolast.baf~
 
 ACTION_IF (~%warning%~ != 1)
@@ -841,9 +837,8 @@ ACTION_IF (~%warning%~ != 1)
 
 //RESTORE IRENICUS'S SOA PORTRAIT
 BEGIN @126
-REQUIRE_COMPONENT ~SETUP-LongerRoadEE.tp2~ ~0~ @127
+REQUIRE_COMPONENT ~LongerRoadEE.tp2~ ~0~ @127
 PRINT @128
   COPY_EXISTING ~NJONM.bmp~ ~override/LRJONS.bmp~
   COPY_EXISTING ~NJONM.bmp~ ~override/LRJONM.bmp~
   COPY_EXISTING ~NJONL.bmp~ ~override/LRJONL.bmp~
-
