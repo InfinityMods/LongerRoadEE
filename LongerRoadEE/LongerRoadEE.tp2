@@ -5,7 +5,7 @@ SUPPORT ~Roxanne - https://baldursextendedworld.com/Branched-EET-Updates-4/ or r
 ALLOW_MISSING ~ar3003.bcs~
 ALLOW_MISSING ~ar5502.bcs~
 
-VERSION ~1.6.4~
+VERSION ~1.6.5~
 
 ASK_EVERY_COMPONENT
 
@@ -36,7 +36,7 @@ LANGUAGE ~English~
 LANGUAGE ~Espanol (Traducido cerca Immortality y companía)~
          ~spanish~
          ~LongerRoadEE/tra/spanish/setup.tra~
-         
+
 LANGUAGE ~Francais (Traduction de Erszebeth - phénomčne français de sideshow de vampire de graphomane)~
          ~french~
          ~LongerRoadEE/tra/french/setup.tra~
