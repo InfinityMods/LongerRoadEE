@@ -1,6 +1,6 @@
 APPEND IMOEN25J
 
-IF ~InParty("LRIRENIC") Global("ImmyIsMad","GLOBAL",1) !AreaCheck("AR6200")~ THEN BEGIN LRIMO1
+IF WEIGHT #-6~InParty("LRIRENIC") Global("ImmyIsMad","GLOBAL",1) !AreaCheck("AR6200")~ THEN BEGIN LRIMO1
    SAY @0
    IF ~~ THEN REPLY @1 DO ~SetGlobal("ImmyIsMad","GLOBAL",2)~ GOTO LRIMO2
    IF ~~ THEN REPLY @2 DO ~SetGlobal("ImmyIsMad","GLOBAL",2)~ GOTO LRIMO2
