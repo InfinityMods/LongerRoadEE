@@ -2,11 +2,22 @@
 //Ascension must be installed first in order for this to work!
 //And as things stand now, the LR version will cause some of the Ascension-Jon dialogue to not be shown.
 //Much of the code is more or less stolen from the Redemption Mod.
-REPLACE Irenic2
-IF ~Global("FinalFight","AR6200",2)~ 1
+APPEND Irenic2
+IF WEIGHT #-2~Global("FinalFight","AR6200",2)~THEN BEGIN LRReplace1
   SAY @0
   ++ @1 + lrAscJon1
   ++ @2 + lrAscJon1
+END
+
+IF ~~ lrAscJon1
+  SAY @80
+  ++ @81 + lrAscJon2
+  ++ @82 + lrAscJon2
+END
+
+IF ~~ lrAscJon2
+  SAY @83 
+  IF ~~ + 7
 END
 END
 
@@ -232,10 +243,27 @@ IF ~~ lrdemo11
       DO ~ClearAllActions() StartCutSceneMode() StartCutScene("redgdem3")~ EXIT
 END
 
+APPEND JONEL25J
+IF ~~ jondemo1
+  SAY @93
+  ++ @94 EXTERN lrgodemo lrdemo4
+  ++ @95 EXTERN lrgodemo lrdemo4
+  ++ @96 EXTERN lrgodemo lrdemo4
+  ++ @97 + jondemo2
+END
+
+IF ~~ jondemo2
+  SAY @98
+  ++ @99 EXTERN lrgodemo lrdemo4
+END
+
+IF ~~ jondemo3
+  SAY @100
+  IF ~~ THEN EXTERN LRGODEMO lrdemo9
+END
+END
 
 ADD_TRANS_TRIGGER IMOEN25P 4 ~!InParty("lrirenic") G("lrJonToFinal",0) G("AcceptIlmater",0)~
-
-ADD_TRANS_TRIGGER FINSOL01 38 ~False()~ DO 1
 
 EXTEND_BOTTOM FINBODH 0
 IF ~InParty("lrirenic")~ EXTERN JONEL25J lrBodhiJonMelissan
@@ -262,19 +290,6 @@ EXTEND_TOP FINSOL01 38
 IF ~OR(2) !InParty("Imoen2") Dead("Imoen2")~ EXTERN FINSOL01 5
 IF ~OR(2) InParty("lrIrenic") G("lrJonToFinal",1) OR(2) !Dead("lrirenic") G("AcceptIlmater",0) Global("lrFinSolJon","LOCALS",0)~ DO ~SetGlobal("lrFinSolJon","LOCALS",1)~ EXTERN FINSOL01 lrSolar1
 IF ~Dead("lrirenic") OR(2) G("lrHasSoulStone",1) !G("AcceptIlmater",0) Global("lrFinSolJon","LOCALS",0)~ DO ~SetGlobal("lrFinSolJon","LOCALS",1)~ EXTERN FINSOL01 5
-END
-
-APPEND Irenic2
-IF ~~ lrAscJon1
-  SAY @80
-  ++ @81 + lrAscJon2
-  ++ @82 + lrAscJon2
-END
-
-IF ~~ lrAscJon2
-  SAY @83 
-  IF ~~ + 7
-END
 END
 
 APPEND FINMEL01
@@ -327,25 +342,7 @@ IF ~~ Bodhi2
 END
 END
 
-APPEND JONEL25J
-IF ~~ jondemo1
-  SAY @93
-  ++ @94 EXTERN lrgodemo lrdemo4
-  ++ @95 EXTERN lrgodemo lrdemo4
-  ++ @96 EXTERN lrgodemo lrdemo4
-  ++ @97 + jondemo2
-END
 
-IF ~~ jondemo2
-  SAY @98
-  ++ @99 EXTERN lrgodemo lrdemo4
-END
-
-IF ~~ jondemo3
-  SAY @100
-  IF ~~ THEN EXTERN LRGODEMO lrdemo9
-END
-END
 
 CHAIN JONEL25J lrBodhiJonMelissan
    @101
@@ -395,7 +392,7 @@ CHAIN FINMEL01 lrAmelJonChain2
     == JONEL25J IF ~G("lrHasSoulStone",0) Alignment("lrirenic",MASK_EVIL)~ THEN
      @116
     == JONEL25J IF ~G("lrHasSoulStone",0)~ THEN
-     @117 
+     @117
   == JONEL25J IF ~G("lrHasSoulStone",1)~ THEN
    @118  
   == FINMEL01

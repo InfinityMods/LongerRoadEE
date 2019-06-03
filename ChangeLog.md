@@ -1,3 +1,6 @@
+1.6.6
+- compatibility with Ascension 2.x
+
 1.6.5
 - minor renaming of files
 
