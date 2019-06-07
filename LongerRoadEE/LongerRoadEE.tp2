@@ -5,7 +5,7 @@ SUPPORT ~Roxanne - https://baldursextendedworld.com/Branched-EET-Updates-4/ or r
 ALLOW_MISSING ~ar3003.bcs~
 ALLOW_MISSING ~ar5502.bcs~
 
-VERSION ~1.6.5~
+VERSION ~1.6.6~
 
 ASK_EVERY_COMPONENT
 
