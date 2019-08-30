@@ -1,3 +1,6 @@
+1.6.7
+- updated Github download link
+
 1.6.6
 - compatibility with Ascension 2.x
 
