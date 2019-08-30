@@ -1,11 +1,10 @@
 BACKUP ~LongerRoadEE/backup~
 //AUTHOR ~ladydorotea@hotmail.com~
 SUPPORT ~Roxanne - https://baldursextendedworld.com/Branched-EET-Updates-4/ or roxanne@baldursextendedworld.com~
+VERSION ~1.6.6~
 
 ALLOW_MISSING ~ar3003.bcs~
 ALLOW_MISSING ~ar5502.bcs~
-
-VERSION ~1.6.6~
 
 ASK_EVERY_COMPONENT
 
@@ -25,7 +24,6 @@ ALWAYS
       default_language = ~English~
   END
 END
-
 
 AUTO_TRA ~LongerRoadEE/tra/%s~
 
