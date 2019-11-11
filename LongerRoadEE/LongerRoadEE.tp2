@@ -1,7 +1,7 @@
 BACKUP ~LongerRoadEE/backup~
 //AUTHOR ~ladydorotea@hotmail.com~
 SUPPORT ~Roxanne - https://baldursextendedworld.com/Branched-EET-Updates-4/ or roxanne@baldursextendedworld.com~
-VERSION ~1.6.7~
+VERSION ~1.6.8~
 
 ALLOW_MISSING ~ar3003.bcs~
 ALLOW_MISSING ~ar5502.bcs~
@@ -837,6 +837,6 @@ ACTION_IF (~%warning%~ != 1)
 BEGIN @126
 REQUIRE_COMPONENT ~LongerRoadEE.tp2~ ~0~ @127
 PRINT @128
-  COPY_EXISTING ~NJONM.bmp~ ~override/LRJONS.bmp~
-  COPY_EXISTING ~NJONM.bmp~ ~override/LRJONM.bmp~
+  COPY_EXISTING ~NJONL.bmp~ ~override/LRJONS.bmp~
+  COPY_EXISTING ~NJONL.bmp~ ~override/LRJONM.bmp~
   COPY_EXISTING ~NJONL.bmp~ ~override/LRJONL.bmp~
