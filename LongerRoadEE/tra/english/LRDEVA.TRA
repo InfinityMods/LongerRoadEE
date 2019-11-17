@@ -5,7 +5,7 @@
 @4    = ~I have no desire to waste energy helping planar beings of any kind. Goodbye.~
 @5    = ~Give me one good reason to help you besides your 'goodness', and I might deem to interfere. ~
 @6    = ~Whoever you are, stay back if you wish to live. I have no reason to trust you! ~
-@7    = ~Please listen to me, honorable <PRO_LADYLORD>, this is no trick. I would not ask for help so desperately if it was not the difference between life and death for me!~
+@7    = ~Please listen to me, honourable <PRO_LADYLORD>, this is no trick. I would not ask for help so desperately if it was not the difference between life and death for me!~
 @8    = ~Well, who are you exactly, and how did you get poisoned? ~
 @9    = ~Your deceits hold no sway over me! Goodbye. ~
 @10   = ~It is a strange and depressing story indeed... Alas, the Universe is abundant with tales even less believable than mine. Will you at least listen to what I have to say?~
@@ -15,12 +15,12 @@
 @14   = ~It is natural that you would want some sort of compensation in exchange for your assistance. I swear that my Power will remember the aid you provide, and that your noble deeds will be rewarded most handsomely. I have been here for some time, and I will soon succumb to the venom I am afflicted with.~
 @15   = ~My story might sound strange to your ears, mortals, but I swear that every word of it is simple truth! It all started many days ago. The Power that I serve sent me to the Abyss, no less, to look into a wicked Tanar'ri plot that threatens our entire Universe. To do as my deity bid me, I had to find a way to hide myself - even my cleverest disguise would have been insufficient to deceive the Abyssal creatures about my nature.~
 @16   = ~My aura of goodness would still have been felt by them - same way sharks will be drawn to even the smallest droplet of blood in a near infinite ocean. My only choice was to temporarily give up the Spark of the divinity that was given to me to mark me as an Aasimon - an astral creature.~
-@17   = ~Ybdiel, you had to sacrifice your divine Spark to fulfill your task? You must possess a great sense of duty and honor, indeed! I know how difficult it is to lose one's very essence. ~
+@17   = ~Ybdiel, you had to sacrifice your divine Spark to fulfil your task? You must possess a great sense of duty and honour, indeed! I know how difficult it is to lose one's very essence. ~
 @18   = ~Creature, you must have been utterly mad! What could have driven you to give up your divine essence?~
 @19   = ~Are you taking me for an idiot? No one would give up their immortal spark on their own volition. I shall leave you to your thoughts, creature, and next time invent a better lie. ~
 @20   = ~An interesting story, although I still fail to grasp the meaning of this. Please continue. ~
 @21   = ~I will not last long for my strength is fading with every passing moment... ~ [SOLARF06]
-@22   = ~In time my cause shall be honored. My <PRO_LADYLORD>, if after giving it some thought you decide to aid me - please return here.~ [deva2]
+@22   = ~In time my cause shall be honoured. My <PRO_LADYLORD>, if after giving it some thought you decide to aid me - please return here.~ [deva2]
 @23   = ~My entire story is quite long... Are you sure you want to hear it all? ~ [deva1]
 @24   = ~Yes, yes. Go ahead - I want to hear all the details. ~
 @25   = ~Perhaps later. I am quite busy at the moment, but I will be back. Goodbye. ~
@@ -47,7 +47,7 @@
 @46   = ~The fate of the entire Universe definitely deserves my attention. I will do my best to help, although even my best might not be enough. ~
 @47   = ~A fancy story to scare small children on a windy night! Still, I might do something if I come across that demon of yours in my search for an exit. ~
 @48   = ~I don't think your plight is worthy of my time, creature. But I may yet reconsider all the same. ~
-@49   = ~I will help you… Only if you tell me who this Power of yours is, and what the tanar'ri were plotting! ~
+@49   = ~I will help you... Only if you tell me who this Power of yours is, and what the tanar'ri were plotting! ~
 @50   = ~<CHARNAME>, you surely must understand that this is not my secret to divulge. I assure you that I serve one of the Great Powers of Eronia, and this is all I can tell you at the moment.~
 @51   = ~Thank you for listening, my <PRO_LADYLORD>. Your words have given me back some measure of hope. Yet I fear I will not last long if left here alone. If you want to help me, you will have to take me with you.~
 @52   = ~Sure thing. I will carry you along. You don't look that heavy at all.~
