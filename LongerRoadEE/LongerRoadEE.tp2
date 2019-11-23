@@ -1,18 +1,13 @@
 BACKUP ~LongerRoadEE/backup~
 //AUTHOR ~ladydorotea@hotmail.com~
 SUPPORT ~Roxanne - https://baldursextendedworld.com/Branched-EET-Updates-4/ or roxanne@baldursextendedworld.com~
-VERSION ~1.6.8~
+VERSION ~1.6.9~
 
 ALLOW_MISSING ~ar3003.bcs~
 ALLOW_MISSING ~ar5502.bcs~
 
 ASK_EVERY_COMPONENT
 
-/////////////////////////////////////////////////////////////////////////
-//  Language Options
-//
-//  American english and spanish versions are available now
-/////////////////////////////////////////////////////////////////////////
 ALWAYS
   ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
   LAF HANDLE_CHARSETS
@@ -31,11 +26,11 @@ LANGUAGE ~English~
          ~english~
          ~LongerRoadEE/tra/english/setup.tra~
 
-LANGUAGE ~Espanol (Traducido cerca Immortality y companía)~
+LANGUAGE ~Espanol (Traducido cerca Immortality y compana)~
          ~spanish~
          ~LongerRoadEE/tra/spanish/setup.tra~
 
-LANGUAGE ~Francais (Traduction de Erszebeth - phénomčne français de sideshow de vampire de graphomane)~
+LANGUAGE ~Francais (Traduction de Erszebeth)~
          ~french~
          ~LongerRoadEE/tra/french/setup.tra~
 
@@ -543,6 +538,9 @@ COPY ~LongerRoadEE/cre/NEWCRE.CRE~ ~override~
      WRITE_ASCII 0x34  ~NewCS~
      WRITE_ASCII 0x2CC ~devilith~  // dialog
      WRITE_ASCII 0x280 ~newcre~  // death variable
+     
+COPY_EXISTING ~gorcamb.cre~ ~override~
+ADD_CRE_ITEM ~gemh1~ #0 #0 #0 ~IDENTIFIED~ ~inv10~
 
 COPY  ~LongerRoadEE/itm/namul.itm~    ~override~
       SAY NAME1 @75
