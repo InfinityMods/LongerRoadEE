@@ -41,8 +41,6 @@
 
 - added code that removes opcode 319 from the Irenicus mask (imask1.itm) when mod installed on the non-EE version, because it is not supported on it and this caused the game to crash when Irenicus was called from the Abyss. If the mod is installed on the EE version, the opcode remains.
 
-- added unpacking of ambient files of "Temple of Waukeen" (Saradush) location from bif-files into the "override" folder during mod installation. If this is not done, then on the non-EE version of the game, a crash occurred when trying to enter this location.
-
 - removed unused script resimo5.bcs
 
 # SPOILERS:
