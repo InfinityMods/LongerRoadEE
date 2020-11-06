@@ -1,6 +1,7 @@
 # 2.0.0
 
 ### AL|EN
+- added InfinityAutoPackager for automatic creation of .zip and .iemod packages
 - added globally unique labels for all mod components
 - replace REQUIRE COMPONENT with equivalent code which does not rely on DESIGNATED numbers
 - bring back old tp2 name
