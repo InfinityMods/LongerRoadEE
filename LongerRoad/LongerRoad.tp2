@@ -49,7 +49,7 @@ LANGUAGE ~Russian (Arcanecoast Team)~
 ///////////////////////////////////////////////////////////////////////
 
 BEGIN @0 LABEL "LongerRoad-Main"
-//REQUIRE_COMPONENT ~Ascension.tp2~ 0 @120
+REQUIRE_COMPONENT ~Ascension.tp2~ 0 @120
 
 COPY  ~LongerRoad/are~          ~override~
 
