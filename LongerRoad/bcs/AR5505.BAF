@@ -1,0 +1,79 @@
+IF
+	Dead("balth")  // Балтазар
+	Global("HadBhaal25Dream5","GLOBAL",0)
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",1)
+		!InParty("lrirenic")  // Джон Айреникус
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",2)
+		!InParty("lrirenic")  // Джон Айреникус
+	OR(2)
+		!Global("lrbalt","GLOBAL",1)
+		!InParty("lrirenic")  // Джон Айреникус
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("HadBhaal25Dream5","GLOBAL",1)
+		SetGlobal("fin_balth_checkpoint_passed","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut243a")
+END
+
+IF
+	!Exists("balth")  // Балтазар
+	Global("BalthazarFights","GLOBAL",1)
+	Global("HadBhaal25Dream5","GLOBAL",0)
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",1)
+		!InParty("lrirenic")  // Джон Айреникус
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",2)
+		!InParty("lrirenic")  // Джон Айреникус
+	OR(2)
+		!Global("lrbalt","GLOBAL",1)
+		!InParty("lrirenic")  // Джон Айреникус
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("HadBhaal25Dream5","GLOBAL",1)
+		SetGlobal("fin_balth_checkpoint_passed","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut243a")
+END
+
+IF
+	Dead("balth")  // Балтазар
+	Global("HadBhaal25Dream5","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("HadBhaal25Dream5","GLOBAL",1)
+		SetGlobal("fin_balth_checkpoint_passed","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut243a")
+END
+
+
+IF
+	!Exists("balth")  // Балтазар
+	Global("BalthazarFights","GLOBAL",1)
+	Global("HadBhaal25Dream5","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("HadBhaal25Dream5","GLOBAL",1)
+		SetGlobal("fin_balth_checkpoint_passed","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut243a")
+END
+
+IF
+	Dead("Balth")  // Балтазар
+	G("lrsillyglobal",0)
+	InParty("lrirenic")  // Джон Айреникус
+	Global("HadBhaal25Dream5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Kill("Balth")  // Балтазар
+		SG("lrsillyglobal",0)
+END

@@ -1,0 +1,29 @@
+IF
+  InParty("lrirenic")
+  Global("lrSpawnBlock","AR6200",0)
+THEN
+  RESPONSE #100
+    SetGlobal("lrSpawnBlock","AR6200",1)
+END
+
+
+IF
+  OR(2)
+    Global("JonBanished","GLOBAL",1)
+    Dead("lrirenic")
+  !G("AgreedToGiveSoul",0)
+  G("lrHasSoulStone",0)
+  Global("lrJonToFinal","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("lrJonToFinal","GLOBAL",1)
+END
+
+IF
+  Dead("lrirenic")
+  !G("AcceptIlmater",0)
+  G("lrJonToFinal",1)
+THEN
+  RESPONSE #100
+    SG("lrJonToFinal",0)
+END

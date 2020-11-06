@@ -1,0 +1,467 @@
+@0    = ~Longer Road~
+
+@1    = ~Vous devez désinstaller l'ancien mod Redemption avant d'installer The Longer Road !~
+
+@2    = ~ToB n'est pas installé !~
+
+@3    = ~Masque brisé~
+
+@4    = ~Vieux masque d'Irenicus~
+
+@5    = ~C'est le masque qui couvrait le visage de votre vieil ennemi – le mage elfique renégat, Jon Irenicus. La Reine Ellesime vous l'a donné comme souvenir. Il n'a pas l'air de posséder de capacité spéciale.~
+
+@6    = ~Vous entendez quelqu'un approcher.~
+
+@7    = ~Sa voix semble étrangement familière, mais cela m'avantagera de garder cette observation pour moi-même.~
+
+@8    = ~Tandis qu'Irenicus meurt, vous sentez le lien entre vous deux se briser. Hélas, un peu de votre force vitale à été irrévocablement perdue.~
+
+@9    = ~Père, nous t'avons cherché partout dans le village. Tout va bien ? ~
+
+@10   = ~Qu'est-ce que... papa, que c'est-il passé ici ? les as-tu... Tous tués à toi tout seul ? ~
+
+@11   = ~Partez d'ici immédiatement, vous deux, et ne revenez pas !! Attendez... Dites à votre mère... Ah, par les dessous de bras rasés d'Umberlee – Partez d'ici immédiatement !~
+
+@12   = ~Bienvenue. Je me demandais quand est-ce que tu arriverais.~
+
+@13   = ~Adieu, mon seigneur. Merci d'avoir arrangé cela.~
+
+@14   = ~Idiot maladroit ! A l'évidence, il est toujours fou s'il croit que je ferais passer ses intérêts avant les miens. Il est surprenant qu'il ait réussi à obtenir la divinité et la sphère de mon "cher" maître mort. Lorsque le temps sera venu et que j'obtiendrai ce qui me revient, ce sera un plaisir de montrer mon vrai pouvoir à lui et aux autres idiots divins.~
+
+@15   = ~Ahh...~
+
+@16   = ~Je reviendrai te voir dans quelques jours, Exilé. Peut-être le contraste entre ce que tu es et ce que tu deviendras à mon service te rendra plus flexible.~
+
+@17   = ~(Lance un sort) J'essaye juste d'aider... Oh être éternellement impatient.~
+
+@18   = ~Quel dommage. Quelque part, je nourrissais le triste espoir de pouvoir aider Jon... Une dernière fois. Adieu, enfant divin.~
+
+@19   = ~La déva crie horriblement en mourrant... Le son d'un monde mourrant résonne dans sa voix et vous ne pouvez vous empêcher de penser que vous avez fait une terrible erreur.~
+
+@20   = ~La déva gémit une dernière fois avant de mourir... Le son d'un monde mourrant résonne dans sa voix et vous ne pouvez vous empêcher de penser que vous avez fait une terrible erreur. Le corps d'Ybdiel brille d'une violente lumière blanche et disparait après une dernière explosion d'énergie radiante.~
+
+@21   = ~Ce sont les âmes qui éprouvent le temps du démon.~ [MALE004M]
+
+@22   = ~Tu pourras le voir quand tu y croiras, ou nous sommes tous perdus... Tous perdus !~ [MALE004M]
+
+@23   = ~Un feu si brillant, si brûlant, pourquoi brûle t'il toujours ? Sauvez les enfants, sauvez-les ! Laissez-les courir dehors dans l'herbe parfumée...~ [MALE004M]
+
+@24   = ~Sang, sang, sang et os, des os sanglants partout... Faites-les sortir, vous dis-je ! Libérez-les !~ [MALE004M]
+
+@25   = ~Le feu, les âmes... Pourquoi sont-ils tous en train de brûler ? Ces feux sont trop brillants ! Faites-moi sortir d'ici – Ce n'était pas moi !~ [MALE004M]
+
+@26   = ~On devrait manger pour vivre et pas vivre pour manger, ou nous serons mangés par quelque chose qui nous dévore de l'intérieur. Ils dévoreront ton coeur et ton foie, il pèleront ta peau et te mangeront vivant... Après qu'ils aient plongé leur griffes en toi !~ [MALE004M]
+
+@27   = ~Qui se vente sera perdu, et qui se perd sera vénéré... Mais que ce passe-t'il si quelqu'un est maudit pour quelque chose qu'il n'a pas fait ?~ [MALE004M]
+
+@28   = ~Qui verse le sang d'un homme verra son sang versé par les hommes... Qui verse le sang d'un ange... Abandonnera son sang aux démons...~ [MALE004M]
+
+@29   = ~Je vois des feux brûler... Tout au fond de mon âme... Brûlant tout le temps... Terre carbonisée et sang bouillant !~ [MALE004M]
+
+@30   = ~Des cendres, des cendres partout... Nous chutons tous...~ [MALE004M]
+
+@31   = ~Ne m'appelle pas ainsi ! Je ne suis plus celui que tu cherches – Il n'est pas ici, laisse-moi partir te dis-je !~ [MALE004M]
+
+@32   = ~Souffrance à ceux qui appellent le mal bien et le bien, mal,
+Qui confondent les ténèbres avec la lumière et la lumière avec les ténèbres
+L'amer avec le sucré et le sucré avec l'amer !~ [MALE004M]
+
+@33   = ~A votre grande surprise, vous êtes téléporté dans un grand labyrinthe de fourrés et d'arbres en fleur. Au centre même de cette marée verte se tient un petit temple, couvert de vignes et de fleurs. Vous êtes au coeur du Labyrinthe de l'Accord dans le plan de l'Elysée. Tandis que vous admirez, couleurs et lumière cascadent à travers les fenêtres rondes des murs couverts de feuilles. Ici, chaque plante, chaque fleur brille d'une lumière étincelante qui lui est propre, donnant au lieu une apparence magique.~
+
+@34   = ~Les esprits de la forêt attendent toujours votre attention.~
+
+@35   = ~La Reine Ellesime vous a laissé un livre sur la culture des elfes. Peut-être pourrez-vous en trouver d'autres durant vos prochains voyages.~
+
+@36   = ~Velemir Rielev~
+
+@37   = ~Vous ne pouvez pas encore partir – Il vous reste des choses à faire dans l'Antichambre.~
+
+@38   = ~Le portail s'ouvre et une vague d'émotions confuses et d'excitation étrange, presque enfantine, vous submerge. Quelque chose sort du portail...~
+
+@39   = ~Silhouette cagoulée~
+
+@40   = ~C'est le masque qui couvrait le visage de votre vieil ennemi – le mage elfe renégat Jon Irenicus, avant que vous ne le tuiez et qu'il soit jeté dans les abysses. La Reine Ellesime vous l'a donné comme souvenir. Pourtant, dès que le masque a été utilisé pour restaurer le corps d'Irenicus et le lier irrémédiablement à vous, il est redevenu saturé de magie. Vous suspectez qu'il possède d'étranges pouvoirs à présent, mais vu qu'il donne l'impression d'être greffé au visage de Jon, il n'y a aucun moyen de vérifier vos conjectures.
+
+Caractéristiques :
+
++4 sorts de bonus de mage à tous les niveaux
+Hâte quand porté
++ 1 en Int
+
+Bonus à la classe d'armure : Aucun
+Poids : 1~
+
+@41   = ~Et il n'y a aucun moyen d'en sortir, bien sûr. Il n'y en a jamais eu.~ [DPJON127]
+
+@42   = ~Ne te fais pas de souci. Ce sera bientôt terminé.~ [IRENIC82]
+
+@43   = ~Lamentables imbéciles, vous ne me garderez pas emprisonné avec votre magie pathétique.~ [IRENIC76]
+
+@44   = ~Les arbres de ma patrie brûlent.~ [DPJON128]
+
+@45   = ~J'espère que tu es réveillé. C'est l'heure d'un autre... Test.~ [IRENIC81]
+
+@46   = ~Bientôt, l'arrivée de quelqu'un n'aura plus d'importance.~ [IRENIC93]
+
+@48   = ~Hmph. Les autres voleurs de l'ombre n'ont pas non plus voulu s'en aller sans faire d'histoire.~ [IRENIC83]
+
+@49   = ~Après que vous ayez battu Irenicus pour la dernière fois dans la bataille qui fit rage au coeur même de l'enfer privé de Bhaal, vous l'avez vu tomber à travers les couches infernales de cet effrayant royaume, dans le lac rempli de lave en fusion. Il a été plongé dans les tréfonds des abysses pour être tourmenté par les tanar'ri à jamais – les démons chaotiques qui peuplent ce plan. Irenicus ne parle pas avec vous du temps qu'il a passé dans ce royaume infini d'horreurs saisissantes, mais le peu qu'il a mentionné lorsque vous avez parlé avec lui pour la première fois vous permet de dire qu'il a été condamné à combattre pour toujours dans la Guerre Sanglante – un conflit sans fin entre les tanar'ri chaotiques et les baatezu loyaux, les diables des Neufs Enfers.~
+
+@50   = ~Transfert d'énergie vitale~
+
+@51   = ~Drain d'énergie vitale~
+
+@52   = ~Transformation glorieuse~
+
+@53   = ~ah !~
+
+@54   = ~Abaia~
+
+@55   = ~La Gemme de l'Harmonie~
+
+@56   = ~La Gemme de l'Harmonie est une sphère de diamant légèrement plus grande que la main d'un homme. Des milliers de facettes couvrent sa surface, absorbant la lumière qui la touche dans ses tréfonds prismatiques pour créer un halo d'arcs-en-ciel scintillants. Seul un réceptacle harmonieusement unifié peut contenir l'Etincelle de la déva et cette gemme pourrait faire l'affaire si elle était préparée correctement.
+
+Caractéristiques : La gemme peut aussi être utilisée comme une pierre ioun. Si elle est utilisée ainsi, elle protège celui qui l'utilise de la plupart des influences mentales – charme, domination et peur. Elle possède également des pouvoirs de régénération mineurs et régénère 1 point de vie tous les trois rounds.~
+
+@57   = ~Calice de la paix~
+
+@58   = ~Le Calice de la paix
+
+A première vue, l'objet à l'air simple et sans attrait, et vous vous demandez pourquoi la déva Ybdiel a parlé de cette simple coupe d'étain avec tant de respect.
+Cependant, lorsque vous regardez à l'intérieur de ce réceptacle sans ornementation, vous remarquez soudain que son fond brille d'une lumière dorée. Vraiment, cet objet sans prétention est le Calice de la Paix – un des légendaires Objets de l'Accord. Le Calice est l'un des trois objets qui, ensemble, peuvent soigner la déva et la bebilith.
+
+Caractéristiques :
+
+En plus de sa grande importance dans votre quête, il possède de puissants pouvoirs de guérison. Il peut lancer trois sorts de guérison par jour.~
+
+@59   = ~Eau de la Sérénité~
+
+@60   = ~L'eau de la Sérénité
+
+Un esprit troublé ne peut être calmé que par la tranquillité et la paix. Cette eau du lac Serein du le paisible plan de l'Elysée brille d'une lumière douce et chaude.
+
+Caractéristiques :
+
+L'eau de la Sérénité possède de grands pouvoirs de restauration et peut être utilisée pour le soin des maladies et pour lancer une restauration. Elle soigne également l'aveuglement et la surdité.~
+
+@61   = ~L'Etincelle de la déva~
+
+@62   = ~Une fois que la Gemme d'Harmonie contient l'Etincelle de la déva, elle acquiert les immenses et stupéfiants pouvoirs de l'essence du planétaire. La lumière céleste flotte et brille à l'intérieur de la gemme, allumant le coeur du diamant avec un brillant feu bleu.
+Le diamant détenant l'Etincelle de la déva peut-être utilisée comme une pierre ioun. Il est extrêmement puissant et génère les effets suivants :
+
+Caractéristiques :
+Donne +3 en CHA, +2 En FOR et CON
+Immunité au poison
++ 2 à tous les jets de sauvegarde et + 10% de résistance à la magie
+Régénération de 1 point de vie par round~
+
+@63   = ~Une fois que la Gemme d'Harmonie contient l'Etincelle de la déva, elle acquiert les immenses et stupéfiants pouvoirs de l'essence du planétaire. La lumière céleste flotte et brille à l'intérieur de la gemme, allumant le coeur du diamant avec un brillant feu bleu.
+Le diamant détenant l'Etincelle de la déva peut-être utilisée comme une pierre ioun. Il est extrêmement puissant et génère les effets suivants :
+
+Caractéristiques :
+Donne +3 en CHA, +2 En FOR et CON
+Immunité au poison
++ 2 à tous les jets de sauvegarde et + 10% de résistance à la magie
+Régénération de 1 point de vie par round~
+
+@64   = ~Ybdiel~
+
+@68   = ~Corps d'Ybdiel~
+
+@69   = ~Ceci est le corps de la déva Ybdiel qui vous a demandé de l'aider à trouver les Objets de l'Accord avant qu'il ne succombe à la maladie causée par le poison de la bebilith et qu'il ait perdu conscience. Malgré sa carrure musclée, la déva est étrangement légère. Il brûle aussi de fièvre ; on dirait qu'il ne vivra plus très longtemps – vous feriez mieux de vous dépêcher. Dans sa condition, la déva murmure constamment des supplications pour qu'on l'aide et répète le même nom, "Abaia" - celui du démon qui lui a volé son Etincelle.~
+
+@70   = ~Yanieth~
+
+@71   = ~Elesrym~
+
+@72   = ~Fresienne ~
+
+@73   = ~Garrish~
+
+@74   = ~Nouvelle créature~
+
+@75   = ~Amulette de la nature~
+
+@76   = ~Durant votre visite sur le plan de Elysée, l'amulette de la Seldarine que vous avait offert la Reine Ellesime pour avoir sauvé l'Arbre de Vie a été touchée par la déesse de la Terre, Chauntéa elle-même. Elle a ainsi gagné des améliorations et plus de pouvoirs de protection.
+
+Caractéristiques :
+
++2 à tous les jets de sauvegarde
++10% de résistance à la magie
+Immunité au silence
+Immunité au poison et aux maladies~
+
+@77   = ~Arc de la Feuille~
+
+@78   = ~Cet arc élégant appartenait à la déva Ybdiel. Il vous a été offert comme juste récompense pour avoir sauvé le céleste empoisonné. L'arc possède des capacités intéressantes.
+
+Caractéristiques :
+
+Arc long +4
+Tire des munitions +4 illimitées
++ 20% de résistance au feu, au froid et à l'électricité~
+
+@79   = ~Arc des feux de l'Enfer~
+
+@80   = ~Cet arc est la récompense que le yugoloth chasseur de prime vous a offerte pour avoir trahi la déva Ybdiel
+
+Caractéristiques :
+
+Arc long +3
+Tire des munitions +3 illimitées
++ 5% de résistance au feu et à l'acide~
+
+@81   = ~Masse de la haine abyssale~
+
+@82   = ~Cet étrange artefact appartenait auparavant à la Bebilith Abaia et vous a été donné comme cadeau d'adieu. La masse est une arme puissante, mais hélas, elle peut s'avérer également dangereuse pour son possesseur.
+
+Caractéristiques :
+
+TAC0: +3
++3 en force
+-2 en intelligence
+Immunité à la peur~
+
+@83   = ~Mirriam~
+
+@84   = ~Kessen~
+
+@85   = ~Pierre d'âme de Sendaï~
+
+@86   = ~Cette améthyste violette qui contient l'âme de l'enfant de Bhaal drow, Sendaï, possède de considérables pouvoirs magiques. Il est cependant certain que seul Irenicus lui-même peut utiliser cette pierre.
+
+Caractéristiques :
+
++ 25% de résistance à la magie
++ 1 de vitesse au lancement de sorts
++ 1 de sagesse
+Poids : 1~
+
+@87   = ~Pierre d'âme d'Abazigal~
+
+@88   = ~Ce diamant bleu en forme de larme qui contient l'âme de l'enfant de Bhaal dragon, Abazigal, possède des pouvoirs magiques considérables. Il est cependant certain que seul Irenicus lui-même peut utiliser cette pierre.
+
+Caractéristiques :
++ 15% de résistance à la magie
++ 50% de résistance à l'électricité
++ 10 % de résistance aux dommages physiques
++ 10 points de vie
++ 1 en force
+Poids : 1~
+
+@89   = ~Pierre d'âme de Balthazar~
+
+@90   = ~Cette topaze jaune qui contient l'âme de l'enfant de Bhaal humain, Balthazar, possède des pouvoirs magiques considérables. Il est cependant certain que seul Irenicus lui-même peut utiliser cette pierre.
+
+Caractéristiques :
++ 15% de résistance à la magie
+Capacité spéciale : Pose d'ombre une fois par jour
+Immunité au poison
+Immunité aux maladies
++ 1 en dextérité
+Poids : 1~
+
+@91   = ~Piège d'âme~
+
+@92   = ~Pose d'ombre~
+
+@93   = ~Restauration de l'âme~
+
+@94   = ~Joneleth~
+
+@95   = ~Corellon Larethian~
+
+@96   = ~La Création des Elfes, premier Tome~
+
+@97   = ~La Création des Elfes, premier Tome
+
+Du chaos primordial au centre de l'univers sont nés les dieux, d'un seul tenant, parfaitement formés. Chacun prit possession d'une sphère, chacun étant pourvu du pouvoir et de la force du cosmos. Ils coopérèrent pour la première (et la dernière) fois pour créer les mondes. Mais certains Dieux usèrent de leur pouvoir avec plus de sagesse que d'autres.
+
+Une alliance se forma très tôt parmi les dieux les plus sages. Ils savaient comment utiliser leur pouvoir. Ce rassemblement de Dieux, qui s'appelaient entre eux la Seldarine (ou les Frères et Soeurs des Bois), utilisèrent leur essence elle-même afin de créer certains aspects des mondes.
+
+Tandis que d'autres dieux se disputaient au sujet de leurs juridictions et de la possession de tel ou tel vertu ou attribut, la Seldarine modifia certains endroits, faisant de leurs mondes des endroits riches, verdoyants et magnifiques. De plus, ils créèrent les corps qui un jour contiendraient l'esprit de la première race intelligence à poser le pied sur ces mondes – La race des êtres connus sous le nom "d'elfes". Ils conçurent ces corps avec grand soin et leur donnèrent une beauté extraordinaire. Le coeur des autres dieux se noircit de jalousie et ils n'eurent de cesse que d'imiter la Seldarine.
+
+Ces dieux créèrent à grande hâte leurs propres créations, rivalisant avec celles que la Seldarine avait créé, mais il n'investirent pas le temps nécessaire pour créer une race et donc leurs résultats furent défectueux – les dieux s'en moquaient. Leur création n'étaient rien comparées à celles de la Seldarine. La plupart étaient des monstres, des créatures qui un jour hanteraient les rêves des Elfes. De toutes leurs créations, seul le corps réservé à l'homme possédait l'esquisse d'un potentiel, car un jour ils auraient la possibilité de changer la terre comme les elfes.
+
+Les dieux des nouvelles races essayèrent avec trop de hâte de reproduire un chef d'oeuvre qui avait pris aux dieux plus sages des éons. Mais aucun des corps n'arriva à la vie avant la rencontre historique entre Corellon Larethian et Gruumsh, chef de l'Anti-Seldarine.
+
+- Larian Chantebrille, prêtre de Corellon Larethian~
+
+@98   = ~La création des Elfes, second Tome~
+
+@99   = ~La création des Elfes, second Tome
+
+Lorsque le dieu orc Gruumsh vit la création de la Seldarine, les elfes, il les considéra comme une abomination – Et fut furieux. Pour la première fois, le désir de faire couler le sang courut dans les veines d'un dieu. Gruumsh s'apprêta à écraser la Seldarine et quelques Dieux firent cause commune avec lui, tandis que d'autres le laissèrent faire.
+
+Lorsque un Gruumsh furieux attaqua Corellon Larethian, le chef de la Seldarine, une bataille terrible commença : la Guerre des Dieux. Combien de temps elle dura sur les champs immaculés des planètes, nul ne le sait. Chaque combattant blessa gravement l'esprit et le corps de son ennemi. Tandis que les autres combattants abandonnaient le combat (gravement blessés, sans que cela soit mortel), Gruumsh et Corellon ne s'arrêtèrent pas. Au lieu de cela, ils continuèrent leur combat enragé. Ils traversèrent les plans et répandirent mutuellement leur sang sur les mondes.
+
+Alors que la nuit tombait, les pouvoirs de Gruumsh grandirent tandis que ceux de Corellon s'affaiblirent. Tout semblait perdu pour la Seldarine. Les larmes de la lune tombèrent sur le visage défait de Corellon et elles se mélangèrent avec son sang. Alors Corellon regarda ses compagnons et il trouva là la volonté de combattre. Il brandit son épée et, d'un coup terrible, il énucléa l'orbe de Gruumsh (qui ainsi devint Gruumsh un-oeil). Le dieu cria de douleur, de l'ichor noir coulant de sa blessure. Gruumsh se tourna et fuit. Dans sa cachette, il polit sa haine, recherchant toujours à créer les ennemis de la Seldarine. Et la plus grande de sa création, faite de sa haine brûlante et de la noirceur de son sang, fut les orcs. C'est pourquoi, jusqu'à ce jour, les Elfes et les Orcs sont de tels ennemis. Depuis le début, même avant leur création, l'essence même des dieux luttait l'une contre l'autre.
+
+Avec la défaite de Gruumsh, la Seldarine et ses alliés continuèrent leur travail. La Seldarine réunit les larmes de la lune et le sang versé par Corellon durant cette grande bataille, les placèrent dans les corps qu'ils avaient créés et les infusèrent de leur propre esprit. Chaque dieu confera des vertus à sa propre création, nourrissant et prenant soin de la nouvelle race ainsi formée. Ainsi, les Elfes naquirent du sang de Corellon Larethian mélangé avec la terre du monde, bénis avec les larmes de la lune et furent donné une quasi divinité.
+
+Les autres dieux virent cet exemple et décidèrent d'insuffler la vie dans leurs propres corps mal formés, avec des résultats variés. Hélas, toutes les autres races n'étaient que des pâles reflets des Elfes.
+
+L'histoire de la Guerre des Dieux explique la plupart des caractéristiques elfiques, à la fois physiques et mentales. Le fait qu'ils soient faits du sang du dieu Corellon Larethian explique leur longue durée de vie. Les larmes de la lune expliquent la beauté éthérée des elfes – une beauté qui conduit souvent les autres races moindres à les prendre pour des dieux. La terre explique le lien que tous les elfes ressentent avec la nature.~
+
+@100  = ~Les Elfes et la Mort, Tome I~
+
+@101  = ~La mort des elfes, Tome I
+
+Certains considèrent que les elfes sont virtuellement immortels. Bien qu'ils puissent mourir d'un accident ou suite à une attaque, personne n'a jamais vu un elfe mourir de vieillesse. La raison en est que nul elfe réellement âgé ne reste dans le monde que les humains connaissent ; les elfes "vieux" on quitté le monde et ce sont rendus dans un endroit appelé Arvanaith. Vers l'âge de 550 ans, les elfes ressentent le besoin irrésistible faire un dernier voyage. Un elfe peut résister à ce besoin à peu près autant qu'un homme peut défier la mort lorsqu'elle arrive.
+
+Avec les sorts disponibles pour prolonger la vie, les elfes ont le choix de remettre à plus tard l'inévitable. Cependant, vu leur attachement aux cycles naturels du monde, la plupart des elfes ne ressentent que du dédain pour ceux qui essayent de repousser l'inévitable. Seul les elfes qui ne ressentent aucun respect pour les cycles des saisons ou ceux qui ont des devoirs cruciaux qu'ils doivent mener à bien choisissent cette option. Aucun elfe ayant voyagé en Arvanaith n'a jamais quitté de son plein gré cet endroit ni n'a regretté ce voyage. La beauté sylvestre qui attend ces elfes est au-delà de celle que connaissent les humains et est à peine concevable pour les elfes eux-mêmes.
+
+L'Arvanaith est un endroit plein de grâce naturelle, caché à tous sauf aux elfes. Quelques sages humains ont imaginé que cet endroit est un morceau de l'Arvandor sur le plan de l'Olympe, mais aucun n'a jamais été capable de l'atteindre, sauf par la mort. Ces sages ayant fait ce voyage et qui ont pu revenir à leur plan d'origine sont incapables de parler de l'Arvanaith. Le souvenir de la beauté est trop intense pour que leurs esprits humains puissent le supporter. C'est véritablement un royaume réservé aux elfes.
+
+La seule manière de revenir de l'Arvanaith est la réincarnation, la résurrection ou un moyen quelconque de faire revenir l'esprit de ce royaume. (Les deux dernières méthodes sont toujours réalisées sans le consentement de l'elfe.) Très peu reviennent volontairement après avoir passé des millénaires à apprécier la splendeur de l'Arvanaith ; ils acceptent d'être réincarnés et leurs âmes recommencent à zéro. Ceux qui partent regagnent rarement leurs corps d'origine. Ils se retrouvent réincarnés sous la forme d'un animal. Parfois ces elfes reviennent dans le corps d'un animal si bas sur l'échelle de l'évolution qu'ils en perdent leur esprit elfique.
+
+Seuls quelques privilégiés légendaires sont revenus dans leur corps d'origine à travers le temps. Ces elfes sont revenus pour réaliser des quêtes épiques et salvatrices. Le plus souvent, ces elfes réellement héroïques qui ont demandé à être réincarnés renaissent en un nouvel elfe.~
+
+@102  = ~Les elfes et la mort, tome II~
+
+@103  = ~La Mort des Elfes, tome II
+
+En Arvanaith, tout est possible. Tout ce que les elfes peuvent vouloir est disponible, du pardon à l'oubli. Les vents de l'Arvanaith peuvent calmer l'esprit le plus troublé, lui permettant de mettre de coté ses peurs et ses tourments. Seuls les rares qui refusent d'abandonner leur peine conservent le souvenir de leurs anciens chagrins.
+
+A la place, des souvenirs d'amis et des temps heureux font la nouvelle vie de l'elfe, accompagnés par de nouveaux rêves et défis. Les souvenirs désagréables restent ignorés dans l'esprit de l'elfe, servant juste de souvenir et de mesure pour apprécier l'existence en Arvanaith. La plupart des elfes sont heureux d'abandonner les souvenirs de leur souffrance, ne gardant que le souvenir de son passage afin d'apprécier plus pleinement leur bonheur présent.
+
+Il faut noter que les elfes ne meurent pas comme les autres races mortelles ; en fait, les elfes souffrent rarement la vraie mort. On fait le deuil de ceux à qui cela arrive pendant des mois car leurs esprits ne peuvent jamais retourner nourrir la terre encore une fois. Leurs enfants sont chéris dans l'espoir qu'ils continueront le labeur de leurs parents tant que ceux-ci ne sont pas morts dans le déshonneur.
+
+Il n'y a que peu de manières pour un elfe de subir ce sort. L'attaque de certains morts-vivants, le suicide, mourir dans un lieu contre nature et autres circonstances extraordinaires peuvent complètement éradiquer l'existence d'un elfe. La seule manière de retrouver ces braves elfes est de recourir à des magies au moins aussi puissante qu'un souhait.
+
+Les corps de ceux qui on connu la vraie mort sont souvent brûlés. Cela empêche une force mort-vivante d'en occuper l'enveloppe. Les villages d'elfes ont appris par expérience qu'un esprit mutilé est pire qu'un esprit mort-vivant.
+
+Les elfes ont également peur que leurs esprits et leur volonté soient violés car ils sont essentiels afin d'entrer en Arvanaith. Toute créature qui se nourrit de la force vitale d'une autre est soigneusement évitée (ou tuée, si c'est possible) par les elfes, car ces créatures sont parmi les rares à pouvoir infliger l'oubli véritable à un elfe. Même les elfes qui vivent sous la férule maléfique évitent ces créatures.~
+
+@104  = ~Les races elfiques de Toril~
+
+@105  = ~Les elfes de Toril ne suivent pas les coutumes des autres mondes. Ce qui unit presque tous les elfes des Royaumes est le titre qu'ils se sont donné : le Tel'Quessir. Cela se traduit en "le peuple". Tous les non-elfes sont connus comme étant des "N'Tel'Quess" ou "non peuple".
+
+Bien que ces elfes possèdent les aptitudes habituelles des elfes, leur apparence est différente. Ces elfes sont de taille humaine, même si la ressemblance s'arrête là. Comme leurs cousins, les elfes des Royaumes sont bien plus minces et délicats d'apparence. Si on cherche à les distinguer, il y a cinq sous races d'elfes dans les Royaumes et chacune est vue différemment par les autres races.
+
+La première ethnie est celle des elfes dorés. Certains les appellent également les elfes solaires ou les haut-elfes bien qu'ils ne ressemblent pas aux hauts-elfes habituels et qu'ils ressemblent plus à des elfes gris. Les elfes dorés sont généralement considérés comme étant les plus civilisés ainsi que les plus hautains vis-à-vis des autres races. Ils sont la noblesse des elfes de Toril, guidant les autres elfes suivant les coutumes elfiques. Ils sont l'équivalent des Silvanesti de Krynn.
+
+La deuxième ethnie est appelée parfois elfes de lune, d'argent, gris quoi que le nom soit le seul point commun encore une fois avec l'elfe gris typique. Ils ressemblent plus aux hauts-elfes qu'aux elfes gris, ce qui n'est pas surprenant vu que les hauts elfes nomades se sont installés sur Toril. Ce sont les elfes les plus communs sur ce monde, ou du moins la race la plus rencontrée par les non-elfes. Ils ont plus de chance de devenir des aventuriers que les autres races car ils sont plus tolérants. De même, la plupart des demi-elfes des Royaumes descendent des elfes de lune. Bien que les elfes de lune soient considérés comme étant moins nobles que les elfes dorés, la reine d'Eternelle rencontre est une elfe de lune.
+
+La troisième ethnie est à peu près équivalente aux elfes sylvains. On les appelles les elfes sauvages, verts, ou les elfes de la forêt. Ils ne fréquentent presque que les autres elfes, n'ayant presque aucun contact avec les autres races. Vu qu'ils essayent de vivre loin des humains, ce sont les elfes les moins rencontrés. Bien qu'ils aient un royaume à eux, on les trouve dans toutes les nations elfiques.
+
+Les elfes de mer sont la quatrième ethnie. Ils sont eux aussi assez rares, bien qu'ils ne soient pas aussi reclus que les elfes sauvages. Ils nagent dans deux eaux : celles de la grande mer et celle des étoiles déchues. Il n'y a qu'une faible différence entre les deux. Une race nage dans l'eau salée et l'autre dans l'eau claire mais ils peuvent survivre dans les deux. Les elfes d'eau vivent n'importe où mais on les trouve surtout dans l'île retirée d'Eternelle Rencontre.
+
+La dernière ethnie de Toril est celle des elfes noirs. Comme leurs cousins drow, les elfes noirs sont presque tous maltraités pour leurs coutumes. Cruelles créatures vivant sous terre, ces drow ne sortent que la nuit, cherchant à se venger de leurs "oppresseurs", les elfes responsable de leur retraite sous terre.~
+
+@106  = ~Les elfes et l'esprit elfique~
+
+@107  = ~Esprit elfique
+
+La mythologie elfique prétend que le beau peuple est né du sang que Corellon Larethian a perdu durant ses batailles avec Gruumsh et des larmes de Séhanine ou (Angharradh).(La plupart des membres du panthéon sont des ennemis ou n'aiment pas le panthéon des races goblinoïdes qui sont celui des orcs, des goblins, des hobgoblins, des bugbears, des kobolds et des urds.) Certaines légendes disent que les premiers elfes apparus dans les Royaumes étaient formés à l'image de Corellon, construits par magie à partir des rayons du soleil, de la lune, de la forêt, des nuages, des mers et des ombres. Les autres mythes prétendent qu'au moins deux des ethnies elfiques, les elfes dorés et de lune en particulier on migré vers Abeir-Toril en passant par des portails magiques d'un autre monde généralement appelé "Féérie".
+
+On ne peut être que frappé par la très proche relation entre le beau peuple, la magie et le monde naturel dans la théologie elfique. La plupart des croyances elfiques insistent entre l'unité elfique avec la vie et la nature et ont tendance à ne pas faire de différence entre les elfes et leur environnement, tout comme la Seldarine est censée être les esprits de l'Arvandor. Par exemple, le beau peuple possède des esprits, pas des âmes, et nombreux elfes croient qu'ils seront réincarnés en animaux, en plante, en fée ou bien encore en elfes. De même manière, les elfes sont des créatures de la Toile, sont étroitement liés et font partie de la toile de magie qui enveloppe Abeir-Toril.
+
+Le beau peuple se donne le nom de Tel'Quessir, un terme elfique signifiant "le peuple". Ils appellent les autres êtres les "N'Tel'Quess", une expression elfique pas très diplomatique signifiant "pas des gens". Le Tel'Quessir incluait à l'origine sept ethnies elfiques, chacune apparue dans les royaumes il y a vingt-cinq millénaires et qui se sont mêlées aux humains pour former le Na'N'Tel'Quess, presque pas des gens (les demi-elfes).~
+
+@108  = ~Tel'Seldarine~
+
+@109  = ~Tel'Seldarine
+
+Le beau peuple des royaumes vénère un panthéon de dieux connu sous le nom de Seldarine, un terme complexe qu'on peut grossièrement traduire comme fraternité de frères et de soeurs des bois, sous-entendant la grande diversité d'intérets et le désir de coopération qui existe parmi les dieux du panthéon elfique. Chacun agit indépendamment des autres mais les pouvoirs elfiques sont liés ensemble par l'amour, la curiosité et l'amitié afin de combiner leur force pour accomplir une tâche ou pour faire face à des menaces extérieures. Bien que nombre de leur sphères d'influences soient indistinctes, il n'y a pas de conflit entre eux. La Seldarine est presque entièrement de tempérament chaotique, neutre et/ou bon. Aucun membre n'est maléfique.
+
+Bien que les dieux du panthéon elfique soient impliqués activement dans les vies de leurs croyants, peu interviennent directement dans les évènements affectant un individu particulier ou même un petit groupe d'elfes. Comme le beau peuple, la Seldarine à tendance a avoir des objectifs à long terme et ils n'interviennent jamais directement dans l'histoire des Royaumes sans y réfléchir et en discuter longuement.
+
+Corellon Larethian :
+
+Corellon est l'incarnation des idéaux les plus hauts du peuple elfique. Il est le créateur de la race elfique et comme tous les dieux elfique, il peut prendre la forme des deux sexes mais apparaît la plupart du temps en temps que male et est généralement vénéré sous cette forme.
+
+Séhanine "lunarc"
+
+On l'identifie plus précisément avec la pleine lune. En tant que déesse de la lune, Séhanine a sous sa sphère d'influence les divinations, les prédictions et tout ce qu'on appelle généralement les "magies subtiles", l'illusion, la magie élémentale de l'air, l'altération... Elle protège également de la folie.
+
+Hanali Celanil :
+
+Déesse de la romance, de l'amour et de la beauté. Ceux qui souhaitent avoir de la chance en amour ou qui veulent renforcer leur beauté demandent souvent à Hanali de les aider. Elle possède une immense fontaine de cristal qu'elle ne partage qu'avec la déesse Aphrodite et les potions qui en proviennent sont données à ses hauts prêtres pour servir de philtres d'amour. Hanali est un être de beauté éternelle et d'une grande gentillesse qui pardonne les péchés sans importance. Elle aime récompenser ses croyants en leur offrant un amour ou une affection inattendus.
+
+Rillifane Rallathil :
+
+Dieu des forêts et de l'environnement, le seigneur des arbres. Il est vénéré par la plupart des druides elfiques et des elfes sauvages. On le décrit sous l'aspect d'un grand chêne dont les racines se mêlent avec toutes les autres plantes du monde. Cet être veille à ce que toutes les créatures puissent accomplir leur rôle dans la nature sans en abuser.
+
+Shevarash, l'archer noir :
+
+Demi puissance. Sa sphère comprend la haine des drow, la vengeance, les expéditions militaires et les pertes.~
+
+@110  = ~Après la tentative échouée de <CHARNAME> de ne pas tenir sa promesse et avec la permission d'Ao, Irenicus a pu prendre possession non seulement de l'âme de <CHARNAME>, mais également de son corps. A la grande panique et au dégoût de <CHARNAME>, le renégat elfe a tout simplement transféré son esprit dans l'enveloppe mortelle de <CHARNAME>, utilisant leur lien mental comme point d'entrée. Après une courte lutte qui finit en la disparition des derniers vestiges de la personnalité de son hôte, Irenicus à pris possession du droit de naissance de <CHARNAME> et de son héritage, choisissant de devenir un dieu à la place de <CHARNAME>. Juste après son ascension, le nouveau dieu utilisa ses pouvoirs afin de créer un avatar qui possédait son ancien visage et sa stature.
+
+Une fois que son nouveau corps fut fini, Irenicus retourna sur le plan matériel et entra à Suldanessalar. C'est aux portes de la ville qu'Ellesime le rencontra, et un coup d'oeil au visage qu'elle avait auparavant aimé et qui à présent brûlait de fureur et de triomphe, suffit à la faire trembler. Cette fois, même la magie de la reine puisée directement dans sa connection avec l'Arbre de vie ne fut pas suffisante pour contrer la fureur divine de son ancien amant... Et <CHARNAME> n'était pas là pour sauver la situation. Suldanessalar tomba, réduite en cendres et sa malheureuse reine subit le même sort... Et les eaux de la rivière Sulduskon portèrent ses cendres jusqu'à la mer inexplorée.
+
+Irenicus suivit alors son plan initial et rétablit son lien avec l'Arbre de Vie, se nourrissant de son pouvoir et le drainant de toute son énergie. Parce qu'il possédait à présent la totalité de l'essence de Bhaal, il réussit cette fois-ci alors qu'il avait échoué deux fois auparavant. Lorsqu'il finit sa tâche, l'Arbre n'existait plus. Sa quête de pouvoir achevée, l'Exilé était prêt à défier les dieux elfiques eux-mêmes.
+
+La Seldarine avait observé l'ascension entêtée d'Irenicus au pouvoir avec la fascination terrifiée des oiseaux paralysés par un serpent. Mais une fois qu'il pénétra dans leur royaume – le paisible et glorieux plan de l'Arvandor – Ils firent front contre lui. Réalisant que même avec son nouveau statut divin il n'était pas de taille à affronter les pouvoirs combinés de la Seldarine, l'Exilé joua un jeu dangereux et défia Corellon Larethian lui-même. Mais le chef de la Seldarine laissa Rillifane Rallathil combattre à sa place car il était plein de peine et de colère à cause de la mort de sa fille. Dans une série de batailles magiques qui firent trembler les plans eux-mêmes, le dieu endeuillé des forêts remporta la victoire sur Irenicus et ses nombreux démons alliés et le chassa de l'Arvandor. 
+
+Rillifane fut pourtant incapable de prendre à l'Exilé le pouvoir qu'il avait volé. Finalement, la Seldarine fut obligée de signer une trêve forcée. Joneleth Irenicus devint le premier dieu elfique de la vengeance et des arts de la magie noire. Il réside dans son propre royaume d'Enuma Elish, un petit sous-plan du plan des étendues grises et répond aux prières des elfes exilés qui, comme lui, sont tombés en disgrâce auprès de la Seldarine.~
+
+@111  = ~Après la conclusion de son marché avec <CHARNAME>, Irenicus obtint l'âme d'un des frères rivaux de l'enfant divin. Ayant félicité avec sarcasme <CHARNAME> de sa victoire et possédant une nouvelle âme divine, l'Exilé se restaura, défiant encore une fois la malédiction de la Seldarine et moquant leur justice. Il revisita les lieux où il avait vécu sur Féérune, comme son vieux laboratoire à Athkatla, sa base à l'Asile et collecta ses vieux appareils et autres bidules magiques. Une fois qu'il eut fini ces tâches, Irenicus disparu de la face de Toril et ne fut plus vu durant plusieurs décades.
+
+Mais comme il on pouvait le prévoir, le mage n'était pas parti pour de bon et son retour dévasta les paisibles plaines du Thétyr comme un ouragan dévastateur. L'assaut final d'Irenicus sur Suldanessalar fut plus meurtrier que celui qui l'avait précédé et cette fois <CHARNAME> ne se précipita pas pour aider la ville, soit parce que l'enfant divin n'entendit pas parler de l'attaque soit parce qu'<PRO_HESHE> ne se souciait plus de la ville. Une par une, les défenses de Suldanessalar tombèrent et Irenicus entra au coeur même de la cité, traquant Ellesime et se riant de ses pièges élaborés.
+
+Elle s'attendait depuis longtemps à son retour... En effet, la reine avait passé des décades à blâmer la traîtrise de <CHARNAME> et à renforcer ses protections. Mais lorsqu'il lui fallut affronter encore une fois son ancien amour, Ellesime ne fut pas de taille face à la fureur d'Irenicus. Une fois qu'elle eut réalisé qu'Irenicus voulait à nouveau la capturer vivante afin de l'utiliser comme lien avec l'Arbre, Ellesime commit son ultime sacrifice, mettant fin à son existence physique dans une explosion de feu magique et laissant son esprit partir vers l'Arvandor.
+
+La brave fuite d'Ellesime face à sa revanche ultime fut un coup terrible aux plans d'Irenicus, puisque même l'âme du frère de <CHARNAME> n'était pas assez puissante pour lui permettre d'établir un lien avec l'Arbre de Vie. Pourtant Irenicus était trop vaniteux pour abandonner ses projets de devenir un dieu et la vue de son ancienne amante se suicidant sous ses yeux ne fit que renforcer sa détermination.
+
+Après qu'Irenicus eut rétabli son lien avec l'Arbre de Vie, son tronc majestueux ainsi que ses branches prirent feu, engloutissant rapidement le mage et cette fois il n'y eu personne pour soulager la chair en feu de Joneleth. Irenicus finit en cendres, ne laissant aucune trace de lui sur la terre torturée. Son âme fut consumée par le feu magique et il connut la vraie et ultime mort, sans possibilité de revenir. Son bûcher funéraire fut le plus majestueux des Royaumes cependant, car il annihila toute la population de Suldanessalar et le symbole de l'obsession du mage – l'Arbre de vie Elfique.~
+
+@112  = ~Suite à ce qu'il considéra comme la trahison de <CHARNAME>, Irenicus fut rejetté dans les puits des abysses afin d'être torturé et moqué par les tanar'ri et détesté par les autres. Cependant le bref temps qu'il avait passé avec <CHARNAME> lui laissa plus qu'une crise de frustration et de l'énervement. Cela lui donna une réputation. Le fait d'avoir combattu côte à côte avec le célèbre héritier au trône de Bhaal le distingua des milliers d'autres âmes torturées et avoir rencontré Démongorgon lui-même le rendit célèbre.
+
+Il fut finalement capable de jouer sur cette rencontre et pu obtenir une brève audience avec le principal rival de Démongorgon dans les abysses – Graz'zt aux six-doigts. Personne ne sait comment la rencontre fut arrangée ni comment elle se passa, mais le résultat fut un surprenant changement dans la destinée de L'exilé car, d'une manière ou d'une autre, il réussit à gagner l'intérêt du prince démon impulsif.
+
+Cet évènement fut suivi du rapide retrait d'Irenicus du trou où il brûlait, d'une promotion toute aussi rapide et presque incroyable au statut de démon moyen avec la permission de garder son corps humanoïde et les souvenirs qui lui restaient. L'Exilé obtint un médaillon symbolisant une main noire à six doigts, un laboratoire magique de recherche en Azzagrat, la couche des abysses privée de Graz'zt et le statut de disciple. De plus, on peut souvent voir Irenicus dans la suite personnelle du Prince sombre – une faveur inhabituelle, accordée à de rares élus.
+
+La nature de sa relation avec ce Prince démon reste mystérieuse, mais on murmure parfois que l'ancien mage elfe est devenu l'un des favoris de Graz'zt après lui avoir donné une information extrêmement confidentielle concernant l'emprisonnement de Démongorgon dans le plan primaire. Connaissant la nature chaotique et traître de Graz'zt, il y a peu de chance que cela dure. Cependant, avec l'aide de <CHARNAME>, Irenicus a gravi les marches de la hiérarchie tanar'ri et connaissant l'entêtement de Jon, il est bien possible que dans quelques siècles, Ellesime reçoive la visite d'un voyageur des plans inférieurs...~
+
+@113  = ~Jon Irenicus redevint Joneleth. Même après son accord mitigé envers le nouveau verdict de la Seldarine, il ne récupéra pas son Esprit Elfique. Les dieux Elfiques décidèrent que ses crimes étaient trop grands pour être immédiatement pardonnés et qu'il ne pourrait être reçu en Arvandor qu'après un repentir réel et sincère.
+
+Après que l'Exilé ait senti sa nouvelle âme mortelle fusionner avec les restes mutilés de son essence, il s'effondra en agonie. Sa restauration était douloureuse, peut-être plus que les tortures qu'il avait subi dans les abysses car il s'était vu infligé toute la souffrance, à la fois mentale et physique, qu'il avait fait subir à toutes ses victimes depuis sa première attaque contre l'Arbre de Vie. 
+
+Lorsque Joneleth émergea de sa stase, étendu sur un lit étroit dans la cabane d'un paysan du petit village d'Amkethran, des larmes de tristesse et de profonde honte coulèrent de ses yeux tandis qu'il pleurait pour la première fois depuis un siècle tout ce qu'il avait perdu dans sa quête futile pour devenir un dieu. Il était seul, une coquille d'homme brisé, sujet à des crises d'anxiété suivies par des jours de sombre mélancolie et de rage. Mais comme les dieux l'avaient promis, son corps avait été restauré à son état initial et les traits de son visage étaient à nouveau clairement elfiques. Pourtant, malgré sa détresse, l'Exilé n'arrivait pas à comprendre ses réactions car à sa grande horreur, il réalisa qu'il ne se souvenait d'aucun détail de sa vie antérieure, ni même son vrai nom. Même sa magie était perdue et il dû la regagner car il était en effet aussi jeune que son visage le suggérait. 
+
+Quittant Amkethran, Joneleth se dirigea vers le nord avec la vague idée d'aller à Evereska. C'est là qu'on perd ses traces et ce qu'il est advenu de lui reste un mystère que même <CHARNAME> n'a pas été capable d'éclaircir. Une chose était claire cependant : l'ancien Jon Irenicus était mort pour de bon. Joneleth survécu cependant et vécu beaucoup d'années de joies et de désespoir. Il vécu de nombreuses aventures et son chemin croisa celui de nombreux héros et sages des Royaumes. Il subit la pitié et le mépris de ses frères elfes et pourtant la souffrance qu'il avait enduré et les leçons qu'il avait appris furent suffisantes pour le garder sur le chemin étroit et rigide de la rédemption. Avec le temps, son vrai repentir fut accepté par la Seldarine et il obtint ce qu'il désirait – Une connection avec l'Esprit Elfique ainsi que le droit d'aller en Arvandor.~
+
+@114  = ~Improved Oasis détecté – Le dialogue de l'oasis de LR ne sera pas installé~
+
+@115  = ~Improved Oasis non détecté...~
+
+@116  = ~Ascension détecté...~
+
+@117  = ~Sendai zombie~
+
+@118  = ~Abazigal zombie~
+
+@119  = ~Balthazar zombie~
+
+@120  = ~Ascension non détecté...~
+
+@121  = ~Tougher Abazigal détecté, contenu additionnel ajouté...~
+
+@122  = ~Tougher Abazigal non détecté~
+
+@123  = ~Installe l'Imoen fix de Jcompton pour ToB...~
+
+@124  = ~Imoen banters fix de Jcompton déjà installé...~
+
+@125  = ~Accélérateur de dialogues~
+
+@126  = ~Restaure le portrait SoA d'Irenicus~
+
+@127  = ~Vous devez installer The Longer Road, sinon ce composant ne sert à rien~
+
+@128  = ~Restaure le portrait original de Jon...~
+
+@129  = ~Vous remarquez quelque chose qui traîne par terre et vous vous penchez pour le ramasser. C'est un morceau de parchemin sale avec quelques lignes griffonnées dessus. Vous êtes presque certain qu'il n'était pas là il y a un instant...~
+
+@130  = ~Salut crétin !
+
+Tu cherches kekchose ? T'as des sous ? 
+Viens dans la salle avec les directions sur le sol et montres-nous la couleur de ton blé.
+
+On t'souhaite bonne chance
+
+(Ce bout de papier à l'air bizarre... Non seulement il est sale et porte des traces brûlées, mais on dirait qu'on l'a mâché. L'écriture vous fait penser à celle d'un poulet saoul à qui on viendrait juste d'apprendre à écrire.)~
+
+@131  = ~LR va être installé sans la musique, si vous souhaiter l'avoir, désinstallez quelques uns de vos autres mods et réinstallez LR.~
