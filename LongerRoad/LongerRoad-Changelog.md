@@ -4,7 +4,8 @@
 - added globally unique labels for all mod components
 - replace REQUIRE COMPONENT with equivalent code which does not rely on DESIGNATED numbers
 - bring back old tp2 name
-- minor fixes
+- minor updates to mod readme
+- minor corrections
 
 ### Austin87
 - bring back compatibility with the "vanilla" version (checked during the game, no conflicts)
