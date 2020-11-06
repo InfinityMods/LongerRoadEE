@@ -38,7 +38,6 @@
 - during the cut-scene with the appearance of Demogorgon (file redbodh3.bcs), some lines used the file "finiren", although only friendly Irenicus can participate in this scene, so the commands are changed to "lrirenic"
 
 - fixed a bug due to which Irenicus, after defeating Demogorgon again at the Throne of Bhaal, repeated the same dialogue that had already spoken in the Watcher's Tower after the first death of Demogorgon. Added !AreaCheck ("AR6200") check-in jonel25.bcs script for this case.
-- added full translation into Russian
 
 - added code that removes opcode 319 from the Irenicus mask (imask1.itm) when mod installed on the non-EE version, because it is not supported on it and this caused the game to crash when Irenicus was called from the Abyss. If the mod is installed on the EE version, the opcode remains.
 
