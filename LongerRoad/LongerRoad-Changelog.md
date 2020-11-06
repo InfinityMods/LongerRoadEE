@@ -1,7 +1,8 @@
 # 2.0.0
 
 ### AL|EN
-- added globally unique labels for all components
+- added globally unique labels for all mod components
+- replace REQUIRE COMPONENT with equivalent code which does not rely on DESIGNATED numbers
 - bring back old tp2 name
 - minor fixes
 
@@ -43,8 +44,8 @@
 
 - removed unused script resimo5.bcs
 
-# SPOILERS: 
-- the following options have been tested - there are no more bugs:
+# SPOILERS:
+- the following options have been tested, there are no more bugs:
     * Irenicus was not summoned from the Abyss, Imoen in the group, Balthazar on the side of the protagonist
     * Irenicus was not summoned from the Abyss, Imoen is not, Balthazar is on the side of the protagonist
     * Irenicus was not summoned from the Abyss, Imoen is in the group, Balthazar is killed
