@@ -49,7 +49,8 @@ LANGUAGE ~Russian (Arcanecoast Team)~
 ///////////////////////////////////////////////////////////////////////
 
 BEGIN @0 LABEL "LongerRoad-Main"
-REQUIRE_COMPONENT ~Ascension.tp2~ 0 @120
+//REQUIRE_COMPONENT ~Ascension.tp2~ 0 @120
+REQUIRE_PREDICATE MOD_IS_INSTALLED "Ascension.tp2" (ID_OF_LABEL "Ascension.tp2" "Ascension-RewrittenFinalChapterOfToB" ) @120
 
 COPY  ~LongerRoad/are~          ~override~
 
@@ -840,7 +841,8 @@ ACTION_IF (~%warning%~ != 1)
 
 //RESTORE IRENICUS'S SOA PORTRAIT
 BEGIN @126 LABEL "LongerRoad-RestoreIrenicusSoAPortrait"
-REQUIRE_COMPONENT ~LongerRoad.tp2~ ~0~ @127
+//REQUIRE_COMPONENT ~LongerRoad.tp2~ ~0~ @127
+REQUIRE_PREDICATE MOD_IS_INSTALLED "LongerRoad.tp2" (ID_OF_LABEL "LongerRoad.tp2" "LongerRoad-Main" ) @127
 
 PRINT @128
   COPY_EXISTING ~NJONL.bmp~ ~override/LRJONS.bmp~
