@@ -1,3 +1,8 @@
+# 2.0.1
+
+### AL|EN
+- fixed installation problem for EE
+
 # 2.0.0
 
 ### AL|EN
