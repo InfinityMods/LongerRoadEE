@@ -60,8 +60,6 @@ The LR mod works best if you start with either a saved game from SoA finale with
 
 You will NOT be able to obtain the 'good' ending if you have looted the demon maze layer in WK. All other 3 outcomes are still possible.
 
-All Ascension limitations about game freeze are still valid with Ascension - LR combo. 
-
 		Section III. The Longer Road 
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 I do not wish to be overly verbose here, or to give away more of the plot than 

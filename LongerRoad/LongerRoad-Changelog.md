@@ -1,3 +1,10 @@
+# 2.0.2
+
+### AL|EN
+- added LabelType = GloballyUnique to metadata
+- added dynamic install order syntax
+- removed outdated Ascension compatibility warrings
+
 # 2.0.1
 
 ### AL|EN
