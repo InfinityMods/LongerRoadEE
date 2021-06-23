@@ -3,7 +3,7 @@
 ### AL|EN
 - added LabelType = GloballyUnique to metadata
 - added dynamic install order syntax
-- removed outdated Ascension compatibility warrings
+- remove outdated Ascension compatibility warnings
 
 # 2.0.1
 
