@@ -1,6 +1,6 @@
 # 2.0.3
 
-### Austin87
+### TotoR
 - centered bams
 
 ### AL|EN
