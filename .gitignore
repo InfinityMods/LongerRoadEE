@@ -12,6 +12,7 @@ tmp/
 !/.gitmodules
 !/.bgforge.yml
 
+*.7z
 *.bak
 *.bat
 *.iemod
@@ -21,5 +22,4 @@ tmp/
 *.tmp
 *.zip
 
-[Tt]humbs.db
-[Dd]esktop.ini
+Thumbs.db
