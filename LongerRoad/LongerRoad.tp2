@@ -1,7 +1,7 @@
 BACKUP ~LongerRoad/backup~
 //AUTHOR ~ladydorotea@hotmail.com~
 SUPPORT ~http://www.shsforums.net/forum/88-longer-road/~
-VERSION ~2.0.3~
+VERSION ~2.0.4~
 
 ALLOW_MISSING ~ar3003.bcs~
 ALLOW_MISSING ~ar5502.bcs~
@@ -12,7 +12,7 @@ ALWAYS
   ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
   LAF HANDLE_CHARSETS
     INT_VAR
-      infer_charset = 1
+      infer_charsets = 1
     STR_VAR
       tra_path = ~LongerRoad/tra~
       reload_array = fl#reload
@@ -49,8 +49,7 @@ LANGUAGE ~Russian (Arcanecoast Team)~
 ///////////////////////////////////////////////////////////////////////
 
 BEGIN @0 LABEL "LongerRoad-Main"
-//REQUIRE_COMPONENT ~Ascension.tp2~ 0 @120
-REQUIRE_PREDICATE MOD_IS_INSTALLED "Ascension.tp2" (ID_OF_LABEL "Ascension.tp2" "Ascension-RewrittenFinalChapterOfToB" ) @120
+REQUIRE_PREDICATE MOD_IS_INSTALLED "Ascension.tp2" (ID_OF_LABEL "Ascension.tp2" "Ascension-RewrittenFinalChapterOfToB" ) AND MOD_IS_INSTALLED "Ascension.tp2" (ID_OF_LABEL "Ascension.tp2" "Ascension-BalthazarCanBeRedeemed" ) @120
 
 COPY  ~LongerRoad/are~          ~override~
 
@@ -841,7 +840,6 @@ ACTION_IF (~%warning%~ != 1)
 
 //RESTORE IRENICUS'S SOA PORTRAIT
 BEGIN @126 LABEL "LongerRoad-RestoreIrenicusSoAPortrait"
-//REQUIRE_COMPONENT ~LongerRoad.tp2~ ~0~ @127
 REQUIRE_PREDICATE MOD_IS_INSTALLED "LongerRoad.tp2" (ID_OF_LABEL "LongerRoad.tp2" "LongerRoad-Main" ) @127
 
 PRINT @128

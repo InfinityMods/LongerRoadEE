@@ -1,3 +1,10 @@
+
+# 2.0.4
+
+### AL|EN
+- updated Ascension mod requirements condition
+- fixed typo: infer_charset > infer_charsets
+
 # 2.0.3
 
 ### TotoR
