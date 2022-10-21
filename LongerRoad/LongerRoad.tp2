@@ -241,7 +241,6 @@ EXTEND_TOP ~ar5504.bcs~ ~LongerRoad/bcs/AR5504_EL.BCS~
 EXTEND_BOTTOM ~BALTH.bcs~   ~LongerRoad/bcs/Balth_Jon.bcs~
 
 COPY ~LongerRoad/bcs/copy~		~override~
-REPLACE 999999 @6
 REPLACE_TEXTUALLY 999990 ~%MxElle%~
 REPLACE_TEXTUALLY 999991 ~%MxAbys%~
 REPLACE_TEXTUALLY 999980 ~%MxIren%~
@@ -276,9 +275,11 @@ REPLACE 999963 @32
 REPLACE 999969 @33
 REPLACE 999949 @129
 
-EXTEND_BOTTOM ~ar4000.bcs~ ~LongerRoad/bcs/iqtest.bcs~
-COPY_EXISTING ~ar4000.bcs~ ~override/ar4000.bcs~
+EXTEND_BOTTOM ~ITHEADS.bcs~ ~LongerRoad/bcs/ITHEADS.BAF~
+     REPLACE 999999 @6
 
+EXTEND_BOTTOM ~ar4000.bcs~ ~LongerRoad/bcs/iqtest.BAF~
+COPY_EXISTING ~ar4000.bcs~ ~override/ar4000.bcs~
 REPLACE_BCS_BLOCK ~LongerRoad/bcs/AR4000_NO_ELLE.BCS~ ~LongerRoad/bcs/AR4000_ELLE.bcs~
 REPLACE 999998 @34
 REPLACE 999965 @35
@@ -297,6 +298,9 @@ EXTEND_BOTTOM ~AR5002.BCS~ ~LongerRoad/bcs/AR5002_JON.BCS~
 COPY_EXISTING ~ITPPLANE.bcs~ ~override/ITPPLANE.bcs~
 REPLACE_BCS_BLOCK ~LongerRoad/bcs/ITPPLANE_NO_RIELEV.BCS~ ~LongerRoad/bcs/ITPPLANE_RIELEV.bcs~
 REPLACE 999997 @37
+
+COPY_EXISTING ~CESPEN.bcs~ ~override/CESPEN.bcs~
+REPLACE_BCS_BLOCK ~LongerRoad/bcs/CESPEN_NO_RIELEV.BAF~ ~LongerRoad/bcs/CESPEN_RIELEV.BAF~
 
 EXTEND_TOP ~ar6108.bcs~ ~LongerRoad/bcs/Sendai_Jon.bcs~
 
@@ -480,7 +484,7 @@ SAY NAME2 @72
 WRITE_ASCII 0x34  ~nym3S~
 WRITE_ASCII 0x248 ~LRDRY03~  // override script
 WRITE_ASCII 0x2CC ~lrnymph3~  // dialog
-WRITE_ASCII 0x280 ~fresienne ~  // death variable
+WRITE_ASCII 0x280 ~fresienne~  // death variable
 
 COPY ~LongerRoad/cre/lrimp1.CRE~ ~override~
 WRITE_ASCII 0x34  ~RustS~
@@ -803,6 +807,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~finbodh.cre~
    EXTEND_TOP ~Finbalth.bcs~ ~LongerRoad/bcs/lrbalthazar.bcs~
    EXTEND_TOP ~Finsend.bcs~ ~LongerRoad/bcs/lrsendai.bcs~
 
+   COPY_EXISTING ~FINBODHI.BCS~ ~override/FINBODHI.BCS~
+      REPLACE_BCS_BLOCK ~LongerRoad/bcs/FINBODHI_NO_DEMO.BAF~ ~LongerRoad/bcs/FINBODHI_DEMO.BAF~
 
     COPY_EXISTING ~demogor2.cre~ ~override/demogor3.cre~
         WRITE_ASCII 0x34 ~demos~

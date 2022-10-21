@@ -1,0 +1,45 @@
+IF
+	Global("IQTEST","GLOBAL",0)
+	CheckStatGT(Player1,10,INT)
+	CheckStatGT(Player1,10,WIS)
+THEN
+	RESPONSE #100
+		SetGlobal("IQTEST","GLOBAL",1)
+END
+
+IF
+	Global("IQTEST","GLOBAL",0)
+	OR(2)
+		CheckStatGT(Player1,10,INT)
+		CheckStatGT(Player1,10,WIS)
+	OR(2)
+		CheckStat(Player1,10,WIS)
+		CheckStat(Player1,10,INT)
+THEN
+	RESPONSE #100
+		SetGlobal("IQTEST","GLOBAL",1)
+END
+
+IF
+	Global("IQTEST","GLOBAL",1)
+	OR(2)
+		CheckStatGT(Player1,13,INT)
+		CheckStatGT(Player1,13,WIS)
+THEN
+	RESPONSE #100
+		SetGlobal("IQTEST","GLOBAL",2)
+END
+
+IF
+	Global("IQTEST","GLOBAL",1)
+	OR(2)
+		CheckStat(Player1,13,INT)
+		CheckStat(Player1,13,WIS)
+	OR(2)
+		CheckStatGT(Player1,10,INT)
+		CheckStatGT(Player1,10,WIS)
+THEN
+	RESPONSE #100
+		SetGlobal("IQTEST","GLOBAL",2)
+END
+

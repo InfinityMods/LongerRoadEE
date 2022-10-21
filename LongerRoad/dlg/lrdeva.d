@@ -2,8 +2,8 @@ BEGIN ~LRDEVA~
 
 IF ~Global("DevaApproach", "GLOBAL", 1)~ THEN BEGIN D11
    SAY @0  
-   IF ~InParty("Haer'Dalis")~ THEN DO ~SetGlobal("DevaApproach","GLOBAL",2)~ EXTERN BHAERD25 DHD1
-   IF ~!InParty("Haer'Dalis")~ THEN DO ~SetGlobal("DevaApproach","GLOBAL",2)~ GOTO DEVA_NPC1
+   IF ~InParty("HaerDalis")~ THEN DO ~SetGlobal("DevaApproach","GLOBAL",2)~ EXTERN BHAERD25 DHD1
+   IF ~!InParty("HaerDalis")~ THEN DO ~SetGlobal("DevaApproach","GLOBAL",2)~ GOTO DEVA_NPC1
 END
 
 IF ~~ THEN BEGIN D12
