@@ -56,12 +56,12 @@ COPY  ~LongerRoad/are~          ~override~
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 COPY ~LongerRoad/bmp/ee~		~override~
 COPY ~LongerRoad/tis/ee~		~override~
-COPY ~LongerRoad/bam/ee~		~override~
 END ELSE BEGIN
 COPY ~LongerRoad/bmp/vanilla~		~override~
 COPY ~LongerRoad/tis/vanilla~		~override~
-COPY ~LongerRoad/bam/vanilla~		~override~
 END
+COPY ~LongerRoad/bmp/copy~		~override~
+COPY ~LongerRoad/bam/copy~		~override~
 
 ADD_JOURNAL @15 @90 @94 @48 @29 USING ~LongerRoad/tra/%LANGUAGE%/LRELLESIME.TRA~
 
@@ -578,13 +578,13 @@ COPY  ~LongerRoad/itm/abymace.itm~    ~override~
 COPY ~LongerRoad/cre/Mirriam.cre~ ~override/Mirriam.cre~
      SAY NAME1 @83
      SAY NAME2 @83
-     //WRITE_ASCII 0x34  ~MirS~
+     WRITE_ASCII 0x34  ~MirS~
      WRITE_ASCII 0x280 ~mirriam~  // death variable
 
 COPY ~LongerRoad/cre/Kessen.cre~ ~override/Kessen.cre~
      SAY NAME1 @84
      SAY NAME2 @84
-     //WRITE_ASCII 0x34  ~KesS~
+     WRITE_ASCII 0x34  ~KesS~
      WRITE_ASCII 0x280 ~kessen~  // death variable
 
 COPY  ~LongerRoad/itm/sesstn.itm~    ~override~
