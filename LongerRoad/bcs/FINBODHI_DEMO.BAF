@@ -1,0 +1,10 @@
+IF
+	!See(NearestEnemyOf(Myself))
+	CheckStatLT(Myself,100,RESISTSLASHING)
+	Global("KRBODBAT","GLOBAL",0)
+	!Global("DemogorgonCometh","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpellRES("SPINKRBT",Myself)  // Transform Into Bat
+		Continue()
+END

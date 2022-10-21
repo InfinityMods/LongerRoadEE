@@ -1,0 +1,13 @@
+IF
+	Range(Player1,10)
+	NumTimesTalkedTo(0)
+	See(Player1)
+	Global("CespenarSpeaks","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CespenarSpeaks","LOCALS",1)
+		FaceObject(Player1)
+		Wait(1)
+		StartDialogueNoSet(Player1)
+END
+

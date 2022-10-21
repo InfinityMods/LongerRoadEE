@@ -1,0 +1,8 @@
+IF
+	Clicked([ANYONE])
+	Global("ClickedHeads","AR4000",0)  // Forest of Tethir
+	Global("TalkedEllesime","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,999999)  // No such index
+END
