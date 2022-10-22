@@ -1,0 +1,60 @@
+IF
+	See(NearestEnemyOf(Player1))
+	Gender(LastSeenBy(Myself),ILLUSIONARY)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSeenBy(Myself),8296)  // Projected Image
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("finiren",OVERRIDE))
+		DestroySelf()
+END
+
+IF
+	See(SecondNearestEnemyOf(Player1))
+	Gender(LastSeenBy(Myself),ILLUSIONARY)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSeenBy(Myself),8296)  // Projected Image
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("finiren",OVERRIDE))
+		DestroySelf()
+END
+
+IF
+	See(ThirdNearestEnemyOf(Player1))
+	Gender(LastSeenBy(Myself),ILLUSIONARY)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSeenBy(Myself),8296)  // Projected Image
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("finiren",OVERRIDE))
+		DestroySelf()
+END
+
+IF
+	See(FourthNearestEnemyOf(Player1))
+	Gender(LastSeenBy(Myself),ILLUSIONARY)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSeenBy(Myself),8296)  // Projected Image
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("finiren",OVERRIDE))
+		DestroySelf()
+END
+
+IF
+	See(FifthNearestEnemyOf(Player1))
+	Gender(LastSeenBy(Myself),ILLUSIONARY)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSeenBy(Myself),8296)  // Projected Image
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("finiren",OVERRIDE))
+		DestroySelf()
+END
+
+IF
+	See(SixthNearestEnemyOf(Player1))
+	Gender(LastSeenBy(Myself),ILLUSIONARY)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSeenBy(Myself),8296)  // Projected Image
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("finiren",OVERRIDE))
+		DestroySelf()
+END
+
