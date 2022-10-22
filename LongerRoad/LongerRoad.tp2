@@ -226,10 +226,12 @@ COPY ~LongerRoad/wav~ ~override~
 
 COPY_EXISTING ~AR3003.are~ ~override~
 WRITE_ASCII 0x94 ~AR3003~
+BUT_ONLY
 EXTEND_TOP ~ar3003.bcs~ ~LongerRoad/bcs/AR3003.BCS~
 
 COPY_EXISTING ~AR5502.are~ ~override~
 WRITE_ASCII 0x94 ~AR5502~
+BUT_ONLY
 EXTEND_TOP ~ar5502.bcs~ ~LongerRoad/bcs/ar5502.BCS~
 
 EXTEND_TOP ~AR5505.bcs~ ~LongerRoad/bcs/ar5505.baf~
@@ -411,6 +413,7 @@ COPY ~LongerRoad/spl/JONW02.SPL~       ~override~
 COPY ~LongerRoad/spl/JONW03.SPL~       ~override~
 COPY ~LongerRoad/spl/RMFEAR.SPL~       ~override~
 COPY ~LongerRoad/spl/RMMGC.SPL~        ~override~
+COPY ~LongerRoad/spl/deadjon.spl~ 	   ~override~
 
 //DEVA QUEST CREATURES AND ITEMS
 COPY ~LongerRoad/cre/abaia.cre~ ~override/abaia.cre~
@@ -822,6 +825,24 @@ ACTION_IF FILE_EXISTS_IN_GAME ~finbodh.cre~
         WRITE_LONG 0x275 "4" //nether
 
 EXTEND_TOP ~ar6005.bcs~ ~LongerRoad/bcs/Abazi_Jon.bcs~
+
+ACTION_FOR_EACH ~file~ IN  // for each of the following files
+				~finipotn.itm~
+				~finir0m.itm~
+				~finir0r.itm~
+				~finirobe.itm~
+				~irenbrch.itm~
+				~irenprce.itm~
+  BEGIN  // execute the following
+	ACTION_IF NOT FILE_EXISTS_IN_GAME ~%file%~ BEGIN
+	  COPY ~LongerRoad/itm/%file%~ override
+	  END
+  END  // END for each of the following files
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~finirat.cre~ BEGIN
+  COPY ~LongerRoad/cre/finirat.cre~ override
+  COMPILE ~LongerRoad/BCS/finirat.BAF~
+  END
 
 ACTION_IF FILE_CONTAINS ~override/aerie25j.dlg~ ~("Imoen")~
 THEN BEGIN
