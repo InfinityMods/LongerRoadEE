@@ -1,0 +1,50 @@
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	GlobalTimerExpired("JonJaeEvilTalk","GLOBAL")
+	Global("JonUndecided","GLOBAL",3)
+	Global("JaeJonEvil","LOCALS",0)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+THEN
+	RESPONSE #100
+		SetGlobal("JaeJonEvil","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	OR(2)
+		Global("JaeIsMad","GLOBAL",2)
+		Global("JonBanished","GLOBAL",1)
+	Global("JaheiraRomanceActive","GLOBAL",2)
+	Global("LRHoldRomance","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LRHoldRomance","GLOBAL",1)
+		RealSetGlobalTimer("JaheiraRomance","GLOBAL",1000)
+END
+
+IF
+	InParty(Myself)
+	Global("LRHoldRomance","GLOBAL",1)
+	RealGlobalTimerExpired("JaheiraRomance","GLOBAL")
+	Global("JaheiraRomanceActive","GLOBAL",2)
+	!AreaType(DUNGEON)
+	See(Player1)
+	CombatCounter(0)
+	OR(4)
+		Global("ExpLoveTalk","LOCALS",1)
+		Global("ExpLoveTalk","LOCALS",5)
+		Global("ExpLoveTalk","LOCALS",9)
+		Global("ExpLoveTalk","LOCALS",11)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("ExpLoveTalk","LOCALS",1)
+		PlaySong(36)
+		Interact(Player1)
+END
+

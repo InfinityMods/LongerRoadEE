@@ -1,0 +1,21 @@
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("JaheiraRomance","GLOBAL")
+	Global("JaheiraRomanceActive","GLOBAL",2)
+	!AreaType(DUNGEON)
+	See(Player1)
+	CombatCounter(0)
+	OR(4)
+		Global("ExpLoveTalk","LOCALS",1)
+		Global("ExpLoveTalk","LOCALS",5)
+		Global("ExpLoveTalk","LOCALS",9)
+		Global("ExpLoveTalk","LOCALS",11)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("ExpLoveTalk","LOCALS",1)
+		PlaySong(36)
+		Interact(Player1)
+END
+

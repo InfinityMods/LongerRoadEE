@@ -1,0 +1,42 @@
+IF
+	Global("LRtanaridead","GLOBAL",0)
+	Dead("GorTan1")  // Tahazzar
+THEN
+	RESPONSE #100
+		SetGlobal("LRtanaridead","GLOBAL",1)
+END
+
+IF
+	Global("BebSpawn","GLOBAL",0)
+	InParty("lrirenic")  // Jon Irenicus
+	PartyHasItem("dbody")  // Ybdiel's body
+	Global("DevaApproach","GLOBAL",4)
+	OR(2)
+		!Global("zGorTan1Job","GLOBAL",0)
+		Global("LRtanaridead","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("BebSpawn","GLOBAL",1)
+END
+
+IF
+	Global("BebSpawn","GLOBAL",2)
+	InParty("lrirenic")  // Jon Irenicus
+	PartyHasItem("dbody")  // Ybdiel's body
+	Global("DevaApproach","GLOBAL",4)
+	RealGlobalTimerExpired("BebSpawnTimer","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("BebSpawn","GLOBAL",3)
+		StartCutSceneMode()
+		DisplayStringNoName("Tran3004",999967)  // No such index
+		CreateVisualEffect("SPPORTAL",[998.800])
+		SmallWait(1)
+		CreateCreature("abaia",[998.800],NE)  // Abaia
+		SmallWait(1)
+		ActionOverride("abaia",MoveToPoint([792.790]))
+		Wait(1)
+		ActionOverride("abaia",Face(NW))
+		EndCutSceneMode()
+END
+

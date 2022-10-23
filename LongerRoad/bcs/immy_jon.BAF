@@ -1,0 +1,119 @@
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	Global("LRJonImmy","LOCALS",0)
+	Global("ImoenBhaalTalk","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LRJonImmy","LOCALS",1)
+		SetGlobal("ImoenBhaalTalk","LOCALS",1)
+		RealSetGlobalTimer("ImoenBhaal","GLOBAL",2000)
+		RealSetGlobalTimer("ImoenvsJon","GLOBAL",TWELVE_HOURS)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("ImoenBhaal","GLOBAL")
+	OR(3)
+		Global("ExpBImoen10","LOCALS",0)
+		Global("ExpBImoen10","LOCALS",1)
+		Global("ExpBImoen10","LOCALS",2)
+	OR(3)
+		Global("ImoenBhaalTalk","LOCALS",1)
+		Global("ImoenBhaalTalk","LOCALS",3)
+		Global("ImoenBhaalTalk","LOCALS",5)
+	See(Player1)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		IncrementGlobal("ImoenBhaalTalk","LOCALS",1)
+		Interact(Player1)
+END
+
+IF
+	InParty(Myself)
+	OR(3)
+		Global("ExpBImoen10","LOCALS",0)
+		Global("ExpBImoen10","LOCALS",1)
+		Global("ExpBImoen10","LOCALS",2)
+	OR(2)
+		Global("ImoenBhaalTalk","LOCALS",2)
+		Global("ImoenBhaalTalk","LOCALS",4)
+THEN
+	RESPONSE #100
+		IncrementGlobal("ImoenBhaalTalk","LOCALS",1)
+		RealSetGlobalTimer("ImoenBhaal","GLOBAL",TEN_HOURS)
+END
+
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	RealGlobalTimerExpired("ImoenvsJon","GLOBAL")
+	!Global("ExpBImoen10","LOCALS",0)
+	Global("LRJonImmy","LOCALS",1)
+	Global("JonImoen1","GLOBAL",1)
+	See("lrirenic")  // Jon Irenicus
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("JonImoen1","GLOBAL",2)
+		IncrementGlobal("LRJonImmy","LOCALS",1)
+		Interact("lrirenic")  // Jon Irenicus
+END
+
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	Global("SaradushSacked","GLOBAL",1)
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	RealGlobalTimerExpired("ImoenvsJon","GLOBAL")
+	!Global("ExpBImoen10","LOCALS",0)
+	OR(2)
+		Global("LRJonImmy","LOCALS",3)
+		Global("LRJonImmy","LOCALS",5)
+	See("lrirenic")  // Jon Irenicus
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		IncrementGlobal("LRJonImmy","LOCALS",1)
+		Interact("lrirenic")  // Jon Irenicus
+END
+
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	Global("JonUndecided","GLOBAL",2)
+	Global("SaradushSacked","GLOBAL",1)
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	RealGlobalTimerExpired("ImoenvsJon","GLOBAL")
+	!Global("ExpBImoen10","LOCALS",0)
+	Global("LRJonImmy","LOCALS",7)
+	See("lrirenic")  // Jon Irenicus
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		IncrementGlobal("LRJonImmy","LOCALS",1)
+		Interact("lrirenic")  // Jon Irenicus
+END
+
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	OR(3)
+		Global("LRJonImmy","LOCALS",2)
+		Global("LRJonImmy","LOCALS",4)
+		Global("LRJonImmy","LOCALS",6)
+THEN
+	RESPONSE #100
+		IncrementGlobal("LRJonImmy","LOCALS",1)
+		RealSetGlobalTimer("ImoenvsJon","GLOBAL",TWELVE_HOURS)
+END
+

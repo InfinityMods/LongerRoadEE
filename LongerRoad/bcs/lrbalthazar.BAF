@@ -1,0 +1,10 @@
+IF
+	!G("lrbdie",0)
+	Global("zombified","LOCALS",0)
+	PartyHasItem("basstn")  // Balthazar's Soul Stone
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("BalZom",Myself)  // No such index
+		SetGlobal("zombified","LOCALS",1)
+END
+

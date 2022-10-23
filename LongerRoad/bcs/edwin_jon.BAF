@@ -1,0 +1,42 @@
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	Global("EdwinVsJon","GLOBAL",0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("EdwinVsJon","GLOBAL",1)
+		RealSetGlobalTimer("ChessMania","GLOBAL",2000)
+END
+
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	Global("EdwinVsJon","GLOBAL",1)
+	See("lrirenic")  // Jon Irenicus
+	!StateCheck("lrirenic",STATE_SLEEPING)  // Jon Irenicus
+	!Dead("lrirenic")  // Jon Irenicus
+	OR(2)
+		AreaType(FOREST)
+		AreaType(OUTDOOR)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	RealGlobalTimerExpired("ChessMania","GLOBAL")
+THEN
+	RESPONSE #100
+		PlaySong(999970)
+		IncrementGlobal("EdwinVsJon","GLOBAL",1)
+		Interact("lrirenic")  // Jon Irenicus
+END
+
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	Global("JonEdwinFight","GLOBAL",2)
+	Global("JonEdwinSq","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JonEdwinSq","GLOBAL",1)
+		Interact("lrirenic")  // Jon Irenicus
+END
+

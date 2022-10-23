@@ -1,0 +1,10 @@
+IF
+	!G("lrsendai",0)
+	Global("zombified","LOCALS",0)
+	PartyHasItem("sesstn")  // Sendai's Soul Stone
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("SenZom",Myself)  // No such index
+		SetGlobal("zombified","LOCALS",1)
+END
+

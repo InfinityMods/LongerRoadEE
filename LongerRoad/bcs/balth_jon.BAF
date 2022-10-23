@@ -1,0 +1,29 @@
+IF
+	HPLT(Myself,20)
+	InParty("lrirenic")  // Jon Irenicus
+	Global("lrbdie","GLOBAL",1)
+	Global("AcceptIlmater","GLOBAL",0)
+	!Global("lrbletgo","GLOBAL",1)
+	Global("lrbiamdead","LOCALS",0)
+THEN
+	RESPONSE #100
+		SG("lrbdie",2)
+		SetGlobal("lrbiamdead","LOCALS",1)
+		ActionOverride("lrirenic",StartDialogueNoSet(Player1))
+END
+
+IF
+	HPLT(Myself,20)
+	OR(3)
+		!InParty("lrirenic")  // Jon Irenicus
+		!Global("lrbdie","GLOBAL",1)
+		!Global("AcceptIlmater","GLOBAL",0)
+	Global("lrbiamdead","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("lrbiamdead","LOCALS",1)
+		DestroyItem("BHAALHP1")  // No such index
+		Wait(1)
+		Kill(Myself)
+END
+

@@ -1,0 +1,10 @@
+IF
+	OnCreation()
+	Global("LREbooks4","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LREbooks4","GLOBAL",1)
+		ActionOverride("Chest3",CreateItem("BOOKEL2",0,0,0))  // The Creation of Elves Part II
+		Continue()
+END
+

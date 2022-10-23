@@ -227,20 +227,20 @@ COPY ~LongerRoad/wav~ ~override~
 COPY_EXISTING ~AR3003.are~ ~override~
 WRITE_ASCII 0x94 ~AR3003~
 BUT_ONLY
-EXTEND_TOP ~ar3003.bcs~ ~LongerRoad/bcs/AR3003.BCS~
+EXTEND_TOP ~ar3003.bcs~ ~LongerRoad/bcs/AR3003.BAF~
 
 COPY_EXISTING ~AR5502.are~ ~override~
 WRITE_ASCII 0x94 ~AR5502~
 BUT_ONLY
-EXTEND_TOP ~ar5502.bcs~ ~LongerRoad/bcs/ar5502.BCS~
+EXTEND_TOP ~ar5502.bcs~ ~LongerRoad/bcs/ar5502.BAF~
 
 EXTEND_TOP ~AR5505.bcs~ ~LongerRoad/bcs/ar5505.baf~
 
-EXTEND_TOP ~ar5202.bcs~ ~LongerRoad/bcs/AR5202_Jon.BCS~
-EXTEND_TOP ~ar3001.bcs~ ~LongerRoad/bcs/AR3001_EL.BCS~
-EXTEND_TOP ~ar5011.bcs~ ~LongerRoad/bcs/AR5011_EL.BCS~
-EXTEND_TOP ~ar5504.bcs~ ~LongerRoad/bcs/AR5504_EL.BCS~
-EXTEND_BOTTOM ~BALTH.bcs~   ~LongerRoad/bcs/Balth_Jon.bcs~
+EXTEND_TOP ~ar5202.bcs~ ~LongerRoad/bcs/AR5202_Jon.BAF~
+EXTEND_TOP ~ar3001.bcs~ ~LongerRoad/bcs/AR3001_EL.BAF~
+EXTEND_TOP ~ar5011.bcs~ ~LongerRoad/bcs/AR5011_EL.BAF~
+EXTEND_TOP ~ar5504.bcs~ ~LongerRoad/bcs/AR5504_EL.BAF~
+EXTEND_BOTTOM ~BALTH.bcs~   ~LongerRoad/bcs/Balth_Jon.BAF~
 
 COPY ~LongerRoad/bcs/copy~		~override~
 REPLACE_TEXTUALLY 999990 ~%MxElle%~
@@ -282,7 +282,7 @@ EXTEND_BOTTOM ~ITHEADS.bcs~ ~LongerRoad/bcs/ITHEADS.BAF~
 
 EXTEND_BOTTOM ~ar4000.bcs~ ~LongerRoad/bcs/iqtest.BAF~
 COPY_EXISTING ~ar4000.bcs~ ~override/ar4000.bcs~
-REPLACE_BCS_BLOCK ~LongerRoad/bcs/AR4000_NO_ELLE.BCS~ ~LongerRoad/bcs/AR4000_ELLE.bcs~
+REPLACE_BCS_BLOCK ~LongerRoad/bcs/AR4000_NO_ELLE.BAF~ ~LongerRoad/bcs/AR4000_ELLE.BAF~
 REPLACE 999998 @34
 REPLACE 999965 @35
 
@@ -294,37 +294,37 @@ COPY ~LongerRoad/cre/lrrielev.cre~ ~override/lrrielev.cre~
      WRITE_ASCII 0x2CC ~lrrielev~  // dialog
      WRITE_ASCII 0x280 ~lrrielev~  // death variable
 
-EXTEND_BOTTOM ~ar4500.bcs~ ~LongerRoad/bcs/AR4500_RIELEV.bcs~
-EXTEND_BOTTOM ~AR5002.BCS~ ~LongerRoad/bcs/AR5002_JON.BCS~
+EXTEND_BOTTOM ~ar4500.bcs~ ~LongerRoad/bcs/AR4500_RIELEV.BAF~
+EXTEND_BOTTOM ~AR5002.BCS~ ~LongerRoad/bcs/AR5002_JON.BAF~
 
 COPY_EXISTING ~ITPPLANE.bcs~ ~override/ITPPLANE.bcs~
-REPLACE_BCS_BLOCK ~LongerRoad/bcs/ITPPLANE_NO_RIELEV.BCS~ ~LongerRoad/bcs/ITPPLANE_RIELEV.bcs~
+REPLACE_BCS_BLOCK ~LongerRoad/bcs/ITPPLANE_NO_RIELEV.BAF~ ~LongerRoad/bcs/ITPPLANE_RIELEV.BAF~
 REPLACE 999997 @37
 
 COPY_EXISTING ~CESPEN.bcs~ ~override/CESPEN.bcs~
 REPLACE_BCS_BLOCK ~LongerRoad/bcs/CESPEN_NO_RIELEV.BAF~ ~LongerRoad/bcs/CESPEN_RIELEV.BAF~
 
-EXTEND_TOP ~ar6108.bcs~ ~LongerRoad/bcs/Sendai_Jon.bcs~
+EXTEND_TOP ~ar6108.bcs~ ~LongerRoad/bcs/Sendai_Jon.BAF~
 
-EXTEND_TOP ~BALDUR25.bcs~ ~LongerRoad/bcs/NPC_JON.bcs~
-EXTEND_BOTTOM ~BALDUR25.bcs~ ~LongerRoad/bcs/JON_PC_LINK.BCS~
-EXTEND_BOTTOM ~BALDUR25.bcs~ ~LongerRoad/bcs/JON_REMOVED.BCS~
+EXTEND_TOP ~BALDUR25.bcs~ ~LongerRoad/bcs/NPC_JON.BAF~
+EXTEND_BOTTOM ~BALDUR25.bcs~ ~LongerRoad/bcs/JON_PC_LINK.BAF~
+EXTEND_BOTTOM ~BALDUR25.bcs~ ~LongerRoad/bcs/JON_REMOVED.BAF~
 COPY_EXISTING ~BALDUR25.bcs~ ~override/BALDUR25.bcs~
 REPLACE 999956 @8
 
-EXTEND_BOTTOM ~EDWI25.bcs~ ~LongerRoad/bcs/Edwin_Jon.bcs~
+EXTEND_BOTTOM ~EDWI25.bcs~ ~LongerRoad/bcs/Edwin_Jon.BAF~
 COPY_EXISTING ~EDWI25.bcs~ ~override/EDWI25.bcs~
 REPLACE_TEXTUALLY 999970 ~%MxTroll%~
-EXTEND_BOTTOM ~AERI25.BCS~ ~LongerRoad/bcs/AERIE_JON.BCS~
-EXTEND_BOTTOM ~IMOE25.BCS~ ~LongerRoad/bcs/Immy_Jon.BCS~
+EXTEND_BOTTOM ~AERI25.BCS~ ~LongerRoad/bcs/AERIE_JON.BAF~
+EXTEND_BOTTOM ~IMOE25.BCS~ ~LongerRoad/bcs/Immy_Jon.BAF~
 
 COPY_EXISTING ~JAHE25.BCS~ ~override/JAHE25.BCS~
-REPLACE_BCS_BLOCK ~LongerRoad/bcs/JAH_NO_JON.BCS~ ~LongerRoad/bcs/JAH_JON.BCS~
+REPLACE_BCS_BLOCK ~LongerRoad/bcs/JAH_NO_JON.BAF~ ~LongerRoad/bcs/JAH_JON.BAF~
 
-EXTEND_BOTTOM ~AR3012.BCS~  ~LongerRoad/bcs/AR3012_ABAIA.BCS~
+EXTEND_BOTTOM ~AR3012.BCS~  ~LongerRoad/bcs/AR3012_ABAIA.BAF~
 REPLACE 999967 @38
 
-EXTEND_TOP ~AR3011.BCS~ ~LongerRoad/bcs/AR3011_SEREN.BCS~
+EXTEND_TOP ~AR3011.BCS~ ~LongerRoad/bcs/AR3011_SEREN.BAF~
 
 COPY ~LongerRoad/cre/lrcyric1.cre~ ~override/lrcyric1.cre~
 WRITE_ASCII 0x34  ~cyricS~
@@ -805,9 +805,9 @@ COPY_EXISTING ~Imoslay.bcs~ ~override/Imoslay.bcs~ // Compatibility with Ascensi
 
 COPY_EXISTING ~AR6200.bcs~ ~override/AR6200.bcs~ // Compatibility with Ascension v 2.0.x
   REPLACE_BCS_BLOCK ~LongerRoad/bcs/lr6200jon1.baf~ ~LongerRoad/bcs/lr6200jon2.baf~
-   EXTEND_TOP ~Finabaz.bcs~ ~LongerRoad/bcs/lrabazigal.bcs~
-   EXTEND_TOP ~Finbalth.bcs~ ~LongerRoad/bcs/lrbalthazar.bcs~
-   EXTEND_TOP ~Finsend.bcs~ ~LongerRoad/bcs/lrsendai.bcs~
+   EXTEND_TOP ~Finabaz.bcs~ ~LongerRoad/bcs/lrabazigal.baf~
+   EXTEND_TOP ~Finbalth.bcs~ ~LongerRoad/bcs/lrbalthazar.baf~
+   EXTEND_TOP ~Finsend.bcs~ ~LongerRoad/bcs/lrsendai.baf~
 
    COPY_EXISTING ~FINBODHI.BCS~ ~override/FINBODHI.BCS~
       REPLACE_BCS_BLOCK ~LongerRoad/bcs/FINBODHI_NO_DEMO.BAF~ ~LongerRoad/bcs/FINBODHI_DEMO.BAF~
@@ -823,7 +823,7 @@ COPY_EXISTING ~AR6200.bcs~ ~override/AR6200.bcs~ // Compatibility with Ascension
         WRITE_LONG 0x274 "60" //unknown
         WRITE_LONG 0x275 "4" //nether
 
-EXTEND_TOP ~ar6005.bcs~ ~LongerRoad/bcs/Abazi_Jon.bcs~
+EXTEND_TOP ~ar6005.bcs~ ~LongerRoad/bcs/Abazi_Jon.baf~
 
 ACTION_FOR_EACH ~file~ IN  // for each of the following files
 				~finipotn.itm~

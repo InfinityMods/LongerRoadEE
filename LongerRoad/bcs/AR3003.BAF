@@ -1,0 +1,18 @@
+IF
+	InParty("lrirenic")  // Jon Irenicus
+	!Global("Yakman","GLOBAL",1)
+	Global("LRSpawnedYbdiel","AR3003",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LRSpawnedYbdiel","AR3003",1)
+		StartCutSceneMode()
+		PlaySong(999990)
+		CreateCreature("ybdiel",[804.414],W)  // Ybdiel
+		Wait(1)
+		ActionOverride("ybdiel",MoveToPoint([1103.764]))
+		Explore()
+		ActionOverride("ybdiel",FaceObject("Player1"))  // Peasant
+		Wait(1)
+		EndCutSceneMode()
+END
+

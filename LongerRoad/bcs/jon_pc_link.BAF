@@ -1,0 +1,33 @@
+IF
+	InParty("lrirenic")  // Jon Irenicus
+	StateCheck("lrirenic",STATE_CONFUSED)  // Jon Irenicus
+	!StateCheck(Player1,STATE_CONFUSED)
+	Global("JonConf","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonConf","GLOBAL",0)
+		ActionOverride(Player1,ReallyForceSpellRES("RMMGC","lrirenic"))  // Dispel Magic
+END
+
+IF
+	InParty("lrirenic")  // Jon Irenicus
+	!StateCheck(Player1,STATE_PANIC)
+	StateCheck("lrirenic",STATE_PANIC)  // Jon Irenicus
+	Global("JonPan","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonPan","GLOBAL",0)
+		ActionOverride(Player1,ReallyForceSpellRES("RMFEAR","lrirenic"))  // Remove Fear
+END
+
+IF
+	InParty("lrirenic")  // Jon Irenicus
+	StateCheck("lrirenic",STATE_FEEBLEMINDED)  // Jon Irenicus
+	!StateCheck(Player1,STATE_FEEBLEMINDED)
+	Global("JonFeeb","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonFeeb","GLOBAL",0)
+		ActionOverride(Player1,ReallyForceSpellRES("RMMGC","lrirenic"))  // Dispel Magic
+END
+
