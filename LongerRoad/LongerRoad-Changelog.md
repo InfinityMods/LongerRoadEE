@@ -1,4 +1,15 @@
 
+# 2.0.5
+
+### TotoR
+Compatibility update:
+- Append or replace blocks in scripts instead of overriding them
+- Add check to avoid overriding items, creatures and scripts from Ascensions
+- Rework of some scripts to be compatible with Ascension v2.0.x (this version is no more compatible with older versions, ie 1.4 or 1.5)
+- Remove unnecessary duplicate in ee and Vanilla folders and create a generic Copy folder and move files to dedicated folders
+- Use baf file instead of bcs file for easier maintenance and compatibility check
+- Miscellaneous harmless Typos
+
 # 2.0.4
 
 ### AL|EN
