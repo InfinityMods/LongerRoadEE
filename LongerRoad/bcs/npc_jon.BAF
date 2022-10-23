@@ -1,0 +1,74 @@
+IF
+	RealGlobalTimerExpired("ImoenConflictTimer","GLOBAL")
+	InParty("LRIRENIC")  // Jon Irenicus
+	InParty("IMOEN2")  // Imoen
+	Global("ImmyIsMad","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("ImmyIsMad","GLOBAL",1)
+		ActionOverride("Imoen2",StartDialogueNoSet(Player1))
+END
+
+IF
+	RealGlobalTimerExpired("JaheiraConflictTimer","GLOBAL")
+	InParty("LRIRENIC")  // Jon Irenicus
+	InParty("JAHEIRA")  // Jaheira
+	Global("JaeIsMad","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("JaeIsMad","GLOBAL",1)
+		ActionOverride("JAHEIRA",StartDialogueNoSet(Player1))
+END
+
+IF
+	RealGlobalTimerExpired("MinscConflictTimer","GLOBAL")
+	InParty("LRIRENIC")  // Jon Irenicus
+	InParty("MINSC")  // Minsc
+	Global("MinscIsMad","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscIsMad","GLOBAL",1)
+		ActionOverride("MINSC",StartDialogueNoSet(Player1))
+END
+
+IF
+	InParty("Minsc")  // Minsc
+	InParty("lrirenic")  // Jon Irenicus
+	Global("JonMinscFight","GLOBAL",1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("JonMinscFight","GLOBAL",2)
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("JonMinsc")
+END
+
+IF
+	!InPartyAllowDead("lrirenic")  // Jon Irenicus
+	Dead("lrirenic")  // Jon Irenicus
+	Global("TalkedToJon","GLOBAL",1)
+	Global("JonBanished","GLOBAL",0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("JonRedemptionCounter","GLOBAL",-1000)
+		SetGlobal("JonBanished","GLOBAL",1)
+		ActionOverride("lrirenic",DisplayStringHeadDead("lrirenic",2844))  // You will suffer!  You will all suffer!
+		ActionOverride("lrirenic",CreateVisualEffectObject("SPFLESHS","lrirenic"))  // Jon Irenicus
+		ActionOverride("lrirenic",DestroyAllEquipment())
+		ActionOverride("lrirenic",DestroySelf())
+END
+
+IF
+	Global("TalkedEllesime","GLOBAL",2)
+	Global("ReceivedMask","GLOBAL",0)
+	Global("JonBanished","GLOBAL",0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("JonRedemptionCounter","GLOBAL",-1000)
+		SetGlobal("JonBanished","GLOBAL",1)
+END
+

@@ -1,0 +1,32 @@
+IF
+	WalkedToTrigger([ANYONE])
+	Global("LeavingPocketPlane","AR4500",0)
+	GlobalGT("GavePocketPlane","GLOBAL",0)
+	!GlobalTimerNotExpired("Triggered","MYAREA")
+	OR(2)
+		Global("ReceivedMask","GLOBAL",0)
+		Global("TalkedToRielev","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SaveGame(0)
+		SmallWait(7)
+		SetGlobalTimer("Triggered","MYAREA",TWO_MINUTES)
+		SetGlobal("LeavingPocketPlane","AR4500",1)
+		StartCutSceneMode()
+		StartCutScene("cut220a")
+END
+
+IF
+	WalkedToTrigger([ANYONE])
+	Global("LeavingPocketPlane","AR4500",0)
+	GlobalGT("GavePocketPlane","GLOBAL",0)
+	!GlobalTimerNotExpired("Triggered","MYAREA")
+	!Global("ReceivedMask","GLOBAL",0)
+	!Global("TalkedToRielev","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		DisplayStringNoNameHead(LastTrigger,999997)  // No such index
+END
+

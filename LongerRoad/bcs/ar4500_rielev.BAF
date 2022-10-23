@@ -1,0 +1,19 @@
+IF
+	Global("ReceivedMask","GLOBAL",1)
+	PartyHasItem("imask")  // Irenicus's old mask
+THEN
+	RESPONSE #100
+		SetGlobal("ReceivedMask","GLOBAL",2)
+END
+
+IF
+	Global("BeginChallenge1","GLOBAL",12)
+	GlobalTimerExpired("RielevSpawnTimer","GLOBAL")
+	Global("RielevSpawn","GLOBAL",0)
+	Global("ReceivedMask","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("RielevSpawn","GLOBAL",1)
+		CreateCreatureOffScreen("lrrielev",SSW)  // Velemir Rielev
+END
+

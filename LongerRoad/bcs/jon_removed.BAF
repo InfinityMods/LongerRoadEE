@@ -1,0 +1,94 @@
+IF
+	Global("JonUndecided","GLOBAL",1)
+	Global("JonBanished","GLOBAL",0)
+	Global("JonOut","GLOBAL",0)
+	!InPartyAllowDead("lrirenic")  // Jon Irenicus
+	!Dead("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		SetGlobal("JonOut","GLOBAL",1)
+		SetGlobalTimer("JonOutOfParty2","GLOBAL",THREE_DAYS)
+		SetGlobalTimer("JonOutOfParty1","GLOBAL",TWO_DAYS)
+		SetGlobalTimer("JonOutOfParty0","GLOBAL",ONE_DAY)
+END
+
+IF
+	Global("JonOut","GLOBAL",1)
+	GlobalTimerExpired("JonOutOfParty1","GLOBAL")
+	Global("JonOutFire","GLOBAL",1)
+	!InPartyAllowDead("lrirenic")  // Jon Irenicus
+	!Dead("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		SetGlobal("JonUndecided","GLOBAL",3)
+		SetGlobal("JonOutFire","GLOBAL",2)
+		ActionOverride("lrirenic",ApplyDamagePercent("lrirenic",50,MAGICFIRE))  // Jon Irenicus
+END
+
+IF
+	Global("JonUndecided","GLOBAL",1)
+	Global("JonOut","GLOBAL",1)
+	Global("JonOutFire","GLOBAL",0)
+	GlobalTimerExpired("JonOutOfParty0","GLOBAL")
+	!InPartyAllowDead("lrirenic")  // Jon Irenicus
+	!Dead("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		SetGlobal("JonOutFire","GLOBAL",1)
+		ActionOverride("lrirenic",ApplyDamagePercent("lrirenic",25,MAGICFIRE))  // Jon Irenicus
+END
+
+IF
+	Global("JonOut","GLOBAL",1)
+	GlobalTimerExpired("JonOutOfParty2","GLOBAL")
+	Global("JonOutFire","GLOBAL",2)
+	!InPartyAllowDead("lrirenic")  // Jon Irenicus
+	!Dead("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		SetGlobal("JonUndecided","GLOBAL",3)
+		SetGlobal("JonOutFire","GLOBAL",3)
+		SetGlobal("JonBanished","GLOBAL",1)
+		ActionOverride("lrirenic",ApplyDamagePercent("lrirenic",100,MAGICFIRE))  // Jon Irenicus
+		SetPlayerSound("lrirenic",-1,DYING)  // Jon Irenicus
+		Kill("lrirenic")  // Jon Irenicus
+END
+
+IF
+	Global("JonUndecided","GLOBAL",1)
+	Global("JonOut","GLOBAL",1)
+	!Global("JonOutFire","GLOBAL",0)
+	!GlobalTimerExpired("JonOutOfParty1","GLOBAL")
+	!GlobalTimerExpired("JonOutOfParty2","GLOBAL")
+	!Global("LRHadEllesimeDream","GLOBAL",1)
+	InPartyAllowDead("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		SetGlobal("JonOut","GLOBAL",0)
+		SetGlobal("JonOutFire","GLOBAL",0)
+		RealSetGlobalTimer("JonTalkTime","GLOBAL",TEN_HOURS)
+END
+
+IF
+	Global("JonUndecided","GLOBAL",1)
+	Global("JonOut","GLOBAL",1)
+	!Global("JonOutFire","GLOBAL",0)
+	Global("LRHadEllesimeDream","GLOBAL",1)
+	InPartyAllowDead("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		SetGlobal("JonUndecided","GLOBAL",3)
+		SetGlobal("JonOutFire","GLOBAL",0)
+END
+
+IF
+	G("LRJonIn",1)
+	G("JonBanished",1)
+	!G("LRJonDead",1)
+THEN
+	RESPONSE #100
+		SG("LRJonDead",1)
+		ActionOverride(Player1,ReallyForceSpellRES("deadjon",Myself))  // Energy Drain
+		ActionOverride(Player1,DisplayStringHead(Myself,999956))  // No such index
+END
+

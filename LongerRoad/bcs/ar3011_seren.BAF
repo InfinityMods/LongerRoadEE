@@ -1,0 +1,11 @@
+IF
+	InParty("lrirenic")  // Jon Irenicus
+	Global("DevaApproach","GLOBAL",4)
+	Global("LRAddWater","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LRAddWater","GLOBAL",1)
+		ActionOverride("Pile1",CreateItem("waterser",3,3,3))  // Water of Serenity
+		Continue()
+END
+

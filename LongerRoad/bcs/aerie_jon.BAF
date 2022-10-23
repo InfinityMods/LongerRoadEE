@@ -1,0 +1,73 @@
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	Global("AerieVsJon","GLOBAL",6)
+	OR(2)
+		!Global("AerieRomanceActive","GLOBAL",2)
+		Global("ExpLoveTalk","LOCALS",13)
+THEN
+	RESPONSE #100
+		IncrementGlobal("AerieVsJon","GLOBAL",1)
+		RealSetGlobalTimer("WhinePigeon","GLOBAL",2500)
+END
+
+IF
+	InParty(Myself)
+	InParty("lrirenic")  // Jon Irenicus
+	See("lrirenic")  // Jon Irenicus
+	!StateCheck("lrirenic",STATE_SLEEPING)  // Jon Irenicus
+	!Dead("lrirenic")  // Jon Irenicus
+	OR(2)
+		CombatCounter(0)
+		!See([ENEMY])
+	RealGlobalTimerExpired("WhinePigeon","GLOBAL")
+	Global("AerieVsJon","GLOBAL",7)
+THEN
+	RESPONSE #100
+		IncrementGlobal("AerieVsJon","GLOBAL",1)
+		Interact("lrirenic")  // Jon Irenicus
+END
+
+IF
+	InParty(Myself)
+	Global("AerieRomanceActive","GLOBAL",2)
+	InParty("lrirenic")  // Jon Irenicus
+	OR(2)
+		Global("AerieVsJon","GLOBAL",8)
+		Global("AerieVsJon","GLOBAL",10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("AerieVsJon","GLOBAL",1)
+		RealSetGlobalTimer("WhinePigeon","GLOBAL",FIVE_HOURS)
+END
+
+IF
+	InParty(Myself)
+	Global("AerieRomanceActive","GLOBAL",2)
+	InParty("lrirenic")  // Jon Irenicus
+	See("lrirenic")  // Jon Irenicus
+	!StateCheck("lrirenic",STATE_SLEEPING)  // Jon Irenicus
+	!Dead("lrirenic")  // Jon Irenicus
+	OR(2)
+		CombatCounter(0)
+		!See([ENEMY])
+	RealGlobalTimerExpired("WhinePigeon","GLOBAL")
+	OR(2)
+		Global("AerieVsJon","GLOBAL",9)
+		Global("AerieVsJon","GLOBAL",11)
+THEN
+	RESPONSE #100
+		IncrementGlobal("AerieVsJon","GLOBAL",1)
+		Interact("lrirenic")  // Jon Irenicus
+END
+
+IF
+	InParty(Myself)
+	!Global("AerieRomanceActive","GLOBAL",2)
+	InParty("lrirenic")  // Jon Irenicus
+	Global("AerieVsJon","GLOBAL",8)
+THEN
+	RESPONSE #100
+		IncrementGlobal("AerieVsJon","GLOBAL",4)
+END
+

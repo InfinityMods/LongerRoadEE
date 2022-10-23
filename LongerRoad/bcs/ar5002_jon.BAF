@@ -1,0 +1,32 @@
+IF
+	InParty("lrirenic")  // Jon Irenicus
+	Dead("gromnir")  // Gromnir Il-Khan
+	Global("LRGROM","AR5002",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("DeadGroTimer","AR5002",TWO_MINUTES)
+		SetGlobal("LRGROM","AR5002",2)
+		ActionOverride("lrirenic",Dialogue(Player1))
+END
+
+IF
+	InParty("lrirenic")  // Jon Irenicus
+	Dead("gromnir")  // Gromnir Il-Khan
+	Global("LRYAGA1","AR5002",0)
+	Global("MelissanYagaKillJob","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("LRYAGA1","AR5002",1)
+		ActionOverride("lrirenic",Dialogue(Player1))
+END
+
+IF
+	InParty("lrirenic")  // Jon Irenicus
+	Dead("gromnir")  // Gromnir Il-Khan
+	Global("LRGRDEAD","GLOBAL",0)
+	GlobalTimerExpired("DeadGroTimer","AR5002")
+THEN
+	RESPONSE #100
+		SetGlobal("LRGRDEAD","GLOBAL",1)
+END
+

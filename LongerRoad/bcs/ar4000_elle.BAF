@@ -1,0 +1,64 @@
+IF
+	Global("EnteredAR4000","AR4000",0)  // Forest of Tethyr
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ElleSpawnTimer","GLOBAL",TWO_MINUTES)
+		SetGlobal("EnteredAR4000","AR4000",1)  // Forest of Tethyr
+		DisplayStringNoName(Player1,70742)  // The Spirits of the Forest await. Check through your possessions and spells. Once you are prepared for whatever may come, click on one of the stone heads to speak to the gods.
+		TriggerActivation("HeadInfo1",TRUE)
+		TriggerActivation("HeadInfo2",TRUE)
+		TriggerActivation("HeadInfo3",TRUE)
+		TriggerActivation("HeadInfo4",TRUE)
+		TriggerActivation("HeadInfo5",TRUE)
+		TriggerActivation("HeadInfo6",TRUE)
+		TriggerActivation("HeadInfo7",TRUE)
+		TriggerActivation("HeadInfo8",TRUE)
+		TriggerActivation("HeadInfo9",TRUE)
+		TriggerActivation("HeadInfo10",TRUE)
+END
+
+IF
+	GlobalTimerExpired("ElleSpawnTimer","GLOBAL")
+	Global("EnteredAR4000","AR4000",1)  // Forest of Tethyr
+	Global("ElleSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("ElleSpawn","GLOBAL",1)
+		SaveGame(0)
+END
+
+IF
+	Global("ElleSpawn","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("ElleSpawn","GLOBAL",2)
+		StartCutSceneMode()
+		StartCutScene("lrelle")
+END
+
+IF
+	Global("ReceivedMask","GLOBAL",1)
+	Global("TalkedEllesime","GLOBAL",2)
+	Global("LRGiveBook","AR4000",0)  // Forest of Tethyr
+THEN
+	RESPONSE #100
+		SetGlobal("LRGiveBook","AR4000",1)  // Forest of Tethyr
+		GiveItemCreate("bookel6",Player1,0,0,0)  // Elves and the Elven Spirit
+		DisplayString(Player1,999965)  // No such index
+		Continue()
+END
+
+IF
+	Global("ElleSpawn","GLOBAL",2)
+	Global("TalkedEllesime","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("ElleSpawn","GLOBAL",3)
+		MoveViewObject(Player1,5)
+		Wait(2)
+		DisplayStringNoName(Player1,999998)  // No such index
+END
+

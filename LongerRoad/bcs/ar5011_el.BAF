@@ -1,0 +1,10 @@
+IF
+	OnCreation()
+	Global("LREbooks2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LREbooks2","GLOBAL",1)
+		ActionOverride("Container4",CreateItem("BOOKEL3",0,0,0))  // Elves and Death Part I
+		Continue()
+END
+

@@ -1,0 +1,12 @@
+IF
+	OnCreation()
+	Global("LREbooks1","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LREbooks1","GLOBAL",1)
+		ActionOverride("Shelf4",CreateItem("BOOKEL5",0,0,0))  // The Elven Races of Toril
+		ActionOverride("Shelf11",CreateItem("BOOKEL7",0,0,0))  // Tel'Seldarine
+		ActionOverride("Shelf16",CreateItem("BOOKEL1",0,0,0))  // The Creation of Elves Part I
+		Continue()
+END
+

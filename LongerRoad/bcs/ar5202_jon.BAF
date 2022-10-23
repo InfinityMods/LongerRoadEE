@@ -1,0 +1,10 @@
+IF
+	OnCreation()
+	InParty("lrirenic")  // Jon Irenicus
+	Global("JonGorion","AR5202",0)  // Forest of Mir - The Temple
+THEN
+	RESPONSE #100
+		SetGlobal("JonGorion","AR5202",1)  // Forest of Mir - The Temple
+		ActionOverride("lrirenic",Dialogue(Player1))
+END
+
