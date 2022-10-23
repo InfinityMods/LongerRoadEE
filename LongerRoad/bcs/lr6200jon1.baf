@@ -1,0 +1,29 @@
+
+IF
+     !Global("FIN_irenicus_fight_over","AR6200",1)
+     OR(2)
+          !Exists("finiren")
+          Dead("finiren") 
+     OR(3)
+          !Exists("finbodh")
+          Dead("finbodh")
+          Global("BodhiFights","GLOBAL",1)
+     OR(2)
+          !Exists("finsolar")
+          Dead("finsolar")
+     OR(2)
+          !Exists("finsola2")
+          Dead("finsola2")
+     OR(2)
+          !Exists("finsola3")
+          Dead("finsola3")
+     OR(3)
+		Global("ImoenBackToHuman","GLOBAL",2)
+		Dead("Imoen2")
+		!Exists("Imoen2")
+     !Exists([ENEMY])
+THEN
+    RESPONSE #100
+             SetGlobal("FIN_irenicus_fight_over","AR6200",1)
+             SetGlobalTimer("FIN_irenicus_epilog","AR6200",5)
+END

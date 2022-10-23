@@ -784,8 +784,6 @@ ACTION_IF FILE_EXISTS_IN_GAME  ~d0hosti.bcs~ // Improved Oasis
    COMPILE ~LongerRoad/dlg/lroasis.d~
  END
 
-ACTION_IF FILE_EXISTS_IN_GAME ~finbodh.cre~
- THEN BEGIN
    PRINT @116
 
    COPY ~LongerRoad/spl/zombify1.spl~ ~override/senzom.spl~
@@ -795,7 +793,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~finbodh.cre~
    COPY ~LongerRoad/spl/zombify1.spl~ ~override/balzom.spl~
      SAY 0x9e @119
 
-   EXTEND_TOP ~Imoslay.bcs~ ~LongerRoad/bcs/imosj.baf~
+COPY_EXISTING ~Imoslay.bcs~ ~override/Imoslay.bcs~ // Compatibility with Ascension v 2.0.x
+  REPLACE_BCS_BLOCK ~LongerRoad/bcs/imosj1.baf~ ~LongerRoad/bcs/imosj2.baf~
 
    COPY_EXISTING ~finiren.cre~ ~override/finiren.cre~
    WRITE_ASCII 0x34  ~LRJonS~
@@ -804,8 +803,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~finbodh.cre~
    COMPILE ~LongerRoad/dlg/finale.d~
            ~LongerRoad/dlg/finaleA.d~
 
-  EXTEND_TOP ~AR6200.bcs~  ~LongerRoad/bcs/lr6200jon.baf~
-
+COPY_EXISTING ~AR6200.bcs~ ~override/AR6200.bcs~ // Compatibility with Ascension v 2.0.x
+  REPLACE_BCS_BLOCK ~LongerRoad/bcs/lr6200jon1.baf~ ~LongerRoad/bcs/lr6200jon2.baf~
    EXTEND_TOP ~Finabaz.bcs~ ~LongerRoad/bcs/lrabazigal.bcs~
    EXTEND_TOP ~Finbalth.bcs~ ~LongerRoad/bcs/lrbalthazar.bcs~
    EXTEND_TOP ~Finsend.bcs~ ~LongerRoad/bcs/lrsendai.bcs~
@@ -854,15 +853,14 @@ ELSE BEGIN
 END
 
 //EE Ascension compatibility fix
-EXTEND_TOP
-~Imoslay.bcs~ ~LongerRoad/immyfix/Imolast.baf~
-EXTEND_TOP
-~Imoe25.bcs~ ~LongerRoad/immyfix/Imolast.baf~
+// EXTEND_TOP
+// ~Imoslay.bcs~ ~LongerRoad/immyfix/Imolast.baf~ // Already cover by Ascension 
+// EXTEND_TOP
+// ~Imoe25.bcs~ ~LongerRoad/immyfix/Imolast.baf~ // Already cover by Ascension 
 
 ACTION_IF (~%warning%~ != 1)
   THEN BEGIN
     PRINT @131
-  END
   END
 
 //RESTORE IRENICUS'S SOA PORTRAIT
