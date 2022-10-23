@@ -42,7 +42,7 @@ See the The Longer Road Section for more details on the plot and some spoilers.
 
 		Section II. Installation
 		~~~~~~~~~~~~~~~~~~~~~~~~
-BGII with the Throne of Bhaal expansion is required. Ascension is required as it adds 'flavor' to LR.
+BGII with the Throne of Bhaal expansion is required. Ascension v2.0.x or newer is required as it adds 'flavor' to LR. This mod is no more compatible with Vanilla game and Ascension prior to v2.0.
 LR should install correctly over any other WeiDU mods, and should be installed after Wheels of Prophecy. In particular, it
 will work fine with other common WeiDU mods (e.g., Tactics, Ascension, Ease-of-Use, Rogue Rebalancing, and various custom npc Romances.)
 
