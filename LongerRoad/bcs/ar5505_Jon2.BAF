@@ -1,0 +1,69 @@
+IF
+	Dead("balth")
+	Global("HadBhaal25Dream2","GLOBAL",0)
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",1)
+		!InParty("lrirenic")
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",2)
+		!InParty("lrirenic")
+	OR(2)
+		!Global("lrbalt","GLOBAL",1)
+		!InParty("lrirenic")
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("HadBhaal25Dream2","GLOBAL",1)
+		SetGlobal("DMWWBalthDeadPhase1","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut234a")
+END
+
+IF
+	Global("BalthazarEncounter","AR5505",0)
+	Global("HadBhaal25Dream2","GLOBAL",1)
+	Global("HadBhaal25Dream3","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("BalthazarEncounter","AR5505",1)
+		StartCutSceneMode()
+		StartCutScene("dw#balc2")
+END
+
+IF
+	Dead("balth")
+	OR(2)
+		Dead("sendai")
+		Dead("abazigal")
+	Global("HadBhaal25Dream2","GLOBAL",1)
+	Global("HadBhaal25Dream3","GLOBAL",0)
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",1)
+		!InParty("lrirenic")
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",2)
+		!InParty("lrirenic")
+	OR(2)
+		!Global("lrbalt","GLOBAL",1)
+		!InParty("lrirenic")
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("HadBhaal25Dream3","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut235a")
+END
+
+IF
+	Dead("Balth")
+	G("lrsillyglobal",0)
+	InParty("lrirenic")
+	OR(2)
+		Global("HadBhaal25Dream2","GLOBAL",1)
+		Global("HadBhaal25Dream3","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Kill("Balth")
+		SG("lrsillyglobal",1)
+END
