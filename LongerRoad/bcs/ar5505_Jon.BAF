@@ -1,15 +1,15 @@
 IF
-	Dead("balth")  // Балтазар
+	Dead("balth")  // Balthazar
 	Global("HadBhaal25Dream5","GLOBAL",0)
 	OR(2)
 		!Global("AcceptIlmater","GLOBAL",1)
-		!InParty("lrirenic")  // Джон Айреникус
+		!InParty("lrirenic")  // Jon Irenicus
 	OR(2)
 		!Global("AcceptIlmater","GLOBAL",2)
-		!InParty("lrirenic")  // Джон Айреникус
+		!InParty("lrirenic")  // Jon Irenicus
 	OR(2)
 		!Global("lrbalt","GLOBAL",1)
-		!InParty("lrirenic")  // Джон Айреникус
+		!InParty("lrirenic")  // Jon Irenicus
 THEN
 	RESPONSE #100
 		ClearAllActions()
@@ -20,18 +20,18 @@ THEN
 END
 
 IF
-	!Exists("balth")  // Балтазар
+	!Exists("balth")  // Balthazar
 	Global("BalthazarFights","GLOBAL",1)
 	Global("HadBhaal25Dream5","GLOBAL",0)
 	OR(2)
 		!Global("AcceptIlmater","GLOBAL",1)
-		!InParty("lrirenic")  // Джон Айреникус
+		!InParty("lrirenic")  // Jon Irenicus
 	OR(2)
 		!Global("AcceptIlmater","GLOBAL",2)
-		!InParty("lrirenic")  // Джон Айреникус
+		!InParty("lrirenic")  // Jon Irenicus
 	OR(2)
 		!Global("lrbalt","GLOBAL",1)
-		!InParty("lrirenic")  // Джон Айреникус
+		!InParty("lrirenic")  // Jon Irenicus
 THEN
 	RESPONSE #100
 		ClearAllActions()
@@ -42,7 +42,7 @@ THEN
 END
 
 IF
-	Dead("balth")  // Балтазар
+	Dead("balth")  // Balthazar
 	Global("HadBhaal25Dream5","GLOBAL",0)
 THEN
 	RESPONSE #100
@@ -55,7 +55,7 @@ END
 
 
 IF
-	!Exists("balth")  // Балтазар
+	!Exists("balth")  // Balthazar
 	Global("BalthazarFights","GLOBAL",1)
 	Global("HadBhaal25Dream5","GLOBAL",0)
 THEN
@@ -68,12 +68,12 @@ THEN
 END
 
 IF
-	Dead("Balth")  // Балтазар
+	Dead("Balth")  // Balthazar
 	G("lrsillyglobal",0)
-	InParty("lrirenic")  // Джон Айреникус
+	InParty("lrirenic")  // Jon Irenicus
 	Global("HadBhaal25Dream5","GLOBAL",1)
 THEN
 	RESPONSE #100
-		Kill("Balth")  // Балтазар
-		SG("lrsillyglobal",0)
+		Kill("Balth")  // Balthazar
+		SG("lrsillyglobal",1)
 END

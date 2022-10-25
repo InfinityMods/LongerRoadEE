@@ -1,0 +1,49 @@
+IF
+	Dead("Abazigal")  // Abazigal
+	CombatCounter(0)
+	Global("HadBhaal25Dream2","GLOBAL",0)
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",1)
+		!InParty("lrirenic")  // Jon Irenicus
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",2)
+		!InParty("lrirenic")  // Jon Irenicus
+	OR(2)
+		!Global("lrAbazi","GLOBAL",1)
+		!InParty("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		TriggerActivation("Tran6004",TRUE)
+		TriggerActivation("Info6004",FALSE)
+		SetGlobal("HadBhaal25Dream2","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut234a")
+END
+
+IF
+	Dead("Abazigal")  // Abazigal
+	CombatCounter(0)
+	OR(2)
+		Dead("Sendai")  // Sendai
+		Dead("Balth")  // Balthazar
+	Global("HadBhaal25Dream2","GLOBAL",1)
+	Global("HadBhaal25Dream3","GLOBAL",0)
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",1)
+		!InParty("lrirenic")  // Jon Irenicus
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",2)
+		!InParty("lrirenic")  // Jon Irenicus
+	OR(2)
+		!Global("lrAbazi","GLOBAL",1)
+		!InParty("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		TriggerActivation("Tran6004",TRUE)
+		TriggerActivation("Info6004",FALSE)
+		SetGlobal("HadBhaal25Dream3","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut235a")
+END

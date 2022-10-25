@@ -2,10 +2,10 @@ IF
   Exists("finsend")
   !G("lrsendai",0)
   PartyHasItem("sesstn")
-  Global("zombified","LOCALS",0)
+  Global("zombified_finsend","LOCALS",0)
 THEN
   RESPONSE #100
-    SetGlobal("zombified","LOCALS",1)
+    SetGlobal("zombified_finsend","LOCALS",1)
     ActionOverride("finsend",ReallyForceSpellRES("SenZom",Myself))
 END
 
@@ -13,21 +13,21 @@ IF
   Exists("finbalth")
   !G("lrbdie",0)
   PartyHasItem("basstn")
-  Global("zombified","LOCALS",0)
+  Global("zombified_finbalth","LOCALS",0)
 THEN
   RESPONSE #100
-    SetGlobal("zombified","LOCALS",1)
+    SetGlobal("zombified_finbalth","LOCALS",1)
     ActionOverride("finbalth",ReallyForceSpellRES("BalZom",Myself))
 END
 
 IF
   Exists("finabaz")
-  !G("lrbdie",0)
+  !G("lrabazi",0)
   PartyHasItem("absstn")
-  Global("zombified","LOCALS",0)
+  Global("zombified_finabaz","LOCALS",0)
 THEN
   RESPONSE #100
-    SetGlobal("zombified","LOCALS",1)
+    SetGlobal("zombified_finabaz","LOCALS",1)
     ActionOverride("finabaz",ReallyForceSpellRES("AbaZom",Myself))
 END
 

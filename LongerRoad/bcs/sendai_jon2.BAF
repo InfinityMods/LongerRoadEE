@@ -1,0 +1,58 @@
+IF
+	Dead("sendai2")  // Sendai
+	Dead("sendai3")  // Sendai
+	Dead("sendai4")  // Sendai
+	Dead("sendai5")  // Sendai
+	Dead("sendai6")  // Sendai
+	Dead("sendai7")  // Sendai
+	Dead("sendai8")  // Sendai
+	Dead("sendai")  // Sendai
+	Global("HadBhaal25Dream2","GLOBAL",0)
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",1)
+		!InParty("lrirenic")  // Jon Irenicus
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",2)
+		!InParty("lrirenic")  // Jon Irenicus
+	OR(2)
+		!Global("lrsendai","GLOBAL",1)
+		!InParty("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("HadBhaal25Dream2","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut234a")
+END
+
+IF
+	Dead("sendai2")  // Sendai
+	Dead("sendai3")  // Sendai
+	Dead("sendai4")  // Sendai
+	Dead("sendai5")  // Sendai
+	Dead("sendai6")  // Sendai
+	Dead("sendai7")  // Sendai
+	Dead("sendai8")  // Sendai
+	Dead("sendai")  // Sendai
+	OR(2)
+		Dead("Abazigal")  // Abazigal
+		Dead("Balth")  // Balthazar
+	Global("HadBhaal25Dream2","GLOBAL",1)
+	Global("HadBhaal25Dream3","GLOBAL",0)
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",1)
+		!InParty("lrirenic")  // Jon Irenicus
+	OR(2)
+		!Global("AcceptIlmater","GLOBAL",2)
+		!InParty("lrirenic")  // Jon Irenicus
+	OR(2)
+		!Global("lrsendai","GLOBAL",1)
+		!InParty("lrirenic")  // Jon Irenicus
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("HadBhaal25Dream3","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("cut235a")
+END
+
