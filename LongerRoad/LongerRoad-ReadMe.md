@@ -42,9 +42,16 @@ See the The Longer Road Section for more details on the plot and some spoilers.
 
 		Section II. Installation
 		~~~~~~~~~~~~~~~~~~~~~~~~
-BGII with the Throne of Bhaal expansion is required. Ascension v2.0.x or newer is required as it adds 'flavor' to LR. This mod is no more compatible with Vanilla game and Ascension prior to v2.0.
-LR should install correctly over any other WeiDU mods, and should be installed after Wheels of Prophecy. In particular, it
-will work fine with other common WeiDU mods (e.g., Tactics, Ascension, Ease-of-Use, Rogue Rebalancing, and various custom npc Romances.)
+Requirements for Baldur's Gate 2 Enhanced Edition:
+- Ascension v2.0.23 or newer
+
+Requirements for classic Baldur's Gate II:
+- Baldur's Gate II: Throne of Bhaal expansion 
+- Baldur's Gate II: Throne of Bhaal Patch v26498 Path (included in GoG release)
+- Baldur's Gate II Fixpack: https://www.gibberlings3.net/mods/fixes/bg2fixpack/
+- Ascension v2.0.23 or newer
+
+Ascension v2.0.23 or newer is required as it adds 'flavor' to LR. This mod is no longer compatible with non-modded game and older Ascension prior to v2.0.23. LR should install correctly over any other WeiDU mods, and should be installed after Wheels of Prophecy. In particular, it will work fine with other common WeiDU mods (e.g., Tactics, Ascension, Ease-of-Use, Rogue Rebalancing, and various custom npc Romances.)
 
 Extract the main archive into your BGII main directory. This is normally:
 
