@@ -820,7 +820,7 @@ COPY_EXISTING ~Imoslay.bcs~ ~override/Imoslay.bcs~ // Compatibility with Ascensi
 COPY_EXISTING ~AR6200.bcs~ ~override/AR6200.bcs~ // Compatibility with Ascension v 2.0.x
   REPLACE_BCS_BLOCK ~LongerRoad/bcs/lr6200jon1.baf~ ~LongerRoad/bcs/lr6200jon2.baf~
 
-   EXTEND_TOP ~AR6200.bcs~ ~LongerRoad/bcs/bszomb.baf~ // Compatibility with Stratgems: Smarter Abazigal & Smarter Ascension Irenicus/Sendai; Stratgems empties Finabaz.bcs and Finsend.bcs
+   EXTEND_TOP ~jonel25.bcs~ ~LongerRoad/bcs/bszomb.baf~ // Compatibility with Stratgems: Smarter Abazigal & Smarter Ascension Irenicus/Sendai; Stratgems empties Finabaz.bcs and Finsend.bcs
 
 COPY_EXISTING ~FINBODHI.BCS~ ~override/FINBODHI.BCS~
   REPLACE_BCS_BLOCK ~LongerRoad/bcs/FINBODHI_NO_DEMO.BAF~ ~LongerRoad/bcs/FINBODHI_DEMO.BAF~
@@ -838,10 +838,14 @@ COPY_EXISTING ~demogor2.cre~ ~override/demogor3.cre~
 
 ACTION_IF NOT MOD_IS_INSTALLED ~setup-wheels.tp2~ ~0~ BEGIN
      COPY_EXISTING ~ar6005.bcs~ ~override/ar6005.bcs~
-     REPLACE_BCS_BLOCK ~LongerRoad/bcs/Abazi_no_Jon.BAF~ ~LongerRoad/bcs/Abazi_Jon.BAF~
+       REPLACE_BCS_BLOCK ~LongerRoad/bcs/Abazi_no_Jon.BAF~ ~LongerRoad/bcs/Abazi_Jon.BAF~ ON_MISMATCH END
+     COPY_EXISTING ~ar6005.bcs~ ~override/ar6005.bcs~
+       REPLACE_BCS_BLOCK ~LongerRoad/bcs/Abazi_no_Jon_ac.BAF~ ~LongerRoad/bcs/Abazi_Jon.BAF~ ON_MISMATCH END
 END ELSE BEGIN
      COPY_EXISTING ~ar6005.bcs~ ~override/ar6005.bcs~
-     REPLACE_BCS_BLOCK ~LongerRoad/bcs/Abazi_no_Jon2.BAF~ ~LongerRoad/bcs/Abazi_Jon2.BAF~
+       REPLACE_BCS_BLOCK ~LongerRoad/bcs/Abazi_no_Jon2.BAF~ ~LongerRoad/bcs/Abazi_Jon2.BAF~ ON_MISMATCH END
+     COPY_EXISTING ~ar6005.bcs~ ~override/ar6005.bcs~
+       REPLACE_BCS_BLOCK ~LongerRoad/bcs/Abazi_no_Jon2_ac.BAF~ ~LongerRoad/bcs/Abazi_Jon2.BAF~ ON_MISMATCH END
 END
 
 ACTION_FOR_EACH ~file~ IN  // for each of the following files
