@@ -4,7 +4,7 @@
 ### TotoR
 - Small reworks of cutscene
 - Update jonel25.bcs instead of AR6200.bcs for more reliability in zobification
-- Additionnal compatibility block for AR6005.bcs for mega mod games
+- Additional compatibility block for AR6005.bcs for mega mod games
 
 # 2.0.5
 
