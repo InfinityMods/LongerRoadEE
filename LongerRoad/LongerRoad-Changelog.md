@@ -1,8 +1,14 @@
 
+# 2.0.6
+
+### TotoR
+- Small reworks of cutscene
+- Update jonel25.bcs instead of AR6200.bcs for more reliability in zobification
+- Additionnal compatibility block for AR6005.bcs for mega mod games
+
 # 2.0.5
 
 ### TotoR
-Compatibility update:
 - Append or replace blocks in scripts instead of overriding them
 - Add check to avoid overriding items, creatures and scripts from Ascensions
 - Rework of some scripts to be compatible with Ascension v2.0.x (this version is no more compatible with older versions, ie 1.4 or 1.5)
