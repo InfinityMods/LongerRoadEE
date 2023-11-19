@@ -871,6 +871,6 @@ BEGIN @126 LABEL "LongerRoad-RestoreIrenicusSoAPortrait"
 REQUIRE_PREDICATE MOD_IS_INSTALLED "LongerRoad.tp2" (ID_OF_LABEL "LongerRoad.tp2" "LongerRoad-Main" ) @127
 
 PRINT @128
-  COPY_EXISTING ~NJONL.bmp~ ~override/LRJONS.bmp~
-  COPY_EXISTING ~NJONL.bmp~ ~override/LRJONM.bmp~
+  COPY_EXISTING ~NJONS.bmp~ ~override/LRJONS.bmp~
+  COPY_EXISTING ~NJONM.bmp~ ~override/LRJONM.bmp~
   COPY_EXISTING ~NJONL.bmp~ ~override/LRJONL.bmp~
