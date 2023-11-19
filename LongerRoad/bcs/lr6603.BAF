@@ -1,0 +1,103 @@
+IF
+	OnCreation()
+	Global("EnteredArea","lr6603",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredArea","lr6603",1)
+		RealSetGlobalTimer("ElysiumSong","GLOBAL",180)
+		PlaySong(%MxHeal%)
+END
+
+IF
+	Global("ElysHeal","lr6603",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ElysHeal","lr6603",1)
+		StartCutSceneMode()
+		CreateCreatureImpassable("cutspy",[403.752],9)  // No such index
+		MoveViewPoint([403.752],INSTANT)
+		DisplayStringNoName("cutspy",@33)  // No such index
+		ActionOverride("cutspy",DestroySelf())
+		ApplySpell(Player2,CLERIC_RESURRECTION)  // SPPR712.SPL (Resurrection)
+		ApplySpell(Player3,CLERIC_RESURRECTION)  // SPPR712.SPL (Resurrection)
+		ApplySpell(Player4,CLERIC_RESURRECTION)  // SPPR712.SPL (Resurrection)
+		ApplySpell(Player5,CLERIC_RESURRECTION)  // SPPR712.SPL (Resurrection)
+		ApplySpell(Player6,CLERIC_RESURRECTION)  // SPPR712.SPL (Resurrection)
+		ActionOverride(Player1,ReallyForceSpell(Myself,HEAL_NO_VISUAL))  // SPIN679.SPL (Heal)
+		ActionOverride(Player2,ReallyForceSpell(Myself,HEAL_NO_VISUAL))  // SPIN679.SPL (Heal)
+		ActionOverride(Player3,ReallyForceSpell(Myself,HEAL_NO_VISUAL))  // SPIN679.SPL (Heal)
+		ActionOverride(Player4,ReallyForceSpell(Myself,HEAL_NO_VISUAL))  // SPIN679.SPL (Heal)
+		ActionOverride(Player5,ReallyForceSpell(Myself,HEAL_NO_VISUAL))  // SPIN679.SPL (Heal)
+		ActionOverride(Player6,ReallyForceSpell(Myself,HEAL_NO_VISUAL))  // SPIN679.SPL (Heal)
+		Wait(3)
+		CreateVisualEffect("SPSUMMON",[580.631])
+		Wait(5)
+		CreateCreature("LRNY03",[580.631],9)
+		CreateVisualEffect("SPSUMMON",[641.589])
+		Wait(5)
+		CreateCreature("LRNY02",[641.589],8)
+		CreateVisualEffect("SPSUMMON",[653.508])
+		Wait(5)
+		CreateCreature("LRNY01",[653.508],7)
+		EndCutSceneMode()
+END
+
+IF
+	OR(40)
+		Global("EnteredArea","lr6603",1)
+		Global("EnteredArea","lr6603",2)
+		Global("EnteredArea","lr6603",3)
+		Global("EnteredArea","lr6603",4)
+		Global("EnteredArea","lr6603",5)
+		Global("EnteredArea","lr6603",6)
+		Global("EnteredArea","lr6603",7)
+		Global("EnteredArea","lr6603",8)
+		Global("EnteredArea","lr6603",9)
+		Global("EnteredArea","lr6603",10)
+		Global("EnteredArea","lr6603",11)
+		Global("EnteredArea","lr6603",12)
+		Global("EnteredArea","lr6603",13)
+		Global("EnteredArea","lr6603",14)
+		Global("EnteredArea","lr6603",15)
+		Global("EnteredArea","lr6603",16)
+		Global("EnteredArea","lr6603",17)
+		Global("EnteredArea","lr6603",18)
+		Global("EnteredArea","lr6603",19)
+		Global("EnteredArea","lr6603",20)
+		Global("EnteredArea","lr6603",21)
+		Global("EnteredArea","lr6603",22)
+		Global("EnteredArea","lr6603",23)
+		Global("EnteredArea","lr6603",24)
+		Global("EnteredArea","lr6603",25)
+		Global("EnteredArea","lr6603",26)
+		Global("EnteredArea","lr6603",27)
+		Global("EnteredArea","lr6603",28)
+		Global("EnteredArea","lr6603",29)
+		Global("EnteredArea","lr6603",30)
+		Global("EnteredArea","lr6603",31)
+		Global("EnteredArea","lr6603",32)
+		Global("EnteredArea","lr6603",33)
+		Global("EnteredArea","lr6603",34)
+		Global("EnteredArea","lr6603",35)
+		Global("EnteredArea","lr6603",36)
+		Global("EnteredArea","lr6603",37)
+		Global("EnteredArea","lr6603",38)
+		Global("EnteredArea","lr6603",39)
+		Global("EnteredArea","lr6603",40)
+	RealGlobalTimerExpired("ElysiumSong","GLOBAL")
+THEN
+	RESPONSE #100
+		IncrementGlobal("EnteredArea","lr6603",1)
+		RealSetGlobalTimer("ElysiumSong","GLOBAL",180)
+		PlaySong(%MxHeal%)
+END
+
+IF
+	Global("GivenSpark","GLOBAL",1)
+	Global("LRSparkTo","GLOBAL",0)
+	!PartyHasItem("devasprk")
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,PickUpItem("devasprk"))
+END
+

@@ -12,6 +12,6 @@ THEN
     ActionOverride("lrirenic",PlayDeadInterruptable(500000))
     Wait(5)
     ActionOverride("finsol01",FaceObject(Player1))
-    PlaySong(999999)
+    PlaySong(%MxAbys%)
     ActionOverride(Player1,StartDialog("player1",Player1))
 END

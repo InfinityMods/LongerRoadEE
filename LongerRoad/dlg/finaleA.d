@@ -350,7 +350,7 @@ END
 IF ~~ Bodhi2
   SAY @92
   IF ~InParty("Imoen2")~ 
-       THEN DO ~ClearAllActions() StartCutSceneMode() StartCutScene("resimo1")~ EXIT	 
+       THEN DO ~ClearAllActions() StartCutSceneMode() StartCutScene("resimo3")~ EXIT	 
   IF ~!InParty("Imoen2")~ 
      THEN DO ~ClearAllActions() StartCutSceneMode() StartCutScene("resimo2")~ EXIT
 END
@@ -425,7 +425,7 @@ CHAIN FINBODH lrJBChain1
    @125
 END IF ~InParty("Imoen2")~ THEN DO ~ClearAllActions()
         StartCutSceneMode()
-        StartCutScene("resimo1")~ EXIT    
+        StartCutScene("resimo3")~ EXIT    
 	IF ~!InParty("Imoen2")~ THEN DO ~ClearAllActions()
         StartCutSceneMode()
         StartCutScene("resimo2")~ EXIT			

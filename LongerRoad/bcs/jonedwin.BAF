@@ -1,0 +1,45 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("lrirenic")
+		MoveViewObject("Edwin",INSTANT)  // Edwin
+		PlaySong(%MxTroll%)
+		ActionOverride("Edwin",DisplayStringHead("Edwin",53805))  // Lil' monkey spanker.
+		SmallWait(10)
+		ActionOverride("Edwin",MoveToObjectNoInterrupt("lrirenic"))
+		MoveViewObject("lrirenic",10)
+		FaceObject("Edwin")  // Edwin
+		DisplayStringHead(Myself,68805)  // Don't worry.  This will all be over soon.
+		SmallWait(45)
+		ActionOverride("Edwin",RunAwayFromNoInterrupt("lrirenic",35))
+		RunAwayFromNoInterrupt("Edwin",35)  // Edwin
+		SmallWait(50)
+		ActionOverride("Edwin",FaceObject("lrirenic"))
+		FaceObject("Edwin")  // Edwin
+		SmallWait(50)
+		ReallyForceSpell("Edwin",WIZARD_CHAOS_VISUALS_ONLY)  // Edwin
+		Wait(2)
+		ActionOverride("Edwin",ForceSpell("lrirenic",FLASHY_4))  // SPIN794.SPL (No such index)
+		Wait(2)
+		ReallyForceSpell("Edwin",FLASHY_2)  // Edwin
+		Wait(2)
+		ActionOverride("Edwin",ForceSpell("lrirenic",WIZARD_CHAOS_VISUALS_ONLY))  // SPWI050.SPL (Chaos)
+		Wait(2)
+		ReallyForceSpell("Edwin",FLASHY_1)  // Edwin
+		Wait(1)
+		ActionOverride("Edwin",ForceSpell("lrirenic",BEHOLDER_BLAST_VISUAL2))  // SPIN665.SPL (No such index)
+		Wait(2)
+		ReallyForceSpell("Edwin",IRENICUS_WORD_OF_POWER)  // Edwin
+		Wait(2)
+		ActionOverride("Edwin",ForceSpell("lrirenic",FLASHY_3))  // SPIN795.SPL (No such index)
+		Wait(2)
+		ReallyForceSpellRES("GLOTRN1","Edwin")  // Edwin
+		SmallWait(10)
+		ActionOverride("Edwin",ReallyForceSpellRES("GLOTRN1","lrirenic"))
+		Wait(2)
+		EndCutSceneMode()
+		SetGlobal("JonEdwinFight","GLOBAL",2)
+		ActionOverride("Edwin",Interact("lrirenic"))
+END
+

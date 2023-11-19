@@ -1,0 +1,26 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([30.0],0)
+		Wait(2)
+		JumpToPoint([1172.1780])
+		Face(10)
+		CreateCreature("lrelle1",[767.1656],10)
+		MoveViewObject("lrelle1",INSTANT)
+		Explore()
+		Wait(2)
+		FadeFromColor([30.0],0)
+		ActionOverride("lrelle1",MoveToPointNoInterrupt([1090.1794]))
+		Wait(1)
+		FaceObject("lrelle1")
+		Wait(2)
+		ActionOverride("lrelle1",FaceObject(Player1))
+		SmallWait(2)
+		PlaySong(%MxElle%)
+		Wait(2)
+		ActionOverride("lrelle1",StartDialogueNoSet(Player1))
+		EndCutSceneMode()
+END
+

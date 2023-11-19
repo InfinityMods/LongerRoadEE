@@ -1,0 +1,1295 @@
+IF
+	Die()
+	InPartyAllowDead(Myself)
+	Global("LRDead","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LRDead","LOCALS",1)
+		LeaveParty()
+END
+
+IF
+	GlobalGT("JonTalk","LOCALS",13)
+	!Global("AgreedToGiveSoul","GLOBAL",2)
+	!Alignment(Player1,MASK_EVIL)
+	CheckStatGT(Player1,14,CHR)
+	!Global("JonUndecided","GLOBAL",3)
+	!ReputationLT(Player1,5)
+	GlobalGT("JonRedemptionCounter","GLOBAL",40)
+	Global("DevaQuestSolved","GLOBAL",1)
+	Global("AcceptIlmater","GLOBAL",0)
+	!G("lrSHoldOn",1)
+	OR(3)
+		G("lrBaltSoul",1)
+		G("lrSendaiSoul",1)
+		G("lrAbazigalSoul",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AcceptIlmater","GLOBAL",1)
+END
+
+IF
+	GlobalGT("JonTalk","LOCALS",13)
+	GlobalGT("JonRedemptionCounter","GLOBAL",45)
+	!Global("AgreedToGiveSoul","GLOBAL",2)
+	!Global("JonUndecided","GLOBAL",3)
+	!ReputationLT(Player1,5)
+	Global("DevaQuestSolved","GLOBAL",1)
+	Global("AcceptIlmater","GLOBAL",0)
+	!G("lrSHoldOn",1)
+	OR(3)
+		G("lrBaltSoul",1)
+		G("lrSendaiSoul",1)
+		G("lrAbazigalSoul",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AcceptIlmater","GLOBAL",1)
+END
+
+IF
+	OR(3)
+		ReputationLT(Player1,5)
+		G("JonUndecided",3)
+		GlobalLT("JonRedemptionCounter","GLOBAL",41)
+	G("AcceptIlmater",1)
+THEN
+	RESPONSE #100
+		SG("AcceptIlmater",0)
+END
+
+IF
+	G("lrBaltSoul",1)
+	G("AcceptIlmater",1)
+	OR(2)
+		!Dead("Abazigal")  // Abazigal
+		!Dead("Sendai")  // Sendai
+	G("lrSHoldOn",0)
+THEN
+	RESPONSE #100
+		SG("lrSHoldOn",1)
+		SG("AcceptIlmater",0)
+END
+
+IF
+	G("lrSHoldOn",1)
+	Dead("Abazigal")  // Abazigal
+	Dead("Sendai")  // Sendai
+	Global("HadBhaal25Dream3","GLOBAL",1)
+	G("AcceptIlmater",0)
+THEN
+	RESPONSE #100
+		SG("lrSHoldOn",0)
+		SG("AcceptIlmater",1)
+END
+
+IF
+	InParty(Myself)
+	StateCheck(Player1,STATE_CONFUSED)
+	!StateCheck(Myself,STATE_CONFUSED)
+	!Global("JonConf","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonConf","GLOBAL",1)
+		ReallyForceSpellRES("JONW02",Myself)
+END
+
+IF
+	InParty(Myself)
+	StateCheck(Player1,STATE_PANIC)
+	!StateCheck(Myself,STATE_PANIC)
+	!Global("JonPan","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonPan","GLOBAL",1)
+		ReallyForceSpellRES("JONW03",Myself)
+END
+
+IF
+	InParty(Myself)
+	StateCheck(Player1,STATE_FEEBLEMINDED)
+	!StateCheck(Myself,STATE_FEEBLEMINDED)
+	!Global("JonFeeb","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonFeeb","GLOBAL",1)
+		ReallyForceSpellRES("JONW01",Myself)
+END
+
+IF
+	InParty(Myself)
+	!StateCheck(Player1,STATE_CONFUSED)
+	!StateCheck(Myself,STATE_CONFUSED)
+	Global("JonConf","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonConf","GLOBAL",0)
+END
+
+IF
+	InParty(Myself)
+	!StateCheck(Player1,STATE_PANIC)
+	!StateCheck(Myself,STATE_PANIC)
+	Global("JonPan","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonPan","GLOBAL",0)
+END
+
+IF
+	InParty(Myself)
+	!StateCheck(Player1,STATE_FEEBLEMINDED)
+	!StateCheck(Myself,STATE_FEEBLEMINDED)
+	Global("JonFeeb","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonFeeb","GLOBAL",0)
+END
+
+IF
+	InParty(Myself)
+	Global("JonUndecided","GLOBAL",0)
+	Global("JonNpcFight","GLOBAL",0)
+	Global("JonBanished","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JonUndecided","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	Global("JonUndecided","GLOBAL",0)
+	OR(2)
+		!Global("JonNpcFight","GLOBAL",0)
+		!Global("JonBanished","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JonUndecided","GLOBAL",3)
+END
+
+IF
+	InParty(Myself)
+	Global("JonUndecided","GLOBAL",1)
+	ReputationLT(Player1,5)
+	GlobalGT("JonTalk","LOCALS",8)
+THEN
+	RESPONSE #100
+		SetGlobal("JonUndecided","GLOBAL",3)
+END
+
+IF
+	InParty(Myself)
+	Global("JonUndecided","GLOBAL",1)
+	GlobalGT("JonTalk","LOCALS",13)
+	GlobalGT("JonRedemptionCounter","GLOBAL",45)
+	ReputationGT(Player1,4)
+THEN
+	RESPONSE #100
+		SetGlobal("JonUndecided","GLOBAL",2)
+END
+
+IF
+	InParty(Myself)
+	Global("JonUndecided","GLOBAL",1)
+	GlobalGT("JonTalk","LOCALS",13)
+	GlobalLT("JonRedemptionCounter","GLOBAL",25)
+THEN
+	RESPONSE #100
+		SetGlobal("JonUndecided","GLOBAL",3)
+END
+
+IF
+	InParty(Myself)
+	Global("JonUndecided","GLOBAL",3)
+	Global("JonEvil","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JonEvil","LOCALS",1)
+		RealSetGlobalTimer("JonEvilTalkTime","GLOBAL",2400)
+END
+
+IF
+	InParty(Myself)
+	InParty("Jaheira")  // Jaheira
+	Global("JaheiraConflict","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JaheiraConflict","LOCALS",1)
+		RealSetGlobalTimer("JaheiraConflictTimer","GLOBAL",10)
+END
+
+IF
+	InParty(Myself)
+	InParty("Imoen2")  // Imoen
+	Global("ImoenConflict","LOCALS",0)
+	OR(2)
+		!InParty("Jaheira")  // Jaheira
+		Global("JaeIsMad","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("ImoenConflict","LOCALS",1)
+		RealSetGlobalTimer("ImoenConflictTimer","GLOBAL",10)
+END
+
+IF
+	InParty(Myself)
+	InParty("Minsc")  // Minsc
+	Global("MinscConflict","LOCALS",0)
+	OR(2)
+		!InParty("Jaheira")  // Jaheira
+		Global("JaeIsMad","GLOBAL",2)
+	OR(2)
+		!InParty("Imoen2")  // Imoen
+		Global("ImmyIsMad","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscConflict","LOCALS",1)
+		RealSetGlobalTimer("MinscConflictTimer","GLOBAL",10)
+END
+
+IF
+	!AreaCheck("AR4500")
+	!InParty(Myself)
+	!Global("JonBanished","GLOBAL",1)
+	Global("JonMove","LOCALS",0)
+	Global("KickedOut","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonMove","LOCALS",1)
+		MoveViewObject(Myself,INSTANT)
+		CreateVisualEffectObject("SPPOWRRD",Myself)
+		PlaySound("EFF_P19")
+		SmallWait(2)
+		CreateVisualEffectObject("SPFLESHS",Myself)
+		SmallWait(2)
+		PlaySound("EFF_M36B")
+		MoveBetweenAreas("AR4500",[2218.1143],3)
+END
+
+IF
+	InParty(Myself)
+	Global("JonNpcFight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JonNpcFight","GLOBAL",2)
+		SetGlobal("JonBanished","GLOBAL",1)
+		SetLeavePartyDialogFile()
+		LeaveParty()
+		ChangeAIScript("",CLASS)
+		ChangeAIScript("",DEFAULT)
+		ChangeAIScript("",GENERAL)
+		ChangeAIScript("",SPECIFICS)
+		ChangeAIScript("LRIREN",OVERRIDE)
+		SetPlayerSound(Myself,-1,DYING)  // No such index
+		SetDialog("")
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	!InParty(Myself)
+	Global("JonNpcFight","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JonNpcFight","GLOBAL",1)
+		SetGlobal("JonBanished","GLOBAL",1)
+		ChangeAIScript("",CLASS)
+		ChangeAIScript("",DEFAULT)
+		ChangeAIScript("",GENERAL)
+		ChangeAIScript("",SPECIFICS)
+		ChangeAIScript("LRIREN",OVERRIDE)
+		SetPlayerSound(Myself,-1,DYING)  // No such index
+		SetDialog("")
+		Continue()
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	AttackedBy([GOODCUTOFF],DEFAULT)
+THEN
+	RESPONSE #100
+		ChangeAIScript("",CLASS)
+		ChangeAIScript("",DEFAULT)
+		ChangeAIScript("",GENERAL)
+		ChangeAIScript("",SPECIFICS)
+		ChangeAIScript("LRIREN",OVERRIDE)
+		SetPlayerSound(Myself,-1,DYING)  // No such index
+		SetDialog("")
+		Enemy()
+		Continue()
+END
+
+IF
+	InParty(Myself)
+	Global("JonTalk","LOCALS",0)
+	Global("JonUndecided","GLOBAL",1)
+	Global("MelissanJob","GLOBAL",1)
+THEN
+	RESPONSE #100
+		RealSetGlobalTimer("JonTalkTime","GLOBAL",2400)
+		IncrementGlobal("JonTalk","LOCALS",1)
+		IncrementGlobal("JonTalkCheck","GLOBAL",1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("JonTalkTime","GLOBAL")
+	Global("JonUndecided","GLOBAL",1)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+	OR(5)
+		Global("JonTalk","LOCALS",1)
+		Global("JonTalk","LOCALS",3)
+		Global("JonTalk","LOCALS",5)
+		Global("JonTalk","LOCALS",7)
+		Global("JonTalk","LOCALS",9)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("JonTalk","LOCALS",1)
+		IncrementGlobal("JonTalkCheck","GLOBAL",1)
+		PlaySong(%MxIren%)
+		Interact(Player1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("JonTalkTime","GLOBAL")
+	Global("LRHadEllesimeDream","GLOBAL",1)
+	Detect(Player1)
+	Global("JonTalk","LOCALS",11)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("JonTalk","LOCALS",1)
+		IncrementGlobal("JonTalkCheck","GLOBAL",1)
+		PlaySong(%MxIren%)
+		Interact(Player1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("JonTalkTime","GLOBAL")
+	Global("JonUndecided","GLOBAL",1)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	Global("JonTalk","LOCALS",13)
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("JonTalk","LOCALS",1)
+		IncrementGlobal("JonTalkCheck","GLOBAL",1)
+		PlaySong(%MxIren%)
+		Interact(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("SaradushSacked","GLOBAL",1)
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+	RealGlobalTimerExpired("JonEvilTalkTime","GLOBAL")
+	Global("JonUndecided","GLOBAL",3)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	Global("JonEvil","LOCALS",1)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("JonEvil","LOCALS",1)
+		SetGlobal("JonEvilTalkCheck","GLOBAL",1)
+		PlaySong(%MxIren%)
+		Interact(Player1)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("JonTalkTime","GLOBAL")
+	OR(5)
+		Global("JonTalk","LOCALS",2)
+		Global("JonTalk","LOCALS",4)
+		Global("JonTalk","LOCALS",6)
+		Global("JonTalk","LOCALS",8)
+		Global("JonTalk","LOCALS",10)
+THEN
+	RESPONSE #100
+		IncrementGlobal("JonTalk","LOCALS",1)
+		IncrementGlobal("JonTalkCheck","GLOBAL",1)
+		RealSetGlobalTimer("JonTalkTime","GLOBAL",3800)
+END
+
+IF
+	InParty(Myself)
+	RealGlobalTimerExpired("JonTalkTime","GLOBAL")
+	!Global("JonUndecided","GLOBAL",3)
+	Global("JonTalk","LOCALS",12)
+THEN
+	RESPONSE #100
+		IncrementGlobal("JonTalk","LOCALS",1)
+		IncrementGlobal("JonTalkCheck","GLOBAL",1)
+		RealSetGlobalTimer("JonTalkTime","GLOBAL",1000)
+END
+
+IF
+	InParty(Myself)
+	InParty("Edwin")  // Edwin
+	See("Edwin")  // Edwin
+	!StateCheck("Edwin",STATE_SLEEPING)  // Edwin
+	!Dead("Edwin")  // Edwin
+	OR(2)
+		AreaType(FOREST)
+		AreaType(OUTDOOR)
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	RealGlobalTimerExpired("ChessMania","GLOBAL")
+	OR(2)
+		Global("EdwinVsJon","GLOBAL",3)
+		Global("EdwinVsJon","GLOBAL",5)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		PlaySong(%MxTroll%)
+		Wait(1)
+		IncrementGlobal("EdwinVsJon","GLOBAL",1)
+		Interact("Edwin")  // Edwin
+END
+
+IF
+	InParty(Myself)
+	InParty("Edwin")  // Edwin
+	!Global("EdwinVsJon","GLOBAL",0)
+	RealGlobalTimerExpired("ChessMania","GLOBAL")
+	OR(2)
+		Global("EdwinVsJon","GLOBAL",2)
+		Global("EdwinVsJon","GLOBAL",4)
+THEN
+	RESPONSE #100
+		IncrementGlobal("EdwinVSJon","GLOBAL",1)
+		RealSetGlobalTimer("ChessMania","GLOBAL",3400)
+END
+
+IF
+	InParty(Myself)
+	Global("MelissanJob","GLOBAL",1)
+	Global("JonSeenMel","LOCALS",0)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("JonSeenMel","LOCALS",1)
+		DisplayStringWait(Myself,@7)  // No such index
+END
+
+IF
+	InParty(Myself)
+	InParty("Aerie")  // Aerie
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+	!StateCheck("Aerie",STATE_SLEEPING)  // Aerie
+	!Dead("Aerie")  // Aerie
+	See("Aerie")  // Aerie
+	HPLT(Myself,45)
+	CombatCounter(0)
+	Global("JonBelow45","GLOBAL",0)
+	Global("JonUndecided","GLOBAL",2)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("JonBelow45","GLOBAL",1)
+		Interact("Aerie")  // Aerie
+END
+
+IF
+	InParty(Myself)
+	InParty("Aerie")  // Aerie
+	OR(2)
+		Global("AerieVsJon","GLOBAL",0)
+		Global("AerieVsJon","GLOBAL",12)
+THEN
+	RESPONSE #100
+		IncrementGlobal("AerieVsJon","GLOBAL",1)
+		RealSetGlobalTimer("WhinePigeon","GLOBAL",2500)
+END
+
+IF
+	InParty(Myself)
+	InParty("Aerie")  // Aerie
+	See("Aerie")  // Aerie
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+	!StateCheck("Aerie",STATE_SLEEPING)  // Aerie
+	!Dead("Aerie")  // Aerie
+	OR(2)
+		CombatCounter(0)
+		!See([ENEMY])
+	!Range([NEUTRAL],10)
+	!ActuallyInCombat()
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	RealGlobalTimerExpired("WhinePigeon","GLOBAL")
+	OR(3)
+		Global("AerieVsJon","GLOBAL",1)
+		Global("AerieVsJon","GLOBAL",3)
+		Global("AerieVsJon","GLOBAL",5)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("AerieVsJon","GLOBAL",1)
+		Interact("Aerie")  // Aerie
+END
+
+IF
+	InParty(Myself)
+	InParty("Aerie")  // Aerie
+	Global("JonUndecided","GLOBAL",2)
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+	See("Aerie")  // Aerie
+	!StateCheck("Aerie",STATE_SLEEPING)  // Aerie
+	!Dead("Aerie")  // Aerie
+	OR(2)
+		CombatCounter(0)
+		!See([ENEMY])
+	!Range([NEUTRAL],10)
+	!ActuallyInCombat()
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	RealGlobalTimerExpired("WhinePigeon","GLOBAL")
+	Global("AerieVsJon","GLOBAL",13)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("AerieVsJon","GLOBAL",1)
+		Interact("Aerie")  // Aerie
+END
+
+IF
+	InParty(Myself)
+	InParty("Aerie")  // Aerie
+	OR(2)
+		Global("AerieVsJon","GLOBAL",2)
+		Global("AerieVsJon","GLOBAL",4)
+THEN
+	RESPONSE #100
+		IncrementGlobal("AerieVsJon","GLOBAL",1)
+		RealSetGlobalTimer("WhinePigeon","GLOBAL",3500)
+END
+
+IF
+	InParty(Myself)
+	InParty("Jaheira")  // Jaheira
+	Global("JaeVsJon","GLOBAL",0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("JaeVsJon","GLOBAL",1)
+		RealSetGlobalTimer("JonJaheira","GLOBAL",3000)
+END
+
+IF
+	InParty(Myself)
+	InParty("Jaheira")  // Jaheira
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+	!AmIInWatchersKeepPleaseIgnoreTheLackOfApostophe()
+	RealGlobalTimerExpired("JonJaheira","GLOBAL")
+	Global("JaeVsJon","GLOBAL",1)
+	See("Jaheira")  // Jaheira
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("JaeVsJon","GLOBAL",1)
+		Interact("Jaheira")  // Jaheira
+END
+
+IF
+	InParty(Myself)
+	InParty("Imoen2")  // Imoen
+	Global("JonImoen1","GLOBAL",0)
+	Global("JonTalk","LOCALS",7)
+	RealGlobalTimerExpired("ImoenvsJon","GLOBAL")
+	PartyRested()
+THEN
+	RESPONSE #100
+		SetGlobal("JonImoen1","GLOBAL",1)
+		RealSetGlobalTimer("ImoenvsJon","GLOBAL",10)
+END
+
+IF
+	InParty(Myself)
+	InParty("Jaheira")  // Jaheira
+	Global("JonUndecided","GLOBAL",3)
+	Global("JonJaeEvil","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JonJaeEvil","LOCALS",1)
+		SetGlobalTimer("JonJaeEvilTalk","GLOBAL",ONE_DAY)
+END
+
+IF
+	InParty(Myself)
+	AreaCheck("AR6400")  // North Forest
+	!Global("DisplayPPString","AR6400",0)  // North Forest
+	!See([ENEMY])
+	!ActuallyInCombat()
+	Global("LRWKP1","GLOBAL",0)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("LRWKP1","GLOBAL",1)
+		Dialogue(Player1)
+END
+
+IF
+	InParty(Myself)
+	AreaCheck("AR3000")  // Watcher's Keep
+	Global("zGarOdr1Job","GLOBAL",0)
+	Global("LRWKP1","GLOBAL",2)
+	!See([ENEMY])
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("LRWKP1","GLOBAL",3)
+		Dialogue(Player1)
+END
+
+IF
+	InParty(Myself)
+	!See([ENEMY])
+	!ActuallyInCombat()
+	Global("LRLTM","GLOBAL",0)
+	OR(8)
+		PartyHasItem("LUM1")  // Handwritten Note
+		PartyHasItem("LUM2")  // Handwritten Note
+		PartyHasItem("LUM3")  // Handwritten Note
+		PartyHasItem("LUM4")  // Handwritten Note
+		PartyHasItem("LUM5")  // Handwritten Note
+		PartyHasItem("LUM6")  // Handwritten Note
+		PartyHasItem("LUM7")  // Handwritten Note
+		PartyHasItem("LUM8")  // Handwritten Note
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("LRLTM","GLOBAL",1)
+		Dialogue(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("SaradushSacked","GLOBAL",1)
+	Global("JonAfterSar","LOCALS",0)
+THEN
+	RESPONSE #100
+		RealSetGlobalTimer("JonAfterSarTimer","GLOBAL",25)
+		SetGlobal("JonAfterSar","LOCALS",1)
+END
+
+IF
+	InParty(Myself)
+	Global("SaradushSacked","GLOBAL",1)
+	RealGlobalTimerExpired("JonAfterSarTimer","GLOBAL")
+	!See([ENEMY])
+	!ActuallyInCombat()
+	Global("LRMELAMKETHRAN","GLOBAL",0)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("LRMELAMKETHRAN","GLOBAL",1)
+		Dialogue(Player1)
+END
+
+IF
+	AreaCheck("AR3012")
+	Global("BebSpawn","GLOBAL",1)
+	InParty(Myself)
+	!See([ENEMY])
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("BebSpawn","GLOBAL",2)
+		RealSetGlobalTimer("BebSpawnTimer","GLOBAL",20)
+END
+
+IF
+	InParty(Myself)
+	Global("DevaQuestFailed","GLOBAL",0)
+	Dead("ybdiel")
+	Global("DevaExpired","GLOBAL",0)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("DevaQuestFailed","GLOBAL",1)
+		SetGlobal("devadead","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("DevaQuestFailed","GLOBAL",0)
+	Dead("ybdiel")
+	Global("DevaExpired","GLOBAL",1)
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("DevaQuestFailed","GLOBAL",1)
+		SetGlobal("devadead","GLOBAL",2)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("DevaApproach","GLOBAL",4)
+	PartyHasItem("dbody")
+	Global("DevaQuestFailed","GLOBAL",0)
+	GlobalTimerExpired("DevaDeath","GLOBAL")
+	!AreaCheck("AR5202")  // Forest of Mir - The Temple
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Player1,@20)  // No such index
+		TakePartyItem("DBODY")
+		DestroyItem("DBODY")
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("DevaQuestFailed","GLOBAL",1)
+		SetGlobal("devadead","GLOBAL",3)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("DevaApproach","GLOBAL",4)
+	GlobalTimerExpired("DevaDeath","GLOBAL")
+	!Global("DevaQuestFailed","GLOBAL",1)
+	!Global("DevaQuestSolved","GLOBAL",1)
+	!Global("JonUndecided","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("JonUndecided","GLOBAL",3)
+END
+
+IF
+	InParty(Myself)
+	Global("DevaApproach","GLOBAL",4)
+	PartyHasItem("dbody")
+	Global("DevaQuestFailed","GLOBAL",0)
+	Dead("abaia")
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Player1,@20)  // No such index
+		TakePartyItem("DBODY")
+		DestroyItem("DBODY")
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("DevaQuestFailed","GLOBAL",1)
+		SetGlobal("demondead","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("DevaApproach","GLOBAL",4)
+	Global("AbaiaIn","GLOBAL",1)
+	Global("DevaQuestFailed","GLOBAL",0)
+	Dead("abaia")
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("DevaQuestFailed","GLOBAL",1)
+		SetGlobal("demondead","GLOBAL",2)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	PartyHasItem("waterser")
+	PartyHasItem("gemh1")
+	InParty(Myself)
+	Global("lrimpnoteg","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("lrimpnoteg","LOCALS",1)
+		RealSetGlobalTimer("lrimpnotet","LOCALS",8)
+END
+
+IF
+	OR(12)
+		AreaCheck("AR3004")
+		AreaCheck("AR3005")
+		AreaCheck("AR3006")
+		AreaCheck("AR3007")
+		AreaCheck("AR3008")
+		AreaCheck("AR3009")
+		AreaCheck("AR3010")
+		AreaCheck("AR3011")
+		AreaCheck("AR3012")
+		AreaCheck("AR3013")
+		AreaCheck("AR3014")
+		AreaCheck("AR3015")
+	RealGlobalTimerExpired("lrimpnotet","LOCALS")
+	PartyHasItem("waterser")
+	PartyHasItem("gemh1")
+	InParty(Myself)
+	Global("lrimpnoteg","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("lrimpnoteg","LOCALS",2)
+		GiveItemCreate("impnote",Player1,1,0,0)
+		DisplayStringHead(Player1,@129)  // No such index
+END
+
+IF
+	Global("lrJonGorLumAdv","GLOBAL",1)
+	Global("lrJonCarstTlk","AR3017",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("lrJonGorLumAdv","GLOBAL",2)
+		SetGlobal("lrJonCarstTlk","AR3017",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("lrmarlowedeadment","LOCALS",0)
+	Global("LichJob","GLOBAL",4)
+	See(Player1)
+	!StateCheck(Player1,STATE_SLEEPING)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("lrmarlowedeadment","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	PartyHasItem("amsoul01")  // Malla's Soul Stone
+	Global("LRMallaS","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LRMallaS","LOCALS",1)
+END
+
+IF
+	InParty(Myself)
+	!Global("lrmarlowedeadment","LOCALS",1)
+	Global("lrkeptmallasoul","LOCALS",0)
+	!Global("MallaCured","GLOBAL",1)
+	OR(2)
+		PartyHasItem("amsoul01")  // Malla's Soul Stone
+		Global("LRMallaS","LOCALS",1)
+	OR(2)
+		AreaCheck("AR6000")  // Abazigal's Lair
+		AreaCheck("AR6100")  // Sendai's Enclave
+	See(Player1)
+	!StateCheck(Player1,STATE_SLEEPING)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("lrkeptmallasoul","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	GlobalGT("TalkedToMarlowe","GLOBAL",1)
+	!Global("MallaCured","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,STATE_SLEEPING)
+	Global("lrjonabandonmalla","LOCALS",0)
+	OR(2)
+		AreaCheck("AR6000")  // Abazigal's Lair
+		AreaCheck("AR6100")  // Sendai's Enclave
+	!Global("lrmarlowedeadment","LOCALS",1)
+	!Global("lrkeptmallasoul","LOCALS",1)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("lrjonabandonmalla","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	GlobalGT("TalkedToMarlowe","GLOBAL",1)
+	Dead("amlich01")  // Vongoethe
+	Global("MallaDead","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,STATE_SLEEPING)
+	Global("lrjonabandonmalla","LOCALS",0)
+	!Global("lrmarlowedeadment","LOCALS",1)
+	!Global("lrkeptmallasoul","LOCALS",1)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("lrjonabandonmalla","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("lrjonafterbalth","LOCALS",1)
+	!StateCheck(Player1,STATE_SLEEPING)
+	See(Player1)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("lrjonafterbalth","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	AreaCheck("AR3020")
+	See(Player1)
+	Global("lrjoncellwarn","LOCALS",0)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		IncrementGlobal("lrjoncellwarn","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	OR(2)
+		G("DevaQuestFailed",1)
+		G("JonUndecided",3)
+	G("AgreedToGiveSoul",0)
+	Global("lrdemoquestion","LOCALS",0)
+	Allegiance("Demogor2",ENEMY)  // Demogorgon
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("lrdemoquestion","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	!AreaCheck("AR6200")
+	Global("lrdemodead","LOCALS",0)
+	OR(2)
+		Dead("Demogor2")  // Demogorgon
+		Global("HelmRitualDone","GLOBAL",1)
+	See(Player1)
+	!StateCheck(Player1,STATE_SLEEPING)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("lrdemodead","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Alignment(Myself,MASK_EVIL)
+	AreaCheck("AR5505")
+	Global("BalthazarEncounter","AR5505",0)
+	Global("lrNearBalt","LOCALS",0)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("lrNearBalt","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	AreaCheck("AR5504")
+	Global("Enclave","GLOBAL",2)
+	!Dead("amsaemon")  // Saemon Havarian
+	Detect("amsaemon")  // Saemon Havarian
+	Global("lrmkcreated","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("lrmkcreated","GLOBAL",1)
+		StartCutSceneMode()
+		CreateCreature("Mirriam",[600.901],3)
+		CreateCreature("Kessen",[497.864],3)
+		MoveViewObject("Mirriam",INSTANT)
+		ActionOverride("Mirriam",FaceObject("AmSaemon"))  // Saemon Havarian
+		SmallWait(10)
+		ActionOverride("Kessen",FaceObject("AmSaemon"))  // Saemon Havarian
+		DisplayStringHead("Mirriam",@9)  // No such index
+		Wait(3)
+		DisplayStringHead("Kessen",@10)  // No such index
+		Wait(3)
+		DisplayStringHead("AmSaemon",@11)  // No such index
+		Wait(2)
+		ActionOverride("AmSaemon",FaceObject(Player1))
+		ActionOverride("Mirriam",EscapeArea())
+		ActionOverride("Kessen",EscapeArea())
+		Wait(7)
+		EndCutSceneMode()
+END
+
+IF
+	InParty(Myself)
+	Global("AcceptIlmater","GLOBAL",0)
+	Global("lrSendai","GLOBAL",1)
+	Dead("Sendai")  // Sendai
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("lrSendai","GLOBAL",2)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Global("AcceptIlmater","GLOBAL",0)
+	Global("lrAbazi","GLOBAL",1)
+	Dead("Abazigal")  // Abazigal
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		SetGlobal("lrAbazi","GLOBAL",2)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	Dead("Sendai")  // Sendai
+	Global("AcceptIlmater","GLOBAL",1)
+	Global("lrSendaiSoul","GLOBAL",1)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		PlaySong(%MxElle%)
+		Wait(2)
+		SetGlobal("AcceptIlmater","GLOBAL",2)
+		ActionOverride(Player1,StartDialog("Player1",Player1))
+END
+
+IF
+	InParty(Myself)
+	Dead("Abazigal")  // Abazigal
+	Global("AcceptIlmater","GLOBAL",1)
+	Global("lrAbazigalSoul","GLOBAL",1)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		PlaySong(%MxElle%)
+		Wait(2)
+		SetGlobal("AcceptIlmater","GLOBAL",2)
+		ActionOverride(Player1,StartDialog("Player1",Player1))
+END
+
+IF
+	InParty(Myself)
+	OR(2)
+		AreaCheck("AR6107")
+		AreaCheck("AR6004")
+	Global("Enclave","GLOBAL",0)
+	Global("lrHasSoulStone","GLOBAL",0)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	Global("lrDemandBSSoul","GLOBAL",0)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		PlaySong(%MxIren%)
+		Wait(2)
+		SetGlobal("lrDemandBSSoul","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	!G("lrBaltSoul",1)
+	!G("lrSendaiSoul",1)
+	!G("lrAbazigalSoul",1)
+	AreaCheck("AR6107")
+	!Dead("Sendai")  // Sendai
+	Global("lrHasSoulStone","GLOBAL",0)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	Global("Enclave","GLOBAL",1)
+	Global("lrDemandBSSoul","GLOBAL",2)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		PlaySong(%MxIren%)
+		Wait(2)
+		SetGlobal("lrDemandBSSoul","GLOBAL",3)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	!G("lrBaltSoul",1)
+	!G("lrAbazigalSoul",1)
+	!G("lrSendaiSoul",1)
+	AreaCheck("AR6004")
+	!Dead("Abazigal")  // Abazigal
+	Global("lrHasSoulStone","GLOBAL",0)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Range([NEUTRAL],10)
+	Global("Enclave","GLOBAL",1)
+	Global("lrDemandBSSoul","GLOBAL",2)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		PlaySong(%MxIren%)
+		Wait(2)
+		SetGlobal("lrDemandBSSoul","GLOBAL",3)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	AreaCheck("AR5505")
+	Global("lrbdecide","AR5505",0)
+	Global("lrBaltSoul","GLOBAL",1)
+	Global("AcceptIlmater","GLOBAL",0)
+	G("lrbdie",0)
+	G("lrbalt",0)
+THEN
+	RESPONSE #100
+		SetGlobal("lrbdecide","AR5505",1)
+		SG("lrbdie",1)
+		SG("lrbalt",1)
+END
+
+IF
+	InParty(Myself)
+	AreaCheck("AR5505")
+	Global("lrbdecide","AR5505",0)
+	Global("lrBaltSoul","GLOBAL",1)
+	Global("AcceptIlmater","GLOBAL",1)
+	G("lrbalt",0)
+	G("lrbletgo",0)
+THEN
+	RESPONSE #100
+		SetGlobal("lrbdecide","AR5505",1)
+		SG("lrbalt",1)
+		SG("lrbletgo",1)
+END
+
+IF
+	InParty(Myself)
+	AreaCheck("AR5505")
+	Dead("Balth")  // Balthazar
+	Global("lrBaltSoul","GLOBAL",1)
+	G("lrbdie",3)
+	G("AcceptIlmater",0)
+	!G("lrbletgo",1)
+	G("lrbalt",1)
+THEN
+	RESPONSE #100
+		SetGlobal("lrBaltSoul","GLOBAL",2)
+		MoveViewObject("LRIRENIC",INSTANT)
+		SG("lrbalt",2)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	AreaCheck("AR5505")
+	Dead("Balth")  // Balthazar
+	Global("AcceptIlmater","GLOBAL",1)
+	G("lrbalt",1)
+	G("lrbletgo",1)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		PlaySong(%MxElle%)
+		Wait(2)
+		SetGlobal("AcceptIlmater","GLOBAL",2)
+		SG("lrbalt",2)
+		ActionOverride(Player1,StartDialog("Player1",Player1))
+END
+
+IF
+	InParty(Myself)
+	Global("BalthazarFights","GLOBAL",1)
+	!Exists("balth")  // Balthazar
+	Global("AcceptIlmater","GLOBAL",1)
+	G("lrbalt",1)
+	G("lrbletgo",1)
+THEN
+	RESPONSE #100
+		MoveViewObject("LRIRENIC",INSTANT)
+		PlaySong(%MxElle%)
+		Wait(2)
+		SetGlobal("AcceptIlmater","GLOBAL",2)
+		SG("lrbaltAsc",1)
+		SG("lrbalt",2)
+		ActionOverride(Player1,StartDialog("Player1",Player1))
+END
+
+IF
+	!InParty(Myself)
+	G("lrSendaiSoul",1)
+	Dead("Sendai")  // Sendai
+	G("lrHasSoulStone",0)
+	!G("AcceptIlmater",3)
+	Global("lrJonTricked","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("lrJonTricked","LOCALS",1)
+END
+
+IF
+	!InParty(Myself)
+	G("lrAbazigalSoul",1)
+	Dead("Abazigal")  // Abazigal
+	G("lrHasSoulStone",0)
+	!G("AcceptIlmater",3)
+	Global("lrJonTricked","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("lrJonTricked","LOCALS",1)
+END
+
+IF
+	!InParty(Myself)
+	G("lrBaltSoul",1)
+	OR(2)
+		G("BalthazarFights",1)
+		Dead("Balth")  // Balthazar
+	G("lrHasSoulStone",0)
+	!G("AcceptIlmater",3)
+	Global("lrJonTricked","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("lrJonTricked","LOCALS",1)
+END
+
+IF
+	!InParty(Myself)
+	Global("JonTricked","LOCALS",3)
+	G("lrBaltSoul",1)
+	OR(2)
+		G("BalthazarFights",1)
+		Dead("Balth")  // Balthazar
+	G("lrHasSoulStone",0)
+	!G("AcceptIlmater",3)
+	Global("lrJonTricked","LOCALS",3)
+THEN
+	RESPONSE #100
+		SetGlobal("lrJonTricked","LOCALS",4)
+		SetGlobal("JonUndecided","GLOBAL",3)
+		SG("AcceptIlmater",0)
+		SG("lrSHoldOn",0)
+		IncrementGlobal("JonRedemptionCounter","LOCALS",-1000)
+END
+
+IF
+	Global("lrJonTricked","LOCALS",1)
+	InParty(Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("lrJonTricked","LOCALS",2)
+		StartDialogueNoSet(Player1)
+END
+

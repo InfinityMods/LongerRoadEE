@@ -1,0 +1,13 @@
+IF
+	NumTimesTalkedTo(0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		MoveViewObject(Myself,INSTANT)
+		FaceObject(Player1)
+		SmallWait(1)
+		PlaySong(%MxIren%)
+		SmallWait(2)
+		StartDialogueNoSet(Player1)
+END
+

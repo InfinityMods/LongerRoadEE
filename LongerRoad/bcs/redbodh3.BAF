@@ -1,0 +1,25 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SetGlobal("DemogorgonCometh","GLOBAL",1)
+		FadeToColor([30.0],0)
+		Wait(2)
+		ActionOverride("lrirenic",JumpToPoint([1481.1277]))
+		ActionOverride("lrirenic",Face(12))
+		SmallWait(1)
+		MoveViewPoint([1644.1025],INSTANT)
+		FadeFromColor([30.0],0)
+		SmallWait(2)
+		CreateVisualEffect("SPIMPFR",[1644.1025])
+		SmallWait(5)
+		CreateVisualEffect("SPIMPPT",[1644.1025])
+		SmallWait(5)
+		CreateCreature("demogor3",[1644.1025],3)  // Demogorgon
+		ActionOverride("lrirenic",FaceObject("demogor3"))  // Demogorgon
+		Wait(1)
+		ActionOverride("demogor3",StartDialogueNoSet(Player1))
+		EndCutSceneMode()
+END
+

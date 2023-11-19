@@ -1,0 +1,24 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		TakePartyItemAll("devasprk")
+		Wait(1)
+		ActionOverride("ybsleep",CreateVisualEffectObject("SPUNHOLY",Myself))
+		ActionOverride("ybsleep",DestroySelf())
+		SmallWait(3)
+		ActionOverride("abaia",CreateVisualEffectObject("SPUNHOLY",Myself))
+		ActionOverride("abaia",DestroySelf())
+		SmallWait(3)
+		CreateVisualEffect("SPUNHOLY",[379.553])
+		SmallWait(10)
+		CreateVisualEffect("ICRMPARI",[379.553])
+		CreateCreature("NEWCRE",[379.553],15)
+		Wait(2)
+		ActionOverride("NEWCRE",FaceObject(Player1))
+		EndCutSceneMode()
+		PlaySong(%MxElle%)
+		ActionOverride("NEWCRE",StartDialogueNoSet(Player1))
+END
+
