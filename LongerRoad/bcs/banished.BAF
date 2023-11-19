@@ -1,0 +1,22 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ActionOverride("lrirenic",ReallyForceSpellRES("JONCHNG2",Myself))
+		ActionOverride("lrirenic",CreateVisualEffectObject("ICRMPARI",Myself))
+		PlaySound("DPJON145")
+		Wait(1)
+		CreateVisualEffect("SPIMPFR",[1974.1353])
+		Wait(1)
+		PlaySound("EFF_M20")
+		CreateVisualEffect("SPIMPPT",[1974.1353])
+		ActionOverride("lrrielev",DisplayStringHead(Myself,@18))  // No such index
+		SmallWait(1)
+		ActionOverride("lrrielev",EscapeArea())
+		SmallWait(1)
+		ActionOverride("lrirenic",DestroySelf())
+		SmallWait(1)
+		EndCutSceneMode()
+END
+

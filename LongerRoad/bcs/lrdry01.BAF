@@ -1,0 +1,32 @@
+IF
+	Detect([PC])
+	Range(LastSeenBy(Myself),10)
+	Global("spoke","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("spoke","LOCALS",1)
+		PlaySong(%MxHeal%)
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+IF
+	Detect([PC])
+	RealGlobalTimerExpired("LRDevaSparkDecide","GLOBAL")
+	Global("TalkedToNymphs","GLOBAL",1)
+	Global("LRNymphTalks","LR6603",0)
+THEN
+	RESPONSE #100
+		SetGlobal("LRNymphTalks","LR6603",1)
+		PlaySong(%MxHeal%)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("NymphAttack","GLOBAL",0)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("NymphAttack","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+

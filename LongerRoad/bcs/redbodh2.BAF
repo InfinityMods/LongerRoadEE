@@ -1,0 +1,62 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("finbodh")  // Bodhi
+		MoveViewObject("Imoen2",INSTANT)  // Imoen
+		Wait(1)
+		CreateVisualEffectObject("SPPOWWRD","Imoen2")  // Imoen
+		ApplySpellRES("finimohd","Imoen2")  // No such index
+		MoveViewObject("finmel01",5)  // Melissan
+		Wait(1)
+		SmallWait(7)
+		CreateVisualEffectObject("SPUSEANY","finmel01")  // Melissan
+		SmallWait(7)
+		ActionOverride("finmel01",ReallyForceSpellRES("dgwhirl",[PC]))  // No such index
+		Wait(2)
+		ActionOverride("finmel01",SetSequence(SEQ_ATTACK_JAB))
+		Wait(2)
+		MoveViewPoint([1282.832],VERY_FAST)
+		CreateVisualEffectObject("ICRMPARI","finmel01")  // Melissan
+		ActionOverride("finmel01",ReallyForceSpellRES("jwchnlgt","cutspy2"))  // No such index
+		ActionOverride("finmel01",DestroySelf())
+		Wait(1)
+		AmbientActivate("MMELSPIN",TRUE)
+		AmbientActivate("AM6200A",TRUE)
+		AmbientActivate("AM6200B",FALSE)
+		AmbientActivate("AMB_Stream1",TRUE)
+		AmbientActivate("AMB_Stream2",TRUE)
+		AmbientActivate("AMB_Stream3",TRUE)
+		MoveViewObject("Imoen2",5)  // Imoen
+		Wait(2)
+		ActionOverride("Imoen2",DisplayStringHead(Myself,49226))  // Help me! Please!
+		Wait(1)
+		ActionOverride("Imoen2",ReallyForceSpellRES("imoslay1",Myself))  // Slayer Change
+		Wait(1)
+		ActionOverride("Imoen2",ChangeAIScript("imoslay",OVERRIDE))
+		ActionOverride("Imoen2",ChangeAIScript("imoslay2",SPECIFICS))
+		ActionOverride("Imoen2",ChangeAIScript("",CLASS))
+		ActionOverride("Imoen2",ChangeAIScript("",RACE))
+		ActionOverride("Imoen2",ChangeAIScript("",GENERAL))
+		ActionOverride("Imoen2",ChangeAIScript("",DEFAULT))
+		ActionOverride("Imoen2",Enemy())
+		SetGlobalTimer("ImoenChangeBack","GLOBAL",TEN_ROUNDS)
+		MoveViewObject(Player1,5)
+		Wait(2)
+		SetGlobal("FinalFight","AR6200",3)
+		ActionOverride("Imoen2",DialogInterrupt(FALSE))
+		CreateVisualEffect("SPPORTAL",[1022.1196])
+		CreateVisualEffect("SPPORTAL",[1581.1111])
+		CreateVisualEffect("SPPORTAL",[981.1212])
+		Wait(2)
+		CreateCreature("finsolar",[1022.1196],13)  // Fallen Solar
+		ActionOverride("finbodh",DialogInterrupt(FALSE))
+		ActionOverride("finsolar",DialogInterrupt(FALSE))
+		ActionOverride("finbodh",Enemy())
+		CreateCreature("finsola2",[1581.1111],4)  // Fallen Solar
+		CreateCreature("finsola3",[981.1212],5)  // Fallen Solar
+		DialogInterrupt(FALSE)
+		Enemy()
+		EndCutSceneMode()
+END
+

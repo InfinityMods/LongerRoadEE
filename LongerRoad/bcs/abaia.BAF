@@ -1,0 +1,364 @@
+IF
+	Global("AbaiaElys","LR6603",0)
+	AreaCheck("LR6603")
+THEN
+	RESPONSE #100
+		SetGlobal("AbaiaElys","LR6603",1)
+		FaceObject(Player1)
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		ChangeAIScript("SHOUT",CLASS)
+		CreateCreature("ybsleep",[379.553],15)
+		PlayDeadInterruptable(500000)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	Global("AbaiaMove","GLOBAL",1)
+	!HPPercentLT(Myself,25)
+	Detect(Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("AbaiaMove","GLOBAL",0)
+		Ally()
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("AbaiaAttacked","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("AbaiaAttacked","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("AbaiaAttacked","GLOBAL",3)
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	!AreaCheck("AR3003")
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	HPPercentLT(Myself,25)
+	Global("AbaiaHurt","GLOBAL",0)
+THEN
+	RESPONSE #50
+		SetGlobal("AbaiaHurt","GLOBAL",1)
+		StartDialog("LRAHURT",Player1)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	HPPercentLT(Myself,25)
+	Global("AbaiaHurt","GLOBAL",0)
+	Global("AbaiaGoesNuts","LOCALS",0)
+THEN
+	RESPONSE #50
+		SetGlobal("AbaiaGoesNuts","LOCALS",1)
+		DisplayString(Myself,4123)  //  And the rivers run red!
+		ReallyForceSpell(Myself,MINSC_BERSERK)  // SPIN117.SPL (Berserk)
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	Global("AbaiaHurt","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("AbaiaHurt","GLOBAL",3)
+		SetGlobal("AbaiaMove","GLOBAL",1)
+		CreateVisualEffectObject("SPDIMNDR",Myself)
+		MoveBetweenAreas("AR3003",[676.437],0)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	Global("AbaiaHurt","GLOBAL",3)
+	!HPPercentLT(Myself,25)
+	See(Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("AbaiaHurt","GLOBAL",4)
+		StartDialog("LRAHURT",Player1)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	InParty("lrirenic")
+	!Global("DevaQuestFailed","GLOBAL",1)
+	Global("AbaiaGem","LOCALS",0)
+	PartyHasItem("gemh1")
+	See(Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("AbaiaGem","LOCALS",1)
+		RealSetGlobalTimer("AbaiaGemTimer","GLOBAL",100)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	InParty("lrirenic")
+	!Global("DevaQuestFailed","GLOBAL",1)
+	Global("AbaiaJonTalk","GLOBAL",0)
+	PartyHasItem("gemh1")
+	RealGlobalTimerExpired("AbaiaGemTimer","GLOBAL")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+		PlaySong(%MxElle%)
+		Wait(1)
+		SetGlobal("AbaiaJonTalk","GLOBAL",1)
+		StartDialog("LRABAIA2",Player1)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	!Global("DevaQuestFailed","GLOBAL",1)
+	GlobalTimerExpired("DevaDeath","GLOBAL")
+	Global("ItemsOfAccord","GLOBAL",0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("ItemsOfAccord","GLOBAL",1)
+		SetGlobal("DevaQuestFailed","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	InParty("lrirenic")
+	!Global("DevaQuestFailed","GLOBAL",1)
+	PartyHasItem("gemh1")
+	PartyHasItem("waterser")
+	Global("AbaiaJonTalk","GLOBAL",2)
+	Global("LRYugSpawn","GLOBAL",0)
+	AreaCheck("AR3003")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+		SetGlobal("LRYugSpawn","GLOBAL",1)
+		CreateCreatureObjectOffScreen("lryugol",Myself,0,0,0)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	InParty("lrirenic")
+	!Global("DevaQuestFailed","GLOBAL",1)
+	PartyHasItem("gemh1")
+	PartyHasItem("waterser")
+	Global("AbaiaJonTalk","GLOBAL",2)
+	Global("LRYugSpawn","GLOBAL",1)
+	AreaCheck("AR3003")
+	Dead("lryugol")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+		SetGlobal("LRYugSpawn","GLOBAL",2)
+		CreateCreature("lrimp1",[313.1083],0)
+		CreateCreature("lrimp2",[290.1068],0)
+		ActionOverride("lrimp1",MoveToObjectNoInterrupt(Player1))
+		ActionOverride("lrimp1",RunAwayFrom(Player1,10))
+		ActionOverride("lrimp1",FaceObject(Player1))
+		ActionOverride("lrimp2",MoveToObjectNoInterrupt(Player1))
+		ActionOverride("lrimp2",RunAwayFrom(Player1,10))
+		ActionOverride("lrimp2",FaceObject(Player1))
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("AbaiaAttacked","GLOBAL",0)
+	Global("AbaiaIn","GLOBAL",1)
+	InParty("lrirenic")
+	!Global("DevaQuestFailed","GLOBAL",1)
+	Global("LRElysium","GLOBAL",0)
+	RealGlobalTimerExpired("LRElysiumTravel","GLOBAL")
+	PartyHasItem("gemh1")
+	PartyHasItem("waterser")
+	PartyHasItem("chalice2")
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+		PlaySong(%MxElle%)
+		Wait(1)
+		SetGlobal("LRElysium","GLOBAL",1)
+		StartDialog("LRABAIA3",Player1)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,1)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@21)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,2)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@22)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,3)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@23)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,4)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@24)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,5)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@25)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,6)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@26)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,7)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@27)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,8)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@28)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,9)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@29)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,10)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@30)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,11)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@31)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+
+IF
+	Global("AbaiaIn","GLOBAL",0)
+	Global("SelfInit","LOCALS",1)
+	GlobalTimerExpired("BebilithTalk","GLOBAL")
+	RandomNum(12,12)
+THEN
+	RESPONSE #100
+		DisplayStringWait(Myself,@32)  // No such index
+		SetGlobalTimer("BebilithTalk","GLOBAL",30)
+END
+

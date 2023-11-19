@@ -1,0 +1,39 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SmallWait(1)
+		ActionOverride("lrhood",ReallyForceSpellRES("JONCHNG2","lrburnin"))
+		ActionOverride("lrburnin",CreateVisualEffectObject("ICRMPARI",Myself))
+		PlaySound("DPJON145")
+		Wait(1)
+		ActionOverride("lrburnin",DisplayStringHead(Myself,@15))  // No such index
+		Wait(2)
+		ActionOverride("lrhood",DisplayStringHead(Myself,@16))  // No such index
+		Wait(2)
+		CreateVisualEffect("SPSTRENH",[577.753])
+		PlaySound("EFF_P15")
+		CreateVisualEffect("SPDISPMA",[577.753])
+		PlaySound("EFF_M05")
+		ActionOverride("lrhood",ReallyForceSpell(Myself,DRYAD_TELEPORT))  // SPWI995.SPL (Dimension Door)
+		SmallWait(2)
+		ActionOverride("lrhood",DestroySelf())
+		Wait(3)
+		FadeToColor([30.0],0)
+		UnhideGUI()
+		MakeUnselectable(0)
+		ActionOverride(Player2,MakeUnselectable(0))
+		ActionOverride(Player3,MakeUnselectable(0))
+		ActionOverride(Player4,MakeUnselectable(0))
+		ActionOverride(Player5,MakeUnselectable(0))
+		ActionOverride(Player6,MakeUnselectable(0))
+		SetCursorState(TRUE)
+		Wait(1)
+		RestorePartyLocations()
+		MultiPlayerSync()
+		FadeFromColor([30.0],0)
+		EndCutSceneMode()
+		ActionOverride("lrrielev",StartDialogueNoSet(Player1))
+END
+

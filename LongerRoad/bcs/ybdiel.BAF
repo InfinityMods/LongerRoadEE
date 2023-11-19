@@ -1,0 +1,43 @@
+IF
+	Global("DevaApproach","GLOBAL",0)
+	See(Player1)
+	!Detect("gormad1")  // Elven Madman
+THEN
+	RESPONSE #100
+		SetGlobal("DevaApproach","GLOBAL",1)
+		FaceObject(Player1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("DevaExpired","GLOBAL",0)
+	!Global("DevaApproach","GLOBAL",4)
+	GlobalTimerExpired("DevaLeaves","GLOBAL")
+	See(Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("DevaExpired","GLOBAL",1)
+		PlaySound("deva6")
+		DisplayStringHead(Myself,@19)  // No such index
+		Kill(Myself)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+	Global("YbdielAttk","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YbdielAttk","GLOBAL",1)
+		ReputationSet(4)
+		PlaySound("deva6")
+		DisplayStringHead(Myself,@19)  // No such index
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPHOLY",Myself)
+		DestroySelf()
+END
+

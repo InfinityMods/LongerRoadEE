@@ -1,0 +1,33 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("lrhood")
+		HideGUI()
+		SetInterrupt(FALSE)
+		Wait(1)
+		ActionOverride("lrcyric1",DisplayStringHead(Myself,23097))  // Farewell to you, then.
+		Wait(1)
+		CreateVisualEffect("SPSTRENH",[886.611])
+		PlaySound("EFF_P15")
+		CreateVisualEffect("SPDISPMA",[886.611])
+		PlaySound("EFF_M05")
+		SmallWait(1)
+		ActionOverride("lrcyric1",ReallyForceSpell(Myself,DRYAD_TELEPORT))  // SPWI995.SPL (Dimension Door)
+		ActionOverride("lrcyric1",DestroySelf())
+		Wait(2)
+		DisplayStringHead(Myself,@13)  // No such index
+		Wait(1)
+		ActionOverride("cutspy",JumpToPoint([576.846]))
+		Wait(1)
+		MoveToPointNoInterrupt([764.665])
+		SmallWait(1)
+		DisplayStringHead(Myself,@14)  // No such index
+		SmallWait(3)
+		MoveToPointNoInterrupt([577.753])
+		SetInterrupt(TRUE)
+		SmallWait(5)
+		FaceObject("lrburnin")
+		StartDialogInterrupt("lrhood","lrburnin")
+END
+

@@ -249,42 +249,25 @@ EXTEND_TOP ~ar5504.bcs~ ~LongerRoad/bcs/AR5504_EL.BAF~
 EXTEND_BOTTOM ~BALTH.bcs~   ~LongerRoad/bcs/Balth_Jon.BAF~
 
 COPY ~LongerRoad/bcs/copy~		~override~
-REPLACE_TEXTUALLY 999990 ~%MxElle%~
-REPLACE_TEXTUALLY 999991 ~%MxAbys%~
-REPLACE_TEXTUALLY 999980 ~%MxIren%~
-REPLACE_TEXTUALLY 999970 ~%MxTroll%~
-REPLACE_TEXTUALLY 999964 ~%MxHeal%~
-REPLACE 999971 @7
-REPLACE 999956 @8
-REPLACE 999959 @9
-REPLACE 999958 @10
-REPLACE 999957 @11
-REPLACE 999993 @12
-REPLACE 999992 @13
-REPLACE 999996 @14
-REPLACE 999995 @15
-REPLACE 999994 @16
-REPLACE 999981 @17
-REPLACE 999982 @18
-REPLACE 999966 @19
-REPLACE 999968 @20
-REPLACE 999972 @21
-REPLACE 999973 @22
-REPLACE 999974 @23
-REPLACE 999975 @24
-REPLACE 999976 @25
-REPLACE 999977 @26
-REPLACE 999978 @27
-REPLACE 999979 @28
-REPLACE 999960 @29
-REPLACE 999961 @30
-REPLACE 999962 @31
-REPLACE 999963 @32
-REPLACE 999969 @33
-REPLACE 999949 @129
 
-EXTEND_BOTTOM ~ITHEADS.bcs~ ~LongerRoad/bcs/ITHEADS.BAF~
-     REPLACE 999999 @6
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/Abaia.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/abyss02.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/abyss03.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/abyss05.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/banished.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/cssuck.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/elys08.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/jonedwin.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/jonel25.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/jonel25d.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/lr6603.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/lrdry01.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/lrelle.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/lrirenic.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/lrjonsum.BAF~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/Ybdiel.BAF~
+
+EXTEND_BOTTOM ~ITHEADS.bcs~ ~LongerRoad/bcs/ITHEADS.BAF~ EVALUATE_BUFFER
 
 EXTEND_BOTTOM ~ar4000.bcs~ ~LongerRoad/bcs/iqtest.BAF~
 COPY_EXISTING ~ar4000.bcs~ ~override/ar4000.bcs~
@@ -304,7 +287,7 @@ EXTEND_BOTTOM ~ar4500.bcs~ ~LongerRoad/bcs/AR4500_RIELEV.BAF~
 EXTEND_BOTTOM ~AR5002.BCS~ ~LongerRoad/bcs/AR5002_JON.BAF~
 
 COPY_EXISTING ~ITPPLANE.bcs~ ~override/ITPPLANE.bcs~
-REPLACE_BCS_BLOCK ~LongerRoad/bcs/ITPPLANE_NO_RIELEV.BAF~ ~LongerRoad/bcs/ITPPLANE_RIELEV.BAF~
+REPLACE_BCS_BLOCK ~LongerRoad/bcs/ITPPLANE_NO_RIELEV.BAF~ ~LongerRoad/bcs/ITPPLANE_RIELEV.BAF~ EVALUATE_BUFFER
 REPLACE 999997 @37
 
 COPY_EXISTING ~CESPEN.bcs~ ~override/CESPEN.bcs~
@@ -320,21 +303,16 @@ END
 
 EXTEND_TOP ~BALDUR25.bcs~ ~LongerRoad/bcs/NPC_JON.BAF~
 EXTEND_BOTTOM ~BALDUR25.bcs~ ~LongerRoad/bcs/JON_PC_LINK.BAF~
-EXTEND_BOTTOM ~BALDUR25.bcs~ ~LongerRoad/bcs/JON_REMOVED.BAF~
-COPY_EXISTING ~BALDUR25.bcs~ ~override/BALDUR25.bcs~
-REPLACE 999956 @8
+EXTEND_BOTTOM ~BALDUR25.bcs~ ~LongerRoad/bcs/JON_REMOVED.BAF~ EVALUATE_BUFFER
 
-EXTEND_BOTTOM ~EDWI25.bcs~ ~LongerRoad/bcs/Edwin_Jon.BAF~
-COPY_EXISTING ~EDWI25.bcs~ ~override/EDWI25.bcs~
-REPLACE_TEXTUALLY 999970 ~%MxTroll%~
+EXTEND_BOTTOM ~EDWI25.bcs~ ~LongerRoad/bcs/Edwin_Jon.BAF~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~AERI25.BCS~ ~LongerRoad/bcs/AERIE_JON.BAF~
 EXTEND_BOTTOM ~IMOE25.BCS~ ~LongerRoad/bcs/Immy_Jon.BAF~
 
 COPY_EXISTING ~JAHE25.BCS~ ~override/JAHE25.BCS~
 REPLACE_BCS_BLOCK ~LongerRoad/bcs/JAH_NO_JON.BAF~ ~LongerRoad/bcs/JAH_JON.BAF~
 
-EXTEND_BOTTOM ~AR3012.BCS~  ~LongerRoad/bcs/AR3012_ABAIA.BAF~
-REPLACE 999967 @38
+EXTEND_BOTTOM ~AR3012.BCS~  ~LongerRoad/bcs/AR3012_ABAIA.BAF~ EVALUATE_BUFFER
 
 EXTEND_TOP ~AR3011.BCS~ ~LongerRoad/bcs/AR3011_SEREN.BAF~
 
@@ -654,20 +632,14 @@ COPY ~LongerRoad/spl/Jonchng4.spl~ ~override~
 COPY ~LongerRoad/spl/lrres.spl~ ~override~
 
 COMPILE ~LongerRoad/bcs/lrjonr1.baf~
-        ~LongerRoad/bcs/lrjonr2.baf~
         ~LongerRoad/bcs/lrjonr3.baf~
         ~LongerRoad/bcs/banish2.baf~
         ~LongerRoad/bcs/brlink.baf~
-        ~LongerRoad/bcs/lrfijon1.baf~
         ~LongerRoad/bcs/lrfijon2.baf~
         ~LongerRoad/bcs/cssuck2.baf~
 
-COPY_EXISTING ~lrjonr2.bcs~ ~override/lrjonr2.bcs~
-  REPLACE_TEXTUALLY 999999 ~%MxAbys%~
-
-COPY_EXISTING ~lrfijon1.bcs~ ~override/lrfijon1.bcs~
-  REPLACE_TEXTUALLY 999999 ~%MxElle%~
-
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/lrjonr2.baf~
+COMPILE EVALUATE_BUFFER ~LongerRoad/bcs/lrfijon1.baf~
 
 COPY ~LongerRoad/cre/Lravatar.cre~ ~override/Lravatar.cre~
   WRITE_ASCII 0x34 ~Corellon~
@@ -816,6 +788,14 @@ COPY_EXISTING ~Imoslay.bcs~ ~override/Imoslay.bcs~ // Compatibility with Ascensi
 
    COMPILE ~LongerRoad/dlg/finale.d~
            ~LongerRoad/dlg/finaleA.d~
+		   
+   COMPILE ~LongerRoad/bcs/redbodh0.BAF~
+           ~LongerRoad/bcs/redbodh1.BAF~
+		   ~LongerRoad/bcs/redbodh2.BAF~
+		   ~LongerRoad/bcs/redbodh3.BAF~
+		   ~LongerRoad/bcs/redgdem1.BAF~
+		   ~LongerRoad/bcs/redgdem2.BAF~
+		   ~LongerRoad/bcs/redgdem3.BAF~
 
 COPY_EXISTING ~AR6200.bcs~ ~override/AR6200.bcs~ // Compatibility with Ascension v 2.0.x
   REPLACE_BCS_BLOCK ~LongerRoad/bcs/lr6200jon1.baf~ ~LongerRoad/bcs/lr6200jon2.baf~

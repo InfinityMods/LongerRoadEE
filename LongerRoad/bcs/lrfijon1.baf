@@ -12,7 +12,7 @@ THEN
     ActionOverride("LRavatar",FaceObject("lrirenic"))
     ActionOverride("lrirenic",FaceObject("LRavatar"))
     Wait(3)
-    PlaySong(999999)
+    PlaySong(%MxElle%)
     ActionOverride("LRavatar",StartDialogueNoSet("LRavatar"))
 END
 
