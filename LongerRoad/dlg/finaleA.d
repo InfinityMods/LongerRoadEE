@@ -349,8 +349,10 @@ END
 
 IF ~~ Bodhi2
   SAY @92
-  IF ~InParty("Imoen2")~ 
-       THEN DO ~ClearAllActions() StartCutSceneMode() StartCutScene("resimo3")~ EXIT	 
+  IF ~InParty("Imoen2") !Dead("Imoen2")~ 
+       THEN DO ~ClearAllActions() StartCutSceneMode() StartCutScene("resimo3")~ EXIT
+  IF ~InParty("Imoen2") Dead("Imoen2")~ 
+       THEN DO ~ClearAllActions() StartCutSceneMode() StartCutScene("resimo1")~ EXIT	   
   IF ~!InParty("Imoen2")~ 
      THEN DO ~ClearAllActions() StartCutSceneMode() StartCutScene("resimo2")~ EXIT
 END
@@ -423,9 +425,12 @@ CHAIN FINBODH lrJBChain1
    @124 
   == FINBODH
    @125
-END IF ~InParty("Imoen2")~ THEN DO ~ClearAllActions()
+END IF ~InParty("Imoen2") !Dead("Imoen2")~ THEN DO ~ClearAllActions()
         StartCutSceneMode()
-        StartCutScene("resimo3")~ EXIT    
+        StartCutScene("resimo3")~ EXIT
+	IF ~InParty("Imoen2") Dead("Imoen2")~ THEN DO ~ClearAllActions()
+        StartCutSceneMode()
+        StartCutScene("resimo1")~ EXIT
 	IF ~!InParty("Imoen2")~ THEN DO ~ClearAllActions()
         StartCutSceneMode()
         StartCutScene("resimo2")~ EXIT			
