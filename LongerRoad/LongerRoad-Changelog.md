@@ -1,3 +1,17 @@
+# 2.0.7
+
+### TotoR
+- Some variables were not set as they should be (e.g., use SetGlobal("FinalFight","AR6200",3) instead of SetGlobal("FinalFight","AR6200",2)) in redbodhx.bcs and redgdemx.baf
+- Update the cutscene for compatibility with Ascension
+- Use COMPILE with the .baf file instead of directly copying the .bcs file
+- Use 'ref' when possible in the .baf files
+- Update FinalA.d to use resimo3 when Imoen is in the party, instead of resimo1, which is used when she is dead
+- Update lr6200jon2.baf to check for demogor3 like other enemies
+- Fix some small typos in the cutscene
+
+### AL|EN
+- remove unicode from translation
+- fixed malformed characters in translation
 
 # 2.0.6
 
